@@ -1,0 +1,41 @@
+mkdir teste
+cd teste
+cd..
+cd
+rmdir teste
+dir
+cd teste
+touch johan
+vi johan
+ls -l
+dir
+ls
+vi johan
+cd etc/home/
+dir
+cd /home
+dir
+ls
+cd moraes
+guet *moraes*
+exit
+help
+echo $PATH
+mkdir bin
+cd bin
+vi primeiro
+chmod +x primeiro
+ls -l
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vi primeiro
+vim primeiro
+primeiro
+vim
+vim primeiro
+primeiro
+vim primeiro
+exit

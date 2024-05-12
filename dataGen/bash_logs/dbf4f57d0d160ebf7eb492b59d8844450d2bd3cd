@@ -1,0 +1,7 @@
+cd
+ls
+vim test03.py 
+ls
+python test03.py 
+pip install sllurp
+exit

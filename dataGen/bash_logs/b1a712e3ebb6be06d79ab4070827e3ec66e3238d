@@ -1,0 +1,321 @@
+pacman -S xfce4
+useradd toeknee
+userdel toeknee
+useradd -c ÃÃ"Ãnthony Karnowski" -u 999 -d /home/toeknee/ toeknee
+useradd -c ÃÃ"Ãnthony Karnowski" -u 99 -d /home/toeknee/ toeknee
+useradd -c ÃÃ"Ãnthony Karnowski" -u 99 -d /home/toeknee/ toeknee
+useradd -c ÃÃ"Ãnthony Karnowski" -u 999 -d /home/toeknee/ toeknee
+useradd -c ÃÃ"Ãnthony Karnowski" -u 9999 -d /home/toeknee/ toeknee
+passwd toeknee
+login
+exec startxfce4
+mkdir /home/toeknee/
+chown toeknee:toeknee /home/toeknee
+logout
+pacman -S mousepad
+thunar
+nano /etc/systemd/getty@tty1.service.d/
+mkdir /etc/systemd/getty@tty1.service.d/
+mkdir /etc/systemd//system/getty@tty1.service.d/
+nano /etc/systemd//system/getty@tty1.service.d/autologin.conf
+pacman -S xfce4-extras
+pacman -S xfce4-extra
+pacman -S xfce4
+mousepad
+sudo adduser toeknee sudo
+pacman -S sudo
+sudo adduser toeknee sudo
+nano /etc/sudoers
+userdel vagrant
+nano /etc/systemd/system/getty@tt1.service.d/autologin.conf
+nano /etc/systemd/system/getty@tty1.service.d/autologin.conf
+pacman -S agetty
+pacman -S getty
+login
+chown toeknee:toeknee /home/toeknee
+logout
+chown toeknee:toeknee /home/toeknee/.bashrc
+nano /etc/locale.conf
+locale.gen
+locale-gen
+reboot
+exec startxfce4
+exec startxfce4
+logout
+exec startxfce4
+sudo echo '#something' > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+sudo echo '#something /n nothing' > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+sudo echo '#something 
+ nothing' > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+sudo printf '#something 
+ nothing' > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+sudo printf '[Service] 
+ExecStart=
+ExecStart=-/sbin/agetty --autologin toeknee --noclear %I 38400 linux ' > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+sudo printf "[Service] 
+ExecStart=
+ExecStart=-/sbin/agetty --autologin toeknee --noclear %I 38400 linux" > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+sudo printf "[Service] 
+ExecStart=
+ExecStart=-/sbin/agetty --autologin toeknee --noclear '%I' 38400 linux" > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+sudo printf "[Service] 
+ExecStart=
+ExecStart=-/sbin/agetty --autologin toeknee --noclear %I 38400 linux" > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+sudo printf "[Service] 
+ExecStart=
+ExecStart=-/sbin/agetty --autologin toeknee --noclear'%'I 38400 linux" > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+sudo printf "[Service] 
+ExecStart=
+ExecStart=-/sbin/agetty --autologin toeknee --noclear I 38400 linux" > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+sudo fprintf "[Service] 
+ExecStart=
+ExecStart=-/sbin/agetty --autologin toeknee --noclear %I 38400 linux" > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+sudo printf "[Service] 
+ExecStart=
+ExecStart=-/sbin/agetty --autologin toeknee --noclear %%I 38400 linux" > /etc/systemd/system/getty@tty1.service.d/autologin.conf
+#
+# ~/.bash_profile
+#
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+sudo printf "#
+# ~/.bash_profile
+#
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+startx" > /home/toeknee/.bash_profile
+printf "#sudo printf "#
+# ~/.bash_profile
+#
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+startx" > /home/toeknee/.bash_profile/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/xinit/xinitrc.d/*; do
+ [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
+#exec gnome-session
+#exec startkde
+#Launches My Chosen Window Manager
+
+printf "#printf "#sudo printf "#
+# ~/.bash_profile
+#
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+startx" > /home/toeknee/.bash_profile/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/xinit/xinitrc.d/*; do
+ [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
+#exec gnome-session
+#exec startkde
+#Launches My Chosen Window Manager
+/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/xinit/xinitrc.d/*; do
+ [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
+#exec gnome-session
+#exec startkde
+#Launches My Chosen Window Manager
+exec startxfce4" > /home/toeknee/.bash_profile
+printf "#printf "#printf "#sudo printf "#
+# ~/.bash_profile
+#
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+startx" > /home/toeknee/.bash_profile/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/xinit/xinitrc.d/*; do
+ [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
+#exec gnome-session
+#exec startkde
+#Launches My Chosen Window Manager
+/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/xinit/xinitrc.d/*; do
+ [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
+#exec gnome-session
+#exec startkde
+#Launches My Chosen Window Manager
+exec startxfce4" > /home/toeknee/.bash_profile/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx -run your window manager from here
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/xinit/xinitrc.d/*; do
+ [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
+#exec gnome-session
+#exec startkde
+#Launches My Chosen Window Manager
+exec startxfce4" > /home/toeknee/.bash_profile
+
+printf "#printf "#printf "#sudo printf "#
+# ~/.bash_profile
+#
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+startx" > /home/toeknee/.bash_profile/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/xinit/xinitrc.d/*; do
+ [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
+#exec gnome-session
+#exec startkde
+#Launches My Chosen Window Manager
+/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/xinit/xinitrc.d/*; do
+ [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
+#exec gnome-session
+#exec startkde
+#Launches My Chosen Window Manager
+exec startxfce4" > /home/toeknee/.bash_profile/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx -run your window manager from here
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/
+printf "#printf "#printf "#printf "#sudo printf "#
+# ~/.bash_profile
+#
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+startx" > /home/toeknee/.bash_profile/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/xinit/xinitrc.d/*; do
+ [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
+#exec gnome-session
+#exec startkde
+#Launches My Chosen Window Manager
+/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/xinit/xinitrc.d/*; do
+ [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
+#exec gnome-session
+#exec startkde
+#Launches My Chosen Window Manager
+exec startxfce4" > /home/toeknee/.bash_profile/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx -run your window manager from here
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11//bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx -run your window manager from here
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+ for f in /etc/X11/xinit/xinitrc.d/*; do
+ [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+#exec gnome-session
+#exec startkde
+#Launches My Chosen Window Manager
+exec startxfce4" > /home/toeknee/.bash_profile
+logout
+pacman -S dbus
+exec startxfce4
+pacman -S xfce-session
+pacman -S xfce4-session
+pacman -S xfce4-session
+exec startxfce4
+cd ~/livecd/
+./build.sh -v
+
+./build.sh -v
+sudo thunar
+exec startxfce4
+exec startxfce4
+startx
+logout
+exec startxfce4
+startx
+exec startxfce4
+startxfce4
+logout
+sudo pkill -9 Xorg
+startx

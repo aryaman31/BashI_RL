@@ -1,0 +1,56 @@
+whoami
+ls
+ls-f
+ls -l
+mkdir Emerson Leandro Moraes
+ls
+ls -l
+clear
+ls -l
+touch teste.txt
+ls -l
+ls
+ls -l
+ls --help |less
+clear
+ls -all
+cd 
+[[[[``[`[[{{{==+++--__)))))9(((**//cd \;;;..>;;::'~~'^^]]]}};;:::[
+
+
+clear
+exit
+quit
+ls -all
+cd /
+whoami
+cd /
+cd emerson
+cd Emerson
+ls
+ls -all
+cd /home/teste1
+cd
+ls -al
+cd Emerson
+ls
+cd ..
+ls
+vim teste.txt
+ls -all >teste.txt
+vim
+vim teste.txt
+logout
+exit
+nano teste.txt
+quit
+exit
+id
+w
+hostname
+cat /etc/hosts
+cat /proc/cpuinfo
+cat /proc/meminfo
+apt-get
+pwd
+cat /etc/passwd

@@ -1,0 +1,221 @@
+cls
+clear
+ls
+cat t t2
+cd /
+cd $
+cd #
+ls
+clear
+cd 
+cd ~
+cd ..
+cd \
+su
+cd su
+clear
+#
+clear
+ls 
+ls -l
+cd home
+clear
+ls
+cd teste
+ls
+chmod
+pwd
+clear
+pwd
+cd \
+root
+cd root
+clear
+cd /
+ssh
+cd ssh
+cd bash
+clear
+bash
+teste
+mkdia
+clear
+cd ..
+cd .
+cd ..
+cd \
+ls
+cd /
+ls
+cd \
+ls
+cd /
+ls
+cd su
+clear
+sls
+ls
+cd ..
+cd \
+ls
+pwd
+cd home
+cd ..
+clear
+cd Desktop
+ls
+clea
+clear
+ls
+cd /
+ls
+cd ~
+ls
+cd bin
+clear
+ls
+cd teste
+ls
+cd ..
+clea~~~exit
+exit
+ls
+cd tiago
+clear
+ls
+cd bin
+ls
+./tiago
+clear
+ls
+ls -l
+cd ..
+ls
+vi teste
+ls
+cd bin
+ls
+ls -l
+cd ..
+./tiago
+clear
+./tiago
+clear
+ls
+ls -l ~/bin
+ls -a ~/bin
+ls -a ~/
+mv tiago teste ~/bin/
+ls
+cd bin
+ls
+./tiago
+clear
+exit
+ls
+cd bin
+ls
+./tiago
+clear
+./tiago
+l
+clear
+./tiago
+cd bin
+./tiago
+clear
+cd ..
+./tiago
+chmod +x tiago
+
+./tiago
+ls
+clear
+vi tiago
+vu
+clear
+cd ..
+clear
+exit
+cd /
+exit
+cd..
+cd ..
+ls
+cd bin
+ls
+clear
+ls
+vi tiago
+ls
+cd bin
+ls
+vi tiago
+ls
+vim tiago
+ls
+clear
+vim tiago
+ls
+cd bin
+clear
+vim tiago
+>tiago
+ls
+clear
+<tiago
+ls
+> tiago
+ls
+> tiago
+ls
+mv -mr tiago
+clear
+rv -rm tiago
+clear
+ls
+clear
+> vim tiago
+ls
+clear
+ls
+mv -rm tiago
+clear
+rm tiago
+ls
+rm vinm
+rm vim
+ls
+clear
+vim scripttiago
+ls
+vim scripttiago
+ls
+clear
+cd bin
+ls
+vim teste
+ls
+vi teste
+clear
+./tiagoscript
+chmod +x tiagoscript
+./tiagoscript
+clear
+exit
+kill ./tiagoscript
+man kill
+kill tiagoscript
+cd ..
+ls
+cd bin
+ls
+ls -l
+cd /
+ls
+cd ..
+ecxit
+exit
+cd bin
+./tiagoscript
+exit

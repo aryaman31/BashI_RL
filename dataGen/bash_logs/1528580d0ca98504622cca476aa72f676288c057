@@ -1,0 +1,10 @@
+ps
+top
+mkdir
+mkdir bin
+cd bin
+vi primeiro
+chmod +xprimeiro
+chmod +x primeiro
+./primeiro 
+cat

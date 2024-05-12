@@ -1,0 +1,48 @@
+ls -A
+vi .
+zsh
+sudo apt install zsh
+ls -A
+vi .sudo_as_admin_successful 
+zsh
+exit
+zsh
+vi .bashrc
+echo $SHELL
+which zsh
+which bash
+$zsh
+exit
+printenv
+env
+clear
+env
+cat env
+echo env >> .defaultenv
+cat .defaultenv 
+echo "${env}" >> .defaultenv
+cat .defaultenv 
+rm -f .defaultenv 
+echo ${printenv}
+echo ${"printenv"}
+echo $"{printenv}"
+echo "${printenv}"
+echo "${$printenv}"
+echo $printenv
+echo (printenv)
+echo printenv
+echo 'printenv'
+echo "printenv"
+print | cat
+printenv | cat
+clear
+printenv | echo
+printenv | cat > .defaultenv
+cat .defaultenv 
+clear
+which
+type -a
+echo $SHELL
+exit
+echo $SHELL
+vi .profile

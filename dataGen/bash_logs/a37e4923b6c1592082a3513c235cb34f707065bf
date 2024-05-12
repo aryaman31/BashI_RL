@@ -1,0 +1,3429 @@
+ls
+cd Ubisoft/
+ls
+cd Ubisoft\ Game\ Launcher/
+ls
+wine UbisoftGameLauncher.exe 
+wine UbisoftGameLauncher64.exe 
+wine UplayService.exe 
+wine Uplay.exe 
+ls
+man wine
+wine Uplay.exe &
+ps -ef | grep uplay
+kill -9 3191
+ps -ef | grep uplay
+cd .wine/dosdevices/
+ls
+cd c:
+;s
+ls
+cd 'Program Files (x86)'/
+ls
+cd Ubisoft/
+ls
+cd Ubisoft\ Game\ Launcher/
+ls
+wine start Uplay.exe 
+ls
+wine Uninstall.exe 
+wine upc.exe 
+wine UplayService.exe 
+wine UbisoftGameLauncher64.exe 
+wine UbisoftGameLauncher.exe 
+cd .wine/dosdevices/c:
+ls
+cd 'Program Files (x86)'/
+ls
+cd Ubisoft/
+ls
+cd Ubisoft\ Game\ Launcher/
+wine Uninstall.exe 
+ls
+wine upc.exe 
+wine UbisoftGameLauncher.exe 
+cd .wine/dosdevices/c:/
+cd 'Program Files (x86)'/
+cd Ubisoft/Ubisoft\ Game\ Launcher/
+ls
+wine UplayWebCore.exe 
+wine UplayWebCore.exe UplayWebCore.exe --type=renderer --no-sandbox --disable-features=TouchpadAndWheelScrollLatching --service-pipe-token=88FED7C58312E6D9AF25C2F71DF80821 --lang=en-US --locales-dir-path=C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1/ --log-file=C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log --disable-spell-checking --enable-system-flash --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=88FED7C58312E6D9AF25C2F71DF80821 --renderer-client-id=4 --mojo-platform-channel-handle=1040 /prefetch:1
+UplayWebCore.exe --type=renderer --no-sandbox --disable-features=TouchpadAndWheelScrollLatching --service-pipe-token=88FED7C58312E6D9AF25C2F71DF80821 --lang=en-US --locales-dir-path=C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1/ --log-file=C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log --disable-spell-checking --enable-system-flash --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=88FED7C58312E6D9AF25C2F71DF80821 --renderer-client-id=4 --mojo-platform-channel-handle=1040 /prefetch:1
+UplayWebCore.exe --type=renderer --no-sandbox --disable-features=TouchpadAndWheelScrollLatching --service-pipe-token=88FED7C58312E6D9AF25C2F71DF80821 --lang=en-US --locales-dir-path=C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1/ --log-file=C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log --disable-spell-checking --enable-system-flash --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=88FED7C58312E6D9AF25C2F71DF80821 --renderer-client-id=4 --mojo-platform-channel-handle=1040 /prefetch:1
+ls
+cd .local/
+ls
+cd share/
+ls
+ls applications/
+cd applications/wine/
+;s
+ls
+cd Programs/
+ls
+cd Ubisoft/
+ls
+ls
+cd Uplay/
+ls
+wine Uplay.desktop 
+file U
+file Uplay.desktop 
+cd ~
+cd .config/
+ls
+cd dconf/
+ls
+cat user 
+file user 
+cd ..
+cat netctl-gui.conf 
+rm netctl-gui.conf 
+cd ~/Desktop/
+ls
+wine Uplay.desktop 
+./Uplay.desktop 
+cat Uplay.desktop 
+ls
+ps -elf | grep uplay
+ps -elf | grep ubisoft
+ps -elf | grep play
+kill -9 2424
+ps -elf | grep play
+kill -9 2484
+ps -elf | grep play
+ps -elf | grep ubisoft
+ps -elf | grep game
+shutdown 0
+bluetoothctl
+man test
+info useradd
+man useradd
+man crypt
+man usermod
+man userdel
+perl -e 'print crypt('alex123','ab')
+perl -e 'print crypt('alex123','ab')'
+perl -e 'print crypt("alex123","ab")'
+useradd -p abmpmMZ1K/xOE alex
+man useradd
+useradd -p abmpmMZ1K/xOE alex
+sudo useradd -p abmpmMZ1K/xOE alex
+su alex
+sudo userdel alex
+su alex
+vim proiect/ValidatePass.sh 
+su 
+cd /var/temp
+cd /var/tmp
+ls
+cat 1.dict 
+cd -
+cd proiect/
+ls
+vim ValidatePass.sh 
+man useradd
+vim ValidatePass.sh 
+./ValidatePass.sh 
+vim ValidatePass.sh 
+./ValidatePass.sh 
+su alex
+./ValidatePass.sh 
+./ValidatePass.sh 
+sudo ./ValidatePass.sh 
+vim ValidatePass.sh 
+su
+sudo userdel alex
+vim ValidatePass.sh 
+shutdown 0
+cat /etc/passwd
+cd proiect/
+./ValidatePass.sh 
+su root
+cd proiect/
+ls
+vim ValidatePass.sh 
+shutdown 0
+vim .config/ranger/rifle.conf 
+ls /dev
+ls /dev | grep sd
+mount /dev/sdb1 /mnt
+sudo mount /dev/sdb1 /mnt
+cd /mnt
+ls
+ls -l
+cp ~/Downloads/Oferta\ angajare_BCR .
+cp ~/Downloads/Oferta\ angajare_BCR.pdf .
+sudo cp ~/Downloads/Oferta\ angajare_BCR.pdf .
+ls
+cd ~
+umount /mnt
+sudo umount /mnt
+ls /mnt
+cd Downloads/
+firefox HarigaPdf
+firefox HarigaPdf.pdf 
+vim .config/ranger/rifle.conf 
+sudo pacman -Syu
+shutdown 0
+shutdown 0
+ls
+cd .wine/
+ls
+cd dosdevices/
+ls
+cd c:
+ls
+cd 'Program Files (x86)'/
+ls
+cd Ubisoft/
+ls
+cd Ubisoft\ Game\ Launcher/
+ls
+wine Uninstall.exe 
+ls
+cd ..
+cd ..
+ls
+ls Ubisoft/
+ls
+cd Ubisoft/
+ls
+cd ..
+ls
+cd Internet\ Explorer/
+ls
+wine iexplore.exe 
+ls
+cd ..
+ls
+ls
+rm -r Ubisoft/
+ls
+ls
+cd ~
+ls
+ls -l .wine/
+ls -ld .wine/
+pacman -Ql thinkfan
+pacman -S thinkfan
+sudo pacman -S thinkfan
+cd gitRepos/
+git clone https://aur.archlinux.org/thinkfan.git
+cd thinkfan/
+ls
+makepkg -si
+vim /etc/default/grub
+vim usefulCmd 
+vim .bashrc
+ls -a
+vim .bash_profile 
+grep alias *
+ls
+vim .bashrc 
+cat archNotes.self 
+rm bash_prof.log 
+ls
+touch test
+vim .bashrc
+man alias
+alias rm=rm -i
+man rm
+alias rm='rm -i'
+touch test1
+rm test
+rm test1
+cat test
+rm test
+touch t
+rm t
+man grub-config
+grub-mkconfig -o /boot/grub/grub.cfg 
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+man pacman
+pacman -Ql thinkfan
+vim /usr/lib/modprobe.d/thinkpad_acpi.conf 
+su
+thinkfan_acpi
+sudo pacman -Ql thinkfan_acpi
+sudo pacman -S thinkfan_acpi
+sudo pacman -Ql thinkfan
+su
+vim /etc/default/thinkfan
+cat /etc/default/thinkfan
+systemctl enable thinkfan
+systemctl enable thinkfan
+vim /usr/share/doc/thinkfan/examples/thinkfan.conf.simple
+sudo thinkfan -n
+cat /usr/share/doc/thinkfan/examples/thinkfan.conf.simple > /etc/thinkfan.conf
+sudo cat /usr/share/doc/thinkfan/examples/thinkfan.conf.simple > /etc/thinkfan.conf
+su
+systemctl enable thinkfan.service
+systemctl start thinkfan.service
+su
+cat /proc/acpi/ibm/fan
+su
+cat /proc/acpi/ibm/fan
+sudo echo level 7 /proc/acpi/ibm/fan
+su
+cat /usr/lib/modprobe.d/thinkpad_acpi.conf
+lsmod
+lsmod | think
+lsmod | grep think
+cat /etc/default/thinkfan 
+systemctl enable thinkfan
+su
+reboot
+su
+vim /etc/default/grub
+reboot
+ls /proc/acpi/
+vim /etc/default/grub
+grub-mkconfig -o /boot/grub/grub.cfg 
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+reboot
+ls /proc/acpi/
+vim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+reboot
+reboot
+journalctl
+vim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+reboot
+reboot
+reboot
+systemctl disable thinkfan.service
+reboot
+vim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+su
+cat /usr/lib/modprobe.d/thinkpad_acpi.conf 
+su
+ls
+cat /proc/acpi/ibm/fan 
+sensors
+sensors
+cat /sys/devices/platform/thinkpad_acpi/
+cat /sys/devices/platform/thinkpad_acpi/input/
+cat /sys/devices/platform/thinkpad_acpi/cmos_command 
+sudo cat /sys/devices/platform/thinkpad_acpi/cmos_command 
+ls /proc/acpi/
+ls
+cat /proc/acpi/ibm/fan 
+pwmconfig
+sudo pwmconfig
+cat /usr/bin/fancontrol 
+vim /usr/bin/fancontrol 
+fancontrol
+/usr/bin/fancontrol 
+ls /sys/class/hwmon/hwmon3/device/
+ls /sys/class/hwmon/hwmon3/device/hwmon/hwmon3/pwm1
+cat /sys/class/hwmon/hwmon0/device/temp 
+cat /sys/class/hwmon/hwmon3/fan1_input 
+readlink -f /sys/class/hwmon/[your-hwmon-device]/device | sed -e 's/^\/sys\///'
+readlink -f /sys/class/hwmon/hwmon3/device | sed -e 's/^\/sys\///'
+cat /sys/class/hwmon/hwmon3/device/hwmon/hwmon3/fan1_input 
+cat /sys/class/hwmon/hwmon3/device/hwmon/hwmon3/pwm1
+ls /sys/class/hwmon/hwmon3/device/hwmon/hwmon3/
+ls /sys/class/hwmon/hwmon0/device/
+ls /sys/class/hwmon/hwmon0/device/
+ls /sys/class/hwmon/hwmon0/device/temp 
+cat /sys/class/hwmon/hwmon0/device/temp 
+ls /sys/class/hwmon/hwmon3/device/hwmon/hwmon3/fan1_input 
+cat /sys/class/hwmon/hwmon3/device/hwmon/hwmon3/fan1_input 
+cat /sys/class/hwmon/hwmon3/device/hwmon/hwmon3/name 
+sed -e 's/[[:space:]=]/_/g' /sys/class/hwmon/hwmon3/name 
+cat /proc/acpi/ibm/fan 
+echo full-speed > /proc/acpi/ibm/fan 
+sudo echo full-speed > /proc/acpi/ibm/fan 
+su
+vim /etc/fancontrol 
+cat /etc/fancontrol 
+cat /etc/fancontrol > fancontrol_config.backup
+fancontrol
+vim /etc/fancontrol 
+sudo vim /etc/fancontrol 
+fancontrol
+sudo vim /etc/fancontrol 
+fancontrol
+sudo vim /etc/fancontrol 
+fancontrol
+sudo vim /etc/fancontrol 
+fancontrol
+sensors
+sensors
+pwmconfig
+sudo pwmconfig
+readlink -f /sys/class/hwmon/[your-hwmon-device]/device | sed -e 's/^\/sys\///'
+readlink -f /sys/class/hwmon/hwmon3/device/ | sed -e 's/^\/sys\///'
+sed -e 's/[[:space:]=]/_/g' /sys/class/hwmon/hwmon3/device/name
+sed -e 's/[[:space:]=]/_/g' /sys/class/hwmon/hwmon3/device/name
+sudo sed -e 's/[[:space:]=]/_/g' /sys/class/hwmon/hwmon3/device/name
+su
+reboot
+shutdown 0
+shutdown 0
+sudo wifi-menu
+man netctl-auto
+netctl-auto list
+sudo netctl-auto list
+sudo netctl-auto disable-all
+sudo netctl-auto list
+sudo netctl-auto -all
+sudo netctl-auto enable-all
+sudo netctl-auto switch-to 'wlp3s0-Dorin’s iPhone'
+sudo netctl-auto list
+sudo netctl-auto switch-to wlp3s0-WiFiMotoc
+sudo netctl-auto switch-to 'wlp3s0-Dorin’s iPhone'
+sudo netctl-auto switch-to wlp3s0-WiFiMotoc
+pacman -Ss bittorent
+pacman -Ss bittorrent
+sudo pacman -S rtorrent
+rtorrent 
+ping google.com
+sudo netctl-auto switch-to 'wlp3s0-Dorin’s iPhone'
+sudo netctl-auto switch-to wlp3s0-WiFiMotoc
+sudo netctl-auto switch-to 'wlp3s0-Dorin’s iPhone'
+shutdown 0
+cd gitRepos/
+git clone https://aur.archlinux.org/utorrent.git 
+cd utorrent/
+makepkg -si
+ls
+cd ..
+cd ~
+sudo pacman -S transmission-qt
+transmission-qt 
+bluetoothctl
+sudo netctl-auto list
+sudo netctl-auto switch-to 'wlp3s0-Dorin’s iPhone'
+ping www.google.com
+netctl-auto list
+sudo netctl-auto list
+netctl-auto switch-to wlp3s0-WiFiMotoc
+sudo netctl-auto switch-to wlp3s0-WiFiMotoc
+sudo netctl-auto switch-to 'wlp3s0-Dorin’s iPhone'
+shutdown 0
+man systemctl
+systemctl stop netctl-auto
+systemctl stop netctl-auto
+sudo wifi-menu
+sudo wifi-menu
+systemctl disable netctl-auto
+netctl-auto store
+netctl store
+sudo netctl store
+shutdown 0
+systemd-analyze
+shutdown 0
+shtudown 0
+shutdown 0
+sudo pacman -Syu
+libinput-gestures
+libinput-gestures-setup stop
+libinput-gestures-setup start
+libinput-gestures-setup status
+pacman -Ss vscode
+pacman -Ss visual studio
+sudo pacman -S code
+vim /etc/libinput-gestures.conf 
+reboot
+lsblk
+ls
+mkdir Code
+mkdir Code/Proj1
+cd Code/Proj1/
+ls
+mv Untitled-1 test.c
+pacman -Ss xamp
+vim /usr/share/dbus-1/services/ 
+ls /usr/share/dbus-1/services/ 
+shutdown 0
+sudo pacman -S libnotify
+notify-send 'Hello World !'
+notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information
+sudo pacman -S notification-daemon
+sudo wifi-menu
+netctl store
+sudo netctl store
+netctl list
+ls
+vim x
+vim .bashrc
+vim .bashrc
+vim .config/termite/config 
+cat .config/termite/config > .config/termite/config.old
+vim .config/termite/config 
+tlp
+tlp start
+sudo tlp start
+colorz Downloads/wallpapers/sea.jpg 
+colorz Downloads/wallpapers/sea.jpg 
+man colorz
+colorz --help
+echo $BROWSER
+vim .config/termite/config
+bumblebee
+bumblebee-bugreport 
+sudo bumblebee-bugreport 
+rm bumblebee-bugreport-20190713_133718.tar.gz 
+id $USER
+optirun glxgears -info
+systemctl start bumblebeed
+systemctl start bumblebeed
+optirun glxgears -info
+systemctl enable bumblebeed
+systemctl enable bumblebeed.service
+sudo pacman -S bbswitch
+vim /etc/modules-load.d/
+vim /etc/modprobe.d/bbswitch.conf
+bbswitch
+bbswitchd
+systemctl start bbswitch
+colorz Downloads/wallpapers/sea.jpg 
+colorz Downloads/wallpapers/sea.jpg 
+vim .config/termite/config
+cd /etc/audit/audit
+cd /etc/audit/
+cd /etc/audi
+cd /etc/audit/
+\
+colorz Downloads/wallpapers/sea.jpg 
+vim .bashrc
+vim .bashrc
+shutdown 0
+ls
+vim .bashrc
+vim .config/i3/config 
+export PS1="\[\033[38;5;21m\]\u\[$(tput sgr0)\]\[\033[38;5;172m\]@\[$(tput sgr0)\]\[\033[38;5;34m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;130m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;25m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"export PS1="\[\033[38;5;21m\]\u\[$(tput sgr0)\]\[\033[38;5;172m\]@\[$(tput sgr0)\]\[\033[38;5;34m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;130m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;25m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \
+vim .config/termite/config
+vim .config/termite/config
+ls
+vim .bashrc
+ls
+vim .config/termite/config
+vim .config/termite/config.old 
+vim .config/termite/config.old 
+;s
+ls
+vim .config/termite/config.old 
+vim .config/termite/config.old 
+ls
+ls
+vim .config/termite/config.old 
+vim .config/termite/config.old 
+vim .config/termite/config.old 
+vim .config/termite/config.old 
+vim .bashrc
+vim .bashrc
+vim .bashrc
+vim .bashrc
+vim .bashrc
+ls
+ls
+ls
+ls
+ls
+ls
+vim .bashrc
+vim .bashrc
+vim .bashrc
+vim .bashrc
+bluetoothctl
+cd gitRepos/
+ls
+git clone https://aur.archlinux.org/xampp.git
+cd xampp/
+ls
+makepkg -si
+find powerline
+find / -name  powerline
+tldr find
+man find
+find / -name powerline
+find / -name powerline 2>/dev/null 
+ls
+vim .bashrc
+vim .bashrc
+vim .bashrc
+ls
+vim .bashrc
+ls
+vim .bashrc
+ls
+ls
+l
+l
+ls
+ls
+ls
+vim .config/termite/config
+vim .config/termite/config
+vim Downloads/random.txt 
+vim Downloads/random.txt 
+ls Downloads/random*
+cd Downloads/
+rm random.txt 
+vim random\(1\).txt 
+vim -p random\(1\).txt ../.config/termite/config
+vim -p random\(1\).txt ../.config/termite/config
+vim -p random\(1\).txt ../.config/termite/confi ../.config/termite/config.old 
+cd ~/.config/
+vim termite/config
+vim termite/config
+vim termite/config
+cat termite/config.old > termite/config
+vim termite/config
+ls
+cd termite/
+ls
+vim config
+cat config > config.old 
+vim config
+vim -p config config.old 
+vim -p config config.old 
+vim .config/termite/config
+ls
+ls
+ls
+mkdir backup.git
+cd backup.git/
+git init
+ls
+ls -a
+la -lha
+s -lha
+ls -lha
+git add ../.config/
+git add ../.config/*
+git branch branch_name
+cd ..
+git init
+git add .config/
+ls
+rm bumblebee-bugreport-20190713_133718.tar.gz 
+ls
+ls -la
+vim .hushlogin 
+vim .nv
+cd .nv
+ls
+cd ..
+ls
+git add Downloads/wallpapers/
+git add archNotes.self 
+git add usefulCmd 
+git add .bashrc
+git add .bash_history 
+git add .bash_profile
+git add /etc/libinput-gestures.conf 
+cp /etc/libinput-gestures.conf .
+ls
+vim libinput-gestures.conf 
+git add libinput-gestures.conf 
+cd Uplay/
+ls
+cd ..
+rm -r Uplay/
+rm -r Music/
+cd Code/
+ls
+cd ..
+cd proiect/
+ls
+cd ..
+mv proiect/ ValidatePass
+ls
+rm Desktop/Uplay.desktop 
+rm -r Desktop/
+cat test.sh 
+rm test.sh 
+ip addr
+ip link
+ip link show
+git commit -m '13/7/2019: First backup'
+git config --global user.email "heroidorin@gmail.com"
+git config --global user.name "awfulwaffle77"
+git commit -m '13/7/2019: First backup'
+git push
+git push -u origin master
+git remote -v
+git remote add origin https://github.com/awfulwaffle77/dotfiles.git
+git push -u origin master
+git push -u origin master
+ls
+shutdown 0
+vim .config/polybar/config 
+pkill polybar
+./.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+./.config/polybar/launch.sh 
+vim .config/polybar/config 
+
+vim .config/polybar/config 
+pkill polybar
+./.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+./.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+./.config/polybar/launch.sh 
+vim .config/polybar/config 
+shutdown 0
+vim .config/termite/config
+•
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+pacman -Ss fselect
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+🌕
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+pkill polybar
+.config/polybar/launch.sh 
+shutdown 0
+shutdown 0
+ls .vim
+ls
+ls .vim/plugin/
+netctl-auto list
+sudo netctl-auto list
+man useradd
+pkill polybar
+.config/polybar/launch.sh 
+pkill polybar
+.config/polybar/launch.sh 
+pkill polybar
+.config/polybar/launch.sh 
+pkill polybar
+.config/polybar/launch.sh 
+pkill polybar
+.config/polybar/launch.sh 
+colorz Downloads/wallpapers/sea.jpg 
+vim /etc/sudoers
+pacman -Ss polybar
+pacman -Qes polybar
+pacman -Qs polybar
+fc-match awesome
+fc-cahce -fv | grep awesome
+fc-cache -fv | grep awesome
+
+pacman -Qs awesome
+pkill polybar
+.config/polybar/launch.sh 
+rfkill list
+rfkill unblock bluetooth
+sudo rfkill unblock bluetooth
+bluetoothctl
+vim .config/polybar/config 
+vim .config/polybar/config 
+.config/polybar/launch.sh 
+pkill polybar
+.config/polybar/launch.sh 
+pkill polybar
+.config/polybar/launch.sh 
+pkill polybar
+.config/polybar/launch.sh 
+shutdown 0
+bluetoothctl
+shutdown 0
+notfiy-send "hello"
+notfiiy-send "hello"
+notifiy-send "hello"
+notify-send "hello"
+[D-BUS Service]
+Name=org.freedesktop.Notifications
+notify-send "hello"
+dunst
+dunst
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+dunst
+[D-BUS Service]
+Name=org.freedesktop.Notifications
+Exec=/usr/lib/notification-daemon-1.0/notification-daemon[D-BUS Service]
+Name=org.freedesktop.Notifications
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+[D-BUS Service]
+Name=org.freedesktop.Notifications
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst\
+dunst\
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+fc-list
+dunst
+dunst
+echo $XDG_DATA_HOME
+pacman -Qs notification
+vim /usr/share/dbus-1/services/org.freedesktop.Notifications.service
+cat /usr/share/dbus-1/services/org.freedesktop.Notifications.service
+sudo pacman -S dunst
+/usr/bin/dunst
+cp /usr/share/dunst/dunstrc .config/dunst/dunstrc
+mkdir .config/dunst
+cp /usr/share/dunst/dunstrc .config/dunst/dunstrc
+dunst
+vim .config/dunst/dunstrc 
+vim .config/dunst/dunstrc 
+dunst
+vim .config/i3/config 
+ls
+git push
+git commit -m "Added dunst"
+ls -a
+ls .git
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hello"
+notify-send "hell1"
+notify-send "hell2"
+notify-send "hello3"
+notify-send "hello4"
+notify-send "hello5"
+notify-send "hello5"
+notify-send "hello5"
+notify-send "hello4"
+notify-send "hello3"
+sudo pacman -Syu
+libinput-gestures-setup stop
+libinput-gestures-setup stoplibinput-gestures-setup stoplibinput-gestures-setup stoplibinput-gestures-setup stoplibinput-gestures-setup stoplibinput-gestures-setup stopating gzip-compressed initcpio image: /boot/initramfs-linux.img
+==> Image generation successful
+==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+  -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+==> Starting build: 5.2.1-arch1-1-ARCH
+  -> Running build hook: [base]
+  -> Running build hook: [systemd]
+  -> Running build hook: [modconf]
+  -> Running build hook: [block]
+==> WARNING: Possibly missing firmware for module: wd719x
+==> WARNING: Possibly missing firmwareating gzip-compressed initcpio image: /boot/initramfs-linux.img
+==> Image generation successful
+==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+  -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+==> Starting build: 5.2.1-arch1-1-ARCH
+  -> Running build hook: [base]
+  -> Running build hook: [systemd]
+  -> Running build hook: [modconf]
+  -> Running build hook: [block]
+==> WARNING: Possibly missing firmware for module: wd719x
+==> WARNING: Possibly missing firmwareating gzip-compressed initcpio image: /boot/initramfs-linux.img
+==> Image generation successful
+==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+  -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+==> Starting build: 5.2.1-arch1-1-ARCH
+  -> Running build hook: [base]
+  -> Running build hook: [systemd]
+  -> Running build hook: [modconf]
+  -> Running build hook: [block]
+==> WARNING: Possibly missing firmware for module: wd719x
+==> WARNING: Possibly missing firmwareating gzip-compressed initcpio image: /boot/initramfs-linux.img
+==> Image generation successful
+==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+  -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+==> Starting build: 5.2.1-arch1-1-ARCH
+  -> Running build hook: [base]
+  -> Running build hook: [systemd]
+  -> Running build hook: [modconf]
+  -> Running build hook: [block]
+==> WARNING: Possibly missing firmware for module: wd719x
+==> WARNING: Possibly missing firmwareating gzip-compressed initcpio image: /boot/initramfs-linux.img
+==> Image generation successful
+==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+  -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+==> Starting build: 5.2.1-arch1-1-ARCH
+  -> Running build hook: [base]
+  -> Running build hook: [systemd]
+  -> Running build hook: [modconf]
+  -> Running build hook: [block]
+==> WARNING: Possibly missing firmware for module: wd719x
+ating gzip-compressed initcpio image: /boot/initramfs-linux.img
+==> Image generation successful
+==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+  -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+==> Starting build: 5.2.1-arch1-1-ARCH
+  -> Running build hook: [base]
+  -> Running build hook: [systemd]
+  -> Running build hook: [modconf]
+  -> Running build hook: [block]
+==> WARNING: Possibly missing firmware for module: wd719x
+==> WARNING: Possibly missing firmwareating gzip-compressed initcpio image: /boot/initramfs-linux.img
+==> Image generation successful
+==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+  -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+==> Starting build: 5.2.1-arch1-1-ARCH
+  -> Running build hook: [base]
+  -> Running build hook: [systemd]
+  -> Running build hook: [modconf]
+  -> Running build hook: [block]
+==> WARNING: Possibly missing firmware for module: wd719x
+==> WARNING: Possibly missing firmwareating gzip-compressed initcpio image: /boot/initramfs-linux.img
+==> Image generation successful
+==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+  -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+==> Starting build: 5.2.1-arch1-1-ARCH
+  -> Running build hook: [base]
+  -> Running build hook: [systemd]
+  -> Running build hook: [modconf]
+  -> Running build hook: [block]
+==> WARNING: Possibly missing firmware for module: wd719x
+==> WARNING: Possibly missin
+libinput-list-devices
+libinput-list
+libinputlist
+libinput list
+libinput --help
+libinput list-devices
+showket
+showke
+showkey
+sudo showkey
+git add
+git add .config/dunst/dunstrc 
+git add .config/dunst/
+git add .config/
+git commit -m "Added dunst"
+git push
+xinput
+xinput list-props 13
+sudo show key
+sudo showkey
+sudo showkey
+show keyshow keyshow keyshow keyshow keyshow keyshow keyshow keyshow keyshow keyshow keyshow keyshow keyshow keyshow key
+pacman -Qs xclip
+sudo pacman -S xclip
+man xclip
+sudo pacman -Rsu xclip
+sudo pacman -S xclipboard
+sudo pacman -S xorg-xclipboard
+xorg-xclipboard
+xclipboard 
+libinput-gestures-setup stoplibinput-gestures-setup stopshow key
+sudo pacman -Rsu xorg-xclipboard
+notify-send "hello"
+libinput list-devices
+libinput-gestures-setup stop
+libinput-gestures-setup start
+man xdotool
+ls
+vim /etc/libinput-gestures.conf 
+libinput-gestures-setup stop
+libinput-gestures-setup start
+vim /etc/libinput-gestures.conf 
+man patch
+libinput-gestures-setup stop
+libinput-gestures-setup start
+libinput-gestures-setup stop
+libinput-gestures-setup stop
+libinput-gestures-setup start
+libinput-gestures-setup stop
+libinput-gestures-setup start
+libinput-gestures-setup stop
+libinput-gestures-setup start
+libinput-gestures-setup stop
+libinput-gestures-setup start
+libinput-gestures-setup stop
+libinput-gestures-setup start
+libinput list
+libinput --help
+libinput list-devices
+xinput 
+xinput 
+man xinput
+xinput --list-prop 13
+xinput --list-props 13
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+magikarp@awfulwaffle ~ $ 
+xinput --list-prop 13
+xinput --list-props 13
+cd gitRepos/
+git clone https://aur.archlinux.org/weather.git 
+cd weather/
+makepkg -si
+weather
+/usr/bin/weather-report 
+man weather-report 
+weather-report --help
+weather-report Bucharest
+weather-report Paris
+vim /usr/share/weather-util/places 
+cat /usr/share/weather-util/places | less
+cat /usr/share/weather-util/places | grep Bucharest
+cat /usr/share/weather-util/places | grep Romania
+cat /usr/share/weather-util/places | less
+shutdown 0
+cd /mnt/_
+ls
+ls -l
+ls -lah
+pgrep -l '^dd$"
+pgrep -l '^dd$'
+kill -USR1 1467
+sudo kill -USR1 1467
+ls -l Downloads/Win10_1809Oct_v2_English_x64.iso 
+ls -jl Downloads/Win10_1809Oct_v2_English_x64.iso 
+ls -hl Downloads/Win10_1809Oct_v2_English_x64.iso 
+sudo kill -USR1 1467
+sudo kill -USR1 1467
+cat /dev
+ls /dev
+ls /dev | grep sd*
+ls /dev | grep sd
+ls /dev | grep sd
+ls /dev | grep sd
+mount /dev/sdb1 /mnt
+sudo mount /dev/sdb1 /mnt
+cd /mnt
+ls
+ls -
+ls _
+cd _
+cd //
+ls
+cd ///
+cd -
+cd -
+cd /mnt/
+ls
+cp _ ~/usbcpy
+cp -r _ ~/usbcpy
+cd ~
+ls
+cat WARNING\: 
+ls -lh
+rm Image 
+rm Image 
+rm WARNING\: 
+rm -k 
+rm '-k'
+rm "-k"
+ls usbcpy/
+cd m
+cd usbcpy/materiale\ 27.06.2019/
+ls
+cd ..
+ls
+cd ~
+ls /dev/sdb*
+man dd
+dd if=Downloads/Win10_1809Oct_v2_English_x64.iso of=/dev/sdb1
+sudo dd if=Downloads/Win10_1809Oct_v2_English_x64.iso of=/dev/sdb1
+ls /dev/sd*
+ls /dev/sdb*
+mount /dev/sdb1 /mnt
+sudo mount /dev/sdb1 /mnt
+ls /mnt
+reboot
+ls /dev
+ls /dev/sdb*
+umount /mnt
+ls /mnt
+sudo dd if=Downloads/Win10_1809Oct_v2_English_x64.iso of=/dev/sdb1 status=progress
+ps dd
+pgrep dd
+pgrep "^dd$"
+pkill 1003
+pgrep "^dd$"
+sudo dd if=Downloads/Win10_1809Oct_v2_English_x64.iso of=/dev/sdb1 status=progress bs=4M
+reboot
+sudo mount /dev/sdb1 /mnt
+ls /mnt
+pacman -Qs ntfs
+reboot
+shutdown 0
+netctl list
+sudo wifi-menu
+netctl list
+rfkill 
+sudo wifi-menu
+shutdown 0
+sudo pacman -Syu
+sudo pacman -S parted
+ls /mnt
+ls -l
+ls -l /mnt
+cat /dev | grep sd
+ls /dev | grep sd
+ls /dev | grep sd1
+ls /dev | grep sd1
+ls /dev | grep sd1
+ls /dev | grep sd
+mount /dev/sdb1 /mnt
+sudo mount /dev/sdb1 /mnt
+sudo mount /dev/sdb5 /mnt
+cd /mnt
+ls
+ls
+bluetoothctl
+cp Diverse/SchoolRelated.backup/SchoolRelated.backup.zip /mnt
+lsblk
+parted /dev/sda2
+sudo parted /dev/sda2
+ls
+vim /etc/default/
+vim /etc/default/grub
+grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+ls /dev | grep sd
+sudo mount /dev/sdc1 /media
+mkdir media
+sudo mount /dev/sdc1 media
+ls media
+umount media
+sudo umount media
+history | grep dd
+sudo dd if=Downloads/gparted-live-1.0.0-3-i686.iso of=/dev/sdc1 bs=4M
+sudo dd if=Downloads/gparted-live-1.0.0-3-i686.iso of=/dev/sdc1 bs=4M status=progress
+mount /dev/sdc1 media
+sudo mount /dev/sdc1 media
+ls media/
+ls /mnst
+ls /mnt
+ls -l /mnt
+umount /mnt
+sudo umount /mnt
+ls /mnt
+sudo mount /dev/sdb5 /mnt
+ls -l /mnt
+sudo umount /mnt
+umount media
+sudo umount media
+sudo mount /dev/sdb1 /mnt
+ls /mnt
+umount /mnt
+sudo umount /mnt
+lsblk
+vim .config/termite/config
+cp Diverse/E/E.zip /mnt
+bluetoothctl
+ls -la
+git add .sysScripts/
+git add .vimrc
+cat .xbindkeysrc 
+git add .xbindkeysrc 
+ls -la
+git add .xinitrc 
+git push
+git commit -a "Updated some files"
+git commit -m "Updated some files"
+git push
+pacman -Q
+pacman -Qe
+pacman -Qe > packmanPackages
+git add packmanPackages 
+git commit -m "Added installed packages"
+git push
+ls -la
+git add ValidatePass/
+cd backup.git/
+ls
+cd ..
+cd .backupFiles/
+;s
+ls
+cd ..
+ls /etc/
+cat /etc/X11/x
+cat /etc/X11/
+ls /etc/X11/
+cat /etc/X11/xorg.conf.backup 
+git commit -m "Another one"
+git push
+reboot
+ls /dev | grep sd
+history | grep dd
+history | grep "^sudo dd"
+history | grep "sudo dd"
+sudo dd if=Downloads/gparted-live-1.0.0-3-i686.iso of=dev/sdb1 
+sudo dd if=Downloads/gparted-live-1.0.0-3-i686.iso of=/dev/sdb1 
+reboot
+mount /dev/sdb1 /mnt
+sudo mount /dev/sdb1 /mnt
+ls /mnt
+ls /mnt/boot
+ls /mnt/boot/grub/
+ls /mnt/live
+ls /dev | gre psd
+ls /dev | grep sd
+sudo mount /dev/sdb /mnt
+umount /mnt
+sudo umount /mnt
+sudo mount /dev/sdb /mnt
+sudo dd if=Downloads/gparted-live-1.0.0-3-i686.iso of=/dev/sdb 
+reboot
+ls /dev | grep sd
+fdisk
+sudo fdisk /dev/sda
+ls /dev
+lsblk
+man sfdisk
+sudo sfdisk --list-free /dev/sda
+lsblk
+lsblk
+fdisk -s
+fdisk -l
+sudo fdisk -l
+ls /dev | grep sd
+ls /dev | grep sd
+ls /dev | grep sd
+ls /dev | grep sd
+ls /dev | grep sd
+history 
+sudo dd if=Downloads/Win10_1809Oct_v2_English_x64.iso of=/dev/sdb
+sudo dd if=Downloads/Win10_1809Oct_v2_English_x64.iso of=/dev/sdb status=progress
+reboot
+pgrep woe
+pgrep woeusb
+lsblk
+ls /dev | grep sd
+sudo mount /dev/sdb /mnt
+ls /mnt
+pacman -Ss wine
+wine /mnt/setup.exe 
+wine64 /mnt/setup.exe 
+mkdir Desktop
+wine64 /mnt/setup.exe 
+rm -r Desktop/
+cd gitRepos/
+git clone https://aur.archlinux.org/balena-etcher.git
+cd balena-etcher/
+makepkg -si
+cd ..
+git clone https://aur.archlinux.org/etcher-bin.git
+cd etcher-bin/
+makepkg -si
+cd ..
+git clone https://aur.archlinux.org/woeusb.git 
+cd woeusb/
+makepkg -si
+woeusb
+cd ~
+ls /dev | grep sd
+woeusb --device Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb
+sudo woeusb --device Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb
+umount /mnt
+sudo umount /mnt
+sudo woeusb --device Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb
+sudo woeusb --tgt-fs NTFS  --device Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb 
+reboot
+ls /dev | grep sd
+ls /dev | grep sd
+woeusb
+woeusb --partition Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb1
+sudo woeusb --partition Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb1
+sudo woeusb --tgt-fs FAT  --partition Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb1
+sudo woeusb --partition Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb1 --tgt-fs FAT
+sudo woeusb --partition Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb1 --tgt-fs FAT32
+sudo woeusb --partition Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb1 --tgt-fs NTFS
+sudo woeusb --device Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb
+sudo woeusb --device Downloads/Win10_1809Oct_v2_English_x64.iso /dev/sdb --tgt-fs NTFS
+reboot
+shutdown 0
+lsblk
+sudo pacman -Syu
+reboot
+free
+free -h
+du
+man du
+lsblk
+man df
+df -h
+df -h | grep "/$"
+df -h | grep "/dev/sd"
+lsblk
+shutdown 0
+modprobe fuse
+cat /etc/modules-load.d/
+ls /etc/modules-load.d/
+sudo modprobe fuse
+usbmuxd -f -v
+ls /dev
+ls /dev > noi
+ls /dev > i
+diff noi i
+man diff
+cat noi | wc -l
+cat i | wc -l
+rm noi i
+pacman -Qe 
+pacman -Qe  | grep ifuse
+pacman -Qe  | grep libimobile
+sudo pacman -S libimobiledevice
+pacman -Qs idevice
+modprobe fuse
+usbmuxd -f -v
+man usbmuxd
+idevice_id -l
+ideviceinfo
+ideviceinstaller -l
+man ifuse
+ls
+cat Running 
+cat Starting 
+rm Running Starting 
+ls
+rm Running 
+cat Building 
+rm Building 
+ls
+rm libinput-gestures.conf 
+ls
+mkdir iPhoneDir
+ifuse iPhoneDir/
+ls iPhoneDir/
+cd iPhoneDir/
+cd Photo
+cd Photos
+ls
+cd Sync/
+ls
+cd ..
+ls
+cd ..
+ls
+cd D
+cd DCIM/
+ls
+ls -l
+ls -lh
+ls 106APPLE/
+ls -lh
+ls
+cd 111APPLE/IMG_1
+cd 111APPLE/
+ls
+ls | wc -l
+rm *
+rm -f *
+cd ..
+ls | wc -l
+cd -
+
+cd -
+cd -
+ls | wc -l
+cd ..
+ls
+ls 112APPLE/ | wc -l
+cd 112APPLE/IMG_2
+cd 112APPLE/
+ls | wc -L
+ls | wc -l
+rm *
+rm -f *
+timedatectl set-ntp true
+shutdown 0
+man ideviceinstall
+man ideviceinstaller
+ls
+ls media/
+rm -r media/
+ls
+cd Diverse/
+ls
+cd E/
+ls
+cd iPhone\ photos/
+ls
+ls -lh
+man ls
+cp ~/iPhoneDir/DCIM/111APPLE/ .
+ls
+cp -r ~/iPhoneDir/DCIM/111APPLE/ .
+cp -r ~/iPhoneDir/DCIM/112APPLE/ .
+sudo wifi-menu
+sudo pacman -Syu
+reboot
+vim .config/polybar/
+pkill polybar
+./.config/polybar/launch.sh 
+shutdown 0
+echo $BROWSER
+vim .bash_profile 
+echo $BROWSER
+shutdown 0
+shutdown 0
+shutdown 0
+vim /etc/default/grub
+grub-mkconfig -o /boot/grub/grub.cfg 
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+pacman -S bitcoin
+pacman -Ss bitcoin
+pacman -S bfgminer
+sudo pacman -S bfgminer
+bfgminer
+bfgminer --help
+bfgminer --help | grep fan
+bfgminer --benchmark
+man pacman
+sudo pacman -Rsu bfgminer
+vimtutor
+shutdown 0
+shutdown o
+shutdown 0
+vim .config/ranger/rifle.conf 
+vim .config/ranger/rifle.conf 
+sudo pacman -Syu
+bluetoothctl
+shutdown 0
+shutdown 0
+ls /dev | grep sd
+sudo mount sdb1 /mnt
+sudo mount /dev/sdb1 /mnt
+free /mnt
+free -h /mnt
+df -h /mnt
+umount /mnt
+sudo umount /mnt
+shutdown 0
+ls -a
+ls -a | grep s
+ls -a | grep "^s"
+ls -a | grep "^.s"
+cd .sysScripts/
+ls
+cat decBrightness.sh 
+cat /sys/class/backlight/intel_backlight/brightnes
+cat /sys/class/backlight/intel_backlight/brightness
+cal
+cal 3
+cal 
+man cal
+cal -3 -m
+vim .bash_profile 
+vim .bashrc
+source .bashrc
+cal
+cal -1
+cal -2
+cal -3
+cal
+man cal
+cal -W
+man c
+cal -w
+cat /sys/class/backlight/intel_backlight/brightness
+echo 250 > /sys/class/backlight/intel_backlight/brightness
+echo 100 > /sys/class/backlight/intel_backlight/brightness
+echo 250 > /sys/class/backlight/intel_backlight/brightness
+echo 500 > /sys/class/backlight/intel_backlight/brightness
+sudo pacman -S gvfs
+sudo vim /etc/sudoers
+sudo pacman -Syu
+shutdown 0
+shutdown 0
+shutdown 0
+ls /var/lib/pacman/
+cp /var/lib/pacman/db.lck .
+sudo cp /var/lib/pacman/db.lck .
+sudo rm /var/lib/pacman/db.lck
+rm db.lck 
+cd gitRepos/
+ls
+git clone https://aur.archlinux.org/plymouth.git
+cd plymouth/
+ls
+makepkg -si
+makepkg -si
+makepkg -si
+plymouth --show-splash
+plymouth-set-default-theme 
+plymouth-set-default-theme -l
+sudo vim /etc/mkinitcpio.conf 
+vim /etc/default/grub
+grub-mkconfig -o /boot/grub/grub.cfg 
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+vim /etc/plymouth/plymouthd.conf 
+reboot
+vim /etc/plymouth/plymouthd.conf 
+reboot
+vim /etc/plymouth/plymouthd.conf 
+reboot
+vim /etc/plymouth/plymouthd.conf 
+dmidecode
+sudo pacman -S dmidecode
+dmidecode -t bios 
+sudo dmidecode -t bios 
+vim /etc/plymouth/plymouthd.conf 
+reboot
+ cp /usr/share/plymouth/arch-logo.png /usr/share/plymouth/themes/spinner/watermark.png
+sudo cp /usr/share/plymouth/arch-logo.png /usr/share/plymouth/themes/spinner/watermark.png
+vim /etc/plymouth/plymouthd.conf 
+cat /etc/plymouth/plymouthd.conf 
+reboot
+history
+vim /etc/plymouth/plymouthd.conf 
+reboot
+plymouthd
+sudo plymouth
+plymouth --show-splash
+plymouth --quit
+plymouthd
+sudo plymouthd
+vim /etc/plymouth/plymouthd.conf 
+vim /etc/plymouth/plymouthd.conf 
+cat /etc/plymouth/plymouthd.conf 
+reboot
+vim /etc/plymouth/plymouthd.conf 
+reboot
+sudo plymouth
+sudo plymouthd
+plymouth --show-splash
+plymouth --quit
+sudo plymouth --quit
+sudo plymouth --quit
+vim /etc/plymouth/plymouthd.conf 
+mkinitcpio -p linux
+sudo mkinitcpio -p linux
+reboot
+history
+sudo vim /etc/mkinitcpio.conf 
+vim /etc/default/grub
+plymouth-set-default-theme -R spinner
+sudo plymouth-set-default-theme -R spinner
+reboot
+reboot
+shutdown 0
+cd /usr/share/plymouth/
+ls
+file plymouthd.defaults 
+vim plymouthd.defaults 
+cd themes/
+ls
+cd spin
+cd spinner/
+ls
+sudo rm watermark.png 
+plymouth-set-default-theme -R spinner
+sudo plymouth-set-default-theme -R spinner
+reboot
+vim /etc/plymouth/
+plymouth-set-default-theme -R solar
+sudo plymouth-set-default-theme -R solar
+reboot
+man update-grub2
+man update-grub
+mupdate-grub2
+update-grub2
+update-grub
+sudo pacman -Rsu plymouth
+cd gitRepos/plymouth/
+makepkg -si
+vim /etc/mkinitcpio.
+vim /etc/mkinitcpio.conf 
+vim /etc/default/grub
+mkinitcpio -p linux
+sudo mkinitcpio -p linux
+vim /etc/plymouth/plymouthd.conf
+reboot
+sudo pacman -Rsu plymouth
+vim /etc/default/grub
+grub-mkconfig -o /boot/grub/grub.cfg 
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+vim /etc/mkinitcpio.conf 
+mkinitcpio -p linux
+sudo mkinitcpio -p linux
+reboot
+shutdown 0
+vim .config/i3/config 
+cd gitRepos/
+git clone https://aur.archlinux.org/minecraft-launcher.git
+cd minecraft-launcher/
+makepkg -si
+cd ~
+cd
+cd -
+minecraft-launcher 
+sudo pacman -Syu
+weather-report 
+weather-report Bucharest
+weather-report Romania
+weather-report Bucuresti
+weather-report Bucuresti Otopeni
+weather-report 'Bucuresti Otopeni'
+shutdown 0
+timedatectl set-ntp true
+pkill polybar
+./.config/polybar/launch.sh 
+shutdown 0
+shutdown 0
+man cp
+man pv
+pv --help
+ls /mnt
+ls /mnt
+sudo mnt /dev/sdb1 /mnt
+sudo mount /dev/sdb1 /mnt
+ls /mnt
+sudo umount /mnt
+sudo mount /dev/sdb1 /mnt
+ls /mnt
+sudo umount /mnt
+sudo mount /dev/sdb1 /mnt
+cd /mnt
+ls
+rm -r *
+rm -rf *
+ls
+cp -r ~/Diverse/SchoolRelated.backup/SchoolRelated.backup/ccop/ccop_brinzea/Cercetari\ Operationale/tutoriale\ cccop/* .
+ls /mnt
+sudo umount /mnt
+cd 
+sudo umount /mnt
+ls /mnt
+shutdown 0
+ip link
+netctl list
+autonetctl list
+man netctl
+netctl list
+man netctl
+netctl-auto list
+sudo netctl-auto list
+sudo pacman -Syu
+sudo pacman -S macchanger
+ip link 
+macchanger -r wlp3s0
+sudo macchanger -r wlp3s0
+sudo macchanger -r enp4s0
+netctl-auto disable
+netctl-auto list
+sudo netctl-auto list
+man netctl
+netctl stop all
+netctl-auto stop all
+systemctl stop netctl-auto@all
+systemctl stop netctl-auto@all
+systemctl stop netctl-auto@all
+netctl-auto list
+sudo netctl-auto list
+man netctl
+man netctl-atuo
+man netctl-auto
+ip link
+netctl-auto stop wlp3s0
+sudo netctl-auto stop wlp3s0
+systemctl stop netctl-auto@wlp3s0 
+macchanger -r wlp3s0
+sudo macchanger -r wlp3s0
+wifi-menu
+sudo wifi-menu
+sudo wifi-menu
+ls
+cd .sysScripts/
+ls
+cat decBrightness.sh 
+sudo echo 75 > /sys/class/backlight/intel_backlight/brightness
+sudo echo 100 > /sys/class/backlight/intel_backlight/brightness
+sudo echo 250 > /sys/class/backlight/intel_backlight/brightness
+cat /sys/class/backlight/intel_backlight/brightness
+cd gitRepos/
+git clone https://aur.archlinux.org/tunnelbear.git 
+cd tunnelbear/
+makepkg -si
+systemctl stop netctl-auto@wlp3s0 
+systemctl stop netctl-auto@wlp3s0 
+netctl-auto list
+netctl list
+netctl stop all
+netctl list
+netctl stop-all
+macchanger -r wlp3s0
+sudo macchanger -r wlp3s0
+sudo wifi-menu
+ip link
+macchanger -r enp4s0
+sudo macchanger -r enp4s0
+shutdown 0
+vim .config/i3/config 
+exit
+startx
+startx
+exit
+vim .config/i3/config 
+./.config/polybar/launch.sh 
+vim .config/i3/config 
+man shutdown 
+vim .config/i3/config 
+j
+vim .config/i3/config 
+vim .config/i3/config 
+vim .config/i3/config 
+shutdown 0
+shutdown 0
+pgrep steam
+pkill steam
+pgrep steam
+sudo pacman sxiv
+sudo pacman -S sxiv
+vim .config/ranger/rifle.conf 
+man man
+shutdown 9
+shutdown 0
+man convert
+man sxiv
+man sxiv
+shutdown 0
+libinput start
+libinput -help
+man libinput
+ls
+cd archNotes.self 
+cat archNotes.self 
+cat usefulCmd 
+vim  /etc/libinput-gestures.conf 
+systemctl start libinput.service
+libinput-gestures
+libinput-gestures --help
+libinput-gestures -h
+man libinput-gestures
+man libinput
+libinput-gestures start
+vim archNotes.self 
+vim usefulCmd 
+rebotot
+reboot
+cd Downloads/
+ls
+tldr unzip
+unzip ccop_rezolvate_de_mine.zip -d ../Diverse/CCOP_Rez_Liviu
+man sxiv
+shutdown 0
+shutdown 0
+pkill polybar
+./.config/polybar/launch.sh 
+sudo pacman -Syu
+ iana-etc-20190823-1-any                                            369.2 KiB   393K/s 00:01 [######################################################] 100%
+sudo pacman -S dosbox
+dosbox
+ls
+mkdir dbp
+vim bianca.asm
+find / vim
+tldr find
+find / -type d -name vim
+vim /usr/share/vim/vim81/ftplugin
+cd /usr/share/vim/vim81/ftplugin
+ls
+cat perl.vim
+ls
+vim asm.vim
+ls
+rm asm.vim 
+sudo rm asm.vim 
+vim .vimrc 
+shutdown 0
+shutdown 0
+sudo timedatectl set-ntp true
+pkill polybar
+./.config/polybar/launch.sh 
+sudo pacman -Syu
+shutdown 0
+echo Hello Spoiala
+pkill polybar
+./.config/polybar/launch.sh 
+alsapulseaudio
+pulseaudio 
+pulseaudio 
+sudo pacman -Syu
+echo Salut
+shutdown 0
+ls
+stat archNotes.self 
+stat archNotes.self | tail
+stat archNotes.self | tail -1
+stat archNotes.self | tail -1 | cut -f2,
+stat archNotes.self | tail -1 | cut -f2
+stat archNotes.self | tail -1 | cut -f2 -d=' '
+stat archNotes.self | tail -1 | cut -f2 -d' '
+stat archNotes.self | tail -1 | cut -f1 -d' '
+stat archNotes.self | tail -1 | cut -f3 -d' '
+reboot
+man sed
+cd Downloads/
+tldr unzip
+unzip HeroiDorinC112A.zip -d examSO
+cd examSO/
+ls
+cd HeroiDorinC112A/
+ls
+vim ex1.sh 
+vim ex2.sh 
+cd ..
+;s;
+ls
+cp HeroiDorinC112A/* .
+ls
+rm -r HeroiDorinC112A/
+ls
+cd ..
+cd ~
+mv Downloads/examSO/ Diverse/
+vim test
+cat test 
+sed -p test 
+man sed
+shutdown 0
+shutdown 0
+vim .config/i3/config 
+cd WhappChats/Operatiunea\ Plutonul2/
+ls
+ls | wc -l
+man sxiv
+pacman -Syu
+sudo pacman -Syu
+ls
+cd Downloads/
+ls
+tldr unzip
+unzip WhatsApp\ Chat\ -\ Mihai\ P.zip -d ../WhappChats 
+cd ../WhappChats/
+ls
+mkdir MihaiP
+mv 0* MihaiP/
+ls
+mv _chat.txt MihaiP/
+ls
+cd MihaiP/
+ls
+cd ~/Downloads/
+rm WhatsApp\ Chat\ -\ Mihai\ P.zip 
+unzip WhatsApp\ Chat\ -\ Operațiunea\ Plutonul2.zip -d ../WhappChats/Operatiunea\ Plutonul2
+ls
+rm WhatsApp\ Chat\ -\ Operațiunea\ Plutonul2.zip 
+unzip WhatsApp\ Chat\ -\ Da\ Brudarhood.zip -d ../WhappChats/Da\ Brudahood
+shutdown 0
+./.config/polybar/launch.sh 
+sudo wifi-menu
+sudo pacman -S maim
+man slop
+slop
+ls
+man slop
+sudo pacman -S scrot
+man scrot
+scrot
+ls
+sudo pacman -Rsu maim
+sudo pacman -R polybar
+cd gitRepos/
+ls
+cd polybar-git/
+makepkg -si
+pkill wine
+scrot -s
+scrot -s
+ls
+rm 2019-09-19-*
+scrot -s
+man scrot
+sudo pacman -Syu polybar
+polybar
+cd gitRepos/
+ls
+rm -r polybar-git/
+rm -fr polybar-git/
+git clone https://aur.archlinux.org/polybar.git
+cd polybar/
+makepkg -si
+cd ~
+./.config/polybar/launch.sh 
+reboot
+reboot
+cd gitRepos/
+git clone https://aur.archlinux.org/teamviewer.git
+cd teamviewer/
+makepkg -si
+pgrep teamviewer
+teamviewer
+pkill teamviewer
+pgrep team
+pgrep viewre
+pgrep viewer
+reboot
+ps -efl
+ps 
+teamviewer
+reboot
+teamviewer
+teamviewer help
+cd gitRepos/
+git clone https://aur.archlinux.org/teamviewer-beta.git 
+cd teamviewer-beta/
+makepkg -soi
+makepkg -si
+cd ~
+reboot
+teamviewer 
+reboot
+cd gitRepos/
+ls
+cd teamviewer
+makepkg -si
+teamviewer -daemon start
+sudo pacman -Rsu teamviwer
+sudo pacman -Rsu teamviewer
+sudo pacman -Rsu teamviewer-beta
+teamviewer-beta
+sudo pacman -Rsu teamviewer-beta
+cd gitRepos/
+ls
+cd ~
+pgrep teamviewer
+pkill teamviewer
+sudo pkill teamviewer
+sudo pacman -S lib32-freetype2 2.8-2
+sudo pacman -S lib32-freetype2
+sudo pacman -Rsu lib32-freetype2
+sudo pacman -Rsu teamviewer
+cd gir
+cd gitRepos/
+rm -r teamviewer teamviewer-beta/
+rm -rf teamviewer teamviewer-beta/
+ls
+shutdown 0
+shutdown 0
+echo Hello Gabi
+sudo pacmans -Q
+pacman -Q
+pacman -Q
+pacman -Q
+sudo wifi-menu
+sudo wifi-menu
+shutdown 0
+shutdown 0
+scrot
+echo Haha, scrot
+scrot
+wifi-menu
+sudo wifi-menu
+sudo wifi-menu
+shutdown 0
+cal
+shutdown 0
+shutdown 0
+sudo wifi-menu
+cd Code/
+mkdir Test1
+sudo pacman -S gdb
+vim .config/polybar/config 
+sh /tmp/Microsoft-MIEngine-Cmd-2cj8or2p.6aa 
+env sh /tmp/Microsoft-MIEngine-Cmd-hozv76wh.8vz 
+shutdown 0
+ls
+cd gitRepos/
+git clone https://aur.archlinux.org/mssql-server.git
+cd mssql-server/
+ls
+makepkg -si
+cal
+mssql-server
+cd /opt/mssql/bin/sqlservr 
+ls
+./opt/mssql/bin/sqlservr 
+ls /opt/mssql/bin/sqlservr 
+cd /opt/mssql/bin
+ls
+sqlsharp 
+sqlservr
+ls
+cat sqlservr 
+file sqlservr 
+sqlservr
+./sqlservr
+sudo ./sqlservr
+sudo ./sqlservr --accept-eula
+cd ~
+wine
+shutdown 0
+vim archNotes.self 
+ls
+vim archNotes.self 
+vim .config/polybar/config 
+df /dev/sdb
+df /dev/sdb*
+df -h /dev/sdb*
+df -h /dev/sdb*
+ls /dev/sdb*
+df -h  /dev/sdb*
+sudo mount /dev/sdb1 /mnt
+cd /mnt
+ls
+cd -
+df -h /mnt
+umount /mnt
+sudo umount /mnt
+sudo mount /dev/sdb1 /mnt
+df -h /mnt
+ls /mnt
+file /mnt/System\ Volume\ Information/
+cd /mnt/System\ Volume\ Information/
+ls
+cd ..
+ls
+rm *.MOV
+y
+rm -f *.mp4
+ls
+rm *.jpeg
+ls
+df -h
+cd ..
+df -h /mnt
+sudo umount /mnt
+cd ~
+cd gitRepos/
+git clone https://aur.archlinux.org/monodevelop-stable.git
+cd monodevelop-stable/
+ls
+makepkg -si
+makepkg -si
+cd ..
+rm -r monodevelop-stable/
+cd mo
+cd monodevelop-stable/
+ls
+ls -a
+cd ..
+rm -f monodevelop-stable/
+rm -rf monodevelop-stable/
+git clone https://aur.archlinux.org/monodevelop-git.git
+cd monodevelop-git/
+ls
+makepkg -si
+cd ..
+git clone https://aur.archlinux.org/gnome-sharp.git
+cd gnome-sharp/
+ls
+makepkg -si
+cd ..
+ls
+rm -rf gnome-sharp/
+rm -rf monodevelop-git/
+shutdown 0
+shutdown 0
+ls /dev
+ls /dev
+lsblk
+/usr/bin/lsusb -v
+/usr/bin/lsusb -v | grep Reader
+/usr/bin/lsusb -v | grep reader
+pacman -S ssh
+sudo pacman -S ssh
+man ssh
+sudo pacman -S putty
+sudo pacman -Syu
+sudo pacman -S putty
+cd gitRepos/
+git clone https://aur.archlinux.org/ipscan.gi
+cd ipscan/0
+ls
+makepkg -si
+sudo pacman -S nmap
+nmap
+sudo pacman -Rsu nmap
+sudo mount /dev/sdb1 /mnt
+ls /dev
+ls /dev/sd*
+ls /dev/sd*
+lsblk
+ls /dev/sd*
+reboot
+ls /dev/sd*
+sudo mount /dev/sdb1 /mnt
+sudo umount /mnt
+sudo mount /dev/sdb /mnt
+cd Downloads/
+ls
+ls *.zip
+tldr unzi
+tldr unzip
+unzip 2019-09-26-raspbian-buster-full.zip -d Raspbian 
+ls
+cd Raspbian/
+ls
+cd ..
+unzip 2019-09-26-raspbian-buster-full.zip -d Raspbian/
+shutdown 0
+cd gitRepos/
+git clone https://aur.archlinux.org/pokemmo.git 
+cd pokemmo/
+ls
+makepkg -si
+cd ~
+ls
+find -name poke
+tldr find
+find -name 'poke*'
+find ~ -name 'poke*'
+pgrep poke*
+reboot
+cd .config/
+cd pokemmo/pokemmo 
+cd pokemmo/
+ls
+file pokemmo 
+vim pokemmo 
+cd ~
+ls
+find ~ -name 'poke*'
+sudo pacman -S java
+sudo pacman -Q java
+sudo pacman -Qs java
+sudo pacman -Qs java-runtime-common 3-1
+sudo pacman -Qs java-runtime-common
+sudo pacman -S java-runtime-common
+cd .local/share/pokemmo
+sudo pokemmo-launcher 
+pokemmo-launcher 
+pokemmo-launcher --illegal-access=warn
+pokemmo-launcher -help
+pokemmo-launcher --skip-java-ram-opts
+sudo pokemmo-launcher --skip-java-ram-opts
+sudo pokemmo-launcher --skip-java-ram-opts
+sudo pokemmo-launcher
+su
+ls .local/share/
+pokemmo-launcher 
+pokemmo-launcher 
+sudo pacman -S core/glibc
+pokemmo-launcher 
+reboot
+pokemmo-launcher 
+vim .config/pokemmo/pokemmo 
+vim PokeMMO.sh
+ls .pokemmo/
+wine .pokemmo/PokeMMO.exe 
+cd gitRepos/
+git clone https://aur.archlinux.org/jre.git 
+cd jre/
+makepkg -s
+makepkg -si
+pokemmo-launcher 
+sudo pacman -S openjdk-src
+pokemmo-launcher 
+cd ~
+rm .pokemmo/
+rm -r .pokemmo/
+rm -fr .pokemmo/
+pokemmo-launcher 
+sudo pacman -S openjdk8-src
+sudo pacman -Q openjdk
+sudo pacman -Rsu openjdk
+reboot
+pokemmo-launcher 
+cd .pokemmo/
+ls
+wine PokeMMO.
+wine PokeMMO.exe 
+shutdown 0
+reboot
+shutdown 0
+ls
+vim archNotes.self 
+ls /opt/bin
+vim archNotes.self 
+ls /opt/mssql/bin/
+ls
+man opt
+vim usefulCmd 
+rfkill 
+vim usefulCmd 
+rfkill unblock bluetooth
+sudo rfkill unblock bluetooth
+alsamixer 
+bluetoothctl
+sudo pacman -Rsu sqlserver
+sudo pacman -Rsu sqlservr
+sudo pacman -S mysql-workbench
+sudo pacman -S dotnet-sdk
+sudo pacman -S mono
+mono
+cd gitRepos/
+git clone https://aur.archlinux.org/monodevelop-stable.git 
+cd monodevelop-stable/
+ls
+makepkg -si
+cd ..
+git clone https://aur.archlinux.org/monodevelop-git.git 
+cd monodevelop-
+cd monodevelop-git/
+ls
+makepkg -si
+cd .. 
+cd monodevelop-stable/
+ls
+makepkg -si
+git clone https://aur.archlinux.org/fsharp.git 
+cd fsharp/
+ls
+makepkg -si
+cd ..
+cd ..
+git clone https://aur.archlinux.org/msbuild-stable.git 
+cd msbuild-stable/
+ls
+makepkg -si
+cd ../monodevelop-stable/
+cd fsharp/
+makepkg -si
+cd ..
+mv fsharp/ ..
+ls
+cd ../fsharp/
+makepkg -si
+cd ..
+git clone https://aur.archlinux.org/fsharp-bin.git
+cd fsharp-bin/
+ls
+makepkg -si
+cd ..
+cd monodevelop-stable/
+ls
+makepkg -si
+makepkg -si
+cd ...
+cd ..
+ls
+cd monodevelop-git/
+ls
+makepkg -si
+cd ..
+git clone https://aur.archlinux.org/gnome-sharp.git 
+cd gnome-sharp/
+makepkg -si
+git clone https://aur.archlinux.org/libgnomeui.git 
+cd libgnomeui/
+makepkg -si
+git clone https://aur.archlinux.org/libbonoboui.git 
+cd libbonoboui/
+makepkg -si
+git clone https://aur.archlinux.org/libgnomecanvas.git
+cd libgnomecanvas/
+makepkg -si
+cd ..
+makepkg -si
+git clone https://aur.archlinux.org/libgnome.git 
+cd libgnome
+makepkg -si
+git clone https://aur.archlinux.org/gnome-vfs.git 
+cd gnome-vfs/
+makepkg -si
+cd ~
+cd gitRepos/
+ls
+cd gnome-sharp/
+ls
+cd ..
+rm -r gnome-sharp/
+rm -fr gnome-sharp/
+ls
+git clone https://aur.archlinux.org/rider.git 
+cd rider/
+makepkg -si
+makepkg -si
+pacman -Rsu rider
+sudo pacman -Rsu rider
+rider
+sudo pacman -Rsu rider
+ls
+cd ..
+rm -rf rider
+git clone https://aur.archlinux.org/rider.git 
+cd rider/
+ls
+makepkg -si
+cd ~/Downloads/
+ls
+unzip matlab_R2019b_glnxa64.zip -d ../matlaB
+cd ../matlaB/
+ls
+./install
+shutdown 0
+lsblk
+man mount
+cd /media/
+mkdir cdrom
+sudo mkdir cdrom
+man mount
+man mount
+ls
+cd /home/magikarp/
+ls
+cd Matlab/
+ls
+cd bin/matlab
+bin/matlab
+bin/matlab
+cd ..
+l
+ls
+cd Matlab/license
+cd Matlab/license
+cd Matlab/licenses/
+
+man cp
+cp /mnt/Matlab_2017a_Linux_x86-64/Crack/R2017a/bin/glnxa64/libmwservices.so ../bin/glnxa64/
+sudo cp /mnt/Matlab_2017a_Linux_x86-64/Crack/R2017a/bin/glnxa64/libmwservices.so ../bin/glnxa64/
+cd ..
+bin/matlab
+cd Matlab/bin/
+matlab &
+ls
+matlab
+ls
+cd Matlab/bin/
+matlab
+./matlab
+vim .config/rofi/config 
+Matlab/bin/matlab
+cd Matlab/bin/
+matlab
+./matlab
+Matlab/bin/matlab
+lsblk
+sudo umount /media/cdrom/
+lsblk
+vim pns
+lspci
+cd Downloads/
+ls
+ls *.zip
+man zip
+man unzip
+man unzip
+unzip -d ../Matlab/Projects/
+unzip student.zip  -d ../Matlab/Projects/
+cd ~/Matlab/
+man rofi
+cd /mnt
+ls
+cd m
+cd Matlab_2017a_Linux_x86-64/
+ls
+sudo mount R2017a_glnxa64_dvd1.iso /media/cdrom 
+sudo mount R2017a_glnxa64_dvd1.iso /media/cdrom 
+/media/cdrom/install 
+cd ~/Matlab/
+ls
+mkdir Projects
+ls /dev/sd*
+lsblk
+lsblk
+sudo mount /dev/sdb1 /mnt
+ls /mnt
+sudo umount /mnt
+ls /dev/sd*
+lsblk
+sudo mount /dev/sdb1 /mnt
+ls /mnt
+cd /mnt
+cd sem\ 1/
+ls
+cd ~
+sudo umount /mnt
+man test
+tlp
+tlp start
+sudo tlp start
+man tlp
+lspci
+lscpu
+lspci
+sudo mount /dev/sdb1 /mnt
+cd /mnt
+ls
+cd Matlab_2017a_Linux_x86-64/
+ls
+./INSTALL 
+ols
+ls
+vim INSTALL 
+shutdown 0
+wine
+dotnet new console
+dotnet run
+dotnet run
+shutdown 0
+sudo wifi-menu
+dotnet restore
+cd gitRepos/
+git clone https://aur.archlinux.org/visual-studio-code-bin.git
+cd visual-studio-code-bin/
+ls
+makepkg -si
+shutdown 0
+dotnet run
+shutdown 0
+shutdown 0
+rfkill list
+rfkill unblock bluetooth
+sudo rfkill unblock bluetooth
+rfkill list
+bluetoothctl
+pulseaudio 
+bluetoothctl
+alsamixer 
+bluetoothctl
+reboot
+./Matlab/bin/matlab
+vim .config/i3/config 
+vim .config/polybar/config 
+pgrep matlab
+cd Matlab/
+cd bin/
+./matlab
+./matlab &
+man disown
+apropos disown
+man -k own
+sudo pacman -S disown
+disown --help
+pgrep firefox
+firefox
+ps
+pgrep firefox
+firefox
+firefox
+Matlab/bin/matlab &
+pgrep matlab
+disown 2634
+./Matlab/bin/matlab
+./Matlab/bin/matlab &
+./Matlab/bin/matlab &
+cd Matlab/Projects/
+ls
+./Matlab/bin/matlab &
+cd ~
+./Matlab/bin/matlab &
+./Matlab/bin/matlab &
+./Matlab/bin/matlab &
+shutdown 0
+cd Downloads/
+ls
+mkdir Facultate
+unzip Downloads/student.zip -d Facultate/PNS
+cd Facultate/PNS/
+ls
+cd student/
+ls
+./Matlab/bin/matlab
+./Matlab/bin/matlab &
+disown 1500
+reboot
+man mv
+pywal
+sudo pacman -S python-pywal
+pywal
+python-pywal
+man pywal
+man wal
+wal
+wal -i Downloads/wallpapers/koi.jpg 
+wal -i Downloads/wallpapers/noisyVila.jpg 
+wal -i Downloads/wallpapers/noisyVila.jpg 
+man wal
+wal --help
+wal -R
+wal -R
+wal Downloads/wallpapers/flying\ whale.jpg 
+wal -i Downloads/wallpapers/flying\ whale.jpg 
+wal -R
+wal -i Downloads/wallpapers/koi.jpg 
+vim .bashrc
+vim .xinitrc 
+.config/ranger/
+ls .config/ranger/
+vim .config/ranger/rifle.conf 
+vim .Xre
+vim .Xdefaults 
+vim .config/ranger/rifle.conf 
+ls
+ls GPUCache/
+ls
+ls matlaB/
+rm -r matlaB/
+rm -rf matlaB/
+ls
+wal -R
+wal -R
+wal -R
+wal -R
+wal -R
+mv .Xdefaults .Xdefaults_copy
+vim .Xdefaults
+wal
+wal -i Downloads/wallpapers/koi.jpg 
+vim .Xdefaults
+vim .config/wal/templates/
+vim .cache/wal/colors
+vim .config/rofi/config 
+wal
+wal -R
+vim .config/rofi/config 
+shutdown 0
+vim .config/i3/config 
+exit
+wal -R
+sudo wifi-menu
+sudo wifi-menu
+wal -R
+vim .config/rofi/config 
+vim .config/rofi/config 
+vim .config/rofi/config 
+vim .config/rofi/config 
+cd .config/wal/templates/
+vim colors-rofi-dark.rasi
+wal -R
+vim colors-rofi-dark.rasi
+vim colors-rofi-dark.rasi
+cd ~
+vim .Xdefaults
+mv .Xdefaults .Xresources
+wal -R
+mv .Xresources .Xdefaults
+vim .Xdefaults
+vim -h
+vim -h | grep tab
+vim -p .config/rofi/config .config/wal/templates/colors-rofi-dark.rasi 
+wal 
+wal -R
+wal -R
+Matlab/bin/matlab &
+disown 2602
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+vim .cache/wal/colors-rofi-dark.rasi 
+vim .config/rofi/config 
+wal -R
+vim .config/wal/templates/colors-rofi-light.rasi
+wal _r
+wal -R
+wal -R
+vim .cache/wal/colors-rofi-dark.rasi 
+wal -i Downloads/wallpapers/dragon.jpg 
+vim .cache/wal/colors-rofi-dark.rasi 
+vim .config/rofi/_config 
+ls
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -r
+wal -R
+vim .cache/wal/colors-rofi-dark.rasi 
+vim .cache/wal/colors
+vim .cache/wal/colors-rofi-light.rasi 
+vim .cache/wal/colors-rofi-dark.rasi 
+vim .config/rofi/config.rasi
+wal -R
+vim .config/rofi/config.rasi
+vim .config/rofi/config
+ls
+cd .config/rofi/config
+cd .config/rofi/
+ls
+rm config.rasi 
+ls
+vim config 
+man rofi
+man rofi-theme
+rofi --help
+rofi --help | grep theme
+rofi -theme dark
+ls
+vim config 
+vim config.rasi
+vim config.rasi
+vim config.rasi
+vim config.rasi
+vim config.rasi
+rofi -theme ~/.config/wal/templates/colors-rofi-dark.rasi 
+vim config.rasi
+vim config.rasi
+vim ../wal/templates/colors-rofi-dark.rasi 
+vim ../wal/templates/colors-rofi-dark.rasi 
+vim ../wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim ~/.cache/wal/colors-rofi-dark.rasi 
+rofi -theme dark
+rofi -theme config
+rofi -theme ~/.cache/wal/colors-rofi-dark.rasi 
+vim config.rasi 
+mv config _config
+ls
+wal -R
+vim ~/.cache/wal/colors-rofi-dark.rasi 
+vim ~/.config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+ls
+vim ~/.config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim ~/.config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim ~/.config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim ~/.config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+wal -R
+vim ~/.config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim ~/.config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim ~/.config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim ~/.config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim ~/.config/wal/templates/colors-rofi-dark.rasi 
+rofi -theme ~/.cache/wal/colors-rofi-dark.rasi 
+rofi -show run  -theme ~/.cache/wal/colors-rofi-dark.rasi 
+shutdown 0
+sudo wifi-menu
+wal -R
+man rofi-thema
+man rofi-theme
+vim .config/rofi/config.rasi 
+vim .config/wal/colorschemes/dark/
+cd ..
+cd ~
+ls
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+war -R
+wal -R
+vim .cache/wal/colors.Xresources 
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim .config/rofi/_config 
+ls /dev | grep sd*
+ls /dev | grep sd.
+ls /dev | grep sd*
+ls /dev | grep sd.
+lsblk
+lsblk
+lsblk
+lsblk
+cd Facultate/
+ls
+mkdir Modelare
+cd ..
+sudo mount /dev/sdb1 /mnt
+ls /mnt
+cp /mnt/* ~/Facultate/Modelare/
+cp -r /mnt/* ~/Facultate/Modelare/
+ls ~/Facultate/Modelare/
+sudo umount /mnt
+cd ~/Facultate/Modelare/
+ls
+cd System\ Volume\ Information/
+ls
+cd ..
+rm -r System\ Volume\ Information/
+ls
+wal -R
+wal 0R
+wal -R
+wal -R
+wal -R
+wal -R
+wal -R
+wal -R
+wal -R
+wal -R
+wal -R
+wal -i Downloads/wallpapers/snowyMerica.jpg 
+wal -R
+vim .cache/wal/colors-rofi-dark.rasi 
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+vim .cache/wal/colors-rofi-dark.rasi 
+vim .cache/wal/colors-rofi-dark.rasi 
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -R
+vim .config/wal/templates/colors-rofi-dark.rasi 
+vim .cache/wal/colors-rofi-dark.rasi 
+vim .config/wal/templates/colors-rofi-dark.rasi 
+vim .config/wal/templates/colors-rofi-dark.rasi 
+vim .config/wal/templates/colors-rofi-dark.rasi 
+wal -i Downloads/wallpapers/mountains.jpg 
+wal -i Downloads/wallpapers/mountains.jpg 
+wal -i Downloads/wallpapers/newyork.jpg 
+wal -i Downloads/wallpapers/koi.jpg 
+vim .cache/wal/colors.Xresources 
+wal -R
+wal -R
+vim .config/ranger/rifle.conf 
+vim .Xdefaults
+vim .Xdefaults_copy 
+vim .config/ranger/colorschemes
+cd .config/ranger/
+l
+ls
+rm colorschemes 
+mkdir colorschemes
+cd colorschemes/
+l
+ls
+vim nightmericacd
+vim ../rifle.conf 
+man ranger
+/
+/
+man ranger
+cd ..
+ls
+vim rc.conf
+vim rc.conf
+ranger
+termite -e ranger
+ranger &
+pkill 4388
+ls
+vim .config/ranger/rc.conf 
+vim .config/i3/config 
+ranger
+ranger
+termite -e ranger
+vim rangerScript
+mv rangerScript.sh
+mv rangerScript rangerScript.sh
+chmod +x rangerScript.sh 
+./rangerScript.sh 
+vim rangerScript.sh 
+./rangerScript.sh 
+vim rangerScript.sh 
+man termite
+man termite
+wal -i Downloads/wallpapers/adventureTime.jpg 
+ranger
+vim .config/i3/config 
+vim .config/i3/config 
+wal -i Downloads/wallpapers/adventureTime.jpg 
+ls
+ranger
+ranger
+sudo pacman -S urxvt
+sudo pacman -Ss urxvt
+sudo pacman -Ss rxvt-unicode
+sudo pacman -S rxvt-unicode
+man urxvt
+urxvt --help
+urxvt -e ranger
+sudo pacman -Rsu rxvt-unicode
+termite -e ranger
+vim .config/termite/config
+vim .config/i3/config 
+shutdown 0
+wal -i Downloads/wallpapers/koi.jpg 
+wal -i Downloads/wallpapers/noisyVila.jpg 
+ranger
+termite -e ranger
+ranger
+history
+redshit --no-startup-id
+redshift --no-startup-id
+sudo pacman -S redshit
+sudo pacman -S redshift
+redshift
+redshift -l 44.43225:26.10626
+vim .xinitrc 
+vim .config/i3/config 
+redshift -l 44.43225:26.10626
+redshift -l 44.43225:26.10626 &
+disown 2267
+wal -i Downloads/wallpapers/chtulu.jpg 
+netctl list
+netctl-auto list
+wifi-menu
+sudo wifi-menu
+sudo wifi-menu
+sudo netctl-auto list
+ranger
+wal -R
+cp -r Matlab/Projects/ Facultate/PNS/
+openglx
+wal -i Downloads/wallpapers/halloween.jpg 
+ranger
+bluetoothctl
+cal
+sudo pacman -Ss fura
+pkill polybar
+./.config/polybar/launch.sh 
+./.config/polybar/launch.sh 
+./.config/polybar/launch.sh 
+./.config/polybar/launch.sh 
+font-cache -fv
+vim .config/i3/config 
+vim .config/polybar/
+./.config/polybar/launch.sh 
+./.config/polybar/launch.sh 
+sudo pacman -Syu
+
+⬭⬬ 
+○
+vim .config/polybar/
+bluetoothctl
+shutdown 0
+bluetoothctl
+sudo wifi-menu
+wal -i Downloads/wallpapers/mountains.jpg 
+sudo wifi-menu
+reboot
+ls
+cd Facultate/
+ls
+mkdir PSo
+mv PSo/ PSO
+cd PSO
+mkdir lab1
+cd lab1/
+vim intro-03-main.c
+vim intro-03-util.h
+vim intro-03-f1.c
+vim intro-03-f2.c
+vim Makefile
+make
+vim Makefile
+make
+vim Makefile
+vim Makefile
+vim Makefile
+ls Facultate/PSO/lab1/
+ls
+cd Facultate/PSO/
+cdparanoia 
+cd lab1/
+ls
+make
+gcc -Wall intro-03-main.c 
+ls
+make
+ls
+make
+make
+make
+make
+ls
+./intro 
+neofetch 
+ls
+cd Diverse/
+ls
+cd Wallpapers/
+ls
+wal -i e23.jpg 
+wal -i e22.jpg 
+w
+bluetoothctl 
+pgrep virtual
+pgrep v
+pgrep vbox
+ps -elf | grep virtual
+pkill 1655
+pkill 2337
+ps -elf | grep virtual
+pkill %2337
+ps -elf | grep virtual
+man pkill
+pkill -9 %2337
+ps -elf | grep virtual
+man pkill
+man kill
+kill 2337
+ps -elf | grep virtual
+sudo pacman -S virtualbox-guest-iso
+du -h /mnt/sem\ 1/
+man du
+du -h -d 0 /mnt/sem\ 1/
+du -h -d 1 /mnt/sem\ 1/
+du -h -d=1 /mnt/sem\ 1/
+man du
+man dd
+man dd
+lsblk
+lsblk
+lsblk
+sudo mount /dev/sdb1 /mnt
+cd /mnt
+ls
+rm -rf Matlab_2017a_Linux_x86-64\ \(copy\)
+ls
+cp -r sem\ 1/ ~/Facultate/
+ls
+cp -r Matlab/Projects/ Facultate/PNS/
+wal -i Diverse/Wallpapers/e17.jpg 
+wal -i Diverse/Wallpapers/e23.jpg 
+wal -i Diverse/Wallpapers/e2.jpg 
+ls
+ls Diverse/Wallpapers/
+cd Diverse/Wallpapers/
+wal -i c1.png 
+wal -i e19.png 
+wal -i e19.jpg 
+cd ~/Facultate/
+ls
+cd sem\ 1/
+ls
+cd Co
+cd Compilatoare/
+ls
+ranger
+sudo pacman -S vim-gtk
+sudo pacman -Ss vim-gtk
+sudo pacman -Ss vim gtk
+echoo $CLIPBOARD
+echo $CLIPBOARD
+echo $PRIMARY
+echo $CLIPBOARD
+echo $PRIMARY
+ls
+rm -r Matlab/
+rm -fr Matlab/
+ls
+rm java.log.*
+sudo pacman -S gvim
+cd /mnt/Matlab_2017a_Linux_x86-64/
+sudo mount R2017a_glnxa64_dvd1.iso /media/cdrom/ -o loop
+cd /media/cdrom/
+ls
+./install 
+cd ~
+./media/cdrom/install 
+/media/cdrom/install 
+cd /mnt/
+l
+ls
+cd Matlab_2017a_Linux_x86-64/
+ls
+vim INSTALL 
+vim INSTALL 
+sudo umount /media/cdrom/
+sudo mount /mnt/Matlab_2017a_Linux_x86-64/R2017a_glnxa64_dvd2.iso -o loop 
+sudo mount /mnt/Matlab_2017a_Linux_x86-64/R2017a_glnxa64_dvd2.iso /media/cdrom -o loop 
+ls /media/cdrom/
+cp /mnt/Matlab_2017a_Linux_x86-64/Crack/R2017a/bin/glnxa64/libmwservices.so ~/Matlab/bin/glnxa64/
+sudo cp /mnt/Matlab_2017a_Linux_x86-64/Crack/R2017a/bin/glnxa64/libmwservices.so ~/Matlab/bin/glnxa64/
+./Matlab/bin/matlab
+./Matlab/bin/matlab
+ranger
+man ranger
+vim .config/i3/config 
+pkill redshift
+exec redshift -l 44.43225:26.10626 &
+disown 6921
+shutdown 0
+info ranger
+man ranger
+vim .config/termite/config
+man wal
+wal --help
+sudo wifi-menu
+sudo wifi-menu
+ranger
+vim .cache/wal/colors
+wal -R
+wal -i Downloads/wallpapers/sea.jpg 
+wal -i Downloads/wallpapers/koi.jpg 
+wal -i Downloads/wallpapers/chtulu.jpg 
+vim .Xdefaults
+vim .Xdefaults
+vim .cache/wal/colors
+vim .cache/wal/colors.Xresources 
+wal -R
+vim .cache/wal/colors
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+pkill polybar
+.config/polybar/launch.sh 
+wal -i Downloads/wallpapers/chtulu.jpg 
+wal -i Diverse/Wallpapers/e18.
+wal -i Diverse/Wallpapers/e18.jpg 
+.config/polybar/launch.sh 
+vim .Xdefaults
+vim .cache/wal/colors
+vim .cache/wal/colors
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+man ssh
+sudo pacman -S ssh
+ssh
+sudo service ssh status
+sudo service ssh status
+sudo systemctl ssh status
+sudo systemctl status ssh
+sudo pacman -Ss ssh
+vim .config/compton.conf 
+kill compton
+pkill compton
+compton &
+disown 2410
+vim .config/compton.conf 
+pkill compton
+compton &
+vim .config/compton.conf 
+pkill compton
+compton &
+disown 2446
+vim .config/rofi/config.rasi 
+vim .config/rofi/_config 
+vim .config/rofi/_config 
+vim .config/polybar/config 
+./.config/polybar/launch.sh 
+pkill polybar
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+.config/polybar/launch.sh 
+vim .config/polybar/config 
+.config/polybar/launch.sh 
+wal -i Diverse/Wallpapers/e19.jpg 
+wal -i Diverse/Wallpapers/e19.jpg 
+wal -i Downloads/wallpapers/chtulu.jpg 
+vim .config/polybar/config 
+sudo pacman -Ss ssh
+sudo pacman -S opensshhh
+sudo pacman -S openssh
+ssh
+sudo systemctl ssh.service enable
+ip add
+curl ifconfig.me
+man ip 
+ip add
+shutdown 0
+vim .cache/wal/colors
+vim .cache/wal/colors.Xresources 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+.config/polybar/launch.sh 
+wal -i Downloads/wallpapers/dragon.jpg 
+vim .config/polybar/config 
+wal -i Diverse/Wallpapers/e15.jpg 
+wal -i Diverse/Wallpapers/e16.jpg 
+Matlab/bin/matlab
+sudo pacman -S linuxfb
+sudo pacman -S minimal
+shutdown 0
+vim .config/polybar/config 
+vim .cache/wal/colors.Xresources 
+shutdown 0
+.config/polybar/launch.sh 
+ranger
+vim .cache/wal/colors.Xresources 
+.config/polybar/launch.sh 
+wal -i Downloads/wallpapers/koi.jpg 
+vim .cache/wal/colors.Xresources 
+sudo pacman -S lib32-fontconfig lib32-freetype2
+pacman -S fontconfig freetype2
+sudo pacman -S fontconfig freetype2
+vim .config/i3/config 
+Matlab/bin/matlab
+sudo pacman -S libxcb
+Matlab/bin/matlab
+ls
+sudo wifi-menu
+sudo mount /dev/sdb1 /mnt
+cd /mnt
+ls
+vim Matlab_2017a_Linux_x86-64/INSTALL 
+cd Matlab/bin/glnxa64/
+ls
+ls | grep libstd
+vim .config/polybar/config 
+vim .config/termite/
+cd gitRepos/
+git clone https://aur.archlinux.org/nerd-fonts-complete.git
+cd nerd-fonts-complete/
+ls
+makepkg -si
+cd ..
+mkdir fontconfig_self
+cd fontconfig_self/
+vim PKGBUILD
+vim fontconfig.hook
+vim fontconfig.install
+makepkg -si
+cd ..
+rm -r fontconfig_self/
+cd ~/Downloads/
+ls
+ls | grep ^f
+man tar
+tldr tar
+tar xf fontconfig-2.12.6+5+g665584a-1-x86_64.pkg.tar.xz -C ~/Matlab/bin/glnxa64/
+ls
+mkdir test
+mv fontconfig-2.12.6+5+g665584a-1-x86_64.pkg.tar.xz test/
+cd test/
+ls
+tar xz fontconfig-2.12.6+5+g665584a-1-x86_64.pkg.tar.xz 
+tar fxz fontconfig-2.12.6+5+g665584a-1-x86_64.pkg.tar.xz 
+tldr tar
+tar xf fontconfig-2.12.6+5+g665584a-1-x86_64.pkg.tar.xz 
+ls
+ls usr/
+ ~/Matlab/bin/matlab
+cd ..
+mv test/fontconfig-2.12.6+5+g665584a-1-x86_64.pkg.tar.xz .
+rm -r test/
+rm -fr test/
+ls
+ls
+cd ~
+ls
+vim matlab_crash_dump.
+vim matlab_crash_dump.5559-1 
+sudo pacman -Ss qt
+sudo pacman -Ss qt5
+sudo pacman -Ss qt5-base
+man pacman
+pacman -Ql qt5-base
+pacman -Ql qt5-base | less
+pacman -Qk qt5
+pacman -Qk qt5-base
+echo $QT_PLUGIN_ATH
+echo $QT_PLUGIN_PATH
+export QT_PLUGIN_PATH=/usr/lib/qt/plugins/
+echo $QT_PLUGIN_PATH
+Matlab/bin/matlab
+ls /usr/share/lib | grep xcb
+ls /usr/lib/qt/plugins | grep xcb
+Matlab/bin/matlab
+env
+env | grep QT
+Matlab/bin/matlab &
+env
+export QT_QPA_PLATFORM="xcb"
+env | grep QT
+vim .bashrc
+pacman -Ss linuxdeployqt
+Matlab/bin/matlab
+man ldd
+vim .bashrc 
+env
+env
+Matlab/bin/matlab
+ldd /usr/lib/qt/plugins/platforms/libqxcb.so
+sudo pacman -S libxcb
+Matlab/bin/matlab
+ls
+rm matlab_crash_dump.*
+ls
+vim .config/i3/config 
+vim .cache/wal/colors.Xresources 
+vim .cache/wal/colors
+vim .config/i3/config 
+wal -i Diverse/Wallpapers/e20.jpg 
+wal -i Downloads/wallpapers/halloween.jpg 
+wal -i Downloads/wallpapers/dragon.jpg 
+shutdown 0
+vim .config/i3/config 
+ls -la
+cd .vim
+ls
+cd plugin/
+ls
+wal -i Diverse/Wallpapers/e22.jpg 
+shutdown 0
+ranger
+cd Diverse/SchoolRelated.backup/SchoolRelated.backup/Russian/Essentials\ of\ Russian/
+ls
+tldr zip
+cd ..
+zip Essentials\ of\ Russian/
+zip -r Essentials\ of\ Russian/
+zip -r essentialsOfRussian.zip Essentials\ of\ Russian/
+ls
+ranger
+reboot
+tlp
+tlp start
+sudo tlp start
+ps -elf
+pstree
+cd Facultate/PSO/
+mkdir lab3
+vim fork.c
+ps -ef
+cd Facultate/PSO/lab3/
+vim forkMe.c
+cd Facultate/PSO/lab3/
+gcc forkMe.c 
+ls
+./a.out 
+rm a.out 
+gcc forkMe.c -o fork
+ls
+./fork 
+./fork 
+gcc forkMe.c -o fork
+./fork 
+gcc forkMe.c -o fork
+./fork 
+gcc forkMe.c -o fork
+./fork 
+gcc forkMe.c -o fork
+./fork 
+gcc forkMe.c -o fork
+./fork 
+gcc forkMe.c -o fork
+./fork 
+route -n
+shutdown 0
+ps -ef
+ps -ef
+route -n
+ip add
+apropos zombie
+vim .config/ranger/
+cd gitRepos/packettracer
+rm *
+ls
+rm -f *
+rm -rf *
+ls
+cd gitRepos/
+ls
+git clone https://aur.archlinux.org/packettracer.git
+cd packettracer/
+ls
+makepkg -si
+cd ~/Downloads/
+etcher 2019_10_19_102334_Sectie_PV_Tragere_Sorti_B.PDF 
+arp
+man arp
+arp -e
+mv Downloads/packet_tracer_7.1.1_for_linux_64_bit.tar.gz gitRepos/packettracer/
+cd gitRepos/packettracer/
+makepkg -si
+ls
+rm packet_tracer_7.1.1_for_linux_64_bit.tar.gz 
+mv ~/Downloads/packet_tracer_7.2.1_for_linux_64_bit.tar.gz .
+ls
+makepkg -si
+ls
+ls -la
+vim pt.install 
+vim packettracer.sh 
+cd src
+ls
+ls
+cd ..
+vim PKGBUILD 
+cd ..
+mkdir packettracer7.2.1
+cp packettracer/packet_tracer_7.2.1_for_linux_64_bit.tar.gz packettracer7.2.1/
+cd packettracer7.2.1/
+ls
+pacman -U packet_tracer_7.2.1_for_linux_64_bit.tar.gz 
+sudp pacman -U packet_tracer_7.2.1_for_linux_64_bit.tar.gz 
+sudo pacman -U packet_tracer_7.2.1_for_linux_64_bit.tar.gz 
+ls
+tldr tar
+tar xf packet_tracer_7.2.1_for_linux_64_bit.tar.gz 
+ls
+make 
+make install
+vim install 
+./install 
+./install 
+reboot
+packettracer
+shutdown 0
+bc -l
+man bc
+bc -l
+man bx
+man bc
+bc
+man bc
+bc 
+man bc
+python
+shutdown 0
+reboot
+sudo timedatectl set-ntp true
+.config/polybar/launch.sh 
+python
+python
+ranger
+sudo find / -name '0xphi3ajdlo.jss'
+pacman -Ss pycharm
+sudo pacman -S pycharm
+sudo pacman -S pycharm-community-edition
+pycharm 
+sudo pacman -Rsu pycharm-community-edition
+shutdown 0
+cat rangerScript.sh 
+ls -la
+git add .config/ranger/
+git add .config/ofi
+git add .config/rofi
+git add .config/wal/
+git add .cache/wal/
+git add .vim
+du -h Downloads/
+git add Downloads/wallpapers/
+git add WhappChats/

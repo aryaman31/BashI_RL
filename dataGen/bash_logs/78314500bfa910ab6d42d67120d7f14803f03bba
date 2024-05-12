@@ -1,0 +1,31 @@
+ls -l
+mkdir leandro
+ls -l
+cd leandro
+cd..
+cd...
+vim
+ls -l
+vim leandro
+vi leandro
+ls-l
+mkdir leandro
+ls 
+apt-get install vim
+aptget install vim
+apt-get install vi
+vim leandro
+ls-l
+ls
+cd leandro
+apt-get install vi
+./leandro
+nano leandro
+vim
+ls -l
+cd leandro
+vim leandro
+ls-l
+ls
+cd leandro
+ls -l

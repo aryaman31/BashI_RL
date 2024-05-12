@@ -1,0 +1,37 @@
+sudo su -
+sudo su - jonny
+su -
+w
+sudo su -
+su -
+w
+ifconfig
+cd /h
+sudo su -
+vi /e
+who
+pwd
+dmes
+vi teste
+history
+/sbin/ifconfig
+n1=5
+n2=8
+test "$n1" -gt "$n2" && echo "Maior" || echo "menor"
+ifconfig
+w
+kf
+if
+if fuckyou true; then cat fuckyou.txt
+vi teste.sh
+vim teste
+man vi
+man vim
+vi teste.sh
+sh teste.sh 
+vi teste.sh
+cat
+vi teste
+sh teste.sh 
+rm teste.sh 
+su -

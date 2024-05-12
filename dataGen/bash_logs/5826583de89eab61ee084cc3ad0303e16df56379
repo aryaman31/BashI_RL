@@ -1,0 +1,59 @@
+shutdown
+man shutdown
+exit
+lo.hn
+ifconfig
+man ifconfig
+nano aual140312
+nano aula140312
+./aula140312
+nano aula140312
+./aula140312
+cat aula140312 
+nano
+chmod +x aula140312-2
+cat aual140312-2
+cat aula140312-2
+./aula140312-2
+nano aula140312-2
+./aula140312-2
+la -ls
+pwd
+la
+la -ls
+nano
+nano aula 140312-3
+nano aula140312-3
+chmod +x aula 140312-3
+chmod +x aula140312-3
+./aula140312-3
+cat aula140312-3
+nano aula140312-3
+./aula140312-3
+1
+su
+pico
+$ num 7
+$ num=7
+nano
+ls
+./aula "140312"
+./"aula 140312"
+como assim permissão negada???
+ls -l
+chmod +x "aula 140312"
+./aula\ 140312 
+cat aula\ 140312 
+num=7
+num2=9
+if test $num -lt $num2; then echo "menor"; else echo "maior"; fi
+menor
+nano aula\ 140312 
+chmod +x aula140312
+./aula140312
+diz
+dir
+ls
+echo echo
+echo else
+echo aula140312-2

@@ -1,0 +1,748 @@
+mkdir aula
+cd aula
+ls -l
+touch teste
+ls -l
+pwd
+cd ..
+ls -l
+vi jair.txt
+vi jair.txt
+mcedit jair
+nano jair
+vi jairpirescruzvim
+ls -l
+nano jairpirescruznano
+echo $PATH
+ls -l
+mkdir bin
+ls -l
+cd bin
+vi primeiro
+ls -l
+chmod +x primeiro
+ls -l
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+ls -l
+vi jairpirescruzvim
+ls -l
+jair
+bin
+aula
+cd bin
+ls -l
+primeiro
+cd ..
+vi bin
+vi jair
+variavel="estou sem ideias"
+echo $variavel
+echo $variavel$variavel
+hoje=$(date)
+echo "hoje : $hoje"
+hoje='date'
+echo "hoje : $hoje
+
+
+
+"
+cd bin
+cat -n primeiro
+ls -l
+cd ..
+primeiro
+cat -n primeiro
+cd bin
+cat -n primeiro
+primeiro
+cd ..
+vi primeiro
+cd primeiro
+cd bin
+cd primeiro
+vi primeiro
+primeiro
+cd ..
+ls -l
+vi 
+ls -l
+vi jairpirescruzvim
+cd jairpirescruzvim
+cd bin
+ls
+vi primeiro
+primeiro
+vi primeiro
+vi teste
+vi primeiro
+vi teste
+rm teste
+ls 
+vi teste
+vi primeiro
+ls -l
+ls
+vi trabalho
+chmod +x trabalho
+trabalho
+ls -l
+cd bin
+ls -l
+trabalho
+vi trabalho
+trabalho
+vi trabalho
+trabalho
+vi trabalho
+trabalho
+vi trabalho
+trabalho
+vi trabalho
+trabalho
+vi trabalho
+vi primeiro
+vi trabalho
+trabalho
+vi trabalho
+trabalho
+vi trabalho
+trabalho
+vi trabalho
+trabalho
+vi trabalho
+trabalho
+who
+cd ..
+who
+free
+date
+pwd
+df
+who
+m
+ps
+history
+cat
+free
+FREE
+trabalho
+pwd
+vi trabalho
+rm trabalho
+ls
+ls -l
+cd bin
+vi trabalho
+trabalho
+cat trabalho
+cat -n trabalho
+man cat
+cd ..
+man cat
+mancat
+man cat
+cd bin
+vi trabalho
+man cat
+MAN CAT
+cd ..
+cd /home
+ls -l
+cd ..
+cd /etc
+ls -l
+pwd
+cd..
+cd ..
+man ls
+grep -n
+grep -n primeiro
+cd bin
+ls
+grep -n primeiro
+cd bin
+vi teste
+ls
+echo "vida" > /bin/teste
+chmod x+ teste
+/. teste
+vi teste
+chmod 751 teste
+teste
+cat teste
+echo "vida" > /teste
+chmod +x teste
+/. teste
+ls -l
+cat primeiro
+vi teste
+teste
+echo "vida" > /teste
+//
+vi find
+[]'~~]][[[;;;..,,//\\\\qqqq/wwwertyuiopplkjhgfffdddsssaaaazzxxxcccvvvbbnnnnmmm,,,,*//111111''''''QQ!!11!
+du -h
+uname -a
+ggVG
+CD /ETC
+cd /etc
+cat passwd
+userdel -r jairkrt@gmail.com
+/.passwd
+ls 
+cat -n passwd
+cd ..
+cat -n /etc/passwd
+-d: -f2 /etc/passwd
+-d: -f1 /etc/passwd
+cd /etc/passwd
+cut -d: -f1 /etc/passwd
+cd /home
+ls
+cat /home
+cd ..
+sed -n /etc/passwd
+comannd seq
+ls
+cd /bin
+ls
+ls -l
+cd ..
+ls -l
+pwd
+ls
+cd /home
+ls
+cd ..
+cd 
+cd /bin
+ls
+trabalho
+trabalho
+ls
+cat aula
+vi aula
+aula
+/. aula
+cd bin
+ls
+cat teste
+teste
+vi trabalho
+su
+cd ..
+su
+uname
+uname -a
+w
+help cd
+help cat
+info cat
+cal
+vi trabalho
+ls
+ls -l
+cd bin
+vi trabalho
+trabalho
+vi trabalho
+cat trabalho
+vi trabalho
+ls
+cd bin
+ls
+cat primeiro
+ls -l
+cd ..
+ls -l
+echo "informe usuario:"; read user ;
+echo $user
+test "$user" = "redes" && echo "user: $user" || echo "user: errado"
+test "$user" = "cabrito" && echo "user: $user" || echo "user: errado"
+test "$user" = "redes" && echo "user: $user" || echo "user: errado"
+test "$user" = "redes" && echo "usuario digitado: $user" || echo "user: errado"
+cd bin
+ls
+cat primeiro
+vi exercicio
+ls -l
+cd bin
+ls
+wq
+echo "vida" > /teste
+rev /teste
+cd ..
+echo "www.cablepoint.com.br"|rev
+echo "www.cablepoint.com.br"||rev
+echo "www.cablepoint.com.br"|rev
+cd /temp
+cd /bin/teste
+cd /bin
+cd ..
+echo "vida" > /bin/teste
+cd bin
+ls
+vi trabalho
+trabalho
+cat -n /etc/password
+cd ..
+cat -n /etc/password
+cat -n /etc/passwd
+cd bin
+ls
+vi trabalho
+grep -i "vida\|arte" *
+vi trabalho
+cd ..
+echo "vida" > /bin
+echo "vida" > /bin/teste
+cd bin
+teste
+chmod 777 teste
+echo "vida" > /bin/teste
+chmod 777 teste
+echo "vida" > /bin/teste rev /bin/teste
+rev teste > teste
+vi teste02
+teste02
+pwd
+chmod +x teste02
+teste02
+rev teste > teste02
+rev "teste" > "teste02"
+echo "http://www.cablepoint.com.br" | rev
+rev teste
+rev "teste"
+rev teste.txt
+cd ..
+rev teste.txt
+echo www.cablepoint.com.br | rev
+echo"www.cablepoint.com.br" | rev
+echo "www.cablepoint.com.br" | rev
+cd bin
+vi trabalho
+sed -n teste
+sed -n 1p teste
+cd ..
+cd /etc
+ls -l
+cd ..
+cd bin
+vi trabalho
+ls
+ls -l
+cd bin
+ls -l
+vi trabalho
+vi teste
+teste
+teste02
+cd ..
+teste
+chmod +x teste
+cd bin
+chmod +x teste
+teste
+vi teste
+cat teste
+cat trabalho
+cat teste02
+cat teste
+vi teste
+cat teste
+chmod +x teste
+teste
+vi trabalho
+seq -s, 10 -2 0
+seq 10
+sort texte -r
+sort texte.txt -r
+sort teste.txt -r
+sort teste -r
+seq 3
+seq 3 5
+cd ..
+seq 5
+cd bin
+cat trabalho
+sort -n teste
+sort teste -r
+cat teste
+vi trabalho
+teste |tr 'a-z''A-Z'
+echo "jair pires" | tr 'a-z''A-Z'
+echo jair pires | tr 'a-z''A-Z'
+tr a-z A-Z < teste
+cat teste
+vi trabalho
+cd /carro
+/. carro
+/.carro
+ls -l
+cat trabalho
+cd bin
+cat trabalho
+trabalho
+vi trabalho
+cat -n trabalho
+vi trabalho
+trabalho
+cat teste
+cat trabalho
+vi trabalho
+vi teste
+teste
+cat teste
+vi teste
+cat teste
+vi teste
+cat teste
+trabalho
+vi trabalho
+ls
+cat aula
+cd aula
+ls
+cat teste
+vi teste
+rm teste
+ls
+cd ..
+cd bin
+ls
+cat trabalho
+trabalho
+vi trabalho
+cat teste
+cat teste02
+trabalho
+vi trabalho
+grep -i "vida" \| "arte" *
+grep -i "vida" \ "arte" *
+grep -i "vida" \| "teste" *
+grep -i "sei" \| "teste" *
+grep -i "escrever" \| "teste" *
+grep -i "escrever" \ "teste" *
+grep -i "escrever" \ "/bin/teste" *
+grep -i "escrever"
+cd bin
+grep -i "pena" \| "teste"*
+grep -help
+cd bin
+grep -i '.vida' teste
+grep -i '.escrever' teste
+grep -i 'escrever' teste
+vi teste
+teste
+grep -i '.vida' teste
+vi trabalho
+grep -l 'vida'*
+grep -l '.vida' *
+cd bin
+grep -l '.vida' *
+vi trabalho
+trabalho
+cat trabalho
+trabalho
+cat -n trabalho
+find / -name vida
+find -name vida
+find -name teste
+find -name teste02
+find -name casa
+find/ -name teste
+vi trabalho
+trabalho
+vi trabalho
+trabalho
+cat -n trabalho
+cat trabalho
+cd bin
+cat trabalho
+uniq teste
+uniq -i teste
+uniq -d teste
+uniq -u teste
+vi teste
+teste
+uniq -i teste
+uniq -d teste
+uniq -u teste
+w -h
+w
+last -r
+uniq -u /teste
+uniq -u teste
+cat teste
+uniq -d teste
+vi teste
+uniq -d teste
+uniq -u teste
+uniq -d teste
+vi trabalho
+vi teste
+trabalho
+wc -c teste
+wc -c trabalho
+wc -w teste
+uniq -u teste
+wc -c teste
+vi trabalho
+clear
+trabalho
+clear
+trabalho
+jair | rev
+echo jair | rev
+vi trabalho
+clear
+trabalho
+ls -d
+ls
+ls -l
+trabalho
+cd bin
+trabalho
+ls
+cd bin
+ls
+cat teste
+cat teste02
+rm teste02
+ls
+cat relação
+relação
+trabalho
+vi trabalho
+vi zerador.sh
+zerador.sh 10
+chmod +c zerador.sh
+chmod +x zerador.sh
+./zerador.sh
+./zerador.sh 10
+zerador.sh
+zerador.sh 10
+vi zerador.sh
+./zerador.sh 10
+ls
+cat teste
+cat >  teste02
+cat teste
+cat teste02
+cat trabalho
+cut -d: -f1 /etc/passwd"
+
+
+vari=top-bm
+cd bin
+cat trabalho
+cut -d- -f1 $vari
+cut -d: -f1 /etc/passwd
+top-bn1
+top bn1
+top -bn1
+cd ..
+top -bn1
+cut -d: -f2 /etc/passwd
+top -bn1
+cut -d: -f3 /etc/passwd
+top -bn1
+cd bin
+trabalho
+man wc
+echo 123456| wc -c
+echo -n 123456| wc -c
+echo -n 123456| wc -l
+echo -n 123456| wc -w
+echo -n 123456
+calendar 
+vim trabalho 
+cd
+cd bin/
+ls
+ls -la
+dfg
+fg
+ps aux | grep jair
+vim teste
+vim teste2
+ls -la
+fg
+ls -la
+vim jfjhf
+ls -la
+fg
+ls -la *.swq
+ls -la *.swp
+ls -la .*.swp
+rm .*swp
+ls -la .*.swp
+ls
+vim trabalho 
+trabalho 
+cd bin
+vi trabalho
+cat trabalho
+ls -l
+cd bin
+ls
+teste02
+chmod +x teste02
+teste
+cat teste02
+cat teste
+teste
+vi teste
+teste
+trabalho
+ls
+cat primeiro
+vi exercicio
+rm exercicio
+vi somaNum.sh
+cat trabalho
+vi simNao.sh
+vi naoSim.sh
+vi simNao.sh
+fg]
+fg
+vi naoSim.sh
+ls
+cd bin
+ls
+cat trabalho
+pwd
+cd ..
+cd /etc/passwd
+cat trabalho
+cd bin
+trabalho
+ls
+cd bin
+ls
+pwd
+cat /etc/pqsswd
+cat /etc/passwd
+cat trabalho
+cut -f1 -d: /etc/passwd
+cut -f2 -d: /etc/passwd
+cut -f3 -d: /etc/passwd
+cut -f4 -d: /etc/passwd
+cut -f5 -d: /etc/passwd
+cut /etc/passwd
+cut /etc/passwod
+cut /etc/password
+cut /etc/passwd
+cat /etc/passwd
+cut -d/ -f1 /etc/passwd
+cut -d/ -f2 /etc/passwd
+vi exercicio
+cat trabalho
+vi exercicio
+chmod +x exercicio
+exercicio
+vi exercicio
+./exercio
+exercicio
+./exercio
+exercicio
+cat trabalho
+cat exercicio
+cd ..
+pwd
+cd bin
+pwd
+tail -n 10 /tcp/passwd
+cd bin
+tail -n 2 teste
+tail -n 2 teste02
+pwd
+tail -n 2 teste02
+cut -d/ -f2 /etc/passwd
+cd ..
+a=1
+b=2
+c=3
+echo "o valor de a e $a, o valor de b e $b e o valor de c e $c
+
+
+
+
+
+
+echo "o a e $a o b e $b e o c e $c"
+a=1
+b=2
+c=3
+echo "o a e $a o b e $b e o c e $c"
+s=$((a*b))
+echo " o valor de s e $s"
+echo $path
+cd bin
+vi teste02
+trabalho
+hoje=date
+echo "hoje e $hoje"
+hoje='date'
+echo "hoje e $hoje"
+dia='date'
+echo "hoje: $dia"
+hoge=$(date)
+echo "hoje e $hoge"
+unset hoje
+echo "$hoje"
+unset hoge
+echo "$hoge"
+cat teste
+sort teste | head -3
+sort teste | head -2
+sort teste | head-2
+vi prova
+chmod +x prova
+prova
+ls
+cat exercicio
+cd bin
+head -3 teste02
+cd bin
+head -3 teste
+cat teste
+head -8 teste
+cat > teste02
+cat teste02
+ls
+vi teste02
+cd ..
+cut -d: -f1 /etc/passwd
+for i in (seq 10)
+for i in $(seq 10); do echo "contagem: $i"; done
+ls
+cd bin
+ls
+cd bin
+cat trabalho
+sort teste
+a=1
+b=2
+c=3
+d=4
+for num in a b c d; do echo "numero $num"; done
+echo "$A"
+a=1
+b=2
+for num in $a $b; do echo "numero $num"; done
+echo "$a $b"
+if [5 -gt 8]; then echo "menor"; else echo "maior"; fi
+if [5 -gt 8]; then echo "maior"; else echo "menor"; fi
+sls
+ls
+cd bin
+cd bin
+vi trabalho
+cat trabalho

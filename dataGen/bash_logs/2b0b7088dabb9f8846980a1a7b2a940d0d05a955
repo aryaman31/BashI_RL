@@ -1,0 +1,500 @@
+ssh saiyuuki@myportal.jpn.com -p 22 -i ~/.ssh/mac_rsa 
+ssh saiyuuki@myportal.jpn.com -p 22 -i ~/.ssh/mac_rsa 
+ssh saiyuuki@myportal.jpn.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@myportal.jpn.com -p 22 -i ~/.ssh/mac_rsa 
+ssh saiyuuki@31yuuki.com -p 22 -i ~/.ssh/mac_rsa 
+ssh saiyuuki@31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ sudo apachectl start
+cd /var
+cd /private/etc/apache2/
+pwd
+vi httpd.conf 
+sudo vi httpd.conf 
+ sudo apachectl restart
+sudo vi httpd.conf 
+ sudo apachectl restart
+cd /Library/WebServer/Documents
+cd MyPortal/sites/default/f
+cd MyPortal/sites/default/
+ls
+cd ..
+ls
+cd default/
+ls
+ls
+chmod -R 755 .
+chmod 777 ./settings.php 
+chmod -R 777 .
+mysql
+brew install mysql
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew install mysql
+brew install mysql
+java -version
+ls /usr/local/
+ls /usr/local/
+ls /usr/
+cd java -version
+cd /Users/saiyuuki/Downloads
+tar -xzvf mysql-5.1.73-osx10.6-x86_64
+ls
+tar -xzvf mysql-5.1.73-osx10.6-x86_64.tar.gz 
+ls /usr
+brew -v
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew doctor
+brew -v
+brew update
+brew install mysql
+ls /var/
+ls -al /usr
+ls -al /usr/local/
+ls -al /usr
+sudo chmod -R /usr/local/
+sudo chmod -R 777 /usr/local/
+brew install mysql
+sudo chmod -R 777 /usr/local/
+brew install mysql
+mysql
+mysql.server start
+mysql -u root -p
+mysql
+ sudo apachectl restart
+ sudo apachectl stop
+vi httpd.conf 
+ls
+cd /Applications/MAMP/conf/apache
+sudo vi httpd.conf 
+sudo vi httpd.conf 
+sudo vi httpd.conf 
+ sudo apachectl stop
+ sudo apachectl stop
+saitou3
+ sudo apachectl stop
+ sudo apachectl restart
+ sudo apachectl stop
+sudo vi httpd.conf 
+cd /Applications/MAMP
+ls
+cd conf
+cd apache/
+vi httpd.conf 
+ sudo apachectl stop
+vi httpd.conf 
+ sudo apachectl stop
+ sudo apachectl stop
+ sudo apachectl start
+ sudo apachectl stop
+ sudo apachectl stop
+ sudo apachectl stop
+ sudo apachectl stop
+ls
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+pwd
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+vi page.twig.php
+vi page.twig.php
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+php -v
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+php -v
+mysql -u root -p
+brew install mariadb
+mysql -u root -p
+mysql
+mysql.server start
+sudo apachectl start
+sudo apachectl start
+php -v
+brew install php55 --with-mysql --without-pear
+brew tap homebrew/dupes
+brew tap josegonzalez/homebrew-php
+brew install php55 --with-mysql --without-pear
+brew info php55
+sudo apachectl start
+php -v
+curl -s http://php-osx.liip.ch/install.sh | bash -s 5.5
+curl -s http://php-osx.liip.ch/install.sh | bash -s 5.5
+php -v
+mysql
+curl -s http://php-osx.liip.ch/install.sh | bash -s 5.5
+php -v
+defaults write com.apple.finder AppleShowAllFiles true
+killall Finder
+mysql 
+mysql 
+brew options mysql
+brew install mysql
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+echo 'export PATH=/usr/local/bin:$PATH' >> "$HOME/.$(basename $SHELL)rc"
+2
+source "$HOME/.$(basename SHELL)rc"
+echo 'export PATH=/usr/local/bin:$PATH' >> "$HOME/.$(basename $SHELL)rc"
+2
+echo 'export PATH=/usr/local/bin:$PATH' >> "$HOME/.$(basename $SHELL)rc"
+2
+echo
+echo 'export PATH=/usr/local/bin:$PATH' >> "$HOME/.$(basename $SHELL)rc"
+2
+echo 'export PATH=/usr/local/bin:$PATH' >> "$HOME/.$(basename $SHELL)rc"
+2
+source "$HOME/.$(basename SHELL)rc"
+echo 'export PATH=/usr/local/bin:$PATH' >> "$HOME/.$(basename $SHELL)rc"
+2
+source "$HOME/.$(basename SHELL)rc"
+brew tap homebrew/dupes
+2
+brew tap homebrew/versions
+3
+brew tap homebrew/hoembrew-php
+sudo /usr/sbin/apachectl stop
+sudo launchctl unload /System/Library/LaunchDaemons/org.apache.httpd.plist
+sudo launchctl unload /System/Library/LaunchDaemons/org.apache.httpd.plist
+sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist
+sudo launchctl unload /System/Library/LaunchDaemons/org.apache.httpd.plist
+sudo /usr/sbin/apachectl start
+sudo launchctl unload /System/Library/LaunchDaemons/org.apache.httpd.plist
+mysql
+mysql
+mysql
+mysql -u root -p
+export PATH=$PATH:/Applications/MAMP/Library/bin
+source ~/.bash_profile
+source ~/.bash_profile
+mysql
+mysql -u root -p
+mysql -u root -p
+mysql -u root -p
+mysql -u root -p
+mysql -u myportal -p
+mysql -u myportal -p
+mysql -u myportal -p
+mysql -u root -p
+mysql -u root -p
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+ssh saiyuuki@www.31yuuki.com -p 22 -i ~/.ssh/mac_rsa
+mysql
+mysql
+sudo apachectl start
+php -v
+curl -s http://php-osx.liip.ch/install.sh | bash -s 5.5
+export PATH=/usr/local/php5/bin:$PATH
+php -v
+cd /usr
+ls
+cd local/
+ls
+cd /Library/WebServer/Documents
+mkdir ./sites/default/files/translations
+mkdir ./sites/default/files/translations
+cd MyPortal/
+mkdir ./sites/default/files/translations
+ls
+mkdir ./sites/default/files/translations
+mkdir ./sites/default/files/
+mkdir ./sites/default/files/translations
+chmod 555 ./sites/default/files/translations
+chmod 777 ./sites/default/files/translations
+chmod 777 ./sites/default/files/
+ls /etc
+ls /etc/php5
+ls /etc/
+sudo vi /etc/php.ini.default
+sudo cp /etc/php.ini.default /etc/php.ini
+sudo vi /etc/php.ini
+ls /usr/local/
+ls /usr/local/php5
+ls /usr/local/php5/etc
+ls /usr/local/php5/
+ls /usr/local/php5/info
+ls /usr/local/php5
+ls /usr/local/php5/lib
+ls /usr/local/php5/bin
+ls /etc
+vi /etc/php.ini
+vi /etc/php.ini
+chmod 777 /etc/php.ini
+sudo chmod 777 /etc/php.ini
+ls -al /etc/
+vi /etc/php.ini
+vi /etc/php.ini
+ls /etc/
+vi /etc/php.ini
+ls /usr/local/php/lib
+ls /usr/local/php
+ls /usr/local/php
+ls /usr/local/php
+ls /usr/local/
+ls /usr/local/php5
+ls /usr/local/php5/lib
+vi /usr/local/php5/lib/php.ini
+sudo chmod 777  /usr/local/php5/lib/php.ini
+vi /usr/local/php5/lib/php.ini
+vi /usr/local/php5/lib/php.ini
+vi /usr/local/php5/lib/php.ini
+vi /usr/local/php5/lib/php.ini
+vi /usr/local/php5/lib/php.ini
+vi /usr/local/
+:q!
+vi /usr/local/php5/lib/php.ini
+/etc/init.d/httpd restart
+/usr/sbin/apachectl restart
+sudo apachectl restart
+cd /Library/WebServer/Documents
+ls
+cd MyPortal/
+ls
+cd sites/default/
+chmod 777 settings.php 
+mysql
+ls /usr/local/
+export PATH=$PATH:/usr/local/mysql/bin
+mysql -u root -p
+mysql -u root -p
+mysql -u root -p
+mysql
+mysql
+sudo mysql
+sudo mysql -u root -p
+sudo mysql -u root -p
+mysql.server stop
+mysql stop
+sudo mysql stop
+service mysqld stop
+mysql -u root
+mysql -u root -p
+mysql -u root -p
+mysql -u root -p
+su -
+killall mysqld
+killall mysql
+/usr/local/mysql/bin/mysqladmin -u root password 'saitou3'
+sudo /usr/local/mysql/bin/mysqladmin -u root password 'saitou3'
+mysql
+sudo mysql
+mysql
+exit
+ls
+history
+ssh root@49.212.221.146
+ls /usr/local/mysql/bin/
+/usr/local/mysql/bin/mysqladmin -u root password 'saitou3'
+sudo apachectl restart
+/usr/local/mysql/bin/mysqladmin -u root password 'saitou3'
+sudo port install mysql5 +server
+sudo port install mysql5 +server
+mysql
+mysql -u root -p
+export PATH=$PATH:/usr/local/mysql/bin
+mysql
+mysql -u root -p
+mysql -u root -p
+/usr/local/mysql/bin/mysqladmin -u root password 'saitou3'
+mysql -u root mysql
+mysql -u root test
+service mysqld stop
+ssh saiyuuki@49.212.221.146
+ssh saiyuuki@49.212.221.146
+ssh saiyuuki@49.212.221.146
+ssh saiyuuki@49.212.221.146
+ssh root@49.212.221.146
+ssh root@49.212.221.146
+ssh root@49.212.221.146
+
+ssh root@49.212.221.146
+ssh root@49.212.221.146
+ssh root@49.212.221.146
+ssh root@49.212.221.146
+ssh root@49.212.221.146
+ssh root@49.212.221.146
+saitou3
+ rpm --import http://centos.alt.ru/pub/repository/centos/RPM-GPG-KEY-CentALT
+rpm --import http://centos.alt.ru/pub/repository/centos/RPM-GPG-KEY-CentALT
+rpm -ihv http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+rpm
+cd rpm*
+ssh root@49.212.221.146
+ssh root@49.212.221.146
+ssh root@49.212.221.146
+history
+php -v
+/Applications/XAMPP/xamppfiles/xampp ; exit;
+ service mysql stop
+ service mysql stop
+service mysql stop
+/etc/init.d/mysqld stop
+ps aux | grep mysql
+sudo kill 65
+ps aux | grep mysql
+ps aux | grep mysql
+clear
+ps aux | grep mysql
+kill 1573
+sudo kill 1573
+ps aux | grep mysql
+sudo kill 1937
+ps aux | grep mysql
+clear
+ps aux | grep mysql
+sudo kill 1961
+ps aux | grep mysql
+sudo kill 1979
+ps aux | grep mysql
+sudo kill 1993
+ps aux | grep mysql
+sudo kill 2007
+ps aux | grep mysql
+sudo kill 2026
+ps aux | grep mysql
+sudo kill 2044
+ps aux | grep mysql
+mysql
+mysqladmin processlist -u root -p
+
+ps aux | grep mysql
+killall -9 mysqld
+sudo killall -9 mysqld
+sudo killall -9 mysqld
+ps aux | grep mysql
+mysql -u root -p
+ls /usr/local
+sudo rm -rf /usr/local/mysql
+sudo rm -fr  /usr/local/mysql-5.7.9-osx10.9-x86_64/
+ls /Library/StartupItems/
+ls /Library/StartupItems/
+sudo rm -rf /Library/StartupItems/MYSQLCOM
+sudo rm -rf /Library/PreferencePanes/MySQL.prefPane
+sudo rm -rf /Library/Receipts/mysql-.pkg
+ps aux | grep mysql
+ps aux | grep mysql
+ps aux | grep mysql
+netstat -an -o
+x/Applications/XAMPP/etc
+cd /Applications/XAMPP/etc
+pwd
+sudo chmod 777 /Applications/XAMPP/etc/my.cnf
+ls -al
+history
+ssh root@49.212.221.146
+exit
+history
+ssh root@49.212.221.146
+useradd saiyuuki
+passwd saiyuuki
+ssh root@49.212.221.146
+yum -y install telnet-server
+ssh root@49.212.221.146
+ssh root@49.212.221.146
+ssh saiyuuki@49.212.221.146
+ssh saiyuuki@49.212.221.146
+ls /.ssh
+ssh-keygen -t d8_rsa
+ssh -l saiyuuki@49.212.221.146
+ssh -l roof@49.212.221.146
+
+ssh -l root@49.212.221.146
+ssh -l roof@49.212.221.146
+/etc/rc.d/init.d/sshd start　
+ssh  roof@49.212.221.146
+ssh  saiyuuki@49.212.221.146
+ssh-keygen -t myportal8_rsa
+ls
+ssh-keygen -t d8_rsa
+ssh-keygen -t rsa
+ssh-keygen -t rsa
+ssh-keygen -t myportal8_rsa
+ssh-keygen -t my8_rsa
+ssh-keygen -t my_rsa
+ls /Users/saiyuuki/.ssh/
+ssh-keygen -t my_rsa
+ssh-keygen -t myrsa
+chmod 700 /Users/saiyuuki/.ssh/
+ssh-keygen -t rsa
+chmod 600 ~/.ssh/id_rsa.pub
+chmod 600 ~/.ssh/id_rsa.pub
+ls
+pwd
+scp ~/.ssh/id_rsa.pub saiyuuki@:~/.ssh/authorized_keys
+scp ~/.ssh/id_rsa.pub saiyuuki@:~/.ssh/authorized_keys
+scp ~/.ssh/id_rsa.pub saiyuuki@49.212.221.146:~/.ssh/
+scp ~/.ssh/id_rsa.pub root@49.212.221.146:~/.ssh/
+yum -y install vsftpd
+/etc/rc.d/init.d/vsftpd start
+ssh-keygen -t rsa
+/etc/rc.d/init.d/sshd restart 
+/etc/rc.d/init.d/sshd restart 
+vi /etc/ssh/sshd_config
+service sshd restart
+cat /proc/version
+ cat /etc/redhat-release 
+cat  cat /etc/redhat-release 
+cat /etc/issue
+ cat /etc/redhat-release
+vi /etc/ssh/sshd_config
+cd ~/.ssh
+pwd
+ls
+ssh-keygen -t rsa
+ls
+ls -al
+scp id_rsa.pub root@remoteserver.com:~/
+scp id_rsa.pub root@www32372ue.sakura.ne.jp:~/
+scp id_rsa.pub saiyuuki@www32372ue.sakura.ne.jp:~/
+ssh root@www32372ue.sakura.ne.jp
+ssh　-o root@www32372ue.sakura.ne.jp
+ssh　-o 'StrictHostKeyChecking no'  root@www32372ue.sakura.ne.jp
+ssh
+ssh -o 'StrictHostKeyChecking no' www32372ue.ne.jp
+ssh -o 'StrictHostKeyChecking no' www32372ue.sakura.ne.jp
+ssh -o 'StrictHostKeyChecking no' root@www32372ue.sakura.ne.jp
+su -
+uname -a
+saitou3
+ls /
+cd /ユーザ情報/
+ls
+cd //
+cd ..
+cd /Users/
+ls
+cd saiyuuki/
+ls
+cd Desktop/
+node sampleapp.js
+node sampleapp.js
+ifconfig
+ipconfig
+/Users/saiyuuki/Desktop/cake/.htaccess ; exit;
+ssh -o 'StrictHostKeyChecking no' www32372ue.ne.jp
+ssh　-o root@www32372ue.sakura.ne.jp
+ssh　-o root@153.126.171.77
+ssh　-o root@153.126.171.77
+ssh -o 'StrictHostKeyChecking no' root@www32372ue.sakura.ne.jp
+ssh -o 'StrictHostKeyChecking no' root@www32372ue.sakura.ne.jp
+ssh -o 'StrictHostKeyChecking no' root@163.43.103.223
+ssh -o 'StrictHostKeyChecking no' root@163.43.103.223
+ssh -o 'StrictHostKeyChecking no' root@163.43.103.223
+ssh -o 'StrictHostKeyChecking no' root@163.43.103.223
+echo "# Syokudo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/saiyuuki822/Syokudo.git
+git push -u origin master

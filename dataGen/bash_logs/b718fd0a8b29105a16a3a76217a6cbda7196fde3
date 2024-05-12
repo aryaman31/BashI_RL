@@ -1,0 +1,156 @@
+ls
+dir
+exit
+ls
+vi rafael
+exit
+vi 
+clear
+echo $PATH
+cd /
+ls 
+cat /bin
+su
+mkdir bin
+cd 
+mkdir bin
+cd /bi
+cd /bin
+ls
+ll
+dir
+ls 'la 
+ls -la
+nano primeiro 
+vi primeiro 
+cd
+cd bin
+ls -la
+chmod u+x primeiro
+./primeiro 
+vi primeiro 
+./primeiro 
+ls -l
+chmod +x primeiro
+ls -l
+vi primeiro 
+./primeiro 
+vi primeiro 
+./primeiro 
+vi primeiro 
+./primeiro 
+set
+./primeiro 
+vi primeiro 
+./primeiro 
+vi primeiro 
+./primeiro 
+vi primeiro 
+./primeiro 
+vi primeiro 
+./primeiro 
+vi primeiro 
+./primeiro 
+vi primeiro 
+./primeiro 
+vi primeiro 
+./primeiro 
+vi primeiro 
+exit
+clear
+VARIAVEL="estou sem ideias"
+echo $VARIAVEL
+echo $VARIAVEL $VARIAVEL
+VARIAVEL="estou sem ideias"
+echo $VARIAVEL
+echo $HOJE
+exit
+clear
+cd bin/
+ll
+./primeiro 
+vi primerio 
+vi primeiro 
+./primeiro 
+ll
+vi primeiro 
+./primeiro 
+vi
+chmod +x teste 
+./teste 
+vi teste 
+./teste 
+vi teste 
+./teste 
+vi teste 
+./teste 
+vi teste1
+chmod +x teste1
+./teste1
+vi teste1
+chmod +x teste1
+./teste1
+vi teste1
+chmod +x teste1
+vi teste1
+./teste1
+vi teste1
+./teste1
+vi teste1
+./teste1
+unset HOJE
+echo $HOJE
+cat -n primeiro 
+cat -n primeiro |gerp >
+cat -n primeiro |gerp > teste3
+cat -n primeiro 
+man cat
+cat -n primeiro 
+cat  primeiro 
+unset HOJE
+echo $HOJE
+cut primeiro 
+find primeiro 
+mv primeiro primeiro.sh
+find .dh
+find .sh
+findls
+ls
+find teste
+find teste1
+find teste3
+vi pwd
+pwd
+vi primeiro.sh 
+./primeiro.sh 
+vi primeiro.sh 
+./primeiro.sh 
+vi primeiro.sh 
+./primeiro.sh 
+vi primeiro.sh 
+./primeiro.sh 
+grep primeiro.sh 
+grep primeiro.sh a
+grep primeiro.sh -a
+exit
+ll
+cd bin/
+ll
+vi teste
+vi teste1
+vi teste3
+vi primeiro.sh 
+exit
+nano
+vi
+nano 
+ll
+cd bin/
+ll
+vi 1 
+vi 
+cd bin/
+ll
+cd teste
+vi teste
+exit

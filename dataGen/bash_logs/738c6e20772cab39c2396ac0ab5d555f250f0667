@@ -1,0 +1,161 @@
+limpa
+clear
+cmd
+void 
+clear
+if 5>4 ; clear;  r; cleral; clear;  exit; posix; 
+clear
+while if bim; man; su; 
+clear
+su
+man
+mawk
+bbind
+bind
+wHOAMANI
+whoami
+d
+date 
+cal
+cat
+home
+/hom
+/home
+cat
+clear
+#!/bim
+exit
+ls-l
+/ls-l
+/cd
+/touch
+cd
+touch
+man touch
+mantouch
+man-touch
+touch--help
+touch --help
+cd --help
+/aula$ ls-l
+pwd
+cd..
+cd ..
+/aula$ ls -la
+ls --help
+cd ..
+home
+/home
+/home/lohn4$ ls -la
+vi --help
+-c
+/home
+cd ..
+clear
+su
+clear
+ifconfig
+clear
+echo $path
+echo $PATH
+mkdir bin
+cd bin
+vi primeiro
+chomod +x primeiro
+chmod +x primeiro
+ls -l
+ls -la
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+PRIMEIRO
+primeiro
+vi primeiro
+df -la
+vi primeiro
+clear
+vi primeiro
+ls
+ls -l
+primeiro
+sd /bin
+cd /bin
+vi primeiro
+dc ..
+cd ..
+vi primeiro
+primeiro
+cd 
+pwd
+cd bin
+ls
+. primeiro
+vi primeiro
+$ variavel="estou sem ideia"
+$ variavel= "estou sem ideia"
+vi test
+echo $variavel
+$ hoje
+echo hoje
+hoje
+primeiro
+vi test
+ls
+. test
+test
+.teste
+vi test
+. test
+vi 
+vi test
+test
+. teste
+. test
+vi test
+ls
+. primeiro
+clear
+vi primeiro
+su
+vi primeiro
+ls
+cd /bin
+vi primeiro
+cd ..
+la -l
+ls -la
+ls -l
+la
+ls
+vi primeiro
+clear
+vi test
+ls
+la
+la -ls
+cd /bin
+la
+ls
+clear
+cd ..
+$n1=6
+n1=6
+n2=7
+test "$n1" -gt "$n2" && echo "maior" ||echo "menmor"
+test "$n1" -gt "$n2" && echo "maior" ||echo "menor"
+test "$n1" -lt "$n2" && echo "maior" ||echo "menmor"
+echo "informe usuario:"; read user;
+clear
+test "$user" = "redes"  && echo "user: &user?" || echo "user: errado"
+vi test1
+cd /usr/bin
+su
+cd /bin
+ls -l
+ls 
+la -l
+-l
+exit

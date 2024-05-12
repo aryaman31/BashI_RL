@@ -1,0 +1,404 @@
+passwd
+vi .profile
+vi .profile
+. .profile
+cat .profile 
+vi .profile
+man grep
+vi .profile
+. .profile
+cat .profile 
+vi .profile
+vi .profile
+ls
+ls -lrt
+cat .profile 
+cd script/
+sql
+sqlplus
+ps -ef
+cat frank.sql
+pwd
+cd 
+cd /home
+ls
+ls -lrt
+ps -ef
+vi .profile 
+cat .profile 
+vi .profile 
+su - oraenv01
+ls -lrta
+vi .bash_profile
+login girsj01
+cat .
+cat .bash_profile 
+cd /u002/oracle/env01db/10.2.0/
+ls -l /u002/oracle/env01db/10.2.0/
+cd ..
+ls -lrt
+id
+@c
+sql
+cd
+cd bin
+ls -lrt
+info
+ls -lrt
+cat info
+df -k
+iostat 1 5
+vmstat 1 5
+sar -r 5 5
+cfsmgr
+w
+<
+cd ..
+cd ..
+ls
+ls -l
+cat pro
+cat .pro
+cat .profile 
+su oraenv01
+x
+startx
+su -oraenv01
+su - oraenv01
+ls
+cd script/
+ls
+cd 
+cd ..
+ls -l
+ls -l
+su - oraenv01
+su - oraenv01
+cd script/
+vi cat.sql
+ls -l
+su - oraenv01
+su - oraenv01
+su - oraenv01
+su - oraenv01
+sql
+su - oraenv01
+su - oraenv01
+<
+cd ..
+ls -lrt
+cd
+su - oraenv01
+su - oraenv01
+su - oraenv01
+su - oraenv01
+su - oraenv01
+su - oraenv01
+su - oraenv01
+su - oraenv01
+w
+ps -fu girsj01
+kill 23894
+cd script/
+vi ls
+vi ls.sql
+ls -lrt
+cat cat.sql
+ls -lrt
+vi top.sql
+rsh -l girsj01 seprdu01
+vi top.sql
+top
+/usr/local/bin/top
+/usr/bin/top
+vi top.sql
+ls
+vi login.sql
+vi login.sql
+vi login.sql
+ls -lrt
+vi c70.sql
+mv c70.sql c01.sql
+mv c71.sql c02.sql
+vi c02.sql
+ls -lrt
+vi 1.sql 
+rm 1.sql
+ls -lrt
+vi aide.sql
+ls -l
+vi c.sql
+ls -l
+su - oraenv01
+su - oraenv01
+su - oraenv01
+sq
+sql
+cd bin
+sql
+ls -lrt
+..
+xcd .
+cd ..
+cd ..
+ls -lrt
+cd
+cat .bash_profile 
+ls -l /u002/oracle/env01db/10.2.0/GPRD*_${sHostname}.env
+cd /u002/oracle/env01db/10.2.0/
+ls -l
+cd 
+ls -lrt
+cd ..
+ls -lrt
+sqlplus /nolog
+sql
+cd bin
+ls- lr
+ls -lrt
+vi sql
+wich sqlplus
+witch sqlplus
+which sqlplus
+vi sql
+ls -lrt
+chmod 700 *
+ls- lrt
+ls -l
+sql
+cat sql
+cd 
+sql
+cd bin
+sql
+cd $ORACLE_HOME
+cd 
+cd bin
+vi sql
+cat $HOME
+PuTTY
+echo $HOME
+vi sql
+cd ..
+vi .bash_profile
+cd $HOME/bin
+ls
+sql
+info
+q
+ls -lrt
+mv info moreinfo
+sql
+cd ..
+cd script/
+ls
+vi girsj01.sql
+which top
+ping seprdx12
+man ping
+su - oraenv01
+su - oraenv01
+cd $ORACLE_HOME
+pwd
+sql
+cd bin
+sql
+cp sql $HOME/.
+cd ..
+ls
+sql
+sql
+sql
+uname
+cd bin
+ls
+cd ..
+cat sql
+hostname -s | cut -c 11-12
+hostname -s 
+vi sql
+sql
+d1et007up
+sql
+sql
+sql
+man rm
+sql
+sql
+sql
+sql
+sql
+sql
+pw
+pwd
+cd ..
+cd ..
+cd cgifs01
+cd stat
+ls -lrt
+cat verifcostbase.sql
+cat verif_cbo.sql
+sql
+sql
+sql
+w
+ps -ef  | grep girsj01
+kill 25970 4605 4078 26266 25969 26138 26212 25843 25928 26267
+sql
+sql
+sql
+sql
+sql
+sql
+ps -ef  | grep girsj01
+sql
+sql
+sql
+cd ..
+cd ..
+cd cgifs01
+cd stat
+ls
+cat verif_cbo.sql
+sql
+sql
+sql
+sql
+sql
+cd $APPLCSF
+cd script/
+cat ls.sql
+cd /u001/oracle/env01appl/common/log/
+ls
+cd ..
+cd out
+ls- l *EXCEL
+ls -l *EXCEL
+vi GIR_SC_LISTE_RESPN_HRSMO_13496284_1.EXCEL
+vi GIR_PO_RAPRT_BASN_DA_11625691_1.EXCEL
+vi GIR_APXINROH_13832596_1.EXCEL
+cd
+w<
+w
+sql
+sql
+sql
+sql
+cd log
+ls -lrt
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+w
+ps -ef | grep girsj01
+su - oraenv01
+slq
+cd script/
+ls
+cat alert_log.sql
+vi /u002/oracle/env01db/10.2.0/admin/GPRD*_seprdu0*/bdump/alert_GPRD*.log
+sql
+sql
+sql
+sql
+sql
+cd $HOME
+pwd
+cd /home/girsj01
+ls
+pwd
+sql
+cd ..
+cd cgifs01
+cd stat
+cat list_all_creq.sql
+ls -l
+rm *.lst
+ls -l
+cat tbstat_detail.sql
+cd 
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+cd $GIR_TOP
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+pwd
+cd 
+pwd
+cp /u001/oracle/env01appl/common/log/l14473668.req .
+cp /u001/oracle/env01appl/common/out/GIR_CAP_CONTR_LOT_PAIMN_CHEQ_14473668_1.PDF .
+cp /u001/oracle/env01appl/common/out/o14473668.out .
+sql
+sql
+sqal
+sql
+sql
+cd /opt/oratools/
+ls 
+sql
+sql
+sql
+sqlplus / as sysdba
+sql
+sql
+cd /u008
+ls -lrt
+ls -l
+cd scripts_conv_linux
+ls -lrt
+ls -l
+sql
+sql
+sql
+exit
+sql
+sql
+sql
+cd ..
+cd cgifs01
+cd stat<
+cd stat
+¸ls -lrt
+ls -lrt
+cat kill_sess.sql
+cd 
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql
+sql

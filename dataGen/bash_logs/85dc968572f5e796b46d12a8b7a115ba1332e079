@@ -1,0 +1,9 @@
+cd /boot
+ls
+cat uEnv.tct
+cat uEnv.txt
+sudo nano uEnv.txt 
+reboot
+sudo reboot
+ls
+sudo su

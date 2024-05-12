@@ -1,0 +1,482 @@
+su
+su root
+su wulai
+su acm
+sudo
+sudo -u
+sudo -u wulai
+sudo -v wulai
+sudo -v -u wulai
+su wulai
+cd /etc/
+la
+cd ~
+ls
+pwd
+cd /
+ls
+cd root/
+sudo cd root/
+ls
+cd root
+sudo cd root
+ifconfig
+hostname
+sudo vi
+pwd
+cd root/
+sudo cd root/
+su root
+sudo passwd root
+su root
+10
+ifconifg
+ks
+ls
+clear
+ifconfig
+ifconfig -a
+clear
+ifconfig -a
+sudo su
+ping www.baidu.com
+ifconfig
+cd /etc/
+ls
+cd network/
+ls
+vim interfaces
+ifconfig
+ifconfig -a
+ping www.baidu.com
+ping 10.90.16.72
+ping 10.90.16.76
+ping 10.90.16.90
+cd /etc/
+ls
+cd resolvconf/
+ls
+vim resolv.conf.d/
+cd resolv.conf.d/
+ls
+vim base 
+sudo vim base 
+su
+ping 
+ping 10.90.16.72
+ping 10.90.16.90
+ping www.baidu.com
+su
+curl -o https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-4.0.5.tgz
+curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-4.0.5.tgz
+ls
+tar -zxvf mongodb-linux-x86_64-ubuntu1604-4.0.5.tgz 
+ls
+mv mongodb-linux-x86_64-ubuntu1604-4.0.5 /usr/mongoDB
+sudo mv mongodb-linux-x86_64-ubuntu1604-4.0.5 /usr/mongoDB
+cd /usr/mongoDB/
+ls
+mkdir -p ./data/db
+sudo chmod 755 data/*
+cd /etc/
+ls
+ls mon*
+mongod
+mongo
+sudo apt install mongodb-server -y
+mongod
+whereis mongod
+whereis mongo
+cd /etc/ap
+cd /etc/
+ls
+cd apt/
+ls
+cp sources.list sources.list.bak
+sudo cp sources.list sources.list.bak
+vim sources.list
+sudo vim sources.list
+apt-get update
+sudo apt-get update
+sudo apt --purge remove mongo-server
+sudo apt --purge remove mongodb-server
+mongo
+mognod
+sudo apt --purge remove mongodb-client
+sudo apt --purge remove mongodb-clients
+mongo
+cd /usr/mongoDB/
+ls
+cd bin/
+ls
+./mongo
+cp mongo /usr/bin/
+su
+poweroff
+sudo poweroff
+mongo
+mongod
+s
+su
+mongod -f /etc/mongod.conf 
+vim /etc/mongod.conf 
+sudo vim /etc/mongod.conf 
+mongod -f /etc/mongod.conf 
+mongo
+mongod -f /etc/mongod.conf 
+killall mongod
+sudo vim /etc/mongod.conf 
+mongod -f /etc/mongod.conf 
+su
+mongod -f /etc/mongod.conf 
+echo > /etc/mongod.conf 
+sudo echo > /etc/mongod.conf 
+sudo echo  /etc/mongod.conf 
+su
+service mongodb status
+mongo
+mongo localhost:28017
+cd mongodb/db/
+ls
+mongo
+mongod
+mongod -f /etc/mongod.conf 
+sudo mongod -f /etc/mongod.conf 
+cd .
+cd ..
+ll
+su
+mongod
+mongod -f /etc/mongod.conf 
+sudo mongod -f /etc/mongod.conf 
+service mongodb start
+service mongodb status
+sudo service mongodb status
+sudo service mongodb start
+sudo poweroff
+service mongod start
+cd /etc/
+ll
+cd apt
+ll
+cd ..
+find / -name mongod.service
+sudo find / -name mongod.service
+cd /etc/init.d/
+;s
+ls
+cd /opt/
+ls
+cd /usr/
+ls
+cd l
+cd lib/
+ls
+cd /etc/systemd/system/
+ls
+vim mongodb.service 
+sudo vim mongodb.service 
+service mongod start
+rm -rf mongodb.service 
+sudo rm -rf mongodb.service 
+cd /etc/init.d/
+ls
+vim mongo
+vim mongod
+sudo vim mongod
+sudo chmod 755 mongod 
+sudo update-rc.d mongod defaults 95
+sudo vim mongod
+cd /usr/local/mongoDB/
+ld
+ls
+touch mongod.pid
+sudo chmod 755 mongod.pid 
+sudo vim /etc/init.d/mongod 
+cd /etc/init.d
+sudo chkconfig mongod on
+sudo update-rc.d mongod on
+sudo apt install sysv-rc-conf
+sudo cp /usr/sbin/sysv-rc-conf /usr/sbin/chkconfig
+sudo chkconfig mongod on
+sudo service mongod start
+systemctl status mongod.service
+systemctl daemon-reload
+sudo systemctl daemon-reload
+systemctl status mongod.service
+sudo apt remove mongod
+sudo apt remove mongodb-server
+ls
+rm -rf mongod 
+sudo rm -rf mongod 
+cd /etc/
+sudo rm -rf mongod.conf 
+cd /usr/local/
+sudo rm -rf mongoDB/
+ls
+cd ..
+cd /home/wulai/
+ls
+rm -rf mongodb/
+sudo rm -rf mongodb/
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+cd /etc/apt/sources.list.d/mongodb-org-4.0.list
+sudo touch /etc/apt/sources.list.d/mongodb-org-4.0.list
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
+cd /etc/apt/
+ls
+cd sources.list.d/
+ls
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+sudo service mongod start
+sudo mongo
+cd /etc/
+ls
+vim mongod.conf 
+sudo vim mongod.conf 
+cd /usr/local/
+ls
+cd ..
+ls
+cd /var/
+ls
+cd lo
+cd log
+ls
+cd mongodb/
+ls
+cd /opt/
+ls
+mongod
+vim /etc/mongod.conf 
+cd /var/lib/
+;s
+ls
+cd mongodb/
+ls
+rm -rf mongod.lock 
+sudo rm -rf mongod.lock 
+vim /etc/mongod.conf 
+sudo mongod -f /etc/mongod.conf --fork
+service mongod stop
+sudo vim /etc/mongod.conf 
+cd /home/wulai/
+touch mongod.service
+vim mongod.service 
+whereis mongod
+mognod
+mongod
+vim mongod.service 
+cd /etc/systemd/sys
+cd /etc/systemd/system/
+ls
+sudo mv /home/wulai/mongod.service ./
+ls
+sudo chmod 754 mongod.service 
+systemctl start mongod.service
+cd /var/lib/mongodb/
+ls
+sudo rm -rf mongod.lock 
+sudo systemctl start mongod.service
+systemctl status mongod.service
+ls
+sudo mongod -f /etc/mongod.conf 
+mongo
+mongo localhost:28018
+ps aux | grep mongo
+sudo mongod --shutdown
+sudo mongod --shutdown --dbpath /var/lib/mongodb/
+mongo localhost:28018
+sudo mognod -f /etc/mongod.conf 
+sudo mongod -f /etc/mongod.conf 
+mongo localhost:28018
+ls
+rm -rf mongod.lock 
+sudo rm -rf mongod.lock 
+sudo vim /etc/init.d/mongodb
+sudo chmod +x /etc/init.d/mongodb 
+sudo service mongod start
+systemctl status mongod.service
+cd /etc/systemd/system/
+ls
+sudo mv /usr/lib/systemd/
+cd /usr/lib/systemd/
+ls
+sudo service mongod status
+cd /var/lib/
+ls
+cd mongodb/n
+cd mongodb/
+ls
+cd journal/
+ls
+cd ..
+sudo vim /etc/rc.local 
+sudo service mongod start
+ls
+sudo find / -name "mongod.service"
+sudo rm -rf /etc/systemd/system/mongod.service 
+vim /lib/systemd/system/mongod.service 
+vim /var/run/
+cd /var/run/
+ls
+sudo service mongod start
+sudo journalctl -xe
+cd /etc/init.d/
+ls
+vim mongodb 
+sudo rm -rf mongodb 
+sudo vim /lib/systemd/system/mongod.service 
+sudo service mongod start
+sudo systemctl status mongod.service
+cd /etc/init.d/
+ls
+touch mongod
+sudo touch mongod
+sudo service mongod status
+sudo service mongod start
+sudo apt-get purge mongodb-org*
+sudo rm -rf /var/log/mongodb/
+sudo rm -rf /var/lib/mongodb/
+cd /var/log
+ls
+mongod
+cd /etc/init.d/
+ls
+sudo rm -rf mongod
+cd /lib/systemd/system/
+ls
+ls m*
+sudo apt-get install -y mongodb-org
+sudo service  mongod start
+ls
+ls mon*
+sudo vim mongod.service 
+sudo systemctl unmask mongodb
+sudo service  mongod start
+sudo service mongod status
+sudo vim /etc/mongod.conf 
+sudo systemctl enable mongod
+reboot
+sudo reboot
+sudo service mongod stauts
+sudo service mongod status
+mongo localhost:28018
+mongo localhost:28018 -u "wulai" -p "renlei281034" --authenticationDatabase "admin"
+mongo
+mongo localhost:28018
+vim /etc/mongod.conf 
+mongo localhost:28018
+mongo localhost:28018 -u "wulai" -p "renlei281034"
+mongo localhost:28018 -u "wulai" -p "renlei281034" --authentication
+mongo localhost:28018 -u "wulai" -p "renlei281034" --authenticationDatabase admin
+mongo localhost:28018
+mongo localhost:28018 -u "wulai" -p "renlei281034" --authenticationDatabase admin
+mongo localhost:28018
+mongo localhost:28018 -u "wulai" -p "renlei281034" --authenticationDatabase admin
+sudo vim /etc/mongod.conf 
+mongo localhost:28018
+sudo vim /etc/mongod.conf 
+sudo service mongod restart
+sudo service mongod status
+cd /var/lib/mongodb/
+ls
+rm -rf mongod.lock 
+sudo rm -rf mongod.lock 
+sudo service mongod start
+sudo service mongod status
+sudo vim /etc/mongod.conf 
+sudo service mongod start
+sudo service mongod status
+sudo vim /etc/mongod.conf 
+sudo service mongod start
+sudo service mongod status
+sudo service mongod  restart
+sudo service mongod status
+sudo vim /etc/mongod.conf 
+sudo mongod /etc/mongod.conf 
+mongod --auth -f /etc/mongod.conf 
+sudo mongod --auth -f /etc/mongod.conf 
+ls
+sudo rm -rf mongod.lock 
+sudo service mongod start
+sudo service mongod status
+sudo vim /etc/mongod.conf 
+sudo service mongod start
+sudo service mongod status
+ls
+rm -rf mongod.lock 
+sudo rm -rf mongod.lock 
+sudo service mongod start
+sudo service mongod status
+ls
+sudo vim /etc/mongod.conf 
+ls
+sudo service mongod start
+sudo service mongod status
+ls
+sudo systemctl unmask mongod
+sudo service mongod start
+sudo service mongod status
+ls
+sudo mongod -f /etc/mongod.conf 
+sudo vim /etc/mongod.conf 
+sudo service mongod start
+sudo service mongod status
+ls
+rm -rf mongod.lock 
+sudo rm -rf mongod.lock 
+sudo mongod -f /etc/mongod.conf 
+ls
+sudo rm -rf mongod.lock 
+sudo vim /etc/mongod.conf 
+sudo service mongod  start
+sudo service mongod  status
+ls
+sudo rm -rf mongod.lock 
+sudo mongod -f /etc/mongod.conf 
+cd /var/log/
+ls
+cd mongodb/
+ls
+vim mongod.log 
+sudo vim mongod.log 
+sudo service mongod start
+sudo service mongod status
+sudo vim mongod.log 
+sudo service mongod status
+vim /etc/mongod.conf 
+sudo mongod --remove
+sudo mongod -h
+ls
+cd ..
+ls
+cd lo
+cd lock
+ls
+cd ../lib
+ls
+cd mongodb/
+ls
+sudo rm -rf mongod.lock 
+cd diagnostic.dat
+sudo cd diagnostic.data/
+su
+sudo apt purge mongodb-org*
+ls
+cd ..
+ls
+sudo service mongod start
+sudo systemctl unmask mongod
+sudo service mongod start
+cd /
+su
+exit
+mongo --port=28018 -u "wulai" -p authenticationDatabase admin
+mongo --port=28018 -u "wulai" -p --authenticationDatabase admin
+mongo --port -u "wulai" -p --authentication admin
+mongo --port=28018 -u "wulai" -p --authentication admin
+mongo --port=28018 -u "wulai" -p --authenticationDatabase admin
+exit
+mysql -uroot -p

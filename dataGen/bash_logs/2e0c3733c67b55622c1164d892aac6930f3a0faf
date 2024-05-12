@@ -1,0 +1,282 @@
+vi primeiro
+ls
+./ primeiro
+. primeiro
+vi primeiro
+$ echo $VARIAVEL
+echo $VARIAVEL
+ls
+. PRIMEIRO
+. primeiro
+. PRIMEIRO
+. primeiro
+vi primeiro
+HOJE=$(date)
+echo "Hoje : $HOJE"
+vi primeiro
+cd /bin
+cat -n
+ls
+cd 
+ls
+mkdir bin
+ls
+mv primeiro bin
+ls
+cd bin
+ls
+cat -n primeiro 
+cd
+pwd
+cd bin
+pwd
+cd
+ls
+ls bin
+ls primeiro
+vi primeiro
+cd bin
+vi primeiro
+cd
+cd bin
+vi primeiro
+ls
+cd bin/
+ls
+vi primeiro
+cd ..
+cd bin
+cd ...
+cd ..
+clear
+cd bin
+vi duas idades
+vi duas
+. duas
+vi duas
+vi nome
+. nome
+vi nome
+. nome
+vi nome
+. nome
+vi nome
+. nome
+vi nome
+. nome 
+vi nome
+. nome
+vi nome
+cd bin
+vi primeiro
+cd ..
+logout
+exit
+clear
+vi ptavio
+rm ptavio
+rv ptavio
+clear
+rm ptavio
+vi ptavio
+clear
+cd bin
+vi primeiro
+vi parameto
+cat > novoArquivo.txt
+ls
+cd novoArquivo.txt
+cat novoArquivo
+cat novoArquivo.txt
+cat > camp
+cut -d, f1 camp
+cut -d, -f1 camp
+toṕ
+top - bn1
+top -bn1
+top-bn1
+top -bn1
+top -bn1,
+top -bn1
+top -bni
+top bn1
+top -bn1
+cd bin
+vi primeiro
+cd bin
+vi primeiro
+cd bin
+vi primeiro
+cd ..
+locate *.doc
+grep -i
+grep -i primeiro
+cd dev
+cd /dev
+ls -f
+cd /dev
+cd ..
+cd bin
+ls -f
+ls
+ls -l
+pwd
+ls -la
+cd ..
+pwd
+cd home
+cd /bin
+ls
+cd etc
+cd ..
+cd etc
+ls
+ls -l
+ls -f
+su
+cd ..
+cd home
+ls
+man if
+man case
+cd ..
+man case
+man vi
+cd /var/log
+ls
+ls -f
+ls -la
+ls -l
+cd ..
+cd ...
+cd ..
+echo $PATH
+cat > teste
+chmod ux
+chmod u+x
+chmod u teste
+./teste
+cd bin
+vi teste3
+./ teste3
+. teste3
+cd bin
+ls
+cd nome
+vi nome
+cat seq.txt
+cat seq
+cat primeiro
+cat duas
+date
+diff primeiro seq
+du bin
+du home
+file seq
+cd ..
+file seq
+find -n
+find -n seq
+find -name seq
+find -name primeiro
+free
+ls
+passwd diogo
+name
+uname
+pwd
+cd bin
+cd -
+tac seq
+cat seq
+cd bin
+tac seq
+cat seq
+df
+free
+grep nome primeiro
+grep nome primeiro -f
+cd ..
+who
+uname
+cd bin
+vi testando
+./testando
+su
+cat testando
+cd testando
+. testando
+vi pwd
+cat pwd
+. pwd
+./ pwd
+. pwd
+vi pwd
+vi p
+cat p
+. p
+echo PATH
+ECHO $path
+echo $PATH
+vi data
+. data
+ls -l
+echo +x data
+ls -l
+chmod +x data
+ls -l
+vi disco
+. disco
+vi confirmar
+cat confirmar
+. confirmar
+diogo="sono"
+echo $sono
+echo $diogo
+unset diogo
+echo diogo
+echo $diogo
+cat -n date
+cat -n data
+vi t
+. t
+c
+rm t
+. t
+ls
+rm confirmar disco duas p testando teste3 testetrabalho
+ls
+rm data nome pwd 
+ls
+cat seq
+rm seq
+ls
+cat primeiro
+vi trabalho av1
+. trabalho av1
+vi trabalho av1
+vi trablho av1
+cat trabalho av1
+rename trabalho av1
+uname trabalho av1
+VI TRABALHO AV1
+vi trabalho
+rm trabalho
+ls
+vi trabalho
+ls
+vi trabalho
+cat trabalho
+. trabalho
+vi trabalho
+ls
+ls -l
+chmod +x 
+chmod +x trabalho
+ls -l
+./ trabalho
+. trabalho
+a
+ls
+ls -la
+exit

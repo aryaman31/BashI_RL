@@ -1,0 +1,135 @@
+ls
+ls -la
+ping www.bol.com.br
+clear
+netstat -r
+netstat help
+clear
+mcedit teste
+vi ronyvim
+ls
+ls -la
+ls
+vi ronyvim +2
+A
+cd home
+ls
+/
+ls
+cd home
+ls
+s
+/
+cd \home
+vi teste
+ls
+ls -la
+variavel="estou sem ideias"
+echo =variavel
+VARIAVEL="estou sem ideias"
+echo $VARIAVEL
+echo $VARIAVEL$VARIAVEL
+echo $VARIAVEL $VARIAVEL
+HOJE=$(date)
+echo "hoje  : $HOJE
+
+HOJE=$(date)
+echo "hoje : $HOJE"
+
+
+
+
+
+hoje
+clear
+eexit
+login
+
+
+
+
+
+
+
+
+
+
+cd
+ls -la
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aa
+zz
+:x
+
+unset hoje
+echo $hoje
+unset HOJE
+echo $HOJE
+cd bin
+ls-la
+ls -la
+/
+cd profile
+cd..
+cd /
+ls
+cd /
+cd ronyvim
+ls
+ls -la
+cd home
+ls -la
+cd bin
+*
+ls -la
+cd /
+ls -la
+cd
+ls *la
+pwd
+cd bin
+cd /home/rony2/bin
+cd bin
+/
+cd /
+cd
+ls -la
+cd bin
+vi primeiro
+ls 
+ls -la
+pwd
+dhclient eth0
+cd bin
+exit

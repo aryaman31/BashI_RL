@@ -1,0 +1,500 @@
+./testing.sh list map test2
+./testing.sh list map test2
+./testing.sh list map test2
+./testing.sh list map test2
+./testing.sh list map test2
+./testing.sh list map test2
+./testing.sh list ws
+./testing.sh list ws
+./testing.sh list ws
+./testing.sh list map test2
+./testing.sh list map test
+./testing.sh add map test
+./testing.sh add map test
+./testing.sh list map test
+./testing.sh list map test2
+./testing.sh list map test3
+./testing.sh add map test
+./testing.sh list map test3
+./testing.sh list map test
+./testing.sh list map test
+git status
+git add .
+git log
+git commit -m"Added add function in mapping.sh"
+git status
+./testing.sh delete map test
+./testing.sh delete map test
+./testing.sh delete map test
+./testing.sh delete map test
+./testing.sh list map test
+./testing.sh delete map test
+./testing.sh list map test2
+./testing.sh delete map test2
+./testing.sh delete map test2
+./testing.sh add map test2
+./testing.sh add map test2
+./testing.sh delete map test2
+./testing.sh list map test2
+./testing.sh list map test
+./testing.sh delete map test
+./testing.sh list map test
+git status
+git add .
+commit -m "Added DELETE function in mapping.sh"
+git commit -m "Added DELETE function in mapping.sh"
+git push -u origin master
+git push -u origin master
+clear
+git status
+git log
+java --version
+ls
+grep -iw test_map_1
+grep -iw test_map_1 mapping.cfg 
+grep -iw test_map_1 mapping.cfg | sed -i 's/ENABLED/DISABLED/'
+grep -iw test_map_1 mapping.cfg | sed -i 's/ENABLED/DISABLED'
+grep -iw test_map_1 mapping.cfg | sed -i 's/ENABLED/DISABLED/G'
+grep -iw test_map_1 mapping.cfg | sed -i 's/ENABLED/DISABLED/G'
+grep -iw test_map_1 mapping.cfg | sed -i 's/ENABLED/DISABLED/g'
+man sed
+grep -iw test_map_1 mapping.cfg | sed 's/ENABLED/DISABLED/g'
+grep -iw test_map_1 mapping.cfg | sed 's/ENABLED/DISABLED/'
+exit
+git status
+git status
+git add . 
+git commit -m "Added new snippets for ODI; Changed Look and Feel"
+git push -u origin master 
+exit
+ls
+git status
+./testing.sh list map test
+./testing.sh add map test
+./testing.sh list map test
+./testing.sh disable map test
+./testing.sh disable map test
+./testing.sh list map test
+./testing.sh delete map test
+clear
+./testing.sh list ws
+./testing.sh delete ws test
+./testing.sh delete ws test
+./testing.sh list ws
+./testing.sh list map test3
+./testing.sh list map test2
+./testing.sh add map test2
+./testing.sh add map test2
+./testing.sh list map test2
+./testing.sh disable map test2 test2_map_1
+./testing.sh list map test2
+./testing.sh list map test2
+./testing.sh disable map test2 test2_map_1
+./testing.sh disable map test2 test2_map_1
+./testing.sh disable map test2 test2_map_1
+./testing.sh disable map test2 test2_map_1
+./testing.sh list ws
+./testing.sh list map test2
+./testing.sh enable map test2 test2_map_1
+./testing.sh enable map test2 
+./testing.sh enable map test2 
+./testing.sh enable map test2 test2_map_1
+./testing.sh enable map test2 test2_map_1
+./testing.sh enable map test2 test2_map_1
+./testing.sh enable map test2 test2_map_1
+./testing.sh list map test2
+./testing.sh disable map test2 test2_map_1
+./testing.sh list map test2
+./testing.sh disable map test2 test2_map_1
+./testing.sh list map test2
+./testing.sh delete map test2 test2_map_1
+./testing.sh list map test2
+./testing.sh delete map test2 test2_map_1
+./testing.sh delete map test2 test2_map_1
+./testing.sh delete map test2 test2_map_1
+./testing.sh list map test2
+git status
+git log
+git add .
+git commit -m"Added DISABLE ENABLE functions to mapping.sh; Minor changes in ws.sh"
+clear
+git status
+ls
+mv testing.sh bookmark.sh
+rm *~*
+ls
+rm *~
+rm *.un~
+touch sync.sh
+exit
+git status
+git status
+git status
+git log
+clear
+git status
+git add Packages/PKG_DAILY_REVENUE/
+
+find -type f -name "*~* -exec rm {} \;
+
+find -type f -name "*~* -exec rm {} /;
+
+
+
+find -type f -name "*~* -print
+find -type f -name "*~*" -exec rm {} \;
+git status
+git add .
+git status
+git commit -m "Latest snapshot"
+clear
+exit
+git status
+git log
+exit
+ls
+cd png
+ls
+mv ER_FTP_DIRS_PNG.cnf ftp_dirs.cfg
+ls
+mv ER_TYPES_PNG.cnf er_types.cfg
+ls
+mv ER_LOG_ARCH_DIRS_PNG.cnf log_arch_dirs.cfg
+ls
+cd ..
+ls
+cd fiji/
+ls
+mv ER_TYPES_FIJI.cnf er_types.cfg
+mv ER_FTP_DIRS_FIJI.cnf ftp_dirs.cfg
+ls
+rm LOAD_ER_ODI_FIJI.sh 
+ls
+rm ER_LOG_ARCH_DIRS_FIJI.cnf log_arch_dirs.cfg
+mv ER_LOG_ARCH_DIRS_FIJI.cnf log_arch_dirs.cfg
+ls
+cd ..
+ls
+cd sam/
+ls
+mv ER_LOG_ARCH_DIRS_SAM.cnf log_arch_dirs.cfg
+mv ER_TYPES_SAM.cnf er_types.cfg
+ls
+mv ER_FTP_DIRS_SAM.cnf ftp_dirs.cfg
+cd ..
+ls
+cd ton/
+ls
+mv ER_TYPES_TON.cnf er_types.cfg
+mv ER_LOG_ARCH_DIRS_TON.cnf log_arch_dirs.cfg
+ls
+cd ..
+ls
+ls -ltr
+ls *
+mv van/ER_LOG_ARCH_DIRS_VAN van/log_arch_dirs.cfg
+mv van/ER_TYPES_VAN van/er_types.cfg
+ls
+ls *
+ls *
+mv fiji/ER_LOG_ARCH_DIRS_FIJI.cnf log_arch_dirs.cfg
+ls
+mv log_arch_dirs.cfg fiji/
+ls
+ls *
+find -type f -name "ftp_dirs.cfg" print
+find ./ -type f -name "ftp_dirs.cfg" print
+find . -type f -name "ftp_dirs.cfg" print
+find . -type f -name "ftp_dirs.cfg"
+find . -type f -name "ftp_dirs.cfg" -exec print
+find . -type f -name "ftp_dirs.cfg" -exec print {} /;
+find . -type f -name "ftp_dirs.cfg" -exec print {} \;
+find . -type f -name "ftp_dirs.cfg"
+ls 
+ls -ltr | grep ^d
+ls -ltr | grep ^d | tr 
+ls -ltr | grep ^d | tr " "
+ls -ltr | grep ^d | tr -s " "
+ls -ltr | grep ^d | tr -s " " | awk -F" " '{print $NF}'
+find . -type f -name "ftp_dirs.cfg" -exec print {} \;
+find . -type f -name "ftp_dirs.cfg"
+find . -type f -name "ftp_dirs.cfg" | grep -v ^#
+cat ./fiji/ftp_dirs.cfg 
+grep -c "20180507" TestingScripts.txt
+grep -c "20180508" TestingScripts.txt
+sum='expr `grep -c "20180507" TestingScripts.txt` + `grep -c "20180508" TestingScripts.txt`'
+sum=$((expr `grep -c "20180507" TestingScripts.txt` + `grep -c "20180508" TestingScripts.txt`))
+sum=$((expr `grep -c "20180507" TestingScripts.txt` + `grep -c "20180508" TestingScripts.txt`))
+sum=$((expr `grep -c "20180507" TestingScripts.txt` + 10))
+sum=$((expr `grep -c "20180507" TestingScripts.txt` + 11))
+sum=$((`grep -c "20180507" TestingScripts.txt` + 11))
+echo $sum
+cd ..
+cd ..
+pwd
+find -type f -name "*~" 
+find -type f -name "*~" -exec rm {} \;
+find -type f -name "*~" 
+find ./ -type f -name "*~" 
+find . -type f -name "*~" 
+find . -type f -name "*~*" 
+pwd
+cd SFTP/
+ls
+find . -type f -name "*~*" 
+find -type f -name "*~" -exec rm {} \;
+pwd
+exit
+git status
+git stauts
+git status
+exit
+find ./ -type f -name "*~*" 
+pwd
+find .\ -type f -name "*~*" 
+find . -type f -name "*~*" 
+find . -type f -name "*.sql*" 
+find ./ -type f -name "*~*" 
+find ./ -type f -name "*~.sql" 
+find ./ -type f -name "*.sql" 
+find ./ -name "*.sql" 
+pwd
+ls 
+ls -ltr
+cd src/
+ls
+find ./ -name "*.sql" 
+find ./ -type f -name "*~*" 
+find ./ -type f -name "*~*" -exec rm {} ;\
+find ./ -type f -name "*~*" -exec rm {} ;/
+find ./ -type f -name "*~*" -exec rm{} ;/
+find ./ -type f -name "*~*" -exec rm -i {} \;
+cd Packages/VALIDATION/
+ls
+rm NewTables.sql 
+ls
+mv VALIDATE_TABLES_PKG1.pk* backup/
+ls 
+clear
+exiut
+exit
+git status
+git add .
+git commit -m"Updated for ODI Model"
+git push -u origin master 
+git push -u origin master 
+exit
+ls
+df -h
+du -h
+clear
+man du
+man df
+help df
+exit
+pip install pexpect
+python -m pip install --upgrade pip
+clear
+man expect
+expect
+exit
+vi msc_sftp.sh
+cd .ersync/png/
+ls
+head er_types.cfg > msc_sgsn_er_types.cfg
+rm msc_sgsn_er_types.cfg 
+head ftp_dirs.cfg > msc_sgsn_ftp.cfg
+touch FILES_AUDIT_PKG.pks
+touch FILES_AUDIT_PKG.pkb
+find . -type f -name "*~" -exec rm {} \;
+ls
+rm er_types_hist*
+ls
+ls -a
+mv .ersync\ -\ Copy/ .ersynchist
+ls
+exit
+find  -type f -name "*~*" -exec rm {}\;
+find  -type f -name "*~*" -exec rm \;
+find  -type f -name "*~*" -exec rm {} \;
+clerar
+exit
+exit
+pwd
+ls
+ls -ltr
+ls -l
+ls -lh
+cd ~
+mkdir gittest
+cd gittest/
+mkdir test ; cd test
+pwd
+touch a.txt b.txt c.txt d.txt
+ls
+ls -ls
+chmod 711 a.txt 
+ls -lh
+chmdor 755 a.txt 
+chmdod 755 a.txt 
+chmod 755 a.txt 
+ls -l
+chmod 777 a.txt 
+ls -l;
+pwd
+cd .. 
+cp test/ amit
+cp -r test/ amit/
+ls
+mv amit/ test
+ls
+ls
+cp test/ test1
+cp -r test/ test1
+ls
+mv test1/ test/
+ls
+cd test/
+ls
+ls -l
+ls .
+ls ..
+touch a.c b.c
+pwd
+ls *.c
+cd ..
+ls
+ls *.c
+pwd
+find . -type f -name "*.c"
+find . -type f -name "*.c" -exec -rm {};\
+find . -type f -name "*.c" -exec rm -i {};\
+find . -type f -name "*.c" -exec rm -i {} \;
+find . -type f -name "*.c"
+ls
+cd test/
+ls
+mv amit/* test1/
+ls amit/
+rmdir amit/
+mkdir amit
+touch ./amit/a.c 
+ls amit/
+rmdir amit/
+rm -rf amit/
+pwd
+ls -lrth
+cd
+ls
+ls -l ..
+ls ..
+ls ../KT/
+ls ../../
+python --version
+python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
+python -m pip install --upgrade pip
+python -m pip install jupyter
+jupyter notebook
+cd ~/.vim
+ls
+cd bundle/
+ls
+cd Vundle.vim/
+ls
+exit
+git clone https://github.com/VundleVim/Vundle.vim.git Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git
+exit
+python
+python --version
+python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
+ls
+python3
+python
+python -m pip --version
+python -m pip install jupyter
+python -m pip install jupyter
+touch a.bad a.error
+mkdir badfiles
+touch a.txt b.txt
+touch b.txt b.txt.bad b.txt.error
+touch a.gz.txt b.txt c.gz d.gz.txt
+exit
+git status 
+git add .
+git status 
+git add FmtPlus.opt 
+git status
+git commit -m "Updated UI and Named SQL"
+git status
+git push -u origin master 
+clear
+exit
+head ER_802_PNG_LOG25_PP_20180713_22164.txt > a.txt
+head ER_802_PNG_LOG25_PP_20180702_18722.txt.bad >> a.txt
+ping 10.150.198.157
+ping 10.150.198.157 -t
+vim
+vi
+clear
+vim
+ls
+pwd
+clear
+vim
+echo $PATH
+python --version
+vim
+clear
+where vim
+vim --version |cat
+vim --version 
+where vim
+pwd
+ls vim*
+echo $home
+echo $HOME
+cd $HOME
+ls
+clear
+ls
+pwd
+vim --version
+vi
+echo ~
+clear
+cd ~
+ls
+cd .vim
+ls
+cd bundle/
+ls
+vim
+vi
+vi
+ls
+cd ../../
+ls
+clear
+vi test.py
+vi
+vi
+ls
+vi test.py
+vi test.py
+vi test.py
+pwd
+cat $
+echo ~
+cate ~/.minttyrc 
+cat ~/.minttyrc 
+ls
+cd ~
+ls
+ls -a
+vi .gitconfig 
+python
+python2
+vi .minttyrc 

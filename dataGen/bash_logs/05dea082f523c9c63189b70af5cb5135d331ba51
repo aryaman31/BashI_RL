@@ -1,0 +1,250 @@
+vi
+i
+vi
+vi reginaldo
+vi teste
+mc
+vi
+vi teste
+cat
+nano
+mcedit
+echo $PATH
+mkdir bin
+cd bin
+nano primeiro
+chmod +x primeiro
+ls -la
+primeiro
+chmod +x primeiro
+ls
+primeiro
+ls -la
+vi primeiro
+ls -la
+primeiro
+nano primeiro
+primeiro
+nano primeiro
+ls -la
+ls
+primeiro
+pw
+cd
+primeiro
+cd bin
+cd
+cd bin
+ls
+nano peimeiro
+nano primeiro
+ls
+mkdir segundo
+ls
+nano segundo
+segundo
+./segundo
+nano segundo
+ls
+cd segundo
+c .
+c.
+cd
+cd primeiro
+nano primeiro
+cd bin
+ls
+nano primeiro
+primeiro
+nano primeiro
+cat -n primeiro
+ls
+nano
+ls
+nano seg
+nano segundo
+cd
+ls
+cd
+cd bin
+ls
+primeiro
+cat -n peimeiro
+cat -n primeiro
+cut primeiro
+cd
+cd bin
+ls
+cd
+cd /bin
+ls
+s
+cd .
+cd
+ls
+cd /home
+ls
+cd
+cd /etc/bin
+cd bin
+ls
+n1=6
+n2=7
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+n2=8
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+n2=10
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+n2=8
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+n1=8
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+n=7
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+n1=8
+n2=7
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+n1=3
+n2=4
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+n1=4
+n2=3
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+echo "informe usuario:"; read user;
+test "super" = "redes" && echo "user: $user" || echo "user: errado"
+vim
+vim teste.sh
+vi
+num=7
+./relação 3 5
+cd /home/bin
+cd /bin
+vim relacao
+cd bin
+cd /bin
+ls
+-ls
+cd /bin
+ls
+cd /bin
+ls
+vim relacao
+num=7
+num2=9
+if test $num -lt $num2; then echo "menor"; else echo "maior"; fi menor
+7
+fi
+num=5
+num2=8
+fi
+if test $num -lt $num2; fi
+num=5
+num2=9
+if test $num -lt $num2; fi
+cd
+/bin
+cd /bin
+cd
+cd /bin
+ls
+-l
+cd -l
+cd ls
+cd /bin
+ls
+cd
+ls
+vim bin
+ls
+vim bin
+vim hindu
+vim bin
+ls
+cd /bin
+ls
+cd..
+cd .
+cd
+nano trabalho.sh
+ls
+nano
+vim
+chmod +x trabalho.sh
+
+nano trabalho.sh
+vi trabalho.sh
+nano trabalho.sh
+vim trabalho.sh
+nano trabalho.sh
+vim trabalho.sh
+./trabalho.sh
+vi trabalho.sh
+./trabalho.sh
+vi trabalho.sh
+ls
+bin
+/bin
+cd /bin
+ls
+nano trabalho2.sh
+nano trabalho.sh
+cd ..
+nano trabalho.sh
+chmod +x trabalho.sh
+ls
+cd /bin
+ls
+cd ..
+ls
+exit
+cd bin
+ls
+cd
+ls
+cd /bin
+ls
+ls -l
+cd
+cd bin
+ls
+cd
+exit
+ls
+vim trabalho.sh
+exit
+nano trabalho.sh
+cd
+ls
+nano trabalho
+ls
+./trabalho.sh
+2
+./trabalho.sh
+nano trabalho
+nano trabalho.sh
+./trabalho.sh
+cat trabalho.sh
+ls
+cat trabalho
+cat trabalho.sh
+cat trabalho2.sh
+cd
+ls
+sed huinu -d
+ls
+sed -n hundu
+seq 1 5
+seq -f 1 5
+seq -s 1 5
+seq -s", " 0 10
+seq -f%f 0 10
+ls
+nano trabalho.sh
+vim trabalho.sh
+./trabalho.sh
+cd bin
+ls
+cd ..
+ls
+vim trabalho.sh
+exit

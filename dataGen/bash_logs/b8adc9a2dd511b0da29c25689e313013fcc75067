@@ -1,0 +1,25 @@
+exit
+sudo yum update
+cd.
+ls
+pwd
+cd..
+cd
+cd/home
+cd /home
+cd .
+cd ..
+ls 
+cd /home
+cd -
+cd /
+sudo su
+ls
+cd ..
+cd~
+cd ~
+sudo su
+cd ~
+cd ..
+cd ~
+sudo su

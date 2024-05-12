@@ -1,0 +1,44 @@
+ls
+ls -la
+ls
+ls -la
+cd ..
+ls
+cd ..
+ls
+ls -la
+cd etc/
+ls
+cd ..
+ls
+ls -la
+sudo
+ld
+ls
+ls -la
+cat .bashrc 
+less .bashrc 
+less
+more
+more .bashrc 
+cd /etc
+ls
+man login
+vi
+mcedit .
+mcedit 
+ed
+pno
+nano
+pico
+nano
+set
+set | grep TERM
+nano
+mcedit
+nano
+mcedit
+mcedit 
+vim
+pico
+nano

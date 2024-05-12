@@ -1,0 +1,239 @@
+ls
+ls -la
+cd ..
+ls
+cd ..
+ls
+mkdir aula1
+cd aula1/
+touch teste
+ls
+ls -l
+ls -la
+cd
+pwd
+cd ..
+ls
+cd ..
+ls
+cd ..
+cd 
+cd ../lohn3
+ls
+cd ..
+cd ../lohn4
+cd ../lohn5
+cd ../lohn6
+cd ../lohn3
+cd lohn4
+ls
+ls -la
+exit
+uname
+echo $PATH
+ls
+echo $PATH
+ls
+mcedit
+exit
+mcedit
+df
+dfg
+df
+mount]
+mount
+df
+mount
+drf
+df
+cd bin
+ls
+vim primeiro
+ls
+
+ls -la
+cd bin/
+vim primeior
+vim primeiro
+chmod +x primeiro 
+primeiro 
+vim primeiro 
+primeiro 
+vim primeiro 
+primeiro 
+cd bin
+cat primeiro 
+cat -n primeiro 
+man cat
+passwd
+man
+cd /usr/share
+ls
+man
+df
+seq
+df
+seq
+seq 1 10
+man seq
+pager
+man seq
+cd /usr
+cd share
+cd man
+ls
+du -hs
+rev
+cd pt_BR/
+ls
+ls -la
+ls *
+localte
+locale
+man man
+man -v man
+man --help
+less
+set
+locale
+set
+cd /dev
+ls
+df -h
+cd 
+ls
+man man
+nroff
+man man
+apt-get
+cat /dev/zero
+echo 123 > /dev/null
+man man
+locale
+export $LANG=pt_BR.UTF-8
+export LANG=pt_BR.UTF-8
+man ifconfig
+locale
+passwd
+cat /etc/shadow
+passwd
+locale -a
+ls
+locale
+cat gkljhh
+sdf
+cat /tklghhgb
+man test
+man bash
+touch teste
+mount
+ssh localhost -l j
+ld
+areujtri
+gmmbvmb
+set
+man man
+cd /dev
+ls
+man test
+man man
+echo fuuuuck | mail -s teste josemarlohn@gmail.com
+mail
+cd /var
+ls
+cd ..
+mail
+cd /var
+cd mail
+mail
+cd /var/mail
+ls 
+mkdir lohn2
+mutt
+echo fuuuuck | mutt -s teste josemarlohn@gmail.com
+mail
+mutt
+editor
+mutt
+mutt_dotlock 
+mutt_dotlock -t
+procmail
+mail
+passwd
+ls
+passwd
+passwd lohn
+passwd lohn2
+passwd --help
+passwd
+LANG=C passwd
+strace
+strace passwd
+ls /lib/x86_64-linux-gnu/security/
+ls /lib/security/
+strace passwd
+cd /tmp
+ls
+passwd
+strace passwd 2> a
+less a
+cd /etc
+cat /etc/passwd
+chfn
+passwd
+cd /tmp
+ls
+cat a | grep not found
+cat a | grep "not found"
+less a
+:q
+cat a | grep "no sudh"
+cat a | grep "no such"
+cat a | grep "No such"
+set |grep pts
+cd /dev
+ls
+cd pts
+ls
+ls -la
+cd ..
+ls
+ls -la | grep sh
+cd ..
+cd var
+ls
+cd ..
+cd rin
+cd run
+strace passwd 2>a
+cd tmp
+strace passwd 2>a
+cat a | grep "No such"
+strace passwd 2>a
+cat a | grep "No such"
+less a
+passwd
+cat a | grep erm
+cat a | grep No
+cat a | grep No | grep -v locale
+passwd
+strace -S9999 passwd 2>
+strace -S9999 passwd 2> a
+strace -S9999 passwd
+strace -s9999 passwd
+strace -s9999 passwd 2> a
+vim a
+bash
+grep
+cut
+cat
+find
+find . -name teste
+ls
+cat case2.sh 
+ls -la
+cat simNao.sh 
+cp simNao.sh simNao2.sh 
+chmod +x simNao2.sh 
+vim simNao2.sh 
+./simNao2.sh 

@@ -1,0 +1,32 @@
+cd /var/www/html/
+ls
+rm -dr forum
+sudo rm -dr forum
+ls
+ls -al
+mkdir forum
+cd forum/
+lls
+ls
+ls
+composer create-project --prefer-dist laravel/laravel
+cd ../
+rm -dr forum
+sudo composer
+sudo composer create-project --prefer-dist laravel/laravel forum
+cd forum
+ls
+ls -al
+nano /do.sh 
+sudo nano /do.sh 
+sudo bash /do.sh 
+ls -al
+sudo chmod 777 -R storage/
+ls
+cd ../
+sudo rm -dr forum
+composer create-project --prefer-dist laravel/laravel myapplication
+ls -al
+ls
+exit
+exit

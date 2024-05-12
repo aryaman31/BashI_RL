@@ -1,0 +1,44 @@
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y git tmux vim python3 nmap tcpdump iperf3
+ls
+ll
+df
+ls /media/jwaspin/JWA_usbC/
+ls /media/jwaspin/JWA_usbC/ssh/
+cp /media/jwaspin/JWA_usbC/ssh/jwaspin/* ~/.ssh/
+cp -P /media/jwaspin/JWA_usbC/ssh/jwaspin/* ~/.ssh/
+cp -p /media/jwaspin/JWA_usbC/ssh/jwaspin/* ~/.ssh/
+mkdir .ssh
+cp -p /media/jwaspin/JWA_usbC/ssh/jwaspin/* ~/.ssh/
+ll /media/jwaspin/JWA_usbC/ssh/
+ll /media/jwaspin/JWA_usbC/ssh/jwaspin/
+sudo cp /media/jwaspin/JWA_usbC/ssh/* .ssh/
+sudo cp /media/jwaspin/JWA_usbC/ssh/jwaspin/* .ssh/
+cd .ssh/
+ls
+ll
+sudo chown jwaspin jwaspin_*
+ll
+sudo chgrp jwaspin jwaspin_*
+ll
+chmod 600 *
+ll
+chmod 400 *
+ll
+touch config
+ls
+ll
+chmod 600 config 
+ls
+..
+cd ..
+ls
+cd .ssh/
+vim config 
+ll
+cd ..
+ll
+vim .bashrc 
+ll
+vim .ICEauthority 
+clear
+exit

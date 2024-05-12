@@ -1,0 +1,64 @@
+ls
+mkdir server
+ls
+cd server
+apt-get update
+sudo  apt-get update
+sudo apt-get
+sudo apt-get install
+git --version
+sudo apt install git
+git --version
+sudo apt-get install git-flow
+ls
+git init
+git add README.md
+git remote add origin https://github.com/v4str/igorechek.git
+sudo  git remote add origin https://github.com/v4str/igorechek.git
+git --version
+git config
+git config --global user.name "v4str"
+git config --global user.email "igorekmelnik@gmail.com"
+git config --list
+sudo  git remote add origin https://github.com/v4str/igorechek.git
+git init
+git add readme.md
+git commit -m "My first commit" 
+sudo  git remote add origin https://github.com/v4str/igorechek.git
+git push origin master
+sudo  git remote add origin https://github.com/v4str/igorechek.git
+git init
+sudo apt-get install apache2
+sudo ufw app list
+sudo ufw status
+sudo systemctl status apache2
+hostname 
+hostname -i
+sudo ufw status
+git status 
+git status
+git push origin master
+git init
+sudo git add index.php
+git init
+git add readme.md 
+ls
+git commit -m "first commit"
+git remote add origin https://github.com/v4str/igorechek.git
+git push  origin master  https://github.com/v4str/igorechek.git 
+git pull
+git push  origin master  https://github.com/v4str/igorechek.git 
+git remote add origin https://github.com/v4str/igorechek.git
+exit
+ls
+git --version
+exit
+ls
+cd server
+git  init
+git add main.php
+sudo git add main.php
+sudo git add "main.php"
+ls
+git --version
+exit
