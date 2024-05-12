@@ -1,0 +1,121 @@
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew doctor
+ruvy -v
+ruby -v
+ls -al ~/.ssh
+ssh-keygen -t rsa -C "milesstarkenburg@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+pbcopy < ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaOz7k4PPT3Da3urHHUglK/QftXJAD7mc6ThS0psaCZOcPPDsneAsCzy/v8g9cqmzjyJ6gPkODX2nvNVNAJ5qH5OdhI6iMqyqQvv/NaGl0GhuY2wDn7hY9OTd82CuPL8hd1TepVfXUN15gfgIJwFt3+fBSdfxzk7FT5YHLq5Prqh3AQ8zAUCONpJ106hyPbMJMQqv+c1WahsUpOU9m1rgNdsrUp78weLnAUCP2sugPdiwY1nrFacoF7PT7sFtvjgiiPQZSe0v3OS/477RrTu/fW4eQ7On1xVu6Rm6Fxh1OheN2X4PR958Z7vhLzK2jkWUTBylzZEW8sB1dAik/wfu9 milesstarkenburg@gmail.com
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew
+brew list
+brew install rbenv
+exit
+vim
+exit
+brew uninstall rbenv
+vim .bash_rc 
+rm .bash_rc 
+\curl -sSL https://get.rvm.io | bash -s stable
+source /Users/miles/.rvm/scripts/rvm
+rvm get stable && rvm install 2.1.1 --patch railsexpress
+curl get.pow.cx | sh
+brew install mysql
+ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+ls
+mkdir Projects
+cd Projects/
+ls
+git clone https://github.com/TeachingChannel/teaching-channel.git
+git clone https://github.com/TeachingChannel/teaching-channel.git
+ls
+ls -a
+cd teaching-channel/
+ls
+bin/bootstrap
+vim .env.development
+bin/bootstrap
+cd . && bin/bootstrap
+cd . && bin/bootstrap
+cd . && bin/bootstrap
+cd . && bin/bootstrap
+script/zeus
+script/zeus
+exit
+cd Projects/teaching-channel/
+zeus resources_test
+rake db:test:prepare
+rake db:test:prepare
+ git clone https://github.com/gringocl/dotfiles.git
+ls
+mv dotfiles/ ~
+ls
+cd ~
+ls
+cd dotfiles/
+ls
+..
+cd ..
+cd dotfiles/
+ls
+install.sh
+ls
+install.sh
+sh -c "`curl -fsSL https://raw.github.com/gringocl/dotfiles/master/install.sh`"
+brew install zsh
+ls
+cd /usr/
+ls
+cd local/
+ls
+cd bin/
+ls
+/usr/local/bin/brew install zsh
+vim
+exit
+exit
+which rvm
+which ruby
+zeus rspec
+zeus rspec
+zr
+exit
+zeus rspec
+bash -v
+exit
+zeus rspec
+source ~/.bashrc 
+zeus rspec
+exit
+rehash
+exit
+which ruby
+exit
+which ruby
+bash
+exit
+which bash
+ls
+exit
+zues/rspec
+zeus rpsec
+zeus rspec
+zsh
+unset DYLD_LIBRARY_PATH ; unset LD_LIBRARY_PATH
+mkdir -p ~/.boot2docker
+if [ ! -f ~/.boot2docker/boot2docker.iso ]; then cp /usr/local/share/boot2docker/boot2docker.iso ~/.boot2docker/ ; fi
+/usr/local/bin/boot2docker init 
+/usr/local/bin/boot2docker up 
+$(/usr/local/bin/boot2docker shellinit)
+docker version
+export DOCKER_CERT_PATH=/Users/miles/.boot2docker/certs/boot2docker-vm
+    export DOCKER_TLS_VERIFY=1
+    export DOCKER_HOST=tcp://192.168.59.103:2376
+    export DOCKER_HOST=tcp://192.168.59.103:2376
+ag private
+ag private(?private)"
+ag "private(?")"
+exit

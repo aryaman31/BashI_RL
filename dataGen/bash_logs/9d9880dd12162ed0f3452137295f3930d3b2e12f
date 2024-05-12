@@ -1,0 +1,81 @@
+sudo systemctl status docker
+exit
+sudo su
+ls
+docker ps
+sudo docker ps
+ls
+mkdir public
+docker ps
+sudo docker ps
+docker stop 0c6
+sudo docker stop 0c6
+ls
+cd public/
+touch index.html
+vi index.html 
+cd ..
+ls
+vi server.js 
+ls
+sudo systemctl status docker
+dpcker ps
+sudo docker ps
+docker build warren/node-js-test .
+docker build -t warren/node-js-test .
+sudo docker build -t warren/node-js-test .
+docker run -p 80:8080 -d warren/node-js-test
+sudo docker run -p 80:8080 -d warren/node-js-test
+ls
+exit
+ls
+docker ps
+sudo docker ps
+sudo docker stop 3e92
+mkdir public
+ls
+ls public/
+ls
+rm server.js 
+vi Dockerfile 
+sudo docker build -t warren/node-js-test .
+sudo docker run -p 80:8080 -d warren/node-js-test
+docker ps
+sudo docker ps
+sudo docker logs warren/node-js-test
+docker images
+sudo docker images
+docker rm e6
+sudo docker rm e6
+sudo docker rm a0
+sudo docker rm 3d
+sudo docker images
+docker rm e6286832b876
+sudo docker rm e6286832b876
+docker images
+sudo docker images
+docker rmi e6286832b876
+sudo docker rmi e6286832b876
+sudo docker rmi 3e92d43758ec
+sudo docker images
+docker rm $(docker ps -a -q)
+SUDO docker rm $(docker ps -a -q)
+sudo docker rm $(docker ps -a -q)
+#!/bin/bash
+# Delete all containers
+docker rm $(docker ps -a -q)
+# Delete all images
+#!/bin/bash
+# Delete all containers
+sudo docker rm $(docker ps -a -q)
+# Delete all images
+sudo docker rmi $(docker images -q)
+sudo docker rm $(docker kill $(docker ps -aq))
+docker -v
+docker ps
+sudo docker ps
+sudo groupadd docker
+sudo usermod -aG docker $USER
+exit
+sudo su
+exit

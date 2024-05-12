@@ -1,0 +1,77 @@
+top
+htop
+ls
+exit
+who
+ls
+mkdir com341
+cd com341/
+ls
+mkdir true
+ls
+atom .
+touch true.c
+ls
+rm true.c
+cd true
+touch true.c
+ls
+atom true.c 
+vim true.c
+nano true.c 
+s
+ls
+gcc -o true true.c
+./true
+ls -l
+echo $?
+./true
+echo $?
+which true
+/bin/true
+echo $?
+cd /bin/true
+echo $?
+while /bin/true ; do echo "Hi" ; done
+who
+ls
+cd com341/
+ls
+mkdir false
+cd false
+false
+echo $?
+nano false
+gcc -o false false.c
+ls
+nano false
+ls
+rm false
+gcc -o false false.c
+ls
+./false
+echo $?
+yes
+cd ..
+mkdir yes
+ls
+cd yes
+ls
+nano yes.c
+ls
+gcc -o yes yes.c
+nano yes.c
+gcc -o yes yes.c
+nano yes.c
+gcc -o yes yes.c
+nano yes.c
+gcc -o yes yes.c
+nano yes.c
+gcc -o yes yes.c
+nano yes.c
+gcc -o yes yes.c
+./yes
+nano yes.c
+./yes
+gcc -o yes yes.c
+./yes

@@ -1,0 +1,93 @@
+clear
+ls
+cd 
+exit
+ls
+cd /
+ls
+ls -la
+ls
+cd /home/emersonlmoraes
+ls
+ls -la
+mkdir Emerson Leandro Moraes
+cd emerson
+cd Emerson
+ls
+> teste
+ls
+ls -la
+cat tste
+cat teste
+man teste
+nano teste
+clear
+$PATH
+PATH
+$PATH
+su
+sudo su
+sudo su -
+su
+ls
+cd /
+cd /bin
+ls
+ls -la
+cd /home/emersonlmoraes
+ls
+cd Emerson
+ls
+cat teste
+nano
+ls
+cat teste
+logout
+exit
+clear
+cd 
+vi
+clear
+su
+sudo su
+cd 
+ls -la
+cd 
+cd /
+ls -la
+ls
+clear
+-mcedit
+mcedit
+clear
+pico
+nano
+nano Emerson.txtx
+ls -la
+cd /home/emersonlmoraes
+namo
+nano
+cat nano
+cat emerson.txtx
+cat emerson.txt
+echo teste para arquivo nano > emerson.txt
+cat emerson.txt
+echo teste para arquivo nano >> emerson.txt
+cat emerson.txt
+echo arquivo nano << emerson.txt
+echo arquivo nano < emerson.txt
+teste
+quit
+exit
+exit
+
+echo arquivo nano << 
+echo arquivo nano << emerson.txt
+teste do namo
+ok !
+
+echo arquivo nano >>arquivo.txt
+cat arquivo.txt
+logout
+exsit
+exit

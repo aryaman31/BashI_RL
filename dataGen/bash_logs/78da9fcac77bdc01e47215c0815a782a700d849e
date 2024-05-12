@@ -1,0 +1,528 @@
+pwd
+ls
+ls -lt
+cd 
+pwd
+ls -lt
+exit
+vi cat.txt
+pwd
+ls -lt
+pwd
+vi trabalho.sh 
+cat trabalho.sh |grep an
+sh trabalho.sh 
+clear
+ls -tl
+ls -lt *.sh
+sh entrega.sh 
+ls -lt
+diff entrega.sh trabalho.sh 
+rm entrega.sh 
+cat teste.txt 
+rm teste.txt 
+grep andreia *
+rm rev.sh wc.sh
+grep andreia *
+pwd
+clear
+sh trabalho.sh 
+vi trabalho.sh 
+sh trabalho.sh 
+exit
+pwd
+ls -lt
+sh trabalho.sh 
+vi trabalho.sh 
+sh trabalho.sh 
+vi trabalho.sh 
+sh trabalho.sh 
+clear
+sh trabalho.sh 
+clear
+sh trabalho.sh 
+vim trabalho.sh 
+ls -lt
+cat sedtexto1.txt 
+sh trabalho.sh 
+pwd
+cut -d : -f 1 /etc/passwd
+cut -d : -f 1 /etc/passwd > a
+v a
+vi a
+cut -c : -f 1 /etc/passwd > a
+cut -n : -f 1 /etc/passwd > a
+cut -b : -f 1 /etc/passwd > a
+cut -b  /etc/passwd > a
+cut -b : /etc/passwd
+cut -d : -f 1 /etc/passwd
+cut -c : -f 1 /etc/passwd
+cut -c : -c 1 /etc/passwd
+cut -c 1 /etc/passwd
+cut -b 1 /etc/passwd
+cut -f 1 /etc/passwd
+cut -d 1 /etc/passwd
+cut -s 1 /etc/passwd
+pwd
+cut -b 1 /etc/passwd
+cut -b 2 /etc/passwd
+cut -b 6 /etc/passwd
+cut -b /etc/passwd
+cut -b 4 /etc/passwd
+cut -c 4 /etc/passwd
+cut -f /etc/passwd
+cut -f 1 /etc/passwd
+cut -f 2 /etc/passwd
+cut -f 000 /etc/passwd
+cut -f 888 /etc/passwd
+cut -f 777 /etc/passwd
+cut -f 888 /etc/passwdpwd
+pwd
+mkdir trabalho
+mv *.txt *sh trabalho
+ls -lt
+rm a
+cat 
+cat q
+cat 1
+rm 1 
+ls -lt
+owd
+pwd
+vi trabalho
+pwd
+ls -tl
+vo trabalho.sh 
+vi trabalho.sh 
+vim trabalho.sh 
+vi trabalho.sh 
+sh trabalho
+cat trabalho
+sh trabalho.sh 
+vi trabalho
+rm trabalho
+ls
+ls -lt
+ls -lt trabalho*
+vi trabalho.sh 
+sh trabalho.sh 
+ls numero*
+cat numeros.txt
+vi trabalho,
+vi trabalho.sh 
+sh trabalho.sh 
+cat numero.
+cat numeros.txt 
+sort numeros.txt 
+vi numeros.txt
+cat sort.txt 
+vi numeros.txt 
+sort numeros.txt 
+vi trabalho.sh 
+sh trabalho.sh 
+vi trabalho.sh 
+sh trabalho
+sh trabalho.sh 
+vi trabalho.sh 
+sh trabalho.sh 
+vi trabalho.sh 
+sh trabalho.sh 
+cat grep.txt 
+grep -h /etc/passwd
+vi trabalho.sh 
+sh trabalho.sh 
+seq -s 3 /etc/passwd
+seq -s  /etc/passwd
+seq --help
+seg -f numeros.txt 
+seq -f numeros.txt 
+seq -f 3 numeros.txt 
+seq -f 1 numeros.txt 
+sh trabalho.sh 
+ls -lt
+ls -ltr
+daqte
+date
+top
+df -h
+pwd
+dmesg
+/sbin/dmesg
+ifconfig
+/sbin/ifconfig
+df -hs
+df -s
+df -h
+ls -lt /home/adrianaredes
+cat /etc/passwdo |grep hele
+cat /etc/passwd |grep hele
+ls -lt /home/helenluciany
+ls -lt /home/helenluciany/helen
+ls -lt /home/helenluciany/teste
+ls -lt /home/helenluciany/lista
+cat /home/helenluciany/lista
+cat /home/helenluciany/case5
+pwd
+mkdir teste
+cd teste
+cat /home/helenluciany/case5 > caso5
+ls -t /home/helenluciany/
+ls /home/helenluciany/
+ls -lt /home/helenluciany/
+cat /home/helenluciany/case3 > caso3
+cat /home/helenluciany/case4 > caso4
+ls -lt /home/helenluciany/backup
+clear
+exit
+cat /home/helenluciany/case3
+cat /home/helenluciany/simnao
+cat /home/helenluciany/backup/arquivobin.backup
+ls -lt /home/helenluciany/
+cat /home/helenluciany/helenlucianycechinelmcedit
+exit
+cat /etc/passwod > a
+cat /etc/passwd > a
+cat a
+grep hele a
+cat /home/helenluciany/
+ls /home/helenluciany
+ls -lt /home/helenluciany
+ls -lt /home/helenluciany/helen
+ls -lt /home/helenluciany/original
+ls /home/helenluciany/bin
+ls -lt /home/helenluciany/bin
+cat /home/helenluciany/bin/primeiro
+cat a
+ls -lt /home/luana
+cat /home/luana/scriptrabalho.save
+ls -lt /home/*
+ls /home
+cat a
+ls -lt /home/Maiquel
+cat /home/Maiquel/simnao.sh
+ls -lt /home/lohn2
+ls -lt /home/lohn2/aula1
+cat /home/lohn2/aula1/teste
+cat /home/lohn
+cat /home/lohn1
+ls /home/lohn2
+ls -lt /home/lohn2
+ls -lt /home/lohn3
+ls -lt /home/lohn4
+cat a
+clear
+cat a
+ls -lt
+cat entrega.sh
+ls -lt entrega.sh
+date
+ls -lt
+rm 1
+cat teste
+cd teste
+ls -tl
+cat caso2
+cat caso3
+cd ..
+ls -tl
+cat linhas.txt
+echo "teste" > b
+cat b
+ls -lt /home/helen
+grep hele a
+ls -lt /home/helenluciany
+> /home/helenluciany/case5
+vi /home/helenluciany/zerador.sh
+echo "voce" > /home/helenluciany/voce.txt
+cat a
+grep home a > b
+cat b
+vi b
+grep "/home/????????????"
+grep "/home/????????????" a
+grep "/home/??????" a
+grep "/home/??" a
+grep "/home/" a
+clear
+grep "/home/" a
+ls /home/juniorgtfloripa
+ls -lt
+ls -lt /home/juniorgtfloripa
+cat a
+ls -lt /home/rfl-127
+ls -lt /home/Maiquel
+ls -lt /home/johan
+ls -lt /home/nicolaspasqual
+cat /home/nicolaspasqual/menu
+ls -lt /home/tiagonpcosta
+ls -tl /home/cristiano
+ls -lt /home/tiagocosta
+ls -lt /home/cristiano.ricardo
+ls -lt /home/juniorgtfloripa
+cat a
+ls -lt /home/guizandonai
+cat /home/guizandonai/trabalholohn.sh > b
+chmod +x b
+sh b 
+vi b
+cat a
+ls -lt /home/mariojr
+ls -t /home/guizandonai
+ls -lt /home/sacha
+cat /home/sacha/trabalho
+ls -lt 
+cat a
+ls -lt /home/leandroj
+ls -lt /home/leandroj/leandro
+ls -lt /home/jonny
+ls -lt /home/rafael
+ls -lt /home/brunobroilo
+cat a
+ls -lt /home/brunobroilo
+ls -lt /home/adrianasilva
+ls -lt /home/angelo
+cat a
+ls -lt /home/bruno1
+ls -lt /home/luana
+cat a
+ls -lt /home/pedrol
+ls -lt /home/Pedro
+ls -lt /home/reginado
+mor a
+mre a
+more a
+ls -lt /home/reginado
+ls -lt /home/gabriel.conceicao
+ls -lt /home/reginaldo
+cat /home/reginaldo/trabalho.sh
+more a
+ls -lt /home/rafaelespindola
+ls -lt /home/preta
+cat /home/preta/trabalho
+more a
+ls -lt /home/marceloshell
+ls -lt /home/bruno
+ls -lt /home/thiago.inocente
+ls -lt /home/emersonlmoraes
+ls -lt /home/danilo
+more a
+ls -lt /home/Rony
+ls -lt /home/Maycon
+ls -lt /home/adriana
+ls -lt /home/gustav0b
+clear
+cat /etc/crontab
+ls -lt
+mkdir bin
+mv * bin/
+ls -lt
+cd bin/
+ls -lt
+vi trabalho.sh 
+sh trabalho
+sh trabalho.sh 
+pwd
+ls -lt
+rm b a
+ls -lt
+cd trabalho
+ls -lt
+sh trabalho.sh 
+pwd
+ls -lt
+cd ..
+ls -lt
+cd trabalho
+cat trabalho.sh 
+sh trabalho.sh 
+ls -lt
+cd ..
+rm -rf trabalho
+ls -lt
+sh trabalho.sh 
+clear
+cut -d, -f1 /etc/passwd
+cut -d, -f2 /etc/passwd
+cut  -f2 /etc/passwd
+cut  -f1 /etc/passwd
+cut -d: -f1 /etc/passwd
+cut -d: -f2 /etc/passwd
+cut -d: -f3 /etc/passwd
+cut -d: -f4 /etc/passwd
+cut -d: -f5 /etc/passwd
+cat /etc/passwd
+cut -d: -f6 /etc/passwd
+pwd
+cd ..
+cut -d: -f6 /etc/passwd > diretorios
+cat diretorios 
+cut -d/ -f6 /etc/passwd > diretorios
+cut -d/ /etc/passwd > diretorios
+cut -d/ -f /etc/passwd > diretorios
+cut -d: -f7 /etc/passwd > diretorios
+cut -d: -f1 /etc/passwd > diretorios
+cut -d: -f1 /etc/passwd
+cut -d: -f7 /etc/passwd
+cut -d: -f6 /etc/passwd
+cut -d: -f6 /etc/passwd > diretorio
+cut -d/ -f6 /etc/passwd
+cut -d/ -f /etc/passwd
+cut -d/ -f1 /etc/passwd
+cut -d: -f1 /etc/passwd
+pwd
+ls -lt
+cat diretorio
+ls -lt
+cat diretorios 
+rm diretorios
+ls -lt
+cat numeros1.txt 
+cat sedtexto1.txt 
+cd bin/
+ls -lt numero*
+sh trabalho.sh 
+cd bin/
+ls
+head trabalho.sh 
+bash trabalho.sh 
+ls /home/rodinei/exdecad.txt
+pwd
+ls
+pwd
+ls -l
+cd ..
+ls -l
+vim bin/trabalho.sh 
+bash trabalho.sh 
+bash bin/trabalho.sh 
+vim bin/trabalho.sh 
+cd bin/
+cp trabalho.sh trabalho_2.sh
+vim trabalho_2.sh 
+bash trabalho_2.sh 
+vim trabalho_2.sh 
+bash trabalho_2.sh 
+vim trabalho_2.sh 
+cp trabalho.sh trabalho_2.sh
+vim trabalho_2.sh 
+bash trabalho_2.sh 
+vim trabalho_2.sh 
+bash trabalho_2.sh 
+vim trabalho_2.sh 
+bash trabalho_2.sh 
+vim trabalho_2.sh 
+bash trabalho_2.sh 
+cd tm
+cd /tm
+cd /tmp
+echo -e '\E[37;44m'"\033[1Contact List\033[0m"
+echo -e '\E[37;44m'"\033[1 Contact List\033[0m"
+vim trabalho_2.sh 
+cd -
+vim trabalho_2.sh 
+ABRE_AZUL="'\E[37;44m'\"\033[1"
+FECHA_AZUL="\033[0m\"" 
+echo $ABRE_AZUL
+echo $ABRE_AZUL 123 $FECHA_AZUL
+echo -e $ABRE_AZUL 123 $FECHA_AZUL
+echo -e "$ABRE_AZUL 123 $FECHA_AZUL"
+vim trabalho_2.sh 
+cd bin
+ls
+vim trabalho_2.sh 
+bash trabalho_2.sh 
+vim trabalho_2.sh 
+bash trabalho_2.sh 
+vim trabalho_2.sh 
+bash trabalho_2.sh 
+vim trabalho_2.sh 
+bash trabalho_2.sh 
+cd bin/
+scp -p 2222 root@rodineibadin.zapto.org:/home/rodinei/bin
+scp -p 2222 * root@rodineibadin.zapto.org:/home/rodinei/bin
+scp -p 2222 * rodinei@rodineibadin.zapto.org:/home/rodinei/bin
+ssh rodineibadin.zapto.org
+hepl -- scp
+--help scp
+help-- scp
+help --scp
+scp -p2222 * root@rodineibadin.zapto.org:/home/rodinei/bin/
+ssh root@rodineibadin.zapto.org
+ssh -p 2222root@rodineibadin.zapto.org
+ssh -p 2222 root@rodineibadin.zapto.org
+scp * -p2222 root@rodineibadin.zapto.org:/home/rodinei/bin/
+man scp
+!
+scp  -P2222 * root@rodineibadin.zapto.org:/home/rodinei/bin/
+scp * -P2222 root@rodineibadin.zapto.org:/home/rodinei/bin/
+ped
+pwd
+scp * -P2222 root@rodineibadin.zapto.org:/home/rodinei/bin/
+scp  -P2222 * root@rodineibadin.zapto.org:/home/rodinei/bin/
+bash trabalho_2.sh 
+sh trabalho.sh 
+vi trabalho_2.sh 
+vi trabalho.sh 
+vi trabalho_2.sh 
+vi trabalho.sh 
+bash trabalho.sh 
+vi trabalho.sh 
+bash trabalho.sh 
+vi trabalho_2.sh 
+vi trabalho.sh 
+vi trabalho_2.sh 
+vi trabalho.sh 
+sh trabalho.sh 
+bash trabalho.sh 
+sh trabalho_2.sh 
+bash trabalho_2.sh 
+vi trabalho_2.sh 
+vi trabalho.sh 
+bash trabalho.sh 
+tail trabalho_2.sh 
+tail trabalho.sh 
+vi trabalho.sh 
+bash trabalho.sh 
+tail trabalho.sh 
+tail trabalho_2.sh 
+vi trabalho.sh 
+sh trabalho.sh 
+vi trabalho.sh 
+sh trabalho.sh 
+cat trabalho_2.sh 
+vi trabalho.sh 
+sh trabalho.sh 
+bash trabalho.sh 
+bash trabalho_2.sh 
+vi trabalho_2.sh 
+exit
+cd bin/
+vi trabalho.sh 
+bash trabalho.sh 
+sh trabalho.sh 
+vi trabalho.sh 
+bash trabalho.sh 
+vi trabalho.sh 
+sh trabalho.sh 
+bash trabalho.sh 
+vi trabalho.sh 
+sh trabalho.sh 
+bash trabalho.sh 
+vi trabalho.sh 
+bash trabalho.sh 
+vi trabalho.sh 
+ls -lt
+mv trabalho_2.sh teste
+ls -lt
+bash trabalho.sh 
+pwd
+ls -lt
+scp -P2222 * root@rodineibadin.zapto.org:/home/rodinei/bin
+ls -lt
+exit
+cd bin/
+sh trabalho.sh 
+bash trabalho.sh 
+cd bin/
+vi trabalho.sh 
+bash trabalho.sh 

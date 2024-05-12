@@ -1,0 +1,302 @@
+mkdir
+su
+mkdir teste
+ls
+ls -la
+man grep
+man apt-get
+PASTA=teste
+$PASTA
+echo " Informe seu nome"
+read PASTA
+vi etc/apt/sources.list
+top
+la
+teste 
+cd
+cd-
+cd tste
+cd teste
+top
+grep
+grep aluno
+#!bin/bash 
+echo redes de computadores
+nome = helen 
+cd-
+cd
+nome = helen
+cd teste
+NOME=helen
+echo " Meu nome is ":$nome
+echo " Meu nome is : $nome"
+echo meu nome is $NOME
+exit
+cd
+pwd
+whoami
+exit
+dpkg -l
+dpkg
+man apt-get
+cat
+mkdir helen
+whoami
+cd
+pwd
+su
+ls
+ls -la
+dpkg -l
+echo $ DIR 
+/home/aluno#head /var/log/auth.log > $ DIR
+la
+ls -la
+echo 
+cat
+cat 
+echo 'teste'
+clear
+$DIR=teste
+DIR="teste"
+echo $DIR
+exit
+vi
+vvi
+vi
+mcedit
+su
+vi 
+vi
+ls
+ls -la
+nano
+LS-LA
+ls -la
+mcedit
+ls-la
+ls -la
+su
+echo $PATH
+mkdir bin
+cd bin
+vi 
+ls
+./primeiro
+chmod 777 primeiro
+./primeiro
+date
+df
+vi primeiro 
+ls -l
+chmod 700
+chmod 700 primeiro r
+chmod 700 primeiro 
+chmod +x primeiro
+./primeiro
+ls -l
+primeiro
+priemiro
+primeiro
+cd
+primeiro
+date
+df
+dh -f
+df -h
+man df
+df help
+df
+cd bin
+vi primeiro
+ls
+vi primeiro 
+primeiro
+vi primeiro 
+primeiro
+vi primeiro 
+primeiro
+vi primeiro 
+primeiro
+vi primeiro 
+cd /
+cd adriana
+cd bin
+vi primeiro 
+cd ~
+cd bin/
+vi primeiro 
+primeiro
+pwd
+who
+cd
+who
+exit
+su
+exit
+logout
+exit
+ls
+ls -la
+cd teste
+ls
+ls -la
+cd helen
+cd bin
+cd
+cd helen
+ls
+ls -la
+dh -f
+df -h
+cd
+ls
+cat helen
+cat helenlucianycechinemcedit
+teste
+cd teste
+cd
+ls -l
+vi $
+iptable
+vim /etc/apt/sources.list
+ssh vim /etc/apt/sources.list
+date
+df
+cd bin
+ls
+vi primeiro
+primeiro
+ls -la
+.primeiro.swp
+path
+path primeiro
+primeiro
+cd
+cd /bin
+ls
+chomd 777
+chmod 777
+chmod 777 /bin
+cd
+cd bin
+ls 
+ls -la
+primeiro
+cd
+VARIAVEL = " ESTOU SEM IDEIAS"
+$ VARIAVEL="estou sem ideias"
+VARIAVEL= "ESTOU SEM IDEAIS"
+VARIAVEL="ESTOU SEM IDEAIS"
+echo VARIAVEL
+echo $ VARIAVEL
+ECHO $VARIAVEL
+echo $VARIAVEL
+echo $VARIAVEL $VARIAVEL $ VARIAVEL
+echo $VARIAVEL$VARIAVEL
+hoje=$(df)
+echo $hoje
+echo " unidade de disco: $hoje"
+$hoje
+$ hoje
+$hoje
+hoje=$(date)
+echo "today is:$hoje"
+$today=date
+$today='date'
+unset today
+echo $today
+unset hoje
+echo $hoje
+cat -n primeiro
+cd bin
+cat -n primeiro
+cman
+man cat
+cd
+man cat
+bin
+cd bin
+find primeiro
+cd
+find priemiro
+find primeiro
+bin
+cd
+find -primeiro
+cd
+cd bin
+find -iprimeiro
+find iprimeiro
+find resposta
+find primeiro
+grep priemiro
+grep primeiro
+pwd
+grep -i
+grep -v
+grep -primeiro
+grep -p
+find .-name *.list
+find. -name list\*
+find . -name list\*
+update db
+cd
+update db
+cd helen
+find . -txt
+cd 
+cd bin 
+grep primeiro
+grep primeiro a
+cd
+grep helen a
+grep jon.ta a
+cd bin
+cd
+grep helen a
+grep helen b
+grep helen n
+grep prim a
+sed
+sed primeiro
+exist
+logout
+exit
+ls
+ls -l
+df -h
+dh -f
+df -h
+df -h 
+df -h
+man df -h
+vi scriptotavio
+./scriptotavio
+chmod + x scriptotavio
+vi scriptotavio
+rm scriptotavio 
+ls
+vi arquivobin
+./arquivobin
+chmod x arquivobin
+chmod +x arquivobin
+./arquivobin
+vi arquivobin
+./arquivobin
+vi arquivobin
+ls -l
+fg
+./arquivobin
+./$
+chmod +x $
+./$
+logout
+exit
+ls
+vi script
+ls
+vi scirpt
+ls
+./arquivobin
+./bin

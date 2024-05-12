@@ -1,0 +1,64 @@
+ls
+wifi-menu 
+wifi.sh
+./wifi.sh
+la
+ls
+ll
+exit
+wpa_cli scan_results | awk {'print $5'} | awk
+ssid=$(wpa_cli scan_results | awk {'print $5'} 'NR > 2' | grep -oFf <(wpa_cli list_networks | awk {'print $2'} | awk 'NR > 2') | grep -vFf - <(wpa_cli scan_results | awk {'print $5'} | awk 'NR > 2')
+echo $ssid
+ssid=$(wpa_cli scan_results | awk {'print $5'} 'NR > 2' | grep -oFf <(wpa_cli list_networks | awk {'print $2'} | awk 'NR > 2') | grep -vFf - <(wpa_cli scan_results | awk {'print $5'} | awk 'NR > 2'))
+ssid=$(wpa_cli scan_results | awk {'print $5'} | awk 'NR > 2' | grep -oFf <(wpa_cli list_networks | awk {'print $2'} | awk 'NR > 2') | grep -vFf - <(wpa_cli scan_results | awk {'print $5'} | awk 'NR > 2'))
+echo $ssid
+wpa_cli scan_results | awk {'print $5'} | awk
+tmp=$(wpa_cli scan_result | akw {'print $5'} | awk 'NR > 2' | grep -oFf <(wpa_cli list_networks | awk {'print $2'} | awk 'NR > 2') | grep -vFf - <(wpa_cli scan_results | awk {'print $5'} | awk 'NR > 2')
+)
+tmp=$(wpa_cli scan_result | awk {'print $5'} | awk 'NR > 2' | grep -oFf <(wpa_cli list_networks | awk {'print $2'} | awk 'NR > 2') | grep -vFf - <(wpa_cli scan_results | awk {'print $5'} | awk 'NR > 2')
+)
+echo $tmp
+tmp=$(wpa_cli scan_result | awk {'print $5'} | awk 'NR > 2' | grep -oFf <(wpa_cli list_networks | awk {'print $2'} | awk 'NR > 2') | grep -vFf - <(wpa_cli scan_results | awk {'print $5'} | awk 'NR > 2')
+)
+echo $tmp
+available=$(wpa_cli list_networks) | awk 'NR > 2 {print $5}'
+echo $available
+available=$(wpa_cli list_networks) | awk 'NR > 2'| awk {'print $5'}
+echo $available
+available=$(wpa_cli list_networks) | awk 'NR > 2'| awk {'print $5'}
+exit
+wpa_cli scan_results| grep -f <(echo "LAN1-Baltic-Bay") | awk{'print $4'}
+wpa_cli scan_results| grep -f <(echo "LAN1-Baltic-Bay") | awk {'print $4'}
+enc=$(wpa_cli scan_results| grep -f <(echo "LAN1-Baltic-Bay") | awk {'print $4'})
+echo enc
+echo $enc
+"$(echo $enc | grep -o "PSK")" == *"EAP"*
+if [["$(echo $enc | grep -o "PSK")" == *"EAP"* ]]; echo "TEST"; fi
+if [["$(echo $enc | grep -o "PSK")" == *"EAP"* ]]; echo "TEST"; fi;
+if [["$(echo $enc | grep -o "PSK")" == *"EAP"* ]]; echo "TEST"; fi
+if [["$(echo $enc | grep -o "PSK")" == *"EAP"* ]]; echo "TEST"; else; echo"ttt";
+if [["$(echo $enc | grep -o "PSK")" == *"EAP"* ]]; echo "TEST"; else; echo"ttt"; fi;
+if [["$(echo $enc | grep -o "PSK")" == *"EAP"* ]];
+if [["$(echo $enc | grep -o "PSK")" == *"EAP"* ]]; then echo "test"; fi
+exit
+ls
+cd ..
+ranger
+exit
+ls
+cd Users/Lars\ Niesen/
+ls
+cd Documents/
+ls
+cd ..
+ls
+cp Documents/ ~/tmp
+cp -rv  Documents/ ~/tmp
+cp -rv  Music ~/tmp
+ls
+cd Pictures/
+ls
+cd ..
+cp -rv Pictures ~/tmp
+cd
+exit

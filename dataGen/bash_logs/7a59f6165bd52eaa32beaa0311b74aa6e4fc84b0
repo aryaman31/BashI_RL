@@ -1,0 +1,2081 @@
+cat ff-latest-9169.xml | grep -i pulsar
+cat ~/workspace-eclipse/mesos/pulsar-apache-mesos/componentinfo.xml 
+vim ff-latest-9169.xml 
+cat ff-latest-9169.xml | grep -i pulsar
+cat ~/workspace-eclipse/marathon/pulsar-marathon/componentinfo.xml 
+/a/bin/packit --clean --versions ff-latest-9169.xml /home/pdommeti/workspace-eclipse/mesos/common/components/ /home/pdommeti/workspace-eclipse/marathon/common/components/ /home/pdommeti/workspace-eclipse/docker/common/components/
+cd packed/alsi8/cdp/
+./cdp.py -c ~/pulsar-install/configuration.pulsar.shared --testnet-auto -s "pre,authgate,kmi_kdc,kmi_auditserver,forcefield"
+cd pulsar-install/
+./netdeploy -i -k --region 7213 -c ~/pulsar-install/configuration.pulsar.shared --hostsetup-options='verbose, allow-disruption'
+vim netmgmt.config 
+vim /a/bin/netdeploy 
+./netdeploy --ag -i -k --region 7213 -c ~/pulsar-install/configuration.pulsar.shared --hostsetup-options='verbose, allow-disruption'
+./netdeploy --ag -i -k --ip "192.168.64.160, 192.168.64.163, 192.168.64.164" -c ~/pulsar-install/configuration.pulsar.shared --hostsetup-options='verbose, allow-disruption'
+./netdeploy --ag -i --ip "192.168.64.160, 192.168.64.163, 192.168.64.164" -c ~/pulsar-install/configuration.pulsar.shared --hostsetup-options='verbose, allow-disruption'
+cd pulsar-install/
+vim netmgmt.config 
+mtr pdr.akamai.com
+mtr pdr-qa.akamai.com
+ssh root@pulsar-dashboard.sqa2.qa.akamai.com
+dig pdr-qa.akamai.com
+dig A pdr-qa.akamai.com
+cat /etc/resolv
+cat /etc/resolv.conf 
+dig A pdr-qa.akamai.com
+docker pull pdr-qa.akamai.com/pulsar/test-java:1.0.2-SNAPSHOT-20160628185556-e3c1a2a
+docker pull pdr-qa.akamai.com/library/tomcat8
+docker pull pdr-qa.akamai.com/library/tomcat8:platform-2.4.v1-LATEST
+curl -vk https://pdr-qa.akamai.com/v2/_catalog
+ls -lrt
+cd workspace-eclipse/branches/
+ls -lrt
+p4 client
+p4 sync
+cd 916
+cd 9169
+clear
+ls -lrt
+cd ..
+ls -lrt
+rm -r 9168
+cd 9169/
+clear
+p4 sync
+cp configuration.pulsar.shared ~/pulsar-install/
+cd pulsar-install/
+rm ff-latest-9168.xml 
+vim ff-latest-9169.xml 
+ls -lrt
+rm -r packed
+rm -rf packed
+clear
+ls -lrt
+rm -r setup/
+clear
+cd pulsar-install/
+vbe
+sudo ln -s /usr/bin/gpg /usr/local/akamai/bin/gpg
+ls -lrt /usr/bin/ | grep gpg
+sudo ln -s /usr/bin/gpg /usr/local/akamai/bin/gpg
+vbe
+cd /usr/local/akamai/
+mkdir bin
+sudo mkdir bin
+cd bin/
+ls -lrt
+cd ..
+ls -lrt
+cd bin/
+ls -lrt
+sudo ln -s /usr/bin/gpg /usr/local/akamai/bin/gpg
+vbe
+cd /tmp/netdeploy-pdommeti/
+ls -lrt
+rm -r setuplog.198.18.58.*
+ls -lrt
+clear
+gwsh sqainfra-mesos01.sqaextranet.akamai.com
+gwsh root@sqainfra-mesos01.sqaextranet.akamai.com
+clear
+cd pulsar-install/
+vim configuration.pulsar.shared 
+cd /tmp/netdeploy-pdommeti/
+ls -lrt
+tail -f setuplog.192.168.64.164
+gwsh root@192.168.64.164
+tail -f /tmp/netdeploy-pdommeti/setuplog.192.168.64.164
+gwsh root@192.168.64.164
+gwsh root@192.168.64.160
+gwsh root@192.168.64.164
+cd workspace-eclipse/mesos/pulsar-apache-mesos/hostsetup/
+vim configure_pulsarmesos.pl 
+vim translate_pulsarmesos.pm 
+ls -lrt
+vim pulsar-mesos-slave.py 
+cd ..
+cd overlays/conf/
+vim mesos-slave-config.dry 
+vim mesos-master-config.dry 
+vim mesos-slave-config.dry 
+vim mesos-master-config.dry 
+vim mesos-slave-config.dry 
+cd pulsar-install/
+vim configuration.pulsar.shared 
+cd workspace-eclipse/mesos/pulsar-apache-mesos/
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1 BUNDLERFLAGS=--os=common -d
+cd ..
+cd pulsar-apache-mesos/
+git pull
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1 BUNDLERFLAGS=--os=common
+cd pulsar-install/
+/a/bin/packit --clean --versions ff-latest-9169.xml /home/pdommeti/workspace-eclipse/mesos/common/components/ /home/pdommeti/workspace-eclipse/marathon/common/components/ /home/pdommeti/workspace-eclipse/docker/common/components/
+./netdeploy --ag -i -k --region 7213 -c ~/pulsar-install/configuration.pulsar.shared --hostsetup-options='verbose, allow-disruption'
+cd workspace-eclipse/mesos/pulsar-apache-mesos/hostsetup/
+vim translate_pulsarmesos.pm 
+cd ..
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1 BUNDLERFLAGS=--os=common
+cd ../common/components/
+ls -lrt
+cd common/
+ls -lrt
+cd pulsar-apache-mesos-1.7/
+ls -lrt
+vim pulsar-apache-mesos-cp.tar.gz 
+cd pulsar-install/
+vim ff-latest-9169.xml 
+/a/bin/packit --clean --versions ff-latest-9169.xml /home/pdommeti/workspace-eclipse/mesos/common/components/ /home/pdommeti/workspace-eclipse/marathon/common/components/ /home/pdommeti/workspace-eclipse/docker/common/components/
+./netdeploy --ag -i -k --region 7213 -c ~/pulsar-install/configuration.pulsar.shared --hostsetup-options='verbose, allow-disruption'
+vim configuration.pulsar.shared 
+cd workspace-eclipse/mesos/pulsar-apache-mesos/
+cd hostsetup/
+git pull
+git l
+vim translate_pulsarmesos.pm 
+vim configure_pulsarmesos.pl 
+cd .
+cd ..
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1 BUNDLERFLAGS=--os=common
+vim ../common/components/common/pulsar-apache-mesos-1.7/pulsar-apache-mesos-cp.tar.gz 
+vim ../common/components/common/pulsar-apache-mesos-1.7/pulsar-apache-mesos-config.tar.gz 
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1
+vim ../common/components/alsi8/pulsar-apache-mesos-1.7/pulsar-apache-mesos.tar.gz 
+cd pulsar-install/
+/a/bin/packit --clean --versions ff-latest-9169.xml /home/pdommeti/workspace-eclipse/mesos/common/components/ /home/pdommeti/workspace-eclipse/marathon/common/components/ /home/pdommeti/workspace-eclipse/docker/common/components/
+./netdeploy --ag -i -k --region 7213 -c ~/pulsar-install/configuration.pulsar.shared --hostsetup-options='verbose, allow-disruption'
+vbe
+clear
+cd Downloads/json
+curl -ik -u pdashboard_infra:p_dashboardinfra -X POST --header "Content-Type:application/json" -d@reglab.json https://sqainfra-mesos02.sqaextranet.akamai.com:8443/v2/apps
+curl -ik -u pdashboard_infra:p_dashboardinfra -X POST --header "Content-Type:application/json" -d@reglab.json https://sqainfra-mesos02.sqaextranet.akamai.com:8443/v2/apps?force=true
+vbe
+cd pulsar-install/
+cd packed/alsi8/cdp/
+./cdp.py -c ~/pulsar-install/configuration.pulsar.shared --testnet-auto -s "pre,authgate,kmi_kdc,kmi_auditserver,forcefield"
+cd pulsar-install/
+vim configuration.pulsar.shared 
+gwsh root@sqainfra-zk01.sqaextranet.akamai.com 
+clear
+cd Downloads/json
+curl -ik -u pdashboard_infra:p_dashboardinfra -X POST --header "Content-Type:application/json" -d@reglab.json https://sqainfra-mesos02.sqaextranet.akamai.com:8443/v2/apps?force=true
+curl -ik -u pdashboard_infra:p_dashboardinfra -X POST --header "Content-Type:application/json" -d@reglab.json https://sqainfra-mesos02.sqaextranet.akamai.com:8443/v2/apps
+curl -ik -u pdashboard_infra:p_dashboardinfra -X POST --header "Content-Type:application/json" -d@reglab.json https://marathon.infra.pulsar.akamai.com:8443/v2/apps
+cd workspace-eclipse/
+cd ../akamai-git/
+ls -lrt
+cd pulsar-test-canary/
+ls -lrt
+mvn clean compile package -DskipTests=true -Dmaven.javadoc.skip=true
+ls -lrt
+docker build .
+docker tag ccd9a73cbeee  pdr-qa-upload.akamai.com/pulsar/test-java:1.0.0-RELEASE
+docker tag b9f7b237f50b  pdr-qa-upload.akamai.com/pulsar/test-java:1.0.0-RELEASE
+docker push  pdr-qa-upload.akamai.com/pulsar/test-java:1.0.0-RELEASE
+cd Downloads/json
+curl -ik -u pdashboard_infra:p_dashboardinfra -X POST --header "Content-Type:application/json" -d@reglab.json https://marathon.infra.pulsar.akamai.com:8443/v2/apps
+cd akamai-git/pulsar-platform-dev-ops/
+git pull
+git l
+cd kafka
+ls -lrt
+cat service-engine-logging-agent-infra-app.json 
+curl -ik -u pdashboard_infra:p_dashboardinfra -X POST --header "Content-Type:application/json" -d@service-engine-logging-agent-infra-app.json https://marathon.infra.pulsar.akamai.com:8443/v2/apps
+ls -lrt
+cat service-engine-logging-canary-app.json
+curl -ik -u pdashboard_infra:p_dashboardinfra -X POST --header "Content-Type:application/json" -d@service-engine-logging-canary-app.json https://marathon.infra.pulsar.akamai.com:8443/v2/apps
+docker ps -a
+docker images
+docker rmi b9
+cd akamai-git/pulsar-test-canary/
+docker build .
+docker tag ef006c43e537  pdr-qa-upload.akamai.com/pulsar/test-java:1.0.1-RELEASE
+docker push pdr-qa-upload.akamai.com/pulsar/test-java:1.0.1-RELEASE
+cd pulsar-install/
+./netdeploy --ag -i -k --region 7213 -c ~/pulsar-install/configuration.pulsar.shared --hostsetup-options='verbose, allow-disruption'
+./netdeploy --ag -i --region 7213 -c ~/pulsar-install/configuration.pulsar.shared --hostsetup-options='verbose, allow-disruption'
+cd /tmp/netdeploy-pdommeti/
+ls -lrth
+rm -r setuplog.192.168.64.*
+ls -lrth
+sql2 -q storage.dev.query.akadns.net "select SUM(files) files, SUM(bytes) / (1000 * 1000 * 1000 * 1000) PB
+sql2 -q storage.dev.query.akadns.net "select SUM(files) files, SUM(bytes) / (1000 * 1000 * 1000 * 1000) PB"
+sql2 -q storage.dev.query.akadns.net "select SUM(files) files, SUM(bytes) / (1000 * 1000 * 1000 * 1000) PB from repl_disk_usage"
+sql2 -q storage.dev.query.akadns.net "select SUM(files) files, SUM(bytes) / (1000 * 1000 * 1000 * 1000 * 1000) PB from repl_disk_usage"
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+cd pulsar-install/
+./netdeploy --ag -i --region 7213 -c ~/pulsar-install/configuration.pulsar.shared --hostsetup-options='verbose, allow-disruption'
+clear
+docker ps 
+clear
+gwsh root@marathon.infra.pulsar.akamai.com
+gwsh root@sqainfra-mesos02.sqaextranet.akamai.com
+gwsh root@marathon.infra.pulsar.akamai.com
+telnet dev-portal-cdb.akamai.com 9042
+telnet sqa-portal-cdb.akamai.com 9042
+export SSL_CERTFILE=/home/pdommeti/akamai-git/dashboard_secrets/conf/sqa-portal-cdb_cert_chain.crt && cqlsh --cqlversion=3.2.1 -u pulsar_dashboard -p sqa7482pulsar_dashboard --ssl sqa-portal-cdb.akamai.com
+mvn clean compile package -DskipTests=true -Dmaven.javadoc.skip=true && java -Ddashboard.home=/home/pdommeti/akamai-git/dashboard_secrets -Dspring.profiles.active=dev -jar dashboard-webapp/target/pulsar-dashboard-webapp.jar 
+export SSL_CERTFILE=/home/pdommeti/akamai-git/dashboard_secrets/conf/dev-portal-cdb_cert_chain.crt && cqlsh --cqlversion=3.2.1 -u pulsar_dashboard -p dev7482pulsar_dashboard --ssl dev-portal-cdb.akamai.com
+cd akamai-git/dashboard_secrets/conf/
+ls -lrt
+p4 print //sandbox/agudla/cassandra/sqa-portal-cdb_cert_chain.crt > new.sqa-portal-cdb_cert_chain.crt
+vim new.
+vim new.sqa-portal-cdb_cert_chain.crt 
+export SSL_CERTFILE=/home/pdommeti/akamai-git/dashboard_secrets/conf/new.sqa-portal-cdb_cert_chain.crt && cqlsh --cqlversion=3.2.1 -u pulsar_dashboard -p sqa7482pulsar_dashboard --ssl sqa-portal-cdb.akamai.com
+md5sum sqa-portal-cdb_cert_chain.crt 
+md5sum new.
+md5sum new.sqa-portal-cdb_cert_chain.crt 
+openssl s_client -showcerts -connect dev-portal-cdb.akamai.com:9042
+openssl s_client -showcerts -connect sqa-portal-cdb.akamai.com:9042
+export SSL_CERTFILE=/home/pdommeti/akamai-git/dashboard_secrets/conf/new.sqa-portal-cdb_cert_chain.crt && cqlsh --cqlversion=3.2.1 -u pulsar_dashboard -p sqa7482pulsar_dashboard --ssl sqa-portal-cdb.akamai.com
+clear
+export SSL_CERTFILE=/home/pdommeti/akamai-git/dashboard_secrets/conf/sqa-portal-cdb_cert_chain.crt && cqlsh --cqlversion=3.2.1 -u pulsar_dashboard -p sqa7482pulsar_dashboard --ssl sqa-portal-cdb.akamai.com
+clear
+
+vbe
+cd pulsar-install/
+cp configuration.pulsar.shared ~/workspace-eclipse/branches/9169/configuration.pulsar.shared 
+p4 edit ~/workspace-eclipse/branches/9169/configuration.pulsar.shared 
+cp configuration.pulsar.shared ~/workspace-eclipse/branches/9169/configuration.pulsar.shared 
+sudo cp configuration.pulsar.shared ~/workspace-eclipse/branches/9169/configuration.pulsar.shared 
+cd workspace-eclipse/branches/9169/
+ls -lrt
+p4 diff configuration.pulsar.shared 
+p4 edit configuration.pulsar.shared 
+p4 diff configuration.pulsar.shared 
+p4 submit
+p4 opened
+cd workspace-eclipse/branches/
+cd 9169/
+p4 open configuration.pulsar.shared 
+p4 diff configuration.pulsar.shared 
+p4 submit
+clear
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+vbe
+clear
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+clear
+vb3e
+vbe
+clear
+sudo apt-get install tortoise
+sudo apt-get install tortoisesvn
+sudo apt-cache search tortoise
+cd akamai-git/
+git clone https://github.com/akamai-open/NetStorageKit-Java.git
+cd NetStorageKit-Java/
+clear
+ls -lrt
+export SSL_CERTFILE=/home/pdommeti/akamai-git/dashboard_secrets/conf/dev-portal-cdb_cert_chain.crt && cqlsh --cqlversion=3.2.1 -u pulsar_dashboard -p dev7482pulsar_dashboard --ssl dev-portal-cdb.akamai.com
+ssh root@pulsar-dashboard.sqa2.qa.akamai.com
+cd akamai-git/dashboard_secrets/conf/certs/
+ls -lrt
+clear
+keytool -printcert -file ./sqa-portal-cdb_cert_chain.crt 
+ls -lrt
+cd ..
+ls -lrt
+vim new.sqa-portal-cdb_cert_chain.crt 
+keytool -printcert -file ./sqa-portal-cdb_cert_chain.crt 
+vim new.sqa-portal-cdb_cert_chain.crt 
+mv sqa-portal-cdb_cert_chain.crt bk.sqa-portal-cdb_cert_chain.crt 
+mv new.sqa-portal-cdb_cert_chain.crt sqa-portal-cdb_cert_chain.crt 
+rm new.pem 
+ls -lrt
+clear
+ls -lrt
+ping dev-portal-cdb.akamai.com
+telnet 172.25.184.127 22
+ping dev-portal-cdb.akamai.com
+ls -lrt
+cp sqa-portal-cdb_cert_chain.crt certs/
+clear
+ls -lrt
+ping dev-portal-cdb.akamai.com
+telnet dev-portal-cdb.akamai.com 22
+ssh root@pulsar-dashboard.sqa2.qa.akamai.com
+kssh root@198.18.58.20
+ssh root@pulsar-dashboard.sqa2.qa.akamai.com
+cd akamai-git/marathon/
+git pull
+grep -r "pong" .
+git branch
+vim ./src/test/scala/mesosphere/marathon/integration/ForwardToLeaderIntegrationTest.scala
+vim ./src/test/scala/mesosphere/marathon/api/SystemResourceTest.scala
+git checkout releasing-0.9
+grep -r "pong" .
+fg
+git branch
+git checkout releases/1.4
+ssh root@pulsar-dashboard.sqa2.qa.akamai.com
+export SSL_CERTFILE=/home/pdommeti/akamai-git/dashboard_secrets/conf/sqa-portal-cdb_cert_chain.crt && cqlsh --cqlversion=3.2.1 -u pulsar_dashboard -p sqa7482pulsar_dashboard --ssl sqa-portal-cdb.akamai.com
+keytool -list -keystore /usr/lib/jvm/java-8-oracle/jre/lib/security/cacerts  | grep ak
+cd Downloads/ce
+cd Downloads/
+ls -lrt
+cd CAcerts/
+ls -lrt
+keytool -list -keystore /usr/lib/jvm/java-8-oracle/jre/lib/security/cacerts  | grep ak
+python -v
+openssl s_client -showcerts -connect dev-portal-cdb.akamai.com:9042
+cd akamai-git/pulsar-dashboard-api/
+git pull
+git branch
+git fetch release/1.9.2
+gwsh pulsar.marathon.akamai.com
+gwsh marathon.pulsar.akamai.com
+cd 
+cd pulsar-install/
+vim configuration.pulsar.shared 
+cd workspace-eclipse/branches/
+cd 9590/
+p4 open configuration.s1.pulsar 
+vim configuration.s1.pulsar 
+ls -lrt
+p4 submit
+dig portal-db.akamai.com
+gwsh 4-docker19.extranet
+gwsh p4-docker19.extranet.akamai.com
+python
+clear
+ssh root@pulsar-dashboard.sqa2.qa.akamai.com
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+kcd feature/upgrade-1.4.2
+cd workspace-eclipse/docker/pulsar-docker/
+git branch -m upgrade-docker-17.03.1-ce-rc1 upgrade-17.04.0-ce
+git branch -m upgrade-17.04.0-ce
+git push --set-upstream origin upgrade-17.04.0-ce
+vim hostsetup/configure_pulsardocker.pl 
+git status
+git add .
+git commit -m "SET-3892.Setting the right version in SM"
+git push
+cat componentinfo.xml 
+git pull
+git checkout master
+git pull
+cd ..
+cd marathon/
+cd pulsar-marathon/
+git checkout master
+git pull
+cd ..
+cd mesos/pulsar-apache-mesos/
+git checkout master
+git pull
+clear
+cd workspace-eclipse/p4_pulsar/
+ls -lrt
+p4 client
+cd akamai-git/git-p4-sync/
+cat ~/gitp4sync.conf 
+./gitp4sync.py pdocker1
+cd workspace-eclipse/docker/pulsar-docker/
+git checkout master
+git pull
+cd akamai-git/git-p4-sync/
+
+cat ~/gitp4sync.conf 
+./gitp4sync.py pmesos1
+./gitp4sync.py pmar1
+cd workspace-eclipse/marathon/pulsar-marathon/
+git pull
+git l
+cd akamai-git/git-p4-sync/
+./gitp4sync.py pmar1
+cd workspace-eclipse/p4_pulsar/
+p4 sync
+ls -lrt
+cd akamai-git/git-p4-sync/
+./gitp4sync.py pmar1
+vim gitp4sync.py 
+vim gitp4sync.py -v pmar1
+./gitp4sync.py -v pmar1
+./gitp4sync.py --verbose pmar1
+git --work-tree=/home/pdommeti/workspace-eclipse/marathon/pulsar-marathon --git-dir=/home/pdommeti/workspace-eclipse/marathon/pulsar-marathon/.git diff --name-status dddb43f9b9f340906e47c631e043eb47d3ccd59e HEAD
+cd workspace-eclipse/marathon/pulsar-marathon/
+git status
+cat ~/workspace-eclipse/p4_pulsar/pulsar-marathon/lastgitcommit 
+git diff dddb43f9b9f340906e47c631e043eb47d3ccd59e HEad
+git diff dddb43f9b9f340906e47c631e043eb47d3ccd59e HEAD
+cd pulsar-marathon/
+ls -lrt
+cd target/scala-2.11/
+ls -lrt
+cd ..
+ls -lrt
+git diff --names-status dddb43f9b9f340906e47c631e043eb47d3ccd59e HEad
+git --work-tree=/home/pdommeti/workspace-eclipse/marathon/pulsar-marathon --git-dir=/home/pdommeti/workspace-eclipse/marathon/pulsar-marathon/.git diff --name-status dddb43f9b9f340906e47c631e043eb47d3ccd59e HEAD
+cd workspace-eclipse/p4_pulsar/
+p4 opened
+clear
+cd workspace-eclipse/marathon/pulsar-marathon/
+git pull
+cd workspace-eclipse/branches/
+ls -lrt
+git pull
+p4 sync
+p4 client
+p4 client -o
+p4 integrate -i //projects/releases/pulsar-9169/... //projects/releases/pulsar-9590/...
+p4 submit
+clear
+p4 client
+rm -rf 9169/
+clear
+cd 9590/
+ls -lrt
+p4 edit configuration.prod.pulsar 
+subl configuration.prod.pulsar 
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+p4 edit configuration.pulsar.shared 
+p4 edit configuration.prod.pulsar 
+p4 diff
+diff configuration.pulsar.shared ~/pulsar-install/configuration.pulsar.shared
+clear
+p4 submit
+p4 edit configuration.s1.pulsar configuration.sqa2.pulsar 
+subl configuration.sqa2.pulsar 
+cd akamai-git/dashboard_secrets/conf/shadow/
+ls -lrt
+cat dashboard_credentials.properties 
+cd workspace-eclipse/branches/
+cd 9590/
+p4 opened
+p4 diff
+subl configuration.s1.pulsar 
+vim configuration.pulsar.shared 
+p4 opened
+p4 diff
+p4 open configuration.prod.pulsar 
+vim configuration.prod.pulsar 
+p4 diff
+p4 submit
+clear
+cd /opt/kafka/
+ls -lrt
+cd bin/
+ls -lrt
+CONSUMER='{the/path/to/bin/kafka-console-consumer.sh} --new-consumer'
+CONSUMER='{/opt/kafka/bin/kafka-console-consumer.sh} --new-consumer'
+vim ~/.kafka-console-consumer.properties
+
+ls -lrt
+/opt/kafka/bin/kafka-consumer-perf-test.sh  --consumer.config=/home/pdommeti/.kafka-console-consumer.properties --bootstrap-server=$BOOTSTRAP_SERVER --topic $TOPIC
+/opt/kafka/bin/kafka-consumer-perf-test.sh  --bootstrap-server=$BOOTSTRAP_SERVER --topic $TOPIC
+CONSUMER='/opt/kafka/bin/kafka-console-consumer.sh --new-consumer'
+CONSUMER_PROPERTIES=$HOME/.kafka-console-consumer.properties
+TOPIC=scheduler-engine
+cat ~/.kafka-console-consumer.properties 
+BOOTSTRAP_SERVER=p3-kafbrk01.extranet.akamai.com:6667
+vim ~/.kafka-console-consumer.properties 
+$CONSUMER --consumer.config=$CONSUMER_PROPERTIES --bootstrap-server=$BOOTSTRAP_SERVER --topic $TOPIC
+mv ~/Downloads/kafka_2.11-0.10.0.1.tgz ..
+rm ~/Downloads/kafka_2.11-0.10.0.1\ \(1\).tgz 
+ls -lrt
+cd ..
+ls -lrt
+rm -r libs/ config/ bin/ logs/
+tar -xvzf kafka_2.11-0.10.0.1.tgz 
+ls -lrt
+ls -lrt kafka_2.11-0.10.0.1
+mv * ..
+sudo mv * ..
+cd ..
+rm kafka_2.11-0.10.0.1.tgz 
+sudo mv kafka_2.11-0.10.0.1 kafka
+cd kafka/
+ls -lrt
+mv kafka_2.11-0.10.0.1/* .
+ls -lrt
+rm -r kafka_2.11-0.10.0.1/
+cd ..
+rm kafka_2.11-0.10.0.1.tgz 
+sudo rm kafka_2.11-0.10.0.1.tgz 
+cd kafka/
+$CONSUMER --consumer.config=$CONSUMER_PROPERTIES --bootstrap-server=$BOOTSTRAP_SERVER --topic $TOPIC
+cd akamai-git/pulsar-dashboard-api/
+mvn clean compile package -DskipTests=true -Dmaven.javadoc.skip=true
+mvn clean compile package -DskipTests=true -Dmaven.javadoc.skip=true && java -Ddashboard.home=/home/pdommeti/akamai-git/dashboard_secrets -Dspring.profiles.active=dev -jar dashboard-webapp/target/pulsar-dashboard-webapp.jar 
+export SSL_CERTFILE=/home/pdommeti/akamai-git/dashboard_secrets/conf/dev-portal-cdb_cert_chain.crt && cqlsh --cqlversion=3.2.1 -u pulsar_dashboard -p dev7482pulsar_dashboard --ssl dev-portal-cdb.akamai.com
+export SSL_CERTFILE=/home/pdommeti/akamai-git/dashboard_secrets/conf/sqa-portal-cdb_cert_chain.crt && cqlsh --cqlversion=3.2.1 -u pulsar_dashboard -p sqa7482pulsar_dashboard --ssl sqa-portal-cdb.akamai.com
+cd akamai-git/pulsar-dashboard-api/
+mvn clean compile package -DskipTests=true -Dmaven.javadoc.skip=true && java -Ddashboard.home=/home/pdommeti/akamai-git/dashboard_secrets -Dspring.profiles.active=dev -jar dashboard-webapp/target/pulsar-dashboard-webapp.jar 
+mvn clean compile package -DskipTests=true -Dmaven.javadoc.skip=true && java -Ddashboard.home=/home/pdommeti/akamai-git/dashboard_secrets -Dspring.profiles.active=qa -jar dashboard-webapp/target/pulsar-dashboard-webapp.jar 
+cd workspace-eclipse/
+clear
+cd aka
+cd 
+cd akamai-git/pulsar-dashboard-api/
+git s
+cd workspace-eclipse/
+ls -lrt
+cd akamai-git/pulsar-dashboard-api/
+git status
+git checkout .
+git status
+git pull
+clear
+git l
+cd Downloads/
+cd workspace-eclipse/dashboard/pulsar_dashboard/
+ls -lrt
+cd akamai-git/pulsar-dap
+cd akamai-git/pulsar-dashboard-api/
+clear
+ls -lrt
+git pull
+git s
+rm dashboard-webapp/src/main/java/com/akamai/pulsar/configuration/CorsFilter.java
+git s
+rm -rf dashboard-webapp/src/main/java/com/akamai/pulsar/configuration/CorsFilter.java
+git s
+clear
+cd workspace-eclipse/
+clear
+cd aka
+cd akamai-git/pulsar-dashboard-api/
+git pull
+git l
+clear
+cd wo
+clear
+cd akamai-git/pulsar-dashboard-api/
+mvn clean compile package -DskipTests=true -Dmaven.javadoc.skip=true && java -Ddashboard.home=/home/pdommeti/akamai-git/dashboard_secrets -Dspring.profiles.active=qa -jar dashboard-webapp/target/pulsar-dashboard-webapp.jar 
+clear
+cd workspace-eclipse/
+clear
+ls -lrt
+cd Downloads/
+ls -lrt
+rm PastBills.pdf 
+clear
+cd akamai-git/pulsar-dashboard-api/
+clear
+git l
+mvn clean compile package -DskipTests=true -Dmaven.javadoc.skip=true && java -Ddashboard.home=/home/pdommeti/akamai-git/dashboard_secrets -Dspring.profiles.active=qa -jar dashboard-webapp/target/pulsar-dashboard-webapp.jar 
+ps -eaf | grep pidgin
+sudo kill -9 5469
+ps -eaf | grep pidgin
+cd workspace-eclipse/mesos/pulsar-apache-mesos/
+ls -lrt
+cd ..
+cd consul/pulsar-consul/
+ls -lrt
+vim README.md 
+git s
+clear
+cd workspace-eclipse/
+cd akamai-git/pulsar-dashboard-api/
+mvn clean compile package -DskipTests=true -Dmaven.javadoc.skip=true && java -Ddashboard.home=/home/pdommeti/akamai-git/dashboard_secrets -Dspring.profiles.active=qa -jar dashboard-webapp/target/pulsar-dashboard-webapp.jar 
+grep -r "TargetEnvironmentValidator" .
+cd akamai-git/pulsar-dashboard-api/
+vim README.md 
+mvn clean compile package -DskipTests=true -Dmaven.javadoc.skip=true && java -Ddashboard.home=/home/pdommeti/akamai-git/dashboard_secrets -Dspring.profiles.active=qa -jar dashboard-webapp/target/pulsar-dashboard-webapp.jar 
+
+CONSUMER='/opt/kafka/bin/kafka-console-consumer.sh --new-consumer'
+TOPIC=pm-backend-purple
+export BOOTSTRAP_SERVER=sqa-kafbrk01.sqaextranet.akamai.com:6667
+CONSUMER='/opt/kafka/bin/kafka-console-consumer.sh --new-consumer'
+$CONSUMER --consumer.config=$CONSUMER_PROPERTIES --bootstrap-server=$BOOTSTRAP_SERVER --topic $TOPIC | jq -c $JQ_FILTER
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic pm-backend-purple --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic core-authz --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic pm-backend --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic authz--bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic authz --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic authz --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667 | jq -c '{timeInMilliseconds,level,logger,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic pm-backend --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667 | jq -c '{timeInMilliseconds,level,logger,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic pm-backend-purple --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667 | jq -c '{timeInMilliseconds,level,logger,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic pm-backend --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667 | jq -c '{timeInMilliseconds,level,logger,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic pm-backend --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667 | jq -c 'select(.level=="ERROR")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic pm-backend --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic ids-authz --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic ids-authn --bootstrap-server=sqa-kafbrk01.sqaextranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic ids-authn --bootstrap-server=p3-kafbrk01.sqaextranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic ids-authn --bootstrap-server=p3-kafbrk01.extranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic pm-backend --bootstrap-server=p3-kafbrk01.extranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic alerts --bootstrap-server=p3-kafbrk01.extranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic schedule-engine --bootstrap-server=p3-kafbrk01.extranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic schedulee-engine --bootstrap-server=p3-kafbrk01.extranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic scheduler-engine --bootstrap-server=p3-kafbrk01.extranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic billing-center --bootstrap-server=p3-kafbrk01.extranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic billing-center-api --bootstrap-server=p3-kafbrk01.extranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic alerts-api --bootstrap-server=p3-kafbrk01.extranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+cd workspace-eclipse/marathon/
+ls -lrt
+cd pulsar-marathon/pulsar-marathon/target/scala-2.11/
+ls -lrt
+cd workspace-eclipse/
+cd mesos/
+cd workspace-eclipse/marathon/
+ls -lrt
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+cd /tmp/
+scp -S gwsh root@sqainfra-docker01.sqaextranet.akamai.com:/tmp/new .
+scp -S gwsh root@sqainfra-docker03.sqaextranet.akamai.com:/tmp/spoiled .
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+xit
+clear
+cd workspace-eclipse/
+ls -lrt
+clear
+cd akamai-git/
+ls -lrt
+cd blaze-das/
+git pull
+clear
+cd ..
+ls -lrt
+cd * | xargs git pull
+cd pulsar-rsyslog/
+git pull
+cd ..
+ls -lrt
+cd pulsar-consul/
+git pull
+clear
+cd ..
+ls -lrt
+cd pulsar-platform-dev-ops/
+git pull
+cd ..
+cd pulsar-dashboard-api/
+git pull
+git checkout master
+git pull
+clear
+git branch
+git checkout release/1.9.2
+git pull
+cd ..
+cd pulsar-dashboard-api/
+git branch
+cd ..
+cd pulsar-dashboard-ui/
+git pull
+git checkout master
+git pull
+cd workspace-eclipse/
+cd mesos/pulsar-apache-mesos/
+git pull
+git branch
+git push
+ssh root@pulsar-dashboard.sqa2.qa.akamai.com
+gwsh pulsar-dashboard.akamai.com
+clear
+cd workspace-eclipse/marathon/
+git pull
+cd pulsar-marathon/
+git pull
+clear
+cd workspace-eclipse/
+ls -lrt
+clear
+ssh root@pdr-qa.akamai.com
+clear
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+clear
+cd /tmp/
+ls -lrt
+vim new 
+comm -2 -3 <(sort new) <(sort spoiled) > file3
+vim file3
+diff -a --suppress-common-lines -y spoiled new 
+diff spoiled new 
+clear
+cd /tmp/
+vim spoiled 
+sdiff spoiled new 
+diff spoiled new 
+clear
+docker images
+clear
+kssh root@198.18.58.35
+ssh root@198.18.58.35
+clear
+cd ~/.ssh/
+scp pdommeti-* bos-lvthz:/home/pdommeti/.ssh
+scp pdommeti-* bos-lvthz.bos01.corp.akamai.com:/home/pdommeti/.ssh
+ssh-add -l
+vim ~/.ssh/pdommeti-internal-2017-03-20.pub 
+scp pdommeti-* bos-lvthz.bos01.corp.akamai.com:/home/pdommeti/.ssh
+clear
+docker version
+clear
+docker version
+clear
+cd akamai-git/blaze-das/
+clear
+git pull
+clear
+vim Dockerfile 
+clear
+docker build .
+mvn clean compile package -DskipTests=true -Dmaven.javadoc.skip=true
+cat ~/.m2/settings.xml 
+env
+env | grep -i java
+clear
+docker build .
+docker images
+docker rmi 083
+clear
+docker images
+docker rmi -f 64
+docker rmi -f 64ef
+docker rmi -f ef0
+docker rmi -f 64ef
+clear
+docker build .
+docker tag 465a55147bc2  pdr-qa-upload.akamai.com/pulsar/blazedas:docker-17.04
+docker push pdr-qa-upload.akamai.com/pulsar/blazedas:docker-17.04
+cat ~/.docker/config.json 
+vim /etc/default/docker
+clear
+docker images
+cd /tmp/
+ls -lrt
+cd Downloads/
+vim 1.0.1-RELEASE 
+cd /tmp/
+clear
+diff spoiled new
+clear
+ssh bos-lvthz
+ssh bos-lvthz.bos01.kendall.corp.akamai.com
+ssh bos-lvthz.corp.kendall.corp.akamai.com
+ping bos-lvthz
+ssh bos-lvthz.kendall.corp.akamai.com
+ping bos-lvthz
+
+ssh bos-lvthz.bos01.corp.akamai.com
+sudo add-apt-repository ppa:webupd8team/java
+ssh bos-lvthz.bos01.corp.akamai.com
+pdr --addr="pdr-qa.akamai.com" images | grep billing-center-api
+pdr --addr="pdr.akamai.com" images | grep billing-center-api
+pdr --addr="pdr.akamai.com" images
+pdr --addr="pdr.akamai.com" images > /tmp/pdr-images
+cd /tmp/
+ls -lrt
+cat pdr-images | wc -l
+vim pdr-images 
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+export BOOTSTRAP_SERVER=sqa-kafbrk01.sqaextranet.akamai.com:6667
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+clear
+docker images
+sudo vim /etc/default/docker
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+cd workspace-eclipse/docker/pulsar-docker/bin/
+ls -lrt
+rsync -arve ssh root@pdr-qa.akamai.com:/tmp
+rsync -arve ssh docker* root@pdr-qa.akamai.com:/tmp
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+docker ps -a
+docker images
+docker tag 465a55147bc2 pdr-qa-upload.akamai.com/pulsar/blazedas:docker-17.04-v1
+docker push  pdr-qa-upload.akamai.com/pulsar/blazedas:docker-17.04-v1
+vim ~/Downloads/docker-17.04-v1 
+rm -r ~/Downloads/docker-17.04*
+clear
+cd workspace-eclipse/docker/pulsar-docker/bin/
+ls -lrt
+scp docker* root@pdr-qa.akamai.com:/tmp
+vim ~/Downloads/docker-17.04-v1 
+cd akamai-git/service-engine-images/library/pulsar-ubuntu/
+ls -lrt
+cat Dockerfile
+cd ..
+clear
+cd tomcat8/
+ls -lrt
+vim Dockerfile 
+cd ..
+cd oracle-java8/
+vim Dockerfile 
+vim ../pulsar-ubuntu/Dockerfile 
+vim Dockerfile 
+docker build .
+vim ../tomcat8/Dockerfile 
+docker tag 8d984b93bf3c pdr.akamai.com/library/oracle-java8:platform-2.4-TEST
+docker push pdr.akamai.com/library/oracle-java8:platform-2.4-TEST
+docker tag 8d984b93bf3c pdr-qa-upload.akamai.com/library/oracle-java8:platform-2.4-TEST
+docker push pdr-qa-upload.akamai.com/library/oracle-java8:platform-2.4-TEST
+docker images
+docker rmi pdr.akamai.com/library/oracle-java8:platform-2.4-TEST
+clear
+cd ../tomcat8/
+docker build .
+vim ../tomcat8/Dockerfile 
+docker build .
+docker tag f1eaab48207c pdr-qa-upload.akamai.com/library/tomcat8:pawan-test
+docker push pdr-qa-upload.akamai.com/library/tomcat8:pawan-test
+vim ~/Downloads/pawan-test 
+ssh root@pdr-qa.akamai.com
+cd Downloads/
+rsync -arve gwsh docker root@sqainfra-docker01.sqaextranet.akamai.com:/tmp
+rsync -arve gwsh docker root@sqainfra-docker02.sqaextranet.akamai.com:/tmp
+rsync -arve gwsh docker root@sqainfra-docker03.sqaextranet.akamai.com:/tmp
+rsync -arve gwsh docker root@sqainfra-docker04.sqaextranet.akamai.com:/tmp
+rsync -arve gwsh docker root@sqainfra-docker05.sqaextranet.akamai.com:/tmp
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+gwsh root@sqainfra-docker04.sqaextranet.akamai.com
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+gwsh root@sqainfra-docker04.sqaextranet.akamai.com
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+docker ps
+docker images
+docker tag 465a55147bc2  pdr-upload.akamai.com/pulsar/blazedas:docker-17.04
+docker push pdr-upload.akamai.com/pulsar/blazedas:docker-17.04
+vim ~/Downloads/docker-17.04 
+ssh root@pdr-qa.akamai.com
+./akamake alldistclean
+clear
+./akamake all AKAMAKE-LINUX-BUILD-64=1
+cd ..
+ls -lrt
+vim buildjava/
+./akamake all AKAMAKE-LINUX-BUILD-64=1 -d
+cd pulsar-apache-mesos/
+./akamake all AKAMAKE-LINUX-BUILD-64=1 -d
+./akamake all AKAMAKE-LINUX-BUILD-64=1 --debug
+cd ..
+cd apache-
+cd apache-maven-lunabuild/
+ls -lrt
+cd linux-2.x/
+ls -lrt
+cd ..
+ls -lrt
+cd mesos/pulsar-zookeeper/
+vim akamake 
+cd ..
+grep -r "java7" .
+find . -name akamake | xargs cat | grep "java7"
+find . -name akamake | xargs cat
+find . -name akamake | xargs cat | grep -i "java"
+find . -name akamake | xargs cat | grep -i "java8"
+find . -name akamake | xargs cat | grep -i "java7"
+cd pulsar-apache-mesos/
+ls -lrt
+cd ..
+ls -lrt
+mv java7/ backup
+cd pulsar-apache-mesos/
+./akamake all AKAMAKE-LINUX-BUILD-64=1 --debug
+./akamake alldistclean
+./akamake all AKAMAKE-LINUX-BUILD-64=1 --debug
+ls -l
+cd workspace-eclipse/mesos/
+cd pulsar-apache-mesos/
+clear
+vim akamake
+vbe
+cd workspace-eclipse/mesos/
+cd pulsar-apache-mesos/
+git status
+git checkout master
+git pull
+clear
+git l
+cd ..
+cd apache-maven-lunabuild/
+ls -lrt
+cd ..
+find . -name "maven.dummy"
+cd apache-maven-lunabuild/linux-2.x/
+ls -lrt
+cd ..
+cd pulsar-apache-mesos/
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1 -d
+cd workspace-eclipse/mesos/
+cd pulsar-
+cd pulsar-apache-mesos/
+ls -lrt
+cd mesos-bundle/
+ls -lrt
+cd ..
+ls -lrt
+cd mesos-bundle/
+ls -a
+cd .dir
+cd ..
+clear
+cd workspace-eclipse/mesos/pulsar-apache-mesos/
+git pull
+git checkout master
+git pull
+cd akamai-git/git-p4-sync/
+./gitp4sync.py pmesos1
+cd workspace-eclipse/mesos/common/components/alsi8/
+ls -lrt
+cd pulsar-apache-mesos-1.8
+ls -lrt
+cd ..
+cd pulsar-apache-mesos-1.7
+ls -lrt
+clear
+/u4/syscomm/bin/reserve -a
+ssh-add -l
+/u4/syscomm/bin/reserve -l
+/u4/syscomm/bin/reserve -r -u amasleka -m "198.18.58.20, 198.18.58.21, 198.18.58.23, 198.18.58.24, 198.18.58.27, 198.18.58.28" -d 45d -c "Pulsar Infra Test"
+/u4/syscomm/bin/reserve -r -m "198.18.58.35, 198.18.58.37, 198.18.58.38, 198.18.58.51" -d 45d -c "Pulsar Upgrade"
+clear
+/u4/syscomm/bin/reserve -l
+cd workspace-eclipse/mesos/pulsar-apache-mesos/
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1 --debug
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+scp -S gwsh root@sqa-docker03.sqaextranet.akamai.com:/a/pulsar-docker/bin/docker .
+scp docker  root@pdr-qa.akamai.com
+scp docker root@pdr-qa.akamai.com:/a/pulsar-docker/bin
+rm root@pdr-qa.akamai.com 
+clear
+rm docker 
+clear
+cd 
+cd workspace-eclipse/docker/pulsar-docker/bin/
+scp docker root@pdr-qa.akamai.com:/a/pulsar-docker/bin/docker-17.04
+scp -S gwsh root@sqa-docker03.sqaextranet.akamai.com:/a/pulsar-docker/bin/docker root@pdr-qa.akamai.com:/a/pulsar-docker/bin/docker-1.7.1
+scp -S gwsh root@sqa-docker03.sqaextranet.akamai.com:/a/pulsar-docker/bin/docker .
+git status
+scp docker root@pdr-qa.akamai.com:/a/pulsar-docker/bin/docker-1.7.1
+git checkout .
+git status
+
+kdocker/bin/docker-1.7.1
+docker pull pdr-qa.akamai.com/library/tomcat8:platform-2.4.v1-LATEST
+clear
+docker pull pdr-qa.akamai.com/library/tomcat8:platform-2.4.v1-LATEST
+gwsh root@sqa-docker03.sqaextranet.akamai.com
+cd workspace-eclipse/docker/pulsar-docker/bin/
+scp docker root@pdr-qa.akamai.com:/a/pulsar-docker/bin/docker-17.04
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+gwsh root@sqa-docker03.sqaextranet.akamai.com
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+scp -S gwsh root@sqa-docker03.sqaextranet.akamai.com:/a/pulsar-docker/bin/docker /tmp/
+cd /tmp/
+scp docker root@pdr-qa.akamai.com:/a/pulsar-docker/bin/docker-1.7.1
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+gwsh root@sqa-docker06.sqaextranet.akamai.com
+vbe
+clear
+cd Downloads/
+ls -lrt
+rm -r pawan-test 
+clear
+rm docker-17.04-v1 
+clear
+cd workspace-eclipse/mesos/pulsar-apache-mesos/
+git pull
+git l
+git s
+cleaer
+git shelf
+clear
+cd Downloads/
+ls -lrt
+rm 1.0.1-RELEASE 
+cdc
+clear
+cd pulsar-install/
+vim netmgmt.config 
+cd workspace-eclipse/mesos/pulsar-apache-mesos/hostsetup/
+vim translate_pulsarmesos.pm 
+cd workspace-eclipse/branches/
+cd 9590/
+ls -lrt
+p4 open configuration.prod.pulsar configuration.pulsar.shared configuration.s1.pulsar configuration.sqa2.pulsar 
+vim configuration.prod.pulsar 
+vim configuration.s1.pulsar 
+vim configuration.pulsar.shared 
+vim configuration.sqa2.pulsar 
+p4 submit
+p4 open configuration.prod.pulsar configuration.pulsar.shared configuration.s1.pulsar configuration.sqa2.pulsar 
+vim configuration.sqa2.pulsar 
+cd pulsar-install/
+vim netmgmt.config 
+cd workspace-eclipse/branches/9590/
+vim configuration.sqa2.pulsar 
+gwsh root@sqainfra-mesos01.sqaextranet.akamai.com
+d /tmp/netdeploy-pdommeti/
+cd /tmp/netdeploy-pdommeti/
+vim setuplog.192.168.64.166 
+gwsh root@192.168.24.190
+clear
+cd akamai-git/pulsar-platform-dev-ops/
+clear
+ls -lrt
+python4 healthchecks.py 
+./healthchecks.py 
+./healthchecks.py  sqa2
+vim ~/marathon-creds.conf 
+./healthchecks.py  sqa2
+clear
+ls -lrt
+./mesos.py 
+./mesos.py sqa2
+./marathon.py 
+./marathon.py --save sqa2
+cat ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+clear
+cat ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+clear
+gwsh root@192.168.24.190
+gwsh root@qa-docker19.qaextranet.akamai.com:31801
+gwsh root@qa-docker19.qaextranet.akamai.com
+gwsh root@qa-zk01.qaextranet.akamai.com
+ls -lrt ~/
+gwsh root@qa-docker19.qaextranet.akamai.com
+gwsh root@qa-docker04.qaextranet.akamai.com
+clear
+cat ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+cp ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 ~/Downloads/
+ls -lrt
+rm -r qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-30-49 
+rm -r qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-31
+rm -r qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-31-27 
+rm -r qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-35-19 
+clear
+ls -lrt
+gwsh root@qa-mesos01.sqaextranet.akamai.com
+gwsh root@qa-mesos01.qaextranet.akamai.com
+gwsh root@qa-mesos03.qaextranet.akamai.com
+cd akamai-git/pulsar-platform-dev-ops/
+vim mesos-migrate-dc.py 
+git checkout .
+clear
+vim ~/akamai-git/pulsar-platform-dev-ops/mesos-migrate-dc.py 
+cd akamai-git/pulsar-platform-dev-ops/
+./mesos-migrate-dc.py --colddc sqa2 --hostdc sqa2 ~/Downloads/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+./mesos-migrate-dc.py --colddc sqa2 --hotdc sqa2 ~/Downloads/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+./mesos-migrate-dc.py --colddc sqa2 --hotdc sqa2 --marathonjson ~/Downloads/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+vim mesos-migrate-dc.py 
+./mesos-migrate-dc.py --colddc sqa2 --hotdc sqa2 --marathonjson ~/Downloads/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+ssh lsg-east
+gwsh root@qa-docker12.qaextranet.akamai.com
+gwsh root@qa-mesos01.qaextranet.akamai.com
+gwsh root@qa-mesos01.qaextranet.akamai.com '/a/sbin/akamai_run stickystop pulsar_marathon'
+gwsh root@qa-mesos02.qaextranet.akamai.com '/a/sbin/akamai_run stickystop pulsar_marathon'
+gwsh root@qa-mesos03.qaextranet.akamai.com '/a/sbin/akamai_run stickystop pulsar_marathon
+gwsh root@qa-mesos03.qaextranet.akamai.com '/a/sbin/akamai_run stickystop pulsar_marathon'
+gwsh root@qa-mesos03.qaextranet.akamai.com '/a/sbin/akamai_run unstickystop pulsar_marathon'
+gwsh root@qa-mesos02.qaextranet.akamai.com '/a/sbin/akamai_run unstickystop pulsar_marathon'
+gwsh root@qa-mesos01.qaextranet.akamai.com '/a/sbin/akamai_run unstickystop pulsar_marathon'
+cd akamai-git/pulsar-platform-dev-ops/
+ls -lrt
+./marathon.py 
+./marathon.py sqa2
+ls -lrt
+./marathon.py sqa2
+./marathon.py 
+./marathon.py --app registrator ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+./marathon.py sqa2 --app registrator ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+./marathon.py sqa2 --app registrator
+ls -lrt
+./pulsar.py 
+./mesos-migrate-dc.py 
+vim README.md 
+./marathon.py sqashared --app registrator
+gwsh root@qa-mesos01.qaextranet.akamai.com
+ls -lrt
+grep -r "apps" .
+clear
+./marathon.py 
+./marathon.py --app sqa2
+./marathon.py sqa2 --app registrator
+vim ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+ls -lrt
+./mesos-migrate-dc.py 
+./mesos-migrate-dc.py  sqa2 marathonjson ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 marathonjson ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+grep -r "You cannot specify both uris and fetch fields" .
+clear
+ls -lrt
+./marathon.py 
+./marathon.py sqa2
+vim mesos.py 
+vim mesos-migrate-dc.py 
+./mesos
+./mesos-migrate-dc.py 
+./mesos-migrate-dc.py --marathonjson ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20- -colddc sqa2
+./mesos-migrate-dc.py --marathonjson ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20- -colddc sqa2 --hotdc
+./mesos-migrate-dc.py --dryrun --colddc sqa2 --hotdc sqa2 --marathonjson ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-
+vim ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-20-22 
+rm ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-20-22 
+vim ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+./mesos-migrate-dc.py --dryrun --colddc sqa2 --hotdc sqa2 --marathonjson ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+clear
+./mesos-migrate-dc.py
+vim ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-27-18 
+rm ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-27-18 
+ls -lrt ~/
+rm -r ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-27-30 
+clear
+vim ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+subl ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+vim ~/registrator.json
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/registrator.json 
+vim ~/registrator.json 
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/registrator.json 
+curl -ik -u pdashboard_sqa2:e8mmy13t0x94nfdi -X POST --header "Content-Type:application/json" -d@~/registrator.json https://marathon.sqa2.pulsar.akamai.com:8443/v2/apps
+curl -ik -u pdashboard_sqa2:e8mmy13t0x94nfdi -X POST --header "Content-Type:application/json" -d@registrator.json https://marathon.sqa2.pulsar.akamai.com:8443/v2/apps
+rm README 
+mv registrator.json new.registrator.json
+curl -ik -u pdashboard_sqa2:e8mmy13t0x94nfdi -X POST --header "Content-Type:application/json" -d@new.registrator.json https://marathon.sqa2.pulsar.akamai.com:8443/v2/apps
+vim new.registrator.json 
+curl -ik -u pdashboard_sqa2:e8mmy13t0x94nfdi -X POST --header "Content-Type:application/json" -d@new.registrator.json https://marathon.sqa2.pulsar.akamai.com:8443/v2/apps
+clear
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+cd akamai-git/pulsar-platform-dev-ops/
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+curl -ik -u pdashboard_sqa2:e8mmy13t0x94nfdi -X POST --header "Content-Type:application/json" -d@new.registrator.json https://marathon.sqa2.pulsar.akamai.com:8443/v2/apps
+ls -lrt
+cp new.registrator.json registrator.json
+vim registrator.json 
+curl -ik -u pdashboard_sqa2:e8mmy13t0x94nfdi -X POST --header "Content-Type:application/json" -d@registrator.json https://marathon.sqa2.pulsar.akamai.com:8443/v2/apps
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/new.registrator.json 
+cd akamai-git/pulsar-platform-dev-ops/
+clear
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/new.registrator.json 
+vim ~/new.registrator.json 
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/registrator.json 
+vim mesos-migrate-dc.py 
+vim ~/new.registrator.json 
+vim mesos-migrate-dc.py 
+cat ~/marathon-creds.conf 
+vim mesos-migrate-dc.py 
+./mesos-migrate-dc.py --verbose  --colddc sqa2 --hotdc sqa2 --marathonjson ~/registrator.json 
+./mesos-migrate-dc.py --v  --colddc sqa2 --hotdc sqa2 --marathonjson ~/registrator.json 
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/registrator.json 
+curl -vk --user pdashboard_sqa2:e8mmy13t0x94nfdi -H 'Content-Type: application/json' -X PUT --data '{"secrets": {}, "tasksUnhealthy": 0, "versionInfo": {"lastScalingAt": "2017-04-20T19:55:35.011Z", "lastConfigChangeAt": "2016-08-29T22:47:06.420Z"}, "tasksRunning": 38, "dependencies": [], "uris": [], "cmd": null, "storeUrls": [], "constraints": [["hostname", "UNIQUE"]], "deployments": [{"id": "7de6aa6c-ad0a-466d-b633-cbce10c4a0ea"}], "id": "/registrator", "readinessChecks": [], "taskKillGracePeriodSeconds": null, "user": null, "ipAddress": null, "portDefinitions": [{"port": 10000, "labels": {}, "protocol": "tcp"}], "cpus": 0.5, "fetch": [], "healthChecks": [], "maxLaunchDelaySeconds": 3600, "backoffSeconds": 1, "gpus": 0, "residency": null, "backoffFactor": 1.15, "killSelection": "YOUNGEST_FIRST", "labels": {}, "tasksHealthy": 0, "instances": 38, "container": {"volumes": [{"containerPath": "/tmp/docker.sock", "hostPath": "/var/run/docker.sock", "mode": "RW"}], "type": "DOCKER", "docker": {"forcePullImage": false, "image": "gliderlabs/registrator:v6", "network": "HOST", "privileged": false, "parameters": [], "portMappings": []}}, "env": {}, "disk": 0, "args": ["consul:"], "requirePorts": false, "executor": "", "upgradeStrategy": {"minimumHealthCapacity": 1, "maximumOverCapacity": 1}, "unreachableStrategy": {"inactiveAfterSeconds": 300, "expungeAfterSeconds": 600}, "mem": 256, "tasksStaged": 0}' https://qa-mesos01.qaextranet.akamai.com:8443/v2/apps/registrator
+curl -vk --user pdashboard_sqa2:e8mmy13t0x94nfdi -H 'Content-Type: application/json' -X PUT --data '{"secrets": {}, "tasksUnhealthy": 0, "versionInfo": {"lastScalingAt": "2017-04-20T19:55:35.011Z", "lastConfigChangeAt": "2016-08-29T22:47:06.420Z"}, "tasksRunning": 38, "dependencies": [], "uris": [], "cmd": null, "storeUrls": [], "constraints": [["hostname", "UNIQUE"]], "deployments": [{"id": "7de6aa6c-ad0a-466d-b633-cbce10c4a0ea"}], "id": "/registrator", "readinessChecks": [], "taskKillGracePeriodSeconds": null, "user": null, "ipAddress": null, "portDefinitions": [{"port": 10000, "labels": {}, "protocol": "tcp"}], "cpus": 0.5, "fetch": [], "healthChecks": [], "maxLaunchDelaySeconds": 3600, "backoffSeconds": 1, "gpus": 0, "residency": null, "backoffFactor": 1.15, "killSelection": "YOUNGEST_FIRST", "labels": {}, "tasksHealthy": 0, "instances": 38, "container": {"volumes": [{"containerPath": "/tmp/docker.sock", "hostPath": "/var/run/docker.sock", "mode": "RW"}], "type": "DOCKER", "docker": {"forcePullImage": false, "image": "gliderlabs/registrator:v6", "network": "HOST", "privileged": false, "parameters": [], "portMappings": []}}, "env": {}, "disk": 0, "args": ["consul:"], "requirePorts": false, "executor": "", "upgradeStrategy": {"minimumHealthCapacity": 1, "maximumOverCapacity": 1}, "unreachableStrategy": {"inactiveAfterSeconds": 300, "expungeAfterSeconds": 600}, "mem": 256, "tasksStaged": 0}' https://qa-mesos01.qaextranet.akamai.com:8443/v2/apps
+curl -vk --user pdashboard_sqa2:e8mmy13t0x94nfdi -H 'Content-Type: application/json' -X PUT --data '{"secrets": {}, "tasksUnhealthy": 0, "versionInfo": {"lastScalingAt": "2017-04-20T19:55:35.011Z", "lastConfigChangeAt": "2016-08-29T22:47:06.420Z"}, "tasksRunning": 38, "dependencies": [], "uris": [], "cmd": null, "storeUrls": [], "constraints": [["hostname", "UNIQUE"]], "deployments": [{"id": "7de6aa6c-ad0a-466d-b633-cbce10c4a0ea"}], "id": "/registrator", "readinessChecks": [], "taskKillGracePeriodSeconds": null, "user": null, "ipAddress": null, "portDefinitions": [{"port": 10000, "labels": {}, "protocol": "tcp"}], "cpus": 0.5, "fetch": [], "healthChecks": [], "maxLaunchDelaySeconds": 3600, "backoffSeconds": 1, "gpus": 0, "residency": null, "backoffFactor": 1.15, "killSelection": "YOUNGEST_FIRST", "labels": {}, "tasksHealthy": 0, "instances": 38, "container": {"volumes": [{"containerPath": "/tmp/docker.sock", "hostPath": "/var/run/docker.sock", "mode": "RW"}], "type": "DOCKER", "docker": {"forcePullImage": false, "image": "gliderlabs/registrator:v6", "network": "HOST", "privileged": false, "parameters": [], "portMappings": []}}, "env": {}, "disk": 0, "args": ["consul:"], "requirePorts": false, "executor": "", "upgradeStrategy": {"minimumHealthCapacity": 1, "maximumOverCapacity": 1}, "unreachableStrategy": {"inactiveAfterSeconds": 300, "expungeAfterSeconds": 600}, "mem": 256, "tasksStaged": 0}' https://qa-mesos01.qaextranet.akamai.com:8443/v2/apps/registrator
+curl -vk --user pdashboard_sqa2:e8mmy13t0x94nfdi -H 'Content-Type: application/json' -X PUT --data '{"secrets": {}, "tasksUnhealthy": 0, "versionInfo": {"lastScalingAt": "2017-04-20T19:55:35.011Z", "lastConfigChangeAt": "2016-08-29T22:47:06.420Z"}, "tasksRunning": 38, "dependencies": [], "cmd": null, "storeUrls": [], "constraints": [["hostname", "UNIQUE"]], "deployments": [{"id": "7de6aa6c-ad0a-466d-b633-cbce10c4a0ea"}], "id": "/registrator", "readinessChecks": [], "taskKillGracePeriodSeconds": null, "user": null, "ipAddress": null, "portDefinitions": [{"port": 10000, "labels": {}, "protocol": "tcp"}], "cpus": 0.5, "fetch": [], "healthChecks": [], "maxLaunchDelaySeconds": 3600, "backoffSeconds": 1, "gpus": 0, "residency": null, "backoffFactor": 1.15, "killSelection": "YOUNGEST_FIRST", "labels": {}, "tasksHealthy": 0, "instances": 38, "container": {"volumes": [{"containerPath": "/tmp/docker.sock", "hostPath": "/var/run/docker.sock", "mode": "RW"}], "type": "DOCKER", "docker": {"forcePullImage": false, "image": "gliderlabs/registrator:v6", "network": "HOST", "privileged": false, "parameters": [], "portMappings": []}}, "env": {}, "disk": 0, "args": ["consul:"], "requirePorts": false, "executor": "", "upgradeStrategy": {"minimumHealthCapacity": 1, "maximumOverCapacity": 1}, "unreachableStrategy": {"inactiveAfterSeconds": 300, "expungeAfterSeconds": 600}, "mem": 256, "tasksStaged": 0}' https://qa-mesos01.qaextranet.akamai.com:8443/v2/apps/registrator
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+./mesos-migrate-dc.py  --colddc sqa2 --hotdc sqa2 --marathonjson ~/Downloads/qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-20-04-12 
+gwsh root@qa-docker27.qaextranet.akamai.com
+gwsh rootqa-docker08.qaextranet.akamai.com
+gwsh root@qa-docker08.qaextranet.akamai.com
+gwsh root@qa-docker05.qaextranet.akamai.com
+gwsh root@qa-docker31.qaextranet.akamai.com
+ssh lsg-east
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic ids-sso --bootstrap-server=qa-kafbrk01.qaextranet.akamai.com:6667 | jq -c 'select(.level=="INFO")|{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic ids-sso --bootstrap-server=qa-kafbrk01.qaextranet.akamai.com:6667 | jq -c '{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic authz --bootstrap-server=qa-kafbrk01.qaextranet.akamai.com:6667 | jq -c '{timeInMilliseconds,message}'
+/opt/kafka/bin/kafka-console-consumer.sh --new-consumer --topic ids-authn --bootstrap-server=qa-kafbrk01.qaextranet.akamai.com:6667 | jq -c '{timeInMilliseconds,message}'
+kmi-client-check shared -r release-netmgmt-9519-2017-04-21-06-01 -
+ssh root@pulsar-dashboard.sqa2.qa.akamai.com
+clear
+ifconfig
+nslookup akamai.com
+mac dig
+man dig
+ipconfig
+ifconfig
+pr
+man pr
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1
+cd pulsar-platform-metrics/
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1
+chmod a+x akamake 
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1
+cd componentinfo.xml 
+ls -lrt
+cd hostsetup/
+ls 
+gwsh root@qa-docker05.qaextranet.akamai.com
+gwsh root@qa-mesos01.qaextranet.akamai.com
+gwsh root@qa-docker15.qaextranet.akamai.com
+d
+cd akamai-git/pulsar-platform-dev-ops/
+git s
+l
+vim ./restart-apps.py 
+./restart-apps.py 
+clear
+ssh root@pdr-qa.akamai.com
+clear
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+clear
+cd workspace-eclipse/
+ls -lrt
+mkdir platform-metrics
+cd platform-metrics/
+p4 client
+cd ..
+cd mesos/
+p4 client
+cd ../platform-metrics/
+p4 client -t buildsystem_pulsar-platform-metrics_1.0_alsi8-lib64_template pdommeti-platform-metrics
+echo "P4CLIENT=pdommeti-platform-metrics" > .perforce
+p4 sync
+echo "P4CLIENT=pdommeti-platform-metrics" > .perforce
+p4 client -t buildsystem_pulsar-platform-metrics_1.0_alsi8-lib64_template pdommeti-platform-metrics
+p4 sync
+vbe
+cd workspace-eclipse/platform-metrics/pulsar-platform-metrics/
+clear
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1
+vim componentinfo.xml 
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1
+ls -lrt hostsetup/
+vim componentinfo.xml 
+
+./akamake bundle AKAMAKE-LINUX-BUILD-64=1
+cd ../common/components/alsi8/pulsar-platform-metrics-1.0/
+vim pulsar-platform-metrics.tar.gz 
+cd ..
+cd common/pulsar-platform-metrics-1.0/
+vim pulsar-platform-metrics-cp.tar.gz 
+vim pulsar-platform-metrics-config.tar.gz 
+cd ..
+ls -lrt
+cd pulsar-platform-metrics/
+ls -lrt
+ls -lrt python-libs/
+ls -lrt python-libs/pandas
+ls -lrt
+cd ..
+clear
+clear
+
+curl -vk --user pdashboard_sqa2:e8mmy13t0x94nfdi -H 'Content-Type: application/json' -X GET https://marathon.sqa2.pulsar.akamai.com:8443/v2/apps
+clear
+curl -vk --user pdashboard_sqa2:e8mmy13t0x94nfdi -H 'Content-Type: application/json' -X GET https://marathon.sqa2.pulsar.akamai.com:8443/v2/apps | jq .
+curl -vk --user pdashboard_sqa2:e8mmy13t0x94nfdi -H 'Content-Type: application/json' -X GET https://qa-mesos01.qaextranet.akamai.com:8443/v2/apps | jq .
+vbe
+gwsh root@qa-mesos01.qaextranet.akamai.com
+gwsh root@qa-mesos02.qaextranet.akamai.com
+gwsh root@qa-mesos03.qaextranet.akamai.com
+gwsh root@qa-mesos01.qaextranet.akamai.com
+gwsh root@sqainfra-mesos01.sqaextranet.akamai.com
+cd workspace-eclipse/platform-metrics/pulsar-platform-metrics/
+clear
+l
+vim akamake
+vim hostsetup/configure_pulsarplatformmetrics.pl 
+cd akamai-git/pulsar-platform-dev-ops/
+./marathon.py 
+./marathon.py sqa2
+clear
+ls -lrt
+./pulsar.py 
+./mesos.py 
+./mesos.py sqa2
+./mesos.py --tasks sqa2
+./mesos.py --tasks test-java sqa2
+./mesos.py --tasks test-java sqainfra
+gwsh root@sqainfra-mesos01.sqaextranet.akamai.com
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+gwsh root@qa-mesos01.qaextranet.akamai.com
+gwsh root@qa-docker01.qaextranet.akamai.com
+clear
+cd workspace-eclipse/branches/9590/
+ls -lrt
+p4 open *
+subl configuration.prod.pulsar 
+vim configuration.nss1.pulsar 
+vim configuration.pulsar.shared 
+vim configuration.s1.pulsar 
+vim configuration.prod.pulsar 
+vim configuration.sqa2.pulsar 
+p4 submit
+p4 diff
+p4 submit
+ssh root@198.18.71.196
+kmi-client-check sqa1 -r release-netmgmt-9519-2017-04-26-05-00 -
+ssh root@198.18.86.69
+ssh root@cust-proc01.sqa2.qa.akamai.com
+ssh root@198.18.83.83
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+ssh lsg-east
+gwsh root@sqa-docker15.sqaextranet.akamai.com
+gwsh root@sqa-mesos03.sqaextranet.akamai.com
+gwsh root@sqa-docker17.sqaextranet.akamai.com
+gwsh root@sqa-mesos03.sqaextranet.akamai.com
+clear
+cd Downloads/
+rm index*
+clear
+rm IMG_0174.MOV.mov 
+clear
+cd workspace-eclipse/platform-metrics/pulsar-platform-metrics/
+git pull
+git l
+cd ..
+cd pulsar-platform-metrics/
+p4 sync
+clear
+p4 log
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+clear
+cd akamai-git/pulsar-platform-dev-ops/
+ls -lrt
+vim mesos-migrate-dc.py 
+vim pulsar.py 
+vim mesos-migrate-dc.py 
+vim pulsar.py 
+vim mesos-migrate-dc.py 
+clear
+./mesos-migrate-dc.py --colddc sqainfra --hostdc sqainfra --dryrun
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --dryrun
+cat ~/sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-04-27-16-20-18 
+ls -lrt
+rm -r sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-04-27-16-20-09 
+rm -r qa-mesos01.qaextranet.akamai.com-apps.json.2017-04-20-2*
+clear
+ls -lrt
+mv sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-04-27-16-20-18 sqainfra-apr-27.json
+ls -lrt
+cat sqainfra-apr-27.json 
+vim sqainfra-apr-27.json 
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+gwsh root@sqa-mesos01.sqaextranet.akamai.com
+gwsh root@sqa-docker15.sqaextranet.akamai.com
+
+sql2 -q storage.dev.query.akadns.net "SELECT f.machineip ip_key  FROM filesys_error f, system s WHERE kernel_dmesg LIKE "%waiting for lo to become free. Usage count%" AND f.machineip = s.ip;"
+sql2 -q mega.dev.query.akadns.net "SELECT f.machineip ip_key  FROM filesys_error f, system s WHERE kernel_dmesg LIKE "%waiting for lo to become free. Usage count%" AND f.machineip = s.ip;"
+sql2 -q storage.dev.query.akadns.net "select SUM(files) files, SUM(bytes) / (1000 * 1000 * 1000 * 1000 * 1000) PB from repl_disk_usage"
+sql2 -q storage.dev.query.akadns.net ""
+sql2 -q storage.dev.query.akadns.net 'SELECT f.machineip ip_key  FROM filesys_error f, system s WHERE kernel_dmesg LIKE "%waiting for lo to become free. Usage count%" AND f.machineip = s.ip'
+sql2 -q mega.dev.query.akadns.net 'SELECT f.machineip ip_key  FROM filesys_error f, system s WHERE kernel_dmesg LIKE "%waiting for lo to become free. Usage count%" AND f.machineip = s.ip'
+sql2 -q internal.dev.query.akadns.net 'SELECT f.machineip ip_key  FROM filesys_error f, system s WHERE kernel_dmesg LIKE "%waiting for lo to become free. Usage count%" AND f.machineip = s.ip'
+sql2 -q agg-mega.shared.qa.akamai.com 'SELECT f.machineip ip_key  FROM filesys_error f, system s WHERE kernel_dmesg LIKE "%waiting for lo to become free. Usage count%" AND f.machineip = s.ip'
+sql2 -q agg-mega.shared.qa.akamai.com 'SELECT f.machineip ip_key  FROM filesys_error f, system s WHERE kernel_dmesg LIKE "%Usage count%" AND f.machineip = s.ip'
+sql2 -q agg-mega.shared.qa.akamai.com 'SELECT f.machineip ip_key  FROM filesys_error f, system s WHERE kernel_dmesg LIKE "%unregister_netdevice%" AND f.machineip = s.ip'
+cd akamai-git/pulsar-platform-dev-ops/
+./marathon.py --app tapioca-safety-service-qa
+./marathon.py sqashared --app tapioca-safety-service-qa
+./marathon.py sqashared --app otm-reporting-api-qa
+./marathon.py sqashared
+clear
+gwsh root@qa-docker15.qaextranet.akamai.com
+gwsh 192.168.24.180
+telnet 192.168.24.180 22
+clear
+ssh root@192.168.24.180
+clear
+cd pulsar-install/
+find . -name "*query*"
+find . -name "*query.networks*"
+gwsh p4-mesos01.extranet.akamai.com
+ping internal.dev.query.akadns.net
+/u4/syscomm/bin/query2-networkid pulsar
+kinit
+/u4/syscomm/bin/query2-networkid pulsar
+/u4/syscomm/bin/query2-networkid portal
+/u4/syscomm/bin/query2-networkid internal
+/u4/syscomm/bin/query2-networkid interna
+/u4/syscomm/bin/query2-networkid interaa
+/u4/syscomm/bin/query2-networkid pulsar
+vim /u4/syscomm/bin/query2-networkid
+/u4/syscomm/bin/query2-networkid pulsar
+gwsh root@ 192.168.88.68
+gwsh root@192.168.88.68
+kmi-client-check shared -r release-Pulsar-9169-2017-04-04-18-22-56_apilakat -
+vim /tmp/kmi-client-check-label.log 
+/usr/bin/sql2 -q agg-ness.shared.qa.akamai.com "SELECT result, targetip AS auditedip, machineip AS auditserver, session_serial, adset AS label, time AS last_audit_time FROM auditserver_audit_sessi
+on WHERE targetip in (192.168.64.15,192.168.64.16,192.168.64.18,192.168.64.19,192.168.64.20,192.168.64.23,192.168.64.24,192.168.64.27,192.168.64.28,192.168.64.29,192.168.64.30,192.168.64.34,192.168.64.40,192.168.6
+4.45,192.168.64.46,192.168.64.55,192.168.64.56,192.168.64.59,192.168.64.60,192.168.64.61,192.168.64.64,192.168.64.65,192.168.64.67,192.168.64.68,192.168.64.69,192.168.64.79,192.168.64.80,192.168.64.129,192.168.64.
+130,192.168.64.131,192.168.64.132,192.168.64.145,192.168.64.167,192.168.64.168,192.168.64.169,192.168.64.170,192.168.64.174,192.168.64.175,192.168.64.176,192.168.64.177,192.168.64.178,192.168.64.179,192.168.64.181
+,192.168.64.182,192.168.64.183,192.168.64.184,192.168.64.185,192.168.64.186,192.168.64.187,192.168.64.188,192.168.64.189,192.168.64.190,192.168.64.199,192.168.64.206) GROUP BY 2,1 ORDER BY 6 DESC LIMIT 54
+
+
+/usr/bin/sql2 -q agg-ness.shared.qa.akamai.com "SELECT result, targetip AS auditedip, machineip AS auditserver, session_serial, adset AS label, time AS last_audit_time FROM auditserver_audit_session WHERE targetip in (192.168.64.15,192.168.64.16,192.168.64.18,192.168.64.19,192.168.64.20,192.168.64.23,192.168.64.24,192.168.64.27,192.168.64.28,192.168.64.29,192.168.64.30,192.168.64.34,192.168.64.40,192.168.64.45,192.168.64.46,192.168.64.55,192.168.64.56,192.168.64.59,192.168.64.60,192.168.64.61,192.168.64.64,192.168.64.65,192.168.64.67,192.168.64.68,192.168.64.69,192.168.64.79,192.168.64.80,192.168.64.129,192.168.64.
+130,192.168.64.131,192.168.64.132,192.168.64.145,192.168.64.167,192.168.64.168,192.168.64.169,192.168.64.170,192.168.64.174,192.168.64.175,192.168.64.176,192.168.64.177,192.168.64.178,192.168.64.179,192.168.64.181,192.168.64.182,192.168.64.183,192.168.64.184,192.168.64.185,192.168.64.186,192.168.64.187,192.168.64.188,192.168.64.189,192.168.64.190,192.168.64.199,192.168.64.206) GROUP BY 2,1 ORDER BY 6 DESC LIMIT 54
+/usr/bin/sql2 -q agg-ness.shared.qa.akamai.com "SELECT result, targetip AS auditedip, machineip AS auditserver, session_serial, adset AS label, time AS last_audit_time FROM auditserver_audit_session WHERE targetip in (192.168.64.15,192.168.64.16,192.168.64.18,192.168.64.19,192.168.64.20,192.168.64.23,192.168.64.24,192.168.64.27,192.168.64.28,192.168.64.29,192.168.64.30,192.168.64.34,192.168.64.40,192.168.64.45,192.168.64.46,192.168.64.55,192.168.64.56,192.168.64.59,192.168.64.60,192.168.64.61,192.168.64.64,192.168.64.65,192.168.64.67,192.168.64.68,192.168.64.69,192.168.64.79,192.168.64.80,192.168.64.129,192.168.64.130,192.168.64.131,192.168.64.132,192.168.64.145,192.168.64.167,192.168.64.168,192.168.64.169,192.168.64.170,192.168.64.174,192.168.64.175,192.168.64.176,192.168.64.177,192.168.64.178,192.168.64.179,192.168.64.181,192.168.64.182,192.168.64.183,192.168.64.184,192.168.64.185,192.168.64.186,192.168.64.187,192.168.64.188,192.168.64.189,192.168.64.190,192.168.64.199,192.168.64.206) GROUP BY 2,1 ORDER BY 6 DESC LIMIT 54
+/usr/bin/sql2 -q agg-ness.shared.qa.akamai.com "SELECT result, targetip AS auditedip, machineip AS auditserver, session_serial, adset AS label, time AS last_audit_time FROM auditserver_audit_session WHERE targetip in (192.168.64.15,192.168.64.16,192.168.64.18,192.168.64.19,192.168.64.20,192.168.64.23,192.168.64.24,192.168.64.27,192.168.64.28,192.168.64.29,192.168.64.30,192.168.64.34,192.168.64.40,192.168.64.45,192.168.64.46,192.168.64.55,192.168.64.56,192.168.64.59,192.168.64.60,192.168.64.61,192.168.64.64,192.168.64.65,192.168.64.67,192.168.64.68,192.168.64.69,192.168.64.79,192.168.64.80,192.168.64.129,192.168.64.130,192.168.64.131,192.168.64.132,192.168.64.145,192.168.64.167,192.168.64.168,192.168.64.169,192.168.64.170,192.168.64.174,192.168.64.175,192.168.64.176,192.168.64.177,192.168.64.178,192.168.64.179,192.168.64.181,192.168.64.182,192.168.64.183,192.168.64.184,192.168.64.185,192.168.64.186,192.168.64.187,192.168.64.188,192.168.64.189,192.168.64.190,192.168.64.199,192.168.64.206) GROUP BY 2,1 ORDER BY 6 DESC LIMIT 54)
+sql2 -q agg-ness.shared.qa.akamai.com "SELECT result, targetip AS auditedip, machineip AS auditserver, session_serial, adset AS label, time AS last_audit_time FROM auditserver_audit_session WHERE targetip in (192.168.64.15,192.168.64.16,192.168.64.18,192.168.64.19,192.168.64.20,192.168.64.23,192.168.64.24,192.168.64.27,192.168.64.28,192.168.64.29,192.168.64.30,192.168.64.34,192.168.64.40,192.168.64.45,192.168.64.46,192.168.64.55,192.168.64.56,192.168.64.59,192.168.64.60,192.168.64.61,192.168.64.64,192.168.64.65,192.168.64.67,192.168.64.68,192.168.64.69,192.168.64.79,192.168.64.80,192.168.64.129,192.168.64.130,192.168.64.131,192.168.64.132,192.168.64.145,192.168.64.167,192.168.64.168,192.168.64.169,192.168.64.170,192.168.64.174,192.168.64.175,192.168.64.176,192.168.64.177,192.168.64.178,192.168.64.179,192.168.64.181,192.168.64.182,192.168.64.183,192.168.64.184,192.168.64.185,192.168.64.186,192.168.64.187,192.168.64.188,192.168.64.189,192.168.64.190,192.168.64.199,192.168.64.206) GROUP BY 2,1 ORDER BY 6 DESC LIMIT 54)
+sql2 -q agg-ness.shared.qa.akamai.com "SELECT result, targetip AS auditedip, machineip AS auditserver, session_serial, adset AS label, time AS last_audit_time FROM auditserver_audit_session WHERE targetip in (192.168.64.15,192.168.64.16,192.168.64.18,192.168.64.19,192.168.64.20,192.168.64.23,192.168.64.24,192.168.64.27,192.168.64.28,192.168.64.29,192.168.64.30,192.168.64.34,192.168.64.40,192.168.64.45,192.168.64.46,192.168.64.55,192.168.64.56,192.168.64.59,192.168.64.60,192.168.64.61,192.168.64.64,192.168.64.65,192.168.64.67,192.168.64.68,192.168.64.69,192.168.64.79,192.168.64.80,192.168.64.129,192.168.64.130,192.168.64.131,192.168.64.132,192.168.64.145,192.168.64.167,192.168.64.168,192.168.64.169,192.168.64.170,192.168.64.174,192.168.64.175,192.168.64.176,192.168.64.177,192.168.64.178,192.168.64.179,192.168.64.181,192.168.64.182,192.168.64.183,192.168.64.184,192.168.64.185,192.168.64.186,192.168.64.187,192.168.64.188,192.168.64.189,192.168.64.190,192.168.64.199,192.168.64.206) GROUP BY 2,1 ORDER BY 6 DESC LIMIT 54"
+clear
+cd Downloads/scripts/
+~/Downloads/scripts/keypush.sh --cleanold --audit audit.shared.qa.akamai.com 192.168.64.15,192.168.64.16,192.168.64.18,192.168.64.19,192.168.64.20,192.168.64.23,192.168.64.24,192.168.64.27,192.168.64.28,192.168.64.29,192.168.64.30,192.168.64.34,192.168.64.40,192.168.64.45,192.168.64.46,192.168.64.55,192.168.64.56,192.168.64.59,192.168.64.60,192.168.64.61,192.168.64.64,192.168.64.65,192.168.64.67,192.168.64.68,192.168.64.69,192.168.64.79,192.168.64.80,192.168.64.129,192.168.64.130,192.168.64.131,192.168.64.132,192.168.64.145,192.168.64.167,192.168.64.168,192.168.64.169,192.168.64.170,192.168.64.174,192.168.64.175,192.168.64.176,192.168.64.177,192.168.64.178,192.168.64.179,192.168.64.181,192.168.64.182,192.168.64.183,192.168.64.184,192.168.64.185,192.168.64.186,192.168.64.187,192.168.64.188,192.168.64.189,192.168.64.190,192.168.64.199,192.168.64.206
+~/Downloads/scripts/keypush.sh --cleanold --audit audit.shared.qa.akamai.com 192.168.64.15 192.168.64.16 192.168.64.18 192.168.64.19 192.168.64.20 192.168.64.23 192.168.64.24 192.168.64.27 192.168.64.28 192.168.64.29 192.168.64.30 192.168.64.34 192.168.64.40 192.168.64.45 192.168.64.46 192.168.64.55 192.168.64.56 192.168.64.59 192.168.64.60 192.168.64.61 192.168.64.64 192.168.64.65 192.168.64.67 192.168.64.68 192.168.64.69 192.168.64.79 192.168.64.80 192.168.64.129 192.168.64.130 192.168.64.131 192.168.64.132 192.168.64.145 192.168.64.167 192.168.64.168 192.168.64.169 192.168.64.170 192.168.64.174 192.168.64.175 192.168.64.176 192.168.64.177 192.168.64.178 192.168.64.179 192.168.64.181 192.168.64.182 192.168.64.183 192.168.64.184 192.168.64.185 192.168.64.186 192.168.64.187 192.168.64.188 192.168.64.189 192.168.64.190 192.168.64.199 192.168.64.206
+~/Downloads/scripts/keypush.sh -g --cleanold --audit audit.shared.qa.akamai.com 192.168.64.15 192.168.64.16 192.168.64.18 192.168.64.19 192.168.64.20 192.168.64.23 192.168.64.24 192.168.64.27 192.168.64.28 192.168.64.29 192.168.64.30 192.168.64.34 192.168.64.40 192.168.64.45 192.168.64.46 192.168.64.55 192.168.64.56 192.168.64.59 192.168.64.60 192.168.64.61 192.168.64.64 192.168.64.65 192.168.64.67 192.168.64.68 192.168.64.69 192.168.64.79 192.168.64.80 192.168.64.129 192.168.64.130 192.168.64.131 192.168.64.132 192.168.64.145 192.168.64.167 192.168.64.168 192.168.64.169 192.168.64.170 192.168.64.174 192.168.64.175 192.168.64.176 192.168.64.177 192.168.64.178 192.168.64.179 192.168.64.181 192.168.64.182 192.168.64.183 192.168.64.184 192.168.64.185 192.168.64.186 192.168.64.187 192.168.64.188 192.168.64.189 192.168.64.190 192.168.64.199 192.168.64.206
+~/Downloads/scripts/keypush.sh --gwsh --cleanold --audit audit.shared.qa.akamai.com 192.168.64.15 192.168.64.16 192.168.64.18 192.168.64.19 192.168.64.20 192.168.64.23 192.168.64.24 192.168.64.27 192.168.64.28 192.168.64.29 192.168.64.30 192.168.64.34 192.168.64.40 192.168.64.45 192.168.64.46 192.168.64.55 192.168.64.56 192.168.64.59 192.168.64.60 192.168.64.61 192.168.64.64 192.168.64.65 192.168.64.67 192.168.64.68 192.168.64.69 192.168.64.79 192.168.64.80 192.168.64.129 192.168.64.130 192.168.64.131 192.168.64.132 192.168.64.145 192.168.64.167 192.168.64.168 192.168.64.169 192.168.64.170 192.168.64.174 192.168.64.175 192.168.64.176 192.168.64.177 192.168.64.178 192.168.64.179 192.168.64.181 192.168.64.182 192.168.64.183 192.168.64.184 192.168.64.185 192.168.64.186 192.168.64.187 192.168.64.188 192.168.64.189 192.168.64.190 192.168.64.199 192.168.64.206
+gwsh root@qa-mesos01.qaextranet.akamai.com
+clear
+sql2 -q agg-ness.shared.qa.akamai.com "SELECT wr.machineIP ip_key, "
+
+sql2 -q mega.dev.query.akadns.net "SELECT wr.machineIP ip_key, NVL(bavail, 0) * NVL(bsize, 0) / 1048576 MB_free, NVL(bavail, 0) * NVL(bsize, 0) / 1048576 threshold_value, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND bavail * bsize < 1536000000"
+sql2 -q internal.dev.query.akadns.net "SELECT wr.machineIP ip_key, NVL(bavail, 0) * NVL(bsize, 0) / 1048576 MB_free, NVL(bavail, 0) * NVL(bsize, 0) / 1048576 threshold_value, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND bavail * bsize < 1536000000"
+sql2 -q internal.dev.query.akadns.net "ELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 25.0 AND wr.machineIP IN (SELECT machineip FROM machinedetails WHERE network = 'pulsar')"
+sql2 -q internal.dev.query.akadns.net "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 25.0 AND wr.machineIP IN (SELECT machineip FROM machinedetails WHERE network = 'pulsar')"
+sql2 -q internal.dev.query.akadns.net "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 50.0 AND wr.machineIP IN (SELECT machineip FROM machinedetails WHERE network = 'pulsar')"
+sql2 -q internal.dev.query.akadns.net "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 75.0 AND wr.machineIP IN (SELECT machineip FROM machinedetails WHERE network = 'pulsar')"
+sql2 -q internal.dev.query.akadns.net "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 90.0 AND wr.machineIP IN (SELECT machineip FROM machinedetails WHERE network = 'pulsar')"
+sql2 -q internal.dev.query.akadns.net "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 985.0 AND wr.machineIP IN (SELECT machineip FROM machinedetails WHERE network = 'pulsar')"
+clear
+sql2 -q internal.dev.query.akadns.net "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 85.0 AND wr.machineIP IN (SELECT machineip FROM machinedetails WHERE network = 'pulsar')"
+FROM machinedetails WHERE network = 'pulsar')"
+gwsh 192.168.48.120
+sql2 -q internal.dev.query.akadns.net "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 88.0 AND wr.machineIP IN (SELECT machineip FROM machinedetails WHERE network = 'pulsar')"
+sql2 -q agg-ness.shared.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 88.0 AND wr.machineIP IN (SELECT machineip FROM machinedetails WHERE network = 'pulsar')"
+sql2 -q agg-ness.shared.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 88.0)"
+sql2 -q agg-ness.shared.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 88.0))"
+sql2 -q agg-ness.shared.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 88.0"
+sql2 -q agg-ness.shared.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0"
+sql2 -q agg-mega.shared.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0"
+sql2 -q agg-mega.shared.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0" | grep 64
+clear
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0" | grep 64
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0" | grep 24
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0" | grep "192.168.24.*"
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0"
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0" | less
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0 AND installgroup=30" | less
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0 AND region=4117"
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0 AND physregion=4117"
+vim kmi-client-check 
+./kmi-client-check sqa2 -r release-pulsar-9590-2017-04-20-17-57 -
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0 AND physregion=4117"
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0 AND physregion=4117 AND installgroup=30"
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0 AND network=pulsar"
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0 AND subnetwork=pulsar"
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0 AND subnetwork='pulsar'"
+sql2 -q internal.dev.query.akadns.net "SELECT wr.machineIP ip_key, physregion, bavail Blocks_Available, blocks Blocks_Total, (bavail / CAST(blocks AS float)) * 100 Percentage_available, mountpt, wr.installgroup installgroup FROM whoruns wr LEFT OUTER JOIN filesys fs ON fs.machineip = wr.machineip WHERE mountpt = '/usr/local/akamai/logs' AND (bavail / CAST(blocks AS float)) * 100 < 99.0 AND subnetwork='pulsar'"
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'"
+sql2 -q agg-mega.sqa1.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'"
+
+gwsh root@qa-mesos01.qaextranet.akamai.com
+sql2 -q agg-mega.sqa1.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'";
+sql2 -q agg-mega.shared.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'";
+gwsh root@qa-mesos01.qaextranet.akamai.com
+ping agg-mega.sqa2.qa.akamai.com
+ssh root@198.18.81.21
+man p4
+p4 log //projects/qa/hardware/configurations/configuration.sqa2.infra
+p4 history //projects/qa/hardware/configurations/configuration.sqa2.infra
+p4 filelog //projects/qa/hardware/configurations/configuration.sqa2.infra
+ssh root@198.18.81.21
+gwsh root@qa-mesos01.qaextranet.akamai.com
+ping internal.sqa2.qa.akamai.com
+ping agg-internal.sqa2.qa.akamai.com
+sql2 -q agg-internal.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'";
+sql2 -q agg-internal.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'portal'";
+sql2 -q agg-portal.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'portal'";
+sql2 -q agg-infra.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'portal'";
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'portal'";
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'";
+ssh root@198.18.81.21
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'portal'";
+ssh root@198.18.81.21
+sql2 -q internal.dev.query.akadns.net "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'";
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'portal'";
+sql2 -q agg-mega.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'";
+sql2 -q agg-internal.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'";
+sql2 -v -q agg-internal.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'";
+sql2 --debug -q agg-internal.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'";
+ping agg-internal.sqa2.qa.akamai.com
+sql2 --debug -q agg-internal.sqa2.qa.akamai.com "SELECT
+  machineip
+FROM machinedetails
+WHERE network = 'pulsar'";
+telnet agg-internal.sqa2.qa.akamai.com 9050
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rm -f $(docker ps -a -q)'; echo ""; done
+docker rmi -f': for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rmi -f $(docker images -a -q)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rmi -f $(docker images -a -q)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'rm -rf /ghostcache/pulsar-docker-store/image/aufs/distribution'; echo ""; done
+_HOSTS="sqainfra-docker01.sqaextranet.akamai.com sqainfra-docker02.sqaextranet.akamai.com sqainfra-docker03.sqaextranet.akamai.com sqainfra-docker04.sqaextranet.akamai.com sqainfra-docker05.sqaextranet.akamai.com"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "rsync -crlvz -e 'gwsh' --stats --progress tomcat8-2.4-release.tar root@HOST:/tmp"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'docker load < /tmp/tomcat8-2.4-release.tar'"
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rm -f $(docker ps -a -q)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rmi -f $(docker images -a -q)'; echo ""; done
+_HOSTS="sqainfra-docker01.sqaextranet.akamai.com sqainfra-docker02.sqaextranet.akamai.com sqainfra-docker03.sqaextranet.akamai.com sqainfra-docker04.sqaextranet.akamai.com sqainfra-docker05.sqaextranet.akamai.com"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'docker load < /tmp/tomcat8-2.4-release.tar'"
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rm -f $(docker ps -a -q)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rmi -f $(docker images -a -q)'; echo ""; done
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+ssh lsg-east
+bmon
+sudo apt-get install bmon
+bmon
+slurm
+sudo apt-get install slurm
+sudo apt-get purge bmon
+sudo apt-get remove bmon
+sudo slurm
+tcptrack
+sudo apt-get install tcptrack
+tcptrack
+tcptrack -i eth0
+sudo tcptrack -i eth0
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+gwsh root@sqainfra-docker04.sqaextranet.akamai.com
+sudo apt-get update
+sudo apt-get dist-upgrade
+clear
+gwsh root@sqa-docker01.sqaextranet.akamai.com
+gwsh root@qa-docker01.qaextranet.akamai.com
+ping qa-docker01.qaextranet.akamai.com
+ping sqa-docker01.qqaextranet.akamai.com
+ping sqa-docker01.sqaextranet.akamai.com
+cd Downloads/
+vim 3.9.1-RELEASE 
+cat 3.9.1-RELEASE | jq .fsLayers
+cat 3.9.1-RELEASE | jq .fsLayers.[]
+cat 3.9.1-RELEASE | jq .fsLayers.blobSum
+cat 3.9.1-RELEASE | jq .fsLayers.[].blobSum
+cat 3.9.1-RELEASE | jq .fsLayers.blobSum
+cat 3.9.1-RELEASE | jq .fsLayers | jq .
+cat 3.9.1-RELEASE | jq .fsLayers | jq .blobSum
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[]
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum
+cat 3.9.1-RELEASE | jq .fsLayers.[].blobSum
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum
+clear
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum | sed -e 's/^"//' -e 's/"$//'
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum | sed -e 's/^"//' -e 's/"$//' | sed -i 's/sha256//g'
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum | sed -e 's/^"//' -e 's/"$//' | sed -i 's/sha//g'
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum | sed -e 's/^"//' -e 's/"$//'
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum | sed -e 's/^"//' -e 's/"$//' | sed -i 's/sha256//g'
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum | sed -e 's/^"//' -e 's/"$//' | cut -d':' -fe-
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum | sed -e 's/^"//' -e 's/"$//' | cut -d':' -f2-
+clear
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum | sed -e 's/^"//' -e 's/"$//' | cut -d':' -f2-
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum | sed -e 's/^"//' -e 's/"$//' | cut -d':' -f2- | sort
+clear
+cat 3.9.1-RELEASE | jq .fsLayers | jq .[].blobSum | sed -e 's/^"//' -e 's/"$//' | cut -d':' -f2- | sort
+docker images
+docker pull pdr.akamai.com/pulsar/core-authz:3.9.1-RELEASE
+cd /var/lib/docker/
+sudo su
+sudo docker run --rm -v /var/lib/docker:/var/lib/docker docker/v1.10-migrator
+cd /tmp/
+ls -lrt | grep jira
+ls -lrt
+scp root@pulsar-dashboard.sqa2.qa.akamai.com:/a/pulsar_dashboard/conf/shadow/jira_* .
+scp root@pulsar-dashboard.sqa2.qa.akamai.com:/a/pulsar_dashboard/conf/shadow/jira_certificate.pfx .
+ssh root@pulsar_dashboard.sqa2.qa.akamai.com
+docker pull pdr-qa.akamai.com/pulsar/test-java:1.0.1-RELEASE
+docker images
+docker inspect ef0
+docker pull pdr.akamai.com/library/tomcat8:platform-2.4-RELEASE
+docker images
+docker rmi $(docker images -a -q)
+clear
+docker images
+clear
+docker pull pdr.akamai.com/library/tomcat8:platform-2.4-RELEASE
+docker save pdr.akamai.com/library/tomcat8:platform-2.4-RELEASE > tomcat8-2.4-release.tar
+ls -lrt
+_HOSTS="sqainfra-docker01.sqaextranet.akamai.com sqainfra-docker02.sqaextranet.akamai.com sqainfra-docker03.sqaextranet.akamai.com sqainfra-docker04.sqaextranet.akamai.com sqainfra-docker05.sqaextranet.akamai.com"
+echo -n $_HOSTS | parallel -vv --gnu -j +3 -d " " -I HOST "rsync -crlvz -e 'ssh -p 22' --stats --progress tomcat8-2.4.release.tar user@HOST:/tmp"
+echo -n $_HOSTS | parallel -vv --gnu -j +3 -d " " -I HOST "rsync -crlvz -e 'gwsh' --stats --progress tomcat8-2.4.release.tar user@HOST:/tmp"
+echo -n $_HOSTS | parallel -vv --gnu -j +3 -d " " -I HOST "rsync -crlvz -e 'gwsh' --stats --progress tomcat8-2.4.release.tar root@HOST:/tmp"
+ls -lrt
+echo -n $_HOSTS | parallel -vv --gnu -j +3 -d " " -I HOST "rsync -crlvz -e 'gwsh' --stats --progress tomcat8-2.4.release.tar root@HOST:/tmp"
+echo -n $_HOSTS | parallel -vv --gnu -j +3 -d " " -I HOST "rsync -crlvz -e 'gwsh' --stats --progress tomcat8-2.4-release.tar root@HOST:/tmp"
+echo -n $_HOSTS | parallel --will-cite -j 5 rsync -avzm --relative --stats --safe-links --ignore-existing --human-readable {} ~/tomcat8-2.4-release.tar REMOTE-HOST:/tmp
+echo -n $_HOSTS | parallel -j 5 rsync -avzm --relative --stats --safe-links --ignore-existing --human-readable {} ~/tomcat8-2.4-release.tar REMOTE-HOST:/tmp
+echo -n $_HOSTS | parallel -j 5 rsync -avzm --relative --stats --safe-links --ignore-existing --human-readable {} ~/tomcat8-2.4-release.tar root@HOST:/tmp
+_HOSTS="sqainfra-docker01.sqaextranet.akamai.com sqainfra-docker02.sqaextranet.akamai.com sqainfra-docker03.sqaextranet.akamai.com sqainfra-docker04.sqaextranet.akamai.com sqainfra-docker05.sqaextranet.akamai.com"
+echo -n $_HOSTS | parallel -j 5 rsync -avzm --relative --stats --safe-links --ignore-existing --human-readable {} ~/tomcat8-2.4-release.tar root@HOST:/tmp
+echo -n $_HOSTS | parallel -j 5 rsync -arve --stats --progress --human-readable {} ~/tomcat8-2.4-release.tar root@HOST:/tmp
+echo -n $_HOSTS | parallel -j 5 rsync -arve gwsh --stats --progress --human-readable {} ~/tomcat8-2.4-release.tar root@HOST:/tmp
+echo -n $_HOSTS | parallel -j 5 rsync -arv -e gwsh --stats --progress --human-readable {} ~/tomcat8-2.4-release.tar root@HOST:/tmp
+echo -n $_HOSTS | parallel -j 5 -I HOST rsync -arv -e gwsh --stats --progress --human-readable {} ~/tomcat8-2.4-release.tar root@HOST:/tmp
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "rsync -crlvz -e 'gwsh' --stats --progress tomcat8-2.4-release.tar root@HOST:/tmp"
+
+clear
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+gwsh root@sqainfra-docker04.sqaextranet.akamai.com
+gwsh p4-docker01.extranet.akamai.com
+gwsh root@sqa-docker04.sqaextranet.akamai.com
+gwsh root@sqa-docker20.sqaextranet.akamai.com
+cd akamai-git/pulsar-platform-dev-ops/
+./healthchecks.py 
+./healthchecks.py  sqashared
+gwsh root@sqa-docker01.sqaextranet.akamai.com
+gwsh root@sqa-docker05.sqaextranet.akamai.com
+gwsh root@sqa-docker08.sqaextranet.akamai.com
+gwsh root@sqa-docker10.sqaextranet.akamai.com
+gwsh root@sqa-docker12.sqaextranet.akamai.com
+gwsh root@sqa-docker14.sqaextranet.akamai.com
+gwsh root@sqa-docker20.sqaextranet.akamai.com
+gwsh root@sqa-docker21.sqaextranet.akamai.com
+gwsh root@sqa-docker22.sqaextranet.akamai.com
+gwsh root@sqa-docker23.sqaextranet.akamai.com
+ping agg-internal.sqa2.qa.akamai.com
+telnet agg-internal.sqa2.qa.akamai.com 22
+ssh root@agg-internal.sqa2.qa.akamai.com
+vbe
+clear
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com
+for i in {01..05}; do echo "Hello $i!"; done
+for i in {01..05}; echo "sqainfra-docker$i.sqaextranet.akamai.com"; done
+for i in {01..05}; echo sqainfra-docker$i.sqaextranet.akamai.com; done
+for i in {01..05}; do echo "sqainfra-docker$i.sqaextranet.akamai.com"; done
+for i in {01..05}; do gwsh "sqainfra-docker$i.sqaextranet.akamai.com 'cat /a/etc/install.conf'"; done
+for i in {01..05}; do gwsh sqainfra-docker$i.sqaextranet.akamai.com 'cat /a/etc/install.conf'; done
+for i in {01..05}; do hpst=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh $host 'cat /a/etc/install.conf'; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh $host 'cat /a/etc/install.conf'; done
+clear
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh $host 'cat /a/etc/install.conf'; echo ""; done
+clear
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh $host 'docker rm -f $(docker ps -a -q -f status=exited)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rm -f $(docker ps -a -q -f status=exited)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rmi -f $(docker images -a -q)'; echo ""; done
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rm -f $(docker ps -a -q -f status=exited)'; echo ""; done
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rm -f $(docker ps -a -q)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rmi -f $(docker images -a -q)'; echo ""; done
+pps
+ppsh
+sudo apt-get install ppsh
+parallel
+sudo apt-get install parallel
+clear
+docker images
+docker rmi f1
+docker fmio 8d
+docker rmi 8d9
+clear
+docker images
+docker rmi -f 465
+clear
+docker images
+docker rmi $(docker images -a -q)
+docker pull pdr.akamai.com/library/tomcat8:platform-2.4-RELEASE
+docker images
+docker history 64
+docker inspect 64
+clear
+docker inspect 64
+clear
+docker images
+_HOSTS="sqainfra-docker01.sqaextranet.akamai.com sqainfra-docker02.sqaextranet.akamai.com sqainfra-docker03.sqaextranet.akamai.com sqainfra-docker04.sqaextranet.akamai.com sqainfra-docker05.sqaextranet.akamai.com"
+echo -n $_HOSTS | parallel -vv --gnu -j +3 -d " " -I HOST "echo HOST"
+man parallel
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rmi -f $(docker images -a -q)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'rm -rf /tmp/tomcat-*'; echo ""; done
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+
+gwsh root@sqainfra-docker03.sqaextranet.akamai.com 'rm -rf /tmp/tomcat8-2.4-release.tar'
+gwsh root@sqainfra-docker04.sqaextranet.akamai.com 'rm -rf /tmp/tomcat8-2.4-release.tar'
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com 'rm -rf /tmp/tomcat8-2.4-release.tar'
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker load < /tmp/tomcat8-2.4-release.tar'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rmi -f $(docker images -a -q)'; echo ""; done
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+gwsh root@sqa-docker36.sqaextranet.akamai.com
+gwsh root@sqa-docker21.sqaextranet.akamai.com
+ssh root@198.18.81.21
+ssh root@198.18.81.23
+docker ps
+cat /aein
+ssh root@198.18.81.37
+ssh root@198.18.58.21
+ssh root@docker01.pulsar.qa.akamai.com
+ssh root@docker02.pulsar.qa.akamai.com
+ssh root@docker03.pulsar.qa.akamai.com
+ksqa2.qa.akamai.com "SELECT
+
+export SSL_CERTFILE=/home/pdommeti/akamai-git/dashboard_secrets/conf/sqa-portal-cdb_cert_chain.crt && cqlsh --cqlversion=3.2.1 -u pulsar_dashboard -p sqa7482pulsar_dashboard --ssl sqa-portal-cdb.akamai.com
+curl -vk -u akatec:ec}T9E~GxZ https://pulsar-dashboard.akamai.com:8443/api/v1/se/deployments?environment=qa&isDeploy=true
+curl -sk -u akatec:ec}T9E~GxZ https://pulsar-dashboard.akamai.com:8443/api/v1/se/deployments?environment=qa&isDeploy=true | jq .
+clear
+curl -sk -u akatec:ec}T9E~GxZ https://pulsar-dashboard.akamai.com:8443/api/v1/se/deployments?environment=qa&isDeploy=true | jq .
+clear
+curl -sk -u akatec:ec}T9E~GxZ https://pulsar-dashboard.akamai.com:8443/api/v1/se/deployments?environment=qa&isDeploy=true
+clear
+curl -s -u akatec:ec}T9E~GxZ https://pulsar-dashboard.akamai.com:8443/api/v1/se/deployments?environment=qa&isDeploy=true
+clear
+cd /tmp/
+qa-apps.json
+vimqa-apps.json
+vim qa-apps.json
+cat qa-apps.json | jq .
+cat qa-apps.json | jq .[].dockerImage
+cat qa-apps.json | jq .
+cat qa-apps.json | jq .[].deployed
+cat qa-apps.json | jq .[].dockerImage
+cat qa-apps.json | jq .[].dockerImage | grep -v null
+clear
+cat qa-apps.json | jq .[].dockerImage | grep -v null
+cat qa-apps.json | jq .[].dockerImage | grep -v null | wc -kl
+cat qa-apps.json | jq .[].dockerImage | grep -v null | wc -l
+sudo vim /etc/default/docker
+mkdir dockerimagestore
+sudo service restart docker
+sudo service docker restart
+docker images
+cd /var/lib/doc
+cd /var/lib/docker/
+sudo su -
+clear
+docker pull pdr.akamai.com/library/tomcat8:platform-2.4-RELEASE
+clear
+sudo vim /etc/default/docker
+sudo service docker restart
+docker pull pdr.akamai.com/library/tomcat8:platform-2.4-RELEASE
+cd imagestore-docker/
+ls -lrt
+sudo su -
+chown pdommeti:staff ../imagestore-docker/
+cd ..
+chown -R pdommeti:staff ../imagestore-docker/
+chown -R pdommeti:staff ../imagestore-docker
+chown -R pdommeti:staff imagestore-docker
+sudo chown -R pdommeti:staff imagestore-docker
+cd imagestore-docker/
+ls -lrt
+cd ..
+clear
+tree
+clear
+whereis tree
+cd /usr/bin/
+ldd tree
+rsync arve gwsh root@sqainfra-docker01.sqaextranet.akamai.com:/tmp
+rsync arve gwsh tree root@sqainfra-docker01.sqaextranet.akamai.com:/tmp
+sudo rsync arve gwsh tree root@sqainfra-docker01.sqaextranet.akamai.com:/tmp
+cp tree /tmp/
+cd /tmp/
+chown pdommeti:staff tree
+rsync arve gwsh tree root@sqainfra-docker01.sqaextranet.akamai.com:/tmp
+ssh-add -l
+ls -lrt
+rsync arve gwsh tree root@sqainfra-docker01.sqaextranet.akamai.com:/tmp
+rsync arve gwsh fileCiGFUM  root@sqainfra-docker01.sqaextranet.akamai.com:/tmp
+cd /tmp/
+rsync arve gwsh tree root@sqainfra-docker01.sqaextranet.akamai.com:/tmp
+vim ~/.ssh/known_hosts 
+rsync arve gwsh tree root@sqainfra-docker01.sqaextranet.akamai.com:/tmp
+ssh-add -l
+rsync arve gwsh tree root@sqainfra-docker01.sqaextranet.akamai.com:
+rsync -arve gwsh tree root@sqainfra-docker01.sqaextranet.akamai.com:/tmp
+ssh lsg-east
+clear
+ssh root@docker03.pulsar.qa.akamai.com
+root@sqainfra-docker03.sqaextranet.akamai.com:/tmp
+root@sqainfra-docker03.sqaextranet.akamai.com
+docker ps
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+gwsh root@sqainfra-docker05.sqaextranet.akamai.com
+xit
+history
+history | grep parallel
+_HOSTS="sqainfra-docker01.sqaextranet.akamai.com sqainfra-docker02.sqaextranet.akamai.com sqainfra-docker03.sqaextranet.akamai.com sqainfra-docker04.sqaextranet.akamai.com sqainfra-docker05.sqaextranet.akamai.com"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST '/a/sbin/akamai_run stickystop docker'"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'rm -rf /ghostcache/pulsar-docker-store/images/aufs/distribution'"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'rm -rf /ghostcache/pulsar-docker-store/image/aufs/distribution/*'"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST '/a/sbin/akamai_run unstickystop docker'"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'docker rm $(docker ps -a -q)'"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'docker rmi -f $(docker images -a -q)'"
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rmi -f $(docker images -a -q)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host '/a/sbin/akamai_run stickystop docker'; echo ""; done
+docker pull pdr.akamai.com/pulsar/authz/1.14.0.RELEASE
+docker pull pdr.akamai.com/pulsar/authz/1.14.0
+docker pull pdr.akamai.com/pulsar/authz/1.14.0.RELEASE
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'docker rm $(docker ps -a -q)'"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "echo HOST'"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "echo $HOST'"
+history | grep HOST
+_HOSTS="sqainfra-docker01.sqaextranet.akamai.com sqainfra-docker02.sqaextranet.akamai.com sqainfra-docker03.sqaextranet.akamai.com sqainfra-docker04.sqaextranet.akamai.com sqainfra-docker05.sqaextranet.akamai.com"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "echo $HOST'"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'docker rm $(docker ps -a -q)'"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'docker rmi $(docker images -a -q)'"
+ethtool -g eth0
+_HOSTS="sqainfra-docker01.sqaextranet.akamai.com sqainfra-docker02.sqaextranet.akamai.com sqainfra-docker03.sqaextranet.akamai.com sqainfra-docker04.sqaextranet.akamai.com sqainfra-docker05.sqaextranet.akamai.com"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'docker pull pdr.akamai.com/library/tomcat8:platform-2.4-RELEASE'"
+clear
+cd Downloads/scripts/
+kmi-client-check sqa2 -r release-pulsar-9590-2017-04-24-19-35 -
+~/Downloads/scripts/keypush.sh --gwsh --cleanold --audit audit.shared.qa.akamai.com 192.168.64.15 192.168.64.165
+docker ps -a
+docker images
+clear
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+clear
+rm -r sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-15-*
+
+rm -r sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-15-*
+rm -r sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-1*
+ls -lrt
+gwsh root@sqainfra-mesos01.sqaextranet.akamai.com
+rm -r sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-1*
+rm -rf sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-1*
+ls -lrt
+rm -r sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-18-46-55 
+clear
+ls -lrt
+cat sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-18-47-01 
+ls -lrt
+rm -r sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-18-48-*
+ls -lrt
+rm -r sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-19-0*
+ls -lrt
+rm -r sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-18-49-*
+clear
+ls -lrt
+rm -r sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-18-5*
+ls -lrt
+clear
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host '/a/sbin/akamai_run stickystop docker'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rm -f $(docker ps -a -q)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host '/a/sbin/akamai_run unstickystop docker'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rm -f $(docker ps -a -q)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rmi -f $(docker images -a -q)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'rm -rf /ghostcache/pulsar-docker-store/image/aufs/distribution'; echo "Removed docker cache on $host"; done
+mv dockerimagestore/ imagestore-docker
+sudo mv dockerimagestore/ imagestore-docker
+ls -lrt
+clear
+cd imagestore-docker/
+ls -lrt
+sudo su -
+ssh root@198.18.58.37
+clear
+gwsh root@sqainfra-docker01.sqaextranet.akamai.com
+lear
+clear
+ls -lrt
+clear
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rm -f $(docker ps -a -q)'; echo ""; done
+clear
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'docker rmi -f $(docker images -a -q)'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host '/a/sbin/akamai_run stickystop docker'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'rm -rf /ghostcache/pulsar-docker-store/*'; echo ""; done
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+for i in {03..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host 'rm -rf /ghostcache/pulsar-docker-store/*'; echo ""; done
+for i in {01..05}; do host=sqainfra-docker$i.sqaextranet.akamai.com; echo "Machine: $host"; gwsh root@$host '/a/sbin/akamai_run unstickystop docker'; echo ""; done
+_HOSTS="sqainfra-docker01.sqaextranet.akamai.com sqainfra-docker02.sqaextranet.akamai.com sqainfra-docker03.sqaextranet.akamai.com sqainfra-docker04.sqaextranet.akamai.com sqainfra-docker05.sqaextranet.akamai.com"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'docker pull pdr.akamai.com/library/tomcat8:2.4-RELEASE '"
+echo -n $_HOSTS | parallel -vv --gnu -j 5 -d " " -I HOST "gwsh root@HOST 'docker pull pdr.akamai.com/library/tomcat8:platform-2.4-RELEASE'"
+gwsh root@sqainfra-docker02.sqaextranet.akamai.com
+clear
+ssh root@pulsar_dashboard.sqa2.qa.akamai.com
+
+
+ssh root@pdr-qa.akamai.com
+clear
+cd akamai-git/pulsar-platform-dev-ops/
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --dryrun
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 2 --dryrun
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 4 --dryrun
+ping sqainfra-mesos01.sqaextranet.akamai.com
+vim /etc/hosts
+sudo vim /etc/hosts
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 4 --dryrun
+vim ~/marathon-creds.conf 
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 4 --dryrun
+vim ~/marathon-creds.conf 
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 2
+sudo vim /etc/hosts
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 2
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 2 --dryrun
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 2
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 2
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 23
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 2
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 1 --marathonjson sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-18-47-01
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 1 --marathonjson ~/sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-18-47-01
+./mesos-migrate-dc.py --colddc sqainfra --hotdc sqainfra --ratelimit 2 --marathonjson ~/sqainfra-mesos01.sqaextranet.akamai.com-apps.json.2017-05-02-18-47-01
+curl -s -u akatec:ec}T9E~GxZ https://pulsar-dashboard.akamai.com:8443/api/v1/se/deployments?environment=qa&isDeploy=true | jq
+curl -s -u akatec:ec}T9E~GxZ https://pulsar-dashboard.akamai.com:8443/api/v1/se/deployments?environment=qa&isDeploy=true | jq .
+ls -lrt
+sudo fdisk -l | grep '^Disk'
+clear
+cd
+ls -lrt
+cd Downloads/
+ls -lrt
+cd
+clear
+pwd
+df -h
+sudo fdisk -l | grep '^Disk'
+sudo cat /etc/fstab 
+sudo vim /etc/fstab 
+sudo mount -a
+clear
+cd /media/h
+cd /media/hdd/
+ls -lrt
+clear
+cd pdommeti/
+ls -lrt
+clear
+ls -a
+cd akamai-git/
+ls -lrt
+cd jessie/
+ls -lrt
+cd dotfiles/
+ls -lrt
+ls -a
+vim .dockerfunc 
+cd ..
+ls -lrt
+cd dotfiles/
+cd bin/
+ls -lrt
+./install.sh -help
+./install.sh
+./install.sh dotfiles
+vim install.sh 
+cd ..
+ls -lrt
+make
+ls -lrt
+vim Makefile 
+cat Makefile 
+make install
+clear
+ls -a ~/
+clear
+cd
+clear
+exit
+sudo rebootsudo apt install lolcat
+sudo apt install lolcat
+sudo apt install fortune-mod
+cler
+cp /media/hdd/pdommeti/
+cd /media/hdd/pdommeti/
+clear
+ls -lrt
+clear
+vim ~/.bashrc 
+clear
+java -version
+clear
+lsb_release -a
+sudo apt install software-properties-common
+clear
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt install oracle-java11-installer
+sudo apt install oracle-java8-set-default
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt install oracle-java8-set-default
+sudo apt-get update
+sudo apt install oracle-java8-set-default
+sudo apt-cache search oracle
+sudo apt-get install oracle-java8-installer
+clear
+java -version
+clear
+vim ~/.path 
+cd Downloads/
+ls -lrt
+gpg --with-fingerprint perforce.pubkey
+cat ~/.gnupg/pubring.kbx 
+wget -qO - https://package.perforce.com/perforce.pubkey | sudo apt-key add -
+deb http://package.perforce.com/apt/ubuntu {distro} release
+vim /etc/apt/sources.list.d/perforce.list
+sudo vim /etc/apt/sources.list.d/perforce.list
+sudo apt-get update
+clear
+p4 info
+clear
+cd ~/.ssh/
+ls -lrt
+cp /media/hdd/pdommeti/.ssh/* .
+ls -lrt
+clear
+sudo apt-get install git
+git config --global user.name "Anantha Dommeti:
+git config --global user.name "Anantha Dommeti"
+git config --global user.email "pdommeti@akamai.com"
+clear
+git -version
+git --version
+clear
+sudo snap install intellij-idea-ultimate --classic --edge
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
+clear
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update
+sudo apt-get install spotify-client
+sudo apt-get remvoe spotify-client
+sudo apt-get removespotify-client
+sudo apt-get remove spotify-client
+clear
+sudo apt-get purge spotify-client
+sudo snap install spotify
+clear
+cp -R /media/hdd/pdommeti/.IntelliJIdea2019.1/ ~/
+cp -fR /media/hdd/pdommeti/.IntelliJIdea2019.1/ ~/
+clear
+cd /etc/x11
+ls -lrt
+cd akamai-git/jessie/
+cd dotfiles/
+ls -lrt
+vim Makefile 
+make install
+clear
+vim ~/.Xdefaults 
+vim ~/.Xresources 
+vim ~/.Xdefaults 

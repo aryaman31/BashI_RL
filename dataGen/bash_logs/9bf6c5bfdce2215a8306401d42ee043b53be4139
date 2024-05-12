@@ -1,0 +1,500 @@
+openssl genrsa -aes256 -out caincharge/private/cainchargekey.pem 4096
+chmod 400 caincharge/private/cainchargekey.pem 
+openssl req -config caincharge/openssl.cnf -new -sha256 -key caincharge/private/cainchargekey.pem -out caincharge/csr/cainchargecsr.pem
+openssl ca -config openssl.cnf -extensions v3_intermediaire_ca -days 3650 -notext -md sha256 -in caincharge/csr/cainchargecsr.pem -out caincharge/certs/cainchargecert.pem
+chmod 444 caincharge/certs/cainchargecert.pem 
+cat ins
+cat index.txt 
+cat caincharge/index.txt 
+openssl x509 -noout -text -in caincharge/certs/cainchargecert.pem 
+apt-get update 
+openssl ca -config openssl.cnf -extensions v3_intermediaire_ca -days 3650 -notext -md sha256 -in caincharge/csr/cainchargecsr.pem -out caincharge/certs/cainchargecert.pem
+ls
+cd 
+ls
+rm -rf ca 
+ls
+mkdir /root/ca
+cd /root/ca/
+mkdir certs crl newcerts private
+chmod 700 private/
+touch index.txt
+echo 1000 > serial
+cp /home/geek/root_ca.txt openssl.cnf
+openssl genrsa -aes256 -out private/ca.key.pem 4096
+chmod 400 private/ca.key.pem 
+openssl req  -config openssl.cnf -key private/ca.key.pem -new -x509 -days 7300 -sha256 -extension v3_ca -out certs/ca.cert.pem
+openssl req  -config openssl.cnf -key private/ca.key.pem -new -x509 -days 7300 -sha256 -extensions v3_ca -out certs/ca.cert.pem
+chmod 444 certs/ca.cert.pem 
+openssl x509 -noout -text -in certs/ca.cert.pem 
+mkdir /root/ca/intermediate
+cd /root/ca/intermediate/
+mkdir certs crl newcerts private 
+chmod 700
+chmod 700 private/
+touch index.txt
+echo 1000 > serial 
+echo 1000 > /root/ca/intermediate/crlnumber
+cp /home/geek/int.txt openssl.cnf
+cd /root/ca/
+openssl genrsa -aes256 -out intermediate/private/intermediate.key.pem 4096
+chmod 400 intermediate/private/intermediate.key.pem 
+chmod 400 intermediate/private/intermediate.key.pem 
+openssl req -config intermediate/openssl.cnf -new -sha256 -key intermediate/private/intermediate.key.pem -out intermediate/csr/intermediate.csr.pem
+mkdir intermediate/csr
+openssl req -config intermediate/openssl.cnf -new -sha256 -key intermediate/private/intermediate.key.pem -out intermediate/csr/intermediate.csr.pem
+openssl ca -config openssl.cnf -extensions v3_intermediate_ca -days 3650 -notext -md sha256 -in intermediate/csr/intermediate.csr.pem -out intermediate/certs/intermediate.cert.pem
+cat index.txt
+openssl x509 -noout -text -in intermediate/certs/intermediate.cert.pem 
+openssl verify -CAfile certs/ca.cert.pem intermediate/certs/intermediate.cert.pem 
+cat intermediate/certs/intermediate.cert.pem certs/ca.cert.pem > intermediate/certs/ca-chain.cert.pem
+chmod 444 intermediate/certs/ca-chain.cert.pem 
+ls /home/geek/
+ls
+ls /home/geek/
+openssl ca -config intermediate/openssl.cnf -extensions server_cert -days 375 -notext -md sha256 -in /home/geek/serverprod.csr -out intermediate/certs/serverprod.crt
+ca intermediate/index.txt
+cat intermediate/index.txt
+cat intermediate/index.txt
+openssl x509 -noout -text  -in /home/geek/serverprod.csr 
+rm intermediate/certs/serverprod.crt 
+openssl ca -config intermediate/openssl.cnf -extensions server_cert -days 375 -notext -md sha256 -in /home/geek/serverprod.csr -out /home/geek/serverprod.crt
+vim intermediate/index.txt
+rm /home/geek/serverprod.crt 
+openssl ca -config intermediate/openssl.cnf -extensions server_cert -days 375 -notext -md sha256 -in /home/geek/serverprod.csr -out /home/geek/serverprod.crt
+scp /home/geek/serverprod.crt geek@172.16.188.240:/home/geek/
+openssl x509 -noout -text in /home/geek/serverprod.c
+openssl x509 -noout -text in /home/geek/serverprod.crt 
+openssl x509 -noout -text -in /home/geek/serverprod.crt 
+openssl verify -CAfile intermediate/certs/ca-chain.cert.pem /home/geek/serverprod.crt 
+scp intermediate/certs/ca-chain.cert.pem geek@172.16.188.240:/home/geek/
+cat intermediate/certs/ca-chain.cert.pem 
+cat intermediate/certs/ca-chain.cert.pem  | less
+cat /home/geek/serverprod.c >> intermediate/certs/ca-chain.cert.pem 
+cat /home/geek/serverprod.crt >> intermediate/certs/ca-chain.cert.pem 
+cat intermediate/certs/ca-chain.cert.pem  | less
+scp intermediate/certs/ca-chain.cert.pem geek@172.16.188.240:/home/geek/
+vim intermediate/certs/ca-chain.cert.pem 
+vim intermediate/certs/ca-chain.cert.pem 
+cat intermediate/certs/ca-chain.cert.pem | less
+scp intermediate/certs/ca-chain.cert.pem geek@172.16.188.240:/home/geek/
+scp intermediate/certs/ca-chain.cert.pem geek@172.16.188.240:/home/geek/
+openssl verify  -CAfile intermediate/certs/ca-chain.cert.pem /home/geek/serverprod.crt 
+scp intermediate/certs/ca-chain.cert.pem geek@172.16.188.240:/home/geek/
+scp intermediate/certs/ca-chain.cert.pem geek@172.16.188.240:/home/geek/
+scp intermediate/certs/ca-chain.cert.pem geek@172.16.188.240:/home/geek/
+shutdown -h now
+shutdown -h now
+ls
+ls ca/
+ls /etc/ssl/
+ls
+cd ca/
+ls
+vim openssl.cnf 
+ls
+cd
+ls
+ls
+rm -rf ca
+ls
+locat Trash
+locate Trash
+ls
+ls
+mkdir ca
+s
+ls
+rm -rf 
+rm -rf ca/
+ls
+mkdir -p ca/root-ca/private ca/root-ca/db crl certs
+ls
+ls ca/
+ls
+ls
+chmod 700 ca/root-ca/private/
+ls
+ls
+cp /dev/null ca/root-ca/db/root-ca.db
+cp /dev/null ca/root-ca/db/root-ca.db.attr
+echo 01 > ca/root-ca/db/root-ca.crt.srl
+echo 01 > ca/root-ca/db/root-ca.crl.srl
+git clone https://bitbucket.org/stefanholek/pki-exemple-1
+apt-get install git
+apt-get update 
+apt --fix-missing
+apt-get --fix-missing 
+apt-get install git
+git clone https://bitbucket.org/stefanholek/pki-exemple-1
+ls
+git clone https://bitbucket.org/stefanholek/pki-example-1
+ls
+ls pki-example-1/
+ls pki-example-1/etc/
+vim pki-example-1/etc/root-ca.conf 
+ls
+ls ca/
+ls
+cd c
+cd ca/
+ls
+mkdir int-ca
+ls
+ls
+ls
+cd ..
+ls
+cp pki-example-1/etc/root-ca.conf ca/root-ca/root-ca.conf
+cd ca/
+cd root-ca/
+ls
+vim root
+ls
+vim root-ca.conf 
+ls
+cd 
+rm -rf *
+ls
+cp pki-example-1/etc/root-ca.conf ca/root-ca/root-ca.conf
+git clone https://bitbucket.org/stefanholek/pki-example-1
+ls
+ifconfig 
+cat /etc/group
+ifconfig 
+pwd
+apt-get install sudo 
+vim /etc/sudoers
+ls
+ls
+ls
+mkdir -p ca/root-ca/private ca/root-ca/db crl certs
+chmod 700 ca/root-ca/private
+ls
+ls ca/
+ls
+ls ca/
+cp pki-example-1/etc/root-ca.conf ca/
+ls
+ls ca/
+mkdir ca/int-ca
+cp pki-example-1/etc/signing-ca.conf ca/
+ls ca/
+ls -la ca/
+ls
+cd ca/
+ls
+vim cd ../
+ls ..
+ls ../pki-example-1/
+ls ../pki-example-1/etc/
+client
+ls
+vim root-ca.conf 
+vim root-ca.conf 
+ls
+ls int-ca/
+ls
+ls root-ca
+mkdir int-ca/certs
+mkdir int-ca/db
+mkdir int-ca/newcerts
+mkdir int-ca/private
+vim root-ca.conf 
+ls
+ls
+mv signing-ca.conf int-ca.conf
+vim root-ca.conf 
+vim int-ca.conf 
+vim root-ca.conf 
+vim int-ca.conf 
+vim root-ca.conf 
+vim int-ca.conf 
+vim int-ca.conf 
+ls
+cd 
+ls
+cd pki-example-1/etc/
+ls
+vim server.conf 
+ls
+cd
+ls
+ls
+vim pki-example-1/etc/root-ca.conf 
+vim pki-example-1/etc/server.conf 
+vim pki-example-1/etc/signing-ca.conf 
+vim pki-example-1/etc/root-ca.conf 
+vim pki-example-1/etc/root-ca.conf 
+ms
+ls
+ls pki-example-1/etc/
+ls
+vim ca/root-ca.conf 
+vim ca/int-ca.conf 
+vim ca/root-ca.conf 
+vim ca/int-ca.conf 
+ls
+vim ca/int-ca.conf 
+vim ca/root-ca
+vim ca/root-ca.conf 
+ls
+vim ca/int-ca.conf 
+cd
+ls
+ls
+cd ca/
+ls
+cd root-ca
+ls 
+mkdir certs
+ls
+ls ..
+ls ../..
+ls
+ls
+ls ..
+ls ../..
+ls
+cd ..
+ls
+ls
+ls ..
+ls
+cd ..
+ls
+ls certs/
+ls crl/
+cd 
+ls
+cd ca/
+ls
+cd root-ca
+ls
+ls db/
+ls
+ls
+cd db/
+ls
+ls
+cp /dev/null /root/ca/root-ca/db/root-ca.db
+cp /dev/null /root/ca/root-ca/db/root-ca.db.attr
+cp /dev/null /root/ca/root-ca/db/root-ca.crt.srl
+cp /dev/null /root/ca/root-ca/db/root-ca.crl.srl
+cd ..
+ls
+mkdir newcert
+mmv newcert newcerts
+mv newcert newcerts
+ls
+ls
+cd ..
+ls
+cd int-ca
+ls
+ls ..
+ls ../root-ca/db/
+ls
+cd db 
+ls
+cd ..
+cp /dev/bus/ db/int-ca.db
+cp -r /dev/bus/ db/int-ca.db
+cp -r /dev/bus/ db/int-ca.db.attr
+cp -r /dev/bus/ db/int-ca.db.attr
+cp -r /dev/bus/ db/int-ca.crt.srl
+cp -r /dev/bus/ db/int-ca.crl.srl
+ls db/
+ls -la db/
+ls -la ../root-ca/db/
+ls
+cd db/
+ls
+rm -rf 
+ls
+rm -rf *
+ls
+cp /dev/null int-ca.db
+cp /dev/null int-ca.db.attr
+cp /dev/null int-ca.crt.srl
+cp /dev/null int-ca.crl.srl
+ls
+ls -la
+echo 01 > int-ca.crt.srl 
+echo 01 > int-ca.crl.srl 
+cat int-ca.crl.srl 
+cat ../../root-ca/db/root-ca.crt.srl 
+cat ../../root-ca/db/root-ca.crl.srl 
+cd ..
+cd ../root-ca/db/
+ls
+echo 01 > root-ca.crt.srl 
+echo 01 > root-ca.crl.srl
+cd 
+cd 
+ls
+ls
+cd ca 
+ls
+vim root-ca.conf 
+vim int-ca.conf 
+lq
+ls
+ls
+openssl req -new -config root-ca.conf -out root-ca.csr -keyout root-ca/private/root-ca.key
+ls
+ls
+ openssl ca -selfsign -config root-ca.conf -in root-ca.csr -out root-ca/certs/root-ca.crt -extensions root_ca_ext
+ls 
+ls root-ca/certs/
+cat root-ca/db/root-ca.db
+cat root-ca/db/root-ca.crt.srl
+cat root-ca/db/root-ca.crl.srl 
+cat root-ca/db/root-ca.crt.srl.old 
+cat root-ca/db/root-ca.db
+chmod  700 int-ca/private/
+ls int-ca/db/
+ls
+openssl req -new -config int-ca.conf -out int-ca.csr -keyout int-ca/private/int-ca.key
+ls 
+ls int-ca
+ls int-ca/db/
+openssl req -new -config int-ca.conf -out int-ca.csr -keyout int-ca/private/int-ca.key
+ls 
+rm int-ca.csr 
+rm int-ca/private/int-ca.key 
+cat int-ca/db/int-ca.db
+cat int-ca/db/int-ca.crt.srl 
+openssl req -new -config int-ca.conf -out int-ca.csr -keyout int-ca/private/int-ca.key
+ls
+openssl ca -conffig root-ca.conf -in int-ca.csr -out int-ca/certs/int-ca.crt -extensions signing_ca_ext
+openssl ca -config root-ca.conf -in int-ca.csr -out int-ca/certs/int-ca.crt -extensions signing_ca_ext
+ls
+ls
+cd ..
+ls
+ls certs/
+ls crl/
+rm certs/
+rm -rf certs/ crl
+ls
+shutdown -h now
+l
+ls
+ifconfig 
+ifdown ens37
+ifup ens37
+shutdown -h now
+ls
+cd ca
+ls
+git init 
+git add .
+git commit 
+ls
+cd ..
+ls 
+cp ca ca.backup
+cp -r ca ca.backup
+ls
+ls ca.backup/
+cd ca
+git commit 
+git config user.name "Léon GOTO"
+git config user.email "leongoto97@gmail.com"
+git commit 
+apt-get install vim
+git commit -m pki_fonctionnelle
+git remote 
+git show-branch 
+git remote show 
+git remote add ca_project https://github.com/LeonGoto/ca_project
+git remote 
+git branch -r
+ls 
+ls -la
+ls .git/
+ls .git/branches/
+cat .git/branches/
+cat .git/HEAD 
+cat .git/index 
+ls .git/branches/
+ls .git/
+cat .git/refs/heads/master 
+cat .git/refs/tags/
+ls .git/refs/tags/
+ls
+git status 
+cd
+cd /tmp/
+ls
+git fetch ca_project
+git fetch ca_project https://github.com/LeonGoto/ca_project
+ls
+cd
+ls
+mkdir git_test
+cd git_test/
+ls
+git init 
+git add .
+git fetch https://github.com/LeonGoto/ca_project
+ls
+git branch 
+git commit 
+git commit -m ok
+git config user.name "Leon"
+git commit -m ok
+git config user.email "leongoto97@gmail.com"
+git commit -m ok
+ls
+cd /tmp/
+git clone https://github.com/LeonGoto/ca_project
+ls
+ls ca_project/
+rm ca_project/
+rm -rf ca_project/
+cd
+cd ca
+ls
+ls
+ls .git/
+vim .git/config 
+ls .git/
+git push ca_project 
+git push ca_project master 
+git pull ca_project HEAD 
+git push ca_project master --force
+git push ca_project master 
+git pull ca_project master 
+ls 
+touch toto.txt
+git pull ca_project master 
+git add .
+git pull ca_project master 
+git commit -m PKI
+git pull ca_project master 
+git pull ca_project master 
+git diff ca_project/master master 
+rm toto.txt 
+git diff ca_project/master master 
+git commit -m PKI
+git diff ca_project/master master 
+git add .
+git commit -m PKI
+git diff ca_project/master master 
+shutdown -h now
+ls
+cd ca
+ls
+git push ca_project master
+shutdown -h now
+shutdown -h now
+ls
+git push ca_project master 
+ls
+cd ca
+ls
+clear
+ls
+shutdown -h now

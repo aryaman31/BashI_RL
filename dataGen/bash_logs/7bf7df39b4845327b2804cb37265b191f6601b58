@@ -1,0 +1,54 @@
+seq 10 3 90
+seq 90 2 10
+cat *
+cat*
+cd home
+ls
+ls -l
+mkdir home
+ls
+cd home
+su
+sudo su
+su -s
+ls
+ls -l
+ls
+cat > hjsd
+cat > hjsd kdughfisudghiuf
+top-bn1
+cd etc
+cd ..
+cd /etc
+top-bn1
+top -bn1
+bni
+ls
+ls -l
+cat ls
+cat users
+top
+top -bn1
+cat -f 2 top -bn1
+cat top -bni > teste
+cat top -bni > exercicio
+cat exercicio > top -bn1
+top
+cat
+cd ..
+cut -f 2 top -bn1
+cut -f2 top -bn1
+who
+until
+null
+until who | grep "$1" > devnull; do sleep 10; done
+who
+vi simnao.sh
+./simnao.sh
+chmod +x simnao.sh
+./simnao.sh
+pico simnao.sh
+vi simnao.sh
+ls
+vin simnao.sh
+vi simnao.sh

@@ -1,0 +1,191 @@
+clear
+vi
+vi prog_gw
+clear
+pwd
+ls -l
+ls
+ls -la
+vi prog_gw
+vi JosemarMullerLohnVIM
+ls -la
+vi prog_gw
+clear
+vi prog_gw
+cat prog_gw
+clear
+cat prog_gw
+clear
+nano MarceloNANO
+cat MarceloNANO
+clear
+cat prog_gw
+vi prog_gw
+clear
+cat prog_gw
+pwd
+ls -la
+cat prog_gw
+vi prog_gw
+logout
+exit
+clear
+num=7
+num2=9
+if test $num -gt $num2; then echo "Maior"; else echo "Menor"; fi
+clear
+vi relacao
+chmode 777 relacao
+chmod +x relacao
+vi relacao
+clear
+./relacao 1 2
+./relacao 2 1
+./relacao 2 2
+clear
+vi juntatudo
+chmod +x juntatudo
+./juntatudo O thiago eh um noob
+./juntatudo te odeio mestre de bosta
+clear
+./juntatudo Vai pro Infer
+./juntatudo Vai pro Infern
+./juntatudo Vai pro Infern,
+cle
+a
+clear
+./juntatudo Vai pro Infern
+./juntatudo Vai pro Inferno seu noob
+clear
+exit
+pwd
+clear
+morra
+clear
+ls -la
+sleep 10; echo "O Thiago Ã© um noob '-'"
+sleep 1; clear; sleep 5; echo "O Thiago Ã© um noob '-'"
+clear
+clear ;sleep 30; echo "Adorei essa merda >.<"
+clear
+echo "Vasco campeÃ£o"
+clear
+clear; sleep 5; echo "I'm sexy and i'm now it ââââââââââââââ«(8)"
+clear
+clear; sleep 5; echo "I'm sexy and i'm now it ââââââââââââââ«(8)"; sleep 4; clear
+clear; sleep 5; echo "Essa mensagem se auto-destruirÃ¡ em 5 segundos"; sleep 5; clear
+lista=(um dois tres quatro)
+for ((i=0;i<${#lista[*]};i++)); do echo "${lista[$i]}"; done
+for ((i=0;i<${#lista[*]};i++)); do echo "${#lista[$i]}"; done
+vi zerador.sh
+chmod +x
+chmod +x zerador.sh
+./zerador.sh 5
+vim zerador.sh
+./zerador.sh 5
+vim zerador.sh
+./zerador.sh 5
+clear
+vim zerador.sh
+./zerador.sh 5
+vim zerador.sh
+./zerador.sh 5
+vim zerador.sh
+./zerador.sh 5
+vim zerador.sh
+./zerador.sh 5
+vim zerador.sh
+./zerador.sh 5
+vim zerador.sh
+./zerador.sh 5
+vim zerador.sh
+./zerador.sh 5
+vim zerador.sh
+./zerador.sh 5
+vim zerador.sh
+./zerador.sh 5
+vim zerador.sh
+./zerador.sh 5
+./zerador.sh 10
+vim zerador.sh
+clear;sleep 3; echo "Digdin digdin"; sleep 3; clear
+ls -
+ls -ll
+vim oqissofaz
+exit
+vim oqissofaz
+ls -l
+pwd
+cat etc/passwd
+cat log/passwd
+cat prog_gw
+cat zerador.sh
+cat juntatudo
+./juntatudo O programa vai juntar tudo
+cat relacao
+./relacao 5 10
+./relacao 15 10
+./relacao 10 10
+clear
+exit
+./oqissofaz
+man if
+exit
+ls -l
+vim prog_gw
+exit
+vi oqissofaz
+exit
+vi oqissofaz
+exit
+ls -l
+vi prog_Gw
+vi prog_gw
+exit
+ls -l
+vi oqissofaz
+ls -l
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+clear
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+clear
+./oqissofaz
+exit
+ls -l
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+seq 1-2
+seq [1-2]
+seq 2
+vi oqissofaz
+./oqissofaz
+vi oqissofaz
+exit

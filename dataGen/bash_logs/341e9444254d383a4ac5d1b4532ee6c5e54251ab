@@ -1,0 +1,722 @@
+ls
+cd ..
+ls
+ls -ls
+uname -a
+cd ..
+ls
+uname -a
+LS
+ls
+pwd
+ls -ls
+ls -la
+cd home
+cd geanclm
+pwd
+vi teste.sh
+ls -l
+chmod +x teste.sh
+./teste.sh
+cat teste.sh
+vi teste.sh
+./teste.sh
+calc
+vi teste.sh
+./teste.sh
+vi teste.sh
+./teste.sh
+vi teste.sh
+./teste.sh
+vi teste.sh
+./teste.sh
+vi teste.sh
+./teste.sh
+vi teste.sh
+./teste.sh
+vi teste.sh
+ls -l
+locate lohn
+cd ..
+locate lohn
+cd home
+ls
+cd lohn4
+ls
+ls -la
+ls
+vi teste.sh
+./teste.sh
+vi teste.sh
+./teste.sh
+vi teste.sh
+date
+./teste.sh
+vi teste.sh
+./teste.sh
+vi teste.sh
+./teste.sh
+vi teste.sh
+exit
+pwd
+who
+uname 'a
+uname -a
+ls 'l
+ls -l
+cd ..
+ls -l
+ls
+uname -a
+ls
+cd geanclm
+ls
+vim teste.sh
+./teste.sh
+vim teste.sh
+./teste.sh
+vim teste.sh
+./teste.sh
+vim teste.sh
+./teste.sh
+vim teste.sh
+./teste.sh
+vim teste.sh
+./teste.sh
+vim teste.sh
+du
+pwd
+vim teste.sh
+pwd
+./teste.sh
+vim teste.sh
+./teste.sh
+vim teste.sh
+vim tesge
+ls
+exit
+ls
+vi geanclm.sh
+ls
+cat teste.sh 
+cat geanclm.sh
+vi geanclm.sh 
+ls
+cat teste.sh 
+vi geanclm.sh 
+nano texto_nano.sh
+ls
+mcedit
+ls
+mcedit nano.sh
+ls
+ls -l
+cat teste.sh
+cat geanclm.sh
+ls
+cat teste.sh
+cat nano.sh
+ls
+cat texto_nano.sh 
+ls
+cat nano.sh
+ls
+ren nano.sh mcedit.sh
+cat nano.sh mcedit.sh
+ls
+su 
+sudo
+su
+cat nano.sh mcedit.sh
+ls -l
+cat nano.sh
+cat nano.sh > mcedit.sh
+ls
+rm nano.sh
+ls
+cat texto_nano.sh > nano.sh
+rm texto_nano.sh
+ls
+cat geanclm.sh 
+ls
+exit
+ls
+ls -l
+vim geanclm.sh
+mcedit mcedit.sh 
+nano nano.sh 
+uname -a
+who
+w
+du
+pwd
+exit
+ls
+ls -l
+exit
+vim
+exit
+ls
+ls -l
+ls -l --color
+ls  --color
+pwd
+cd ..
+ls
+cd ..
+ls
+pwd
+cd etc
+ls
+cd ..
+cd home
+cd ..
+cd  
+~ls
+pwd
+l
+ls 
+exit
+ls
+cat geanclm.sh
+vim
+ren geanclm.sh vim.sh
+cat geanclm.sh > vim.sh
+rm geanclm.sh
+ls
+cat teste.sh
+vim teste.sh
+./teste.sh
+vim teste.sh
+./teste.sh
+vim teste.sh
+./teste.sh
+vim teste.sh
+./teste.sh
+vim teste.sh
+./teste.sh
+ls -l
+exit
+ls
+./geanclm.sh
+.\geanclm.sh
+./geanclm.sh
+ls
+./teste.sh
+exit
+ls
+cat contador.sh
+./contador.sh
+chmod +x contador.sh
+./contador.sh
+vi contador.sh +8
+./contador.sh
+vim teste.sh
+ls -l
+exit
+ls
+cat teste.sh
+./teste.sh
+cat teste.sh
+uname -a
+exit
+ls
+vi teste.sh 
+ls
+./teste.sh 
+vi teste.sh 
+ls
+echo $PATH
+ls -l
+ls
+echo $PATH
+ls -l
+cd bin
+pwd
+teste.sh
+cd bin
+pwd
+ls
+mkdir bin
+ls -l
+mv teste.sh /home/geanclm/bin
+teste.sh
+vi teste.sh
+ls
+cd bin
+vi teste.sh
+vim aula_28-02-12.sh
+chmod +x aula_28-02-12.sh 
+aula_28-02-12.sh 
+clear
+aula_28-02-12.sh 
+vim aula_28-02-12.sh
+ls -l
+df
+clear
+df
+vim aula_28-02-12.sh 
+aula_28-02-12.sh 
+ls
+teste.sh
+aula_28-02-12.sh 
+vim aula_28-02-12.sh 
+aula_28-02-12.sh 
+vim aula_28-02-12.sh 
+ls -l
+ls
+vim aula_28-02-12.sh 
+aula_28-02-12.sh 
+vim aula_28-02-12.sh 
+echo $
+echo $?
+vim aula_28-02-12.sh 
+apt-get dist-update
+apt-get dist-upgrade
+su
+aluno
+su
+vim aula_28-02-12.sh 
+exit
+ls
+cd bin
+ls
+teste.sh
+aula_28-02-12.sh 
+vim aula_28-02-12.sh 
+exit
+ls
+cd bin
+ls
+vi aula_28-02-12.sh 
+exit
+uname
+ls
+cd bin
+ls
+aula_28-02-12.sh 
+teste.sh 
+vim aula_28-02-12.sh 
+uname -a
+man test
+vim aula_28-02-12.sh 
+ping ls
+ls -l
+cat teste.sh 
+cat -n teste.sh 
+ls
+passwd
+passwd geanclm
+passwd
+ls -l
+pwd
+cd ..
+pwd
+ls
+ls -l
+ls
+cd geanclm
+ls
+passwd
+ls
+exit
+ls
+cd bin
+ls
+cat teste.sh
+teste.sh 
+cat teste.sh
+vim atividade_para_10-04-2012.sh
+ls
+chmod +x atividade_para_10-04-2012.sh 
+atividade_para_10-04-2012.sh 
+vim atividade_para_10-04-2012.sh
+atividade_para_10-04-2012.sh 
+vim atividade_para_10-04-2012.sh
+atividade_para_10-04-2012.sh 
+vim atividade_para_10-04-2012.sh
+atividade_para_10-04-2012.sh 
+vim atividade_para_10-04-2012.sh
+atividade_para_10-04-2012.sh 
+vim atividade_para_10-04-2012.sh
+atividade_para_10-04-2012.sh 
+vim atividade_para_10-04-2012.sh
+atividade_para_10-04-2012.sh 
+exit
+w
+who
+users
+user
+whoami
+exit
+whoami
+w
+who
+ls
+cd bin
+ls
+exit
+cd bin
+vim atividade_para_10-04-2012.sh 
+cd bin
+ls
+cat contador.sh
+vim contador.sh 
+ls-l
+ls -l
+cd bin
+ls
+cat teste.sh 
+vim atividade_para_10-04-2012.sh
+cd ..
+ls
+./contador.sh
+vim contador.sh 
+./contador.sh
+vim contador.sh 
+./contador.sh
+ls
+cd bin
+vim test.sh
+chmod +x test.sh
+test.sh
+vim test.sh
+test.sh
+vim test.sh
+nome1=gean
+nome2=carlos
+test nome1=nome2 && echo "iguais" || echo "diferente"
+test $nome1=$nome2 && echo "iguais" || echo "diferente"
+echo $nome1
+echo $nome2
+test $nome1=$nome2
+echo $
+echo $?
+echo $nome1
+echo $nome2
+test $nome1 -eq $nome2
+test $nome1 = $nome2
+echo $?
+test $nome1 = $nome2 && echo "iguais" || echo "diferente"
+vim test.sh
+test.sh
+vim test.sh
+test.sh
+ls -l
+ren test.sh aula_06-03-2012.sh
+mv test.sh aula_06-03-2012.sh
+ls
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh 
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh +8
+aula_06-03-2012.sh 
+ls
+vim aula_06-03-2012.sh +8
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh +8
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh +8
+ls
+ls -l
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh +8
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh +8
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh +8
+aula_06-03-2012.sh 
+ls -l
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh 
+ls -l
+exit
+ls
+ipconfig
+ifconfig
+ls
+cd bin
+ls
+teste.sh 
+aula_06-03-2012.sh 
+vim geanclm.sh
+vim aula_06-03-2012.sh 
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh 
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh 
+aula_06-03-2012.sh 
+locate bin
+find -d bin
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh 
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh 
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh 
+man useradd
+ls
+vim aula_06-03-2012.sh 
+man test
+vim aula_06-03-2012.sh 
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh +44
+aula_06-03-2012.sh 
+vim aula_06-03-2012.sh +44
+exit
+ls
+./contador.sh
+vim contador.sh 
+cd bin
+ls
+teste.sh 
+atividade_para_10-04-2012.sh 
+exit
+ls
+cd bin
+ls
+atividade_para_10-04-2012.sh 
+exit
+ls
+man cat
+man ls
+clear
+ls
+pwd
+ls
+rev nano.sh
+tac nano.sh
+uniq nano.sh
+cd bin
+ls
+atividade_para_10-04-2012.sh 
+vim teste_13-03-2012.sh
+ls
+chmod +x teste_28-02-12.sh
+ls teste_28-02-12.sh
+ls
+chmod teste_13-02-12.sh
+chmod +x teste_13-02-12.sh
+chmod +x teste_13-03-12.sh
+chmod +x teste_13-03-2012.sh
+teste_13-03-2012.sh 
+./teste_13-03-2012.sh 
+vim teste_13-03-2012.sh 
+teste_13-03-2012.sh 
+vim teste_13-03-2012.sh 
+teste_13-03-2012.sh 
+vim teste_13-03-2012.sh 
+teste_13-03-2012.sh 
+vim teste_13-03-2012.sh 
+teste_13-03-2012.sh 
+vim teste_13-03-2012.sh 
+teste_13-03-2012.sh 
+vim teste_13-03-2012.sh 
+teste_13-03-2012.sh 
+vim teste_13-03-2012.sh 
+teste_13-03-2012.sh 
+vim teste_13-03-2012.sh 
+teste_13-03-2012.sh 
+cp teste_13-03-2012.sh relacao.sh
+vim relacao.sh 
+relacao.sh 
+vim relacao.sh 
+relacao.sh 
+relacao.sh 5 3
+relacao.sh 5 5
+relacao.sh 2 4
+relacao.sh 4 6
+relacao.sh 2 2
+relacao.sh 7 9
+vim relacao.sh 
+relacao.sh 7 9
+relacao.sh 7 7
+relacao.sh 11 2
+vim relacao.sh 
+vim relacao.sh 3 5
+relacao.sh 3 5
+relacao.sh 5 3
+relacao.sh 15944846486  4545454464564564
+vim relacao.sh 
+relacao.sh 5 3 5
+relacao.sh 5 3 1
+vim relacao.sh 
+relacao.sh 3 5
+relacao.sh 123123132 33954687867854
+relacao.sh 123123178978979645456456465432 33954687867854
+relacao.sh 5456456465432 33954687867854
+relacao.sh 54564564432 31111167854
+relacao.sh 54000004432 31111167854
+relacao.sh 11112 2222
+relacao.sh 11112 333
+relacao.sh 111 333
+relacao.sh 111 000
+relacao.sh 111 0001
+relacao.sh 111 000111
+relacao.sh 222]1 000111
+ls
+exit
+ls
+cd bin
+ls
+exit
+ls
+mv contador.sh /bin
+mv contador.sh /home/geanclm/bin
+ls
+cd bin
+contador.sh 
+ls
+vim atividade_para_10-04-2012.sh 
+rm atividade_para_10-04-2012.sh 
+ls
+ls -l
+cat relacao
+relacao 1 2
+relacao 2 2
+cat relacao.sh 
+rm relacao.sh
+ls
+teste.sh
+for
+lista
+cat for
+ls
+cat for
+ls
+fo
+for
+ls -l
+cat for
+vim for
+for
+vim for
+for
+vim for
+for
+cd ~
+ls
+cd bin
+for
+vi for
+for
+vi for
+for
+vi for
+for
+vi for
+cd bin
+vim for
+for
+vim for
+for
+ls
+ls ~/backup
+ls ~
+exit
+ls
+cd bin
+ls
+cat for
+for
+exit
+ls
+cd bin
+ls
+exit
+ls
+cd bin
+ls
+relacao 3 3
+cat UID.txt
+exit
+ls
+cd bin
+ls
+cat campeonato
+history > history.txt
+vim history.txt
+ls -la
+eit
+exit
+ls
+cd bin
+vim WhileTest
+chmod +x WhileTest
+./ WhileTest
+./WhileTest
+vim WhileTest
+./WhileTest
+vim WhileTest
+./WhileTest
+CLEAR
+clear
+./WhileTest
+vim WhileTest
+./WhileTest
+ls
+cat teste.sh
+ls
+cat UID.sh
+cat simnao
+vim WhileTest 
+./WhileTest
+vim WhileTest 
+./WhileTest
+vim WhileTest 
+./WhileTest
+vim WhileTest 
+./WhileTest
+vim WhileTest 
+./WhileTest
+vim WhileTest 
+./WhileTest
+vim WhileTest 
+./WhileTest
+vim WhileTest 
+clear
+./WhileTest
+vim WhileTest 
+./WhileTest
+vim WhileTest 
+ls
+cat campeonato 
+cat simnao
+./WhileTest 
+vim WhileTest 
+./WhileTest 
+vim WhileTest 
+./WhileTest 
+vim WhileTest 
+./WhileTest 
+vim WhileTest 
+./WhileTest 
+vim WhileTest 
+./WhileTest 
+vim WhileTest 
+./WhileTest 
+vim WhileTest 
+exit
+ls
+cd bin
+cd ..
+vim geanclmSS
+ls
+exit
+ls
+exit
+ls
+ls -la
+cat geanclm
+rm geanclm
+ls
+cd baclup
+cd backup
+ls
+cd ..
+ls
+head geanclmSS 
+vim geanclmSS 
+ls -la
+ls 
+exit

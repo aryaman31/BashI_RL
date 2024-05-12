@@ -1,0 +1,201 @@
+ls
+chmod 700 /var/www/html
+ls -al
+ls
+cd
+ls
+sudo su
+ls
+ls- al
+ls
+ls -l
+nano index.php
+nano index.php
+chmod 755 /var/www/html
+# wget -O /usr/local/bin/rsub \https://raw.github.com/aurora/rmate/master/rmate
+wget -O /usr/local/bin/rsub \https://raw.github.com/aurora/rmate/master/rmate
+sudo wget -O /usr/local/bin/rsub \https://raw.github.com/aurora/rmate/master/rmate
+chmod a+x /usr/local/bin/rsub
+sudo chmod a+x /usr/local/bin/rsub
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+cd
+ls
+wget https://github.com/twbs/bootstrap/releases/download/v4.0.0/bootstrap-4.0.0-dist.zip
+unzip bootstrap-4.0.0-dist.zip
+ls
+rsub /var/www/html/style.css
+cd
+ls
+mkdir img
+ls
+sudo chown max /var/www/html
+sudo chmod 775 /var/www/html
+rsub /var/www/html/style.css
+rsub /var/www/html/style.css
+rsub /var/www/html/style.css
+rsub /var/www/html/index.php
+ls
+cd img
+wget https://cf.veloviewer.com/img/btn_strava_connectwith_orange.svg
+cd
+ls
+nano success.php
+ls
+rsub /var/www/html/success.php
+wget https://cf.veloviewer.com/img/api_logo_pwrdBy_strava_stack_light.svg
+mv api_logo_pwrdBy_strava_stack_light.svg /img
+cd img
+wget https://cf.veloviewer.com/img/api_logo_pwrdBy_strava_stack_light.svg
+cd$
+rsub /var/www/html/success.php
+cd
+rsub /var/www/html/config.php
+rsub /var/www/html/config.php
+htop
+rsub /var/www/html/config.php
+rsub /var/www/html/config.php
+htop
+rsub
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+exit
+rsub /var/www/html/config.php
+rsub /var/www/html/config.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+ecit
+ecit
+exit
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+sudo reboot
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+rsub /var/www/html/index.php
+zxir
+zxi
+zxit
+exit
+rsub /var/www/html/index.php
+rsub /var/www/html/co,fig.php
+rsub /var/www/html/config.php
+htop
+rsub /var/www/html/config.php
+sudo apt-get intall vsftpd
+sudo apt-get install vsftpd
+cd /etc
+ls
+nano vsftpd.conf
+sudo nano vsftpd.conf
+sudo service vsftpd restart
+sudo nano /etc/fstab
+/home/pi
+diskutil
+cd
+diskutil
+blkid
+sudo reboot
+mysql
+sudo mysql
+mysql -u max -p
+mysql -u max -p
+mysql -u max -p
+mysql -u max -p
+mysql -u max 
+mysql -u
+mysql 
+mysql -u max -p
+mysql -u aurel -p
+mysql -u max -p
+mysql --user=max --password=H7BE28X1
+mysql --user=root --password=H7BE28X1
+curl -X POST https://www.strava.com/oauth/token -F client_id=5 -F client_secret=7b2946535949ae70f015d696d8ac602830ece412 -F code=5919f3e385c6cb039bcc809f27d1e535e36b7a91
+curl -X POST https://www.strava.com/oauth/token -F client_id=5 -F client_secret=7b2946535949ae70f015d696d8ac602830ece412 -F code=5919f3e385c6cb039bcc809f27d1e535e36b7a91
+curl -X POST https://www.strava.com/oauth/token -F client_id=5 -F client_secret=7b2946535949ae70f015d696d8ac602830ece412 -F code=db1943d33b40ad6052c7de26b150442322daf7bb
+ls
+ls
+nano login.php
+phpinfo()
+htop
+ls
+sudo suy
+sudo su
+ping localhost
+sudo cd /etc/init.d
+sudo cd
+sudo
+sudo
+sudo su
+cd /etc
+cd init.d
+mysql start
+top
+htop
+mysql start
+sudo /etc/init.d/mysql start
+top
+mysql
+mysql -u
+mysql -u root
+mysql -u root H7BE28X1
+mysql -u root -p  H7BE28X1
+mysql -u root -p  
+mysql -u root -p  
+mysql -u root -p  
+mysql -u root -p  
+sudo apt-get remove --purge mysql-server mysql-client mysql-commonsudo apt-get remove --purge mysql-server mysql-client mysql-commonsudo apt-get remove --purge mysql-server mysql-client mysql-commonsudo apt-get remove --purge mysql-server mysql-client mysql-commonsudo apt-get remove --purge mysql-server mysql-client mysql-commonsudo apt-get remove --purge mysql-server mysql-client mysql-commonsudo apt-get remove --purge mysql-server mysql-client mysql-common
+sudo apt-get remove --purge mysql-server mysql-client mysql-common
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo apt-get install mysql-server
+sudo apt-get remove mysql-server
+sudo reboot
+sudo apt-get install mysql
+apt-get install mysql-server
+sudo apt-get install mysql-server
+mysql_secure_installation
+mysql_secure_installation
+mysql -u root
+mysql -u root
+mysqladmin -u root password H7BE28X1
+mysqladmin -u root
+sudo dpkg-reconfigure mysql-server-5.5
+sudo dpkg-reconfigure mysql-server-5.6
+sudo dpkg-reconfigure mysql-server-5.7
+mysql -version
+mysql
+mysql -u root version
+sudo su
+sudo su
+ping localhost
+sudo /etc/init.d/mysql start
+sudo dpkg-reconfigure phpmyadmin
+sudo dpkg-reconfigure phpmyadmin
+sudo reboot
+sudo reboot
+top
+ls
+cd
+cd
+cd
+ls
+root
+sudo su
+htop

@@ -1,0 +1,9 @@
+ls
+ls -lh
+pwd
+cd 
+cd /
+ls
+cd
+pwd
+ls /etc

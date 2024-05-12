@@ -1,0 +1,226 @@
+sudo adduser psc
+sudo add-apt-repository ppa:jonathonf/firefox-esr-52
+sudo apt-get update
+sudo apt-get install firefox-esr-52
+sudo apt-get install firefox-esr
+sudo add-apt-repository ppa:jonathonf/firefox-esr-52
+sudo apt-get update
+sudo add-apt-repository ppa:jonathonf/firefox-esr
+sudo add-apt-repository ppa:jonathonf/firefox-esr-52
+sudo apt-get update
+sudo apt-get install firefox-esr
+sudo add-apt-repository ppa:mozillateam/ppa
+sudo apt-get update
+sudo apt-get install firefox-esr
+sudo add-apt-repository ppa:jonathonf/firefox-esr-52
+sudo apt-get update
+sudo apt-get install firefox-esr
+cd Downloads/
+ls
+sh exec.sh 
+flex
+yacc
+clear
+sudo apt-get install subl
+clear
+sudo apt-get install subl
+sudo apt-get install subl3
+sudo apt-get install sublime-text-3
+sudo apt-get install sublime-text
+sudo apt-get update
+sudo apt-get install sublime-text
+subl
+cd 1
+lex lex.l
+ls
+cat leax.l
+cat lex.l
+flex lex.l
+nano lex.l
+flex lex.l
+g++ 1.cpp 
+g++ -std=c++11 1.cpp 
+./a.out
+g++ -std=c++11 1.cpp 
+./a.out
+g++ -std=c++11 1.cpp 
+./a.out
+flex lex.l
+flex lex1.l
+flex lex.l
+gcc lex.yy.c 
+flex lex.l
+gcc lex.yy.c lex.c
+flex lex.l
+cd ../2
+g++ -std=c++11 2.cpp
+clear
+g++ -std=c++11 2.cpp
+./a.out
+g++ -std=c++11 2.cpp
+./a.out
+g++ -std=c++11 2.cpp
+./a.out
+g++ -std=c++11 2.cpp
+./a.out
+cd ../3
+lex lex.l
+cd ..\
+cd ..
+cd 1
+lex lex.l
+gcc lex.yy.c 
+lex lex.l
+gcc lex.yy.c 
+gcc lex.yy.c lex.c
+./a.out
+./a.out < input
+lex lex.l
+gcc lex.yy.c lex.c
+./a.out < input
+cd ../3
+lex lex.l
+yacc -d parse.y
+gcc lex.yy.c y.tab.c
+./a.out
+yacc -d parse.y
+gcc lex.yy.c y.tab.c
+yacc -d parse.y
+gcc lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+gcc lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+gcc lex.yy.c y.tab.c
+./a.out
+lex lex.l
+yacc -d parse.y
+gcc lex.yy.c y.tab.c
+./a.out
+lex lex.l
+yacc -d parse.y
+gcc lex.yy.c y.tab.c
+./a.out
+lex lex.l
+gcc lex.yy.c y.tab.c
+lex lex.l
+gcc lex.yy.c y.tab.c
+yacc -d parse.y
+gcc lex.yy.c y.tab.c
+./a.out
+yacc -d parse.y
+lex lex.l
+yacc -d parse.y
+g++ lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+g++ lex.yy.c y.tab.c
+yacc -d parse.y
+g++ lex.yy.c y.tab.c
+yacc -d parse.y
+g++ lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+g++ lex.yy.c y.tab.c
+yacc -d parse.y
+g++ lex.yy.c y.tab.c
+g++ -std=c++11 lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y\
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c\
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c\
+g++ -std=c++11 lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+lex lex.l
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+lex lex.l
+g++ -std=c++11 lex.yy.c y.tab.c
+./a.out
+g++ -std=c++11 lex.yy.c y.tab.c
+lex lex.l
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+./a.out
+yacc -d parse.y
+g++ -std=c++11 lex.yy.c y.tab.c
+./a.out
+man
+clear
+man man
+man ls
+tldr ls
+clear
+ls
+tldr ls
+man mv
+mkdir user
+pwd
+td user
+sudo apt install textdraw
+td user
+td ~
+cd ~
+cd .
+cd ..
+ls

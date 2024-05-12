@@ -1,0 +1,876 @@
+oo
+ls
+dir
+didirs
+dirs
+less .
+local .profile .
+logout
+exit
+mkdir aula09
+cd aula09
+mkdir aula14_02
+dir
+ls
+nome="Gustavo Bruning"
+echo "seu nome e $nome"
+exit
+s=$((3*5))
+exit
+ls
+echo $nome
+nome= "gustavo bruning"
+nome="gustavo bruning"
+echo $nome
+nome="fabyulaxx eh feia"
+echo $nome
+exit
+vi gustav0b
+ls
+mkdir aula16_02
+ls
+cd aula16_02
+vi
+mc
+mcdit
+mcedit
+vi
+pico
+nano
+vi
+cd ..
+vi
+ls
+vi gustavoluisbruningteloVIM
+exit
+echo $PATH
+
+echo $PATH
+ls
+mkdir bin
+cd bin
+vi primeiro
+ls
+vi primeiro
+ls
+./primeiro
+chmod 711 primeiro
+./primeiro
+gustav0b@lo:~/bin$ ./primeiro
+bash: ./primeiro: Permission denied
+gustav0b@lo:~/bin$ chmod 711 primeiro
+gustav0b@lo:~/bin$ ./primeiro
+Tue Feb 28 22:49:33 UTC 2012
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/xvdb2             9645708   7988940   1166784  88% /
+none                   9645708   7988940   1166784  88% /dev
+none                   9645708   7988940   1166784  88% /dev/pts
+none                   9645708   7988940   1166784  88% /dev/shm
+none                   9645708   7988940   1166784  88% /var/run
+none                   9645708   7988940   1166784  88% /var/lock
+/dev/xvda1             9645708   7988940   1166784  88% /boot
+/dev/xvdc1             9645708   7988940   1166784  88% /other
+www-data@aci.pm.sc.gov.br:/var/www
+sys                    9645708   7988940   1166784  88% /home/jail/sys
+gustav0b@lo:~/bin$ ^C
+gustav0b@lo:~/bin$
+./primeiro
+ls -l
+chmod 710 primeiro
+ls -l
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+exit
+ls -l
+cd bin
+ls
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+VARIAVEL= "estou sem ideias"
+vi primeiro
+VARIAVEL = "estou sem ideias"
+$ VARIAVEL = "estou sem ideias"
+cd ..
+VARIAVEL = "estou sem ideias"
+VARIAVEL ="estou sem ideias"
+VARIAVEL="estou sem ideias"
+echo $VARIAVEL
+echo $VARIAVEL$VARIAVEL
+echo $VARIAVEL $VARIAVEL
+HOJE=$(date)
+echo "Hoje : $HOJE
+
+hoje 
+
+
+"HOJE=$(date)"
+HOJE=`date`
+echo "hoje : $HJOE
+echo "hoje : $HJOE"
+echo "hoje : $HOE"
+echo "hoje e : $HOJE"
+unset HOJE
+echo HOJE
+unset HOJE
+echo $HJOE
+echo $HOJE
+cat -n primeiro
+cd bin
+cat -n primeiro
+cat primeiro
+cat -n primeiro
+pwd
+find . -name *.list
+find . -name *.autor
+find -name autor
+find -name primeiro
+find -name aula
+grep -i os
+grep -i aula
+grep echo primeiro
+man cut
+exit
+cd bin
+primeiro
+vi primeiro
+primeiro
+exit
+cd bin
+vi primeiro
+cat primeiro
+cat -n primeiro
+cat -s primeiro
+cat  primeiro
+cat -n primeiro
+vi primeiro
+find -name comando
+find -iname comando
+find -type comando
+find -type primeiro
+find -type primeira
+find -type f primeira
+find -name primeira
+find -name comando
+find -name aula
+find -name bin
+find -name 
+cd ..
+find -name aula
+ls
+find -iname aula
+find -name aula09
+cd ..
+ls
+cd ..
+ls
+ls -l
+cd bin
+ls -l
+cat primeiro
+cat comando
+exit
+cd bin
+ls -l
+ls 
+comandos
+chmod 710 comandos
+comandos
+comando
+vi comando
+grep -i mostra
+grep -i test primeiro
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+vi comandos
+comandos
+vi comandos
+comandos
+vi comandos
+comandos
+seq -s primeiro
+seq -f primeiro
+primeiro
+vi primeiro
+vi byulla
+vi byubyu
+byubyu
+chmod 710 byubyu
+byubyu
+vi byubyu
+byubyu
+vi byubyu
+byubyu
+vi byubyu
+exit
+ls -l
+cd bin
+ls -l
+vi comandos
+vi primeiro
+vi comando
+chmod 710 comando
+vi comando
+comando
+vi cat
+comando
+vi cat
+comando
+cat
+vi comando
+comando
+vi comando
+comando
+primeiro
+comando
+vi primeiro
+comando
+vi comando
+comando
+vi comando
+cut -c primeiro
+cut -c 2  primeiro
+cut -c 1  primeiro
+cut -c 1  comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+VI COMANDO
+vi comando
+vi primeiro
+vi comando
+comando
+vi comando
+comando
+vi comando
+find -name comando
+comando
+vi comando
+comando
+vi comando
+comando
+ls -l
+vi comandos
+grep -i mando
+grep -i .echo comando
+grep -i .co comando
+grep -i .find comando
+vi comando
+comando
+grep -i .echo comando
+grep -i .find comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+grep -i '.find' comando
+vi primeiro
+vi comando
+comando
+vi comando
+comando
+vi primeiro
+vi comando
+comando
+rev comandos
+rev grep comandos
+ls
+vi comandos
+grep -r teste primeiro
+grep -i test primeiro
+vi comandos
+chmod 710 comandos
+ls -l
+chmod 710 cat
+vi comando
+comando
+vi comandos
+vi comando
+comando
+vi comando
+vi primeiro
+rm byulla
+ls -l
+ls
+rm byubyu
+ls
+exit
+cd bin
+ls
+rm cat
+ls
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+exit
+ls
+cd bin
+ls
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+grep -v [test] primeiro.txt
+grep -v [test] primeiro
+grep -v test primeiro
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+grep -i test primeiro.txt
+grep -i test primeiro
+pwd
+vi primeiro
+vi new
+new
+vi new
+new
+vi new
+new
+vi new
+new
+vi new
+new
+vi new
+new
+vi new
+new
+vi new
+new
+vi new
+new
+vi new
+new
+vi new
+new
+vi new
+new
+echo "linux" > new
+rev new
+echo abc | rev
+abc | rev
+vi new
+new
+vi new
+rev comandos
+rev comandos.txt
+echo rev abcd
+echo abcd |rev
+echo abcd | rev
+vi new
+exit
+primeiro
+vi primeiro
+ls l-s
+ls -l
+cd bin
+vi primeiro
+seq 10
+seq 10 primeiro
+seq -s primeiro
+seq -s 10 primeiro
+seq -f 10 primeiro
+seq -f primeiro
+seq -f 100 primeiro
+seq -f 100 comando
+seq -f comando
+pwd
+sed -n
+sed -n 
+sed -n [quiet] primeiro
+sed -n quiet primeiro
+sed -n quiet primeiro.txt
+sort primeiro
+chmod 711 comando
+chmod 711 primeiro
+chmod 711 comandos
+ls -l
+pwd primeiro
+pwd
+primeiro pwd
+vi comando
+comando
+vi new
+chmod 711 new
+ls -l
+new
+vi new
+new
+vi new
+new
+vi new
+new
+grep -v [aeiou] primeiro
+grep -v [aeiou] primeiro.txt
+grep -v [aeiou] comando
+grep -v [test] primeiro
+grep -v test primeiro
+grep -i teste primeiro
+grep -i test primeiro
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi new
+new
+vi new
+new
+vi new
+new
+vi new
+vi comandos
+vi comando
+seq 1 5
+echo seq 1 5
+exit
+cd bin
+ls
+primeiro
+ls -l
+ls
+exit
+cd bin
+ls
+sort -n primeiro
+tr a-z A-Z gustavo
+echo gustavobruning | tr aeiou AE
+echo gustavobruning | tr aeiou GU
+echo gustavo bruning | tr aeiou GU
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi new
+cat primeiro | sort -g
+vi new
+vi teste
+comando
+vi new
+new
+cat teste | sort -n | uniq -ui
+cat teste | sort -n | uniq -u
+cat teste | sort -g | uniq -i
+cat teste | uniq -i
+echo cat teste | uniq -i
+vi new
+new
+vi teste-uniq
+uniq -cd teste-uniq.txt
+uniq -cd teste-uniq
+echo uniq -cd teste-uniq
+uniq -cd teste-uniq
+chmod 710  teste-uniq
+uniq -cd teste-uniq
+vi comando
+exit
+cd bin
+ls
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi teste
+chmod 710 teste
+ls -l
+vi comando
+comando
+vi teste
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+vi new
+new
+vi new
+new
+vi new
+vi comando
+comando
+exit
+cd bin
+comando
+ls
+rm teste-uniq
+ls
+n1=6
+n2=7
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+n1=9
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+gustav0b@lo:~/bin$ n1=6
+gustav0b@lo:~/bin$ n2=7
+gustav0b@lo:~/bin$ test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+menor
+gustav0b@lo:~/bin$ n1=9
+gustav0b@lo:~/bin$ test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+maior
+gustav0b@lo:~/bin$ n1=6
+n1=6
+test $n1 -lt $n2 || echo "menor"
+test $n1 -lt $n2 && echo "menor"
+n1=9
+test $n1 -lt $n2 || echo "menor"
+n1=6
+test $n1 -lt $n2 || echo "menor"
+echo "informe usuario:"; read user;
+test "$user" = "redes" && echo "user: $user" || echo "user: errado"
+echo "informe usuario:"; read user;
+test "$user" = "redes" && echo "user: $user" || echo "user: errado"
+gustav0b@lo:~$ echo "informe usuario:"; read user;
+gustav0b@lo:~$ test "$user" = "redes" && echo "user: $user" || echo "user: errad o"
+user: errado
+gustav0b@lo:~$ echo "informe usuario:"; read user;                               informe usuario:
+gustav0b@lo:~$ test "$user" = "redes" && echo "user: $user" || echo "user: errado"
+user: redes
+gustav0b@lo:~$
+id1=10
+id2=20
+vi idades
+exit
+cd bin
+ls
+comando
+vi comando
+comando
+exit
+ls
+cd bin
+ls
+comando
+vi comando
+vi teste
+comando
+vi comando
+cat teste | rev figueirense
+cat teste | figueirense rev
+cat teste
+exit
+cd bin
+ls
+vi comando
+comando
+vi teste
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+comando
+vi comando
+vi teste
+vi comando
+comando
+wc -l teste
+wc -c teste
+wc -l comando
+comando
+cat -n comando
+seq teste
+seq -s teste
+seq -f teste
+seq -f last
+seq -f teste 10
+seq -f "teste" 10
+ls
+vi comando01
+chmod x+ comando01
+chmod 710 comando01
+seq -f comando
+seq -f comando 2
+seq -f "comando" 2
+ls
+rm comando01
+ls
+vi new
+new
+vi new
+new
+exit
+cd bin
+ls
+sort -f teste
+comando
+sed -f teste
+AGORA | sed agora
+echo AGORA | sed agora
+echo AGORA | sed aagora
+sed -d teste
+sed d teste
+sed n teste
+sed n new
+sed n comandos
+cat teste
+sort teste
+vi teste
+cat teste
+sort teste
+ls
+vi new
+new
+vi new
+new
+vi new
+new
+cat teste
+vi teste
+cat
+cat teste
+uniq teste
+uniq -i teste
+uniq -d teste
+uniq -u teste
+vi comando
+vi teste
+wc vi comando
+vi comando
+comando
+vi comando
+comando
+gustavobruning | rev gustavobruning
+gustavobruning |rev 
+gustavobruning |rev
+man rev
+rev -h
+rev -help
+help rev
+rev man
+man cat
+cat -h
+vi new
+new
+echo "texto" | rev
+seq 3
+seq -s, 10 -2 0
+exit
+cd bin
+ls
+sort -n teste
+sort -f teste
+sort -n teste
+vi comando
+comando
+exit
+cd bin
+man rev
+cd bin
+rev gustavobruning
+ls
+cd bin
+ls
+comando
+seq 1 5
+seq -f 1 5
+seq -s ","  10
+vi comando
+comando
+gustavobruning | rev
+rev gustavobruning
+echo gustavobruning | rev
+vi comando
+comando
+vi comando
+comando]
+comando
+vi teste
+comando
+vi teste
+comando
+cat comando
+exit
+cd bin
+ls
+comando
+vi comando
+exit
+cd bin
+comando
+cd usr
+testaArquivox
+testaArquivos
+man test
+ls
+exit
+cd bin
+ls
+vi exercicio
+exercicio
+chmod 710 exercicio
+exercicio
+vi exercicio
+exercicio
+vi exercicio
+exercicio
+vi exercicio
+exercicio
+vi exercicio4
+chmod 710 exercicio4
+exercicio4
+exit
+cd bin
+ls
+comando
+ls
+exit
+cd bin
+ls
+comando
+haiuehae
+aheiauheauiheaiuehauie
+comando
+num=7
+num2=9
+if teste $hum -it $num2; then echo "menor"; else echo "maior"; fi
+vi aula_1303
+aula_1303
+chmod +x aula_1303
+aula_1303
+vi aula_1303
+vi if [ 5 -lt 8 ]
+if [ 5 -lt 8 ]; then echo "menor"; else echo "maior"; fi
+gustav0b@local:~/bin$ if [ 5 -lt 8 ]
+> then
+> echo "menor"
+> else
+> echo "maior"
+> fi
+menor
+vi aula_1303
+aula_1303
+vi aula_1303
+vi aula1303
+chmod +x aula1303
+aula1303
+vi relacao 3 5
+relacao 3 5
+chmod +x relacao 3 5
+rm relacao 3 5
+ls
+relacao35
+vi relacao 35
+vi relacao35
+relacao35
+chmod +x relacao35
+relacao35
+vi relacao35
+relacao35
+vi relacao35
+exit
+cd bin
+ls
+aula
+aula2
+comando
+vi comando
+cd ..
+ls
+aula09
+vi aula09
+cd bin
+ls
+teste
+zerador.sh
+exit
+cd bin
+ls
+vi aula2
+cdbin
+cd in
+cd bin
+ls
+duifj
+cd bin
+comando
+vi comndo
+cd bin
+vi comando
+cd bin
+vi comando
+cd bin
+vi comando
+cd bin
+cd bin[
+cd bin
+vi comando
+ls
+cd bin
+ls
+aula2
+vi aula2
+aula2
+vi aula2
+cd bin
+vi aula
+aula
+aula2
+ls
+aula3
+menu
+comando
+vi comando
+exit

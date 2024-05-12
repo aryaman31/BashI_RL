@@ -1,0 +1,500 @@
+nano index.php 
+'
+
+
+
+
+
+
+sdf
+
+
+sudo chgrp -R www-data storage
+chgrp -R www-data storage
+cd /root/
+ls
+chgrp -R www-data storage
+sudo chgrp -R www-data bootstrap/cache
+chgrp -R www-data bootstrap/cache
+chmod -R ug+rwx storage
+chmod -R ug+rwx bootstrap/cache
+ls
+php artisan cache:clear
+composer dump-autoload
+php -i | grep USER
+php artisan cache:clear
+sudo chmod -R 777 vendor storage
+chmod -R 777 vendor storage
+ls
+ls
+ls -la
+ls
+cd /var/www/
+ls
+cd html/
+ls
+ls -la
+chmod 755 index.php 
+ls -la
+chmod 777 index.php 
+chmod 755 index.php
+chmod +r /var/www/html/ -R
+chown incut -d: -f1 /etc/passwd
+cut -d: -f1 /etc/passwd
+cd /root/bootstrap/autoload.php 
+ls
+cd /root/bootstrap/
+ls
+chmod 777 autoload.php 
+ls
+ls -a
+chmod +x autoload.php 
+ls
+cd /root
+ls
+cd ..
+chmod -R 775 root/
+ls
+ls
+cd /var/www/html/
+ls
+nano .htaccess 
+nano .htaccess 
+ls
+nano /root/.env
+ls
+cd /root/
+php artisan route:list
+nano /var/www/html/.htaccess 
+ifconfig
+nano /var/www/html/.htaccess 
+nano /var/www/html/.htaccess 
+nano /etc/
+cd /etc/apache2/
+ls
+nano apache2.conf 
+nano apache2.conf 
+sudo a2enmode rewrite
+a2enmod rewrtie
+service apache2ctl restart
+service apache2ctl restart
+service apachectl restart
+apachectl restart
+apachectl stop
+service apachectl stop
+service apache2ctl stop
+apachectl -k graceful
+apache2ctl -k graceful
+apache2ctl stop
+apache2ctl start
+a2enmod rewrite
+service apache2 restart
+ls
+ls
+ls
+ls
+service apache2 stop
+service apache2 start
+cd ..
+cd ..
+ls
+cd /root/
+ls
+php artisan migrate
+mysql -u root -p
+mysql -u root -p
+php artisan migrate
+ls
+cd database/
+ls
+cd migrations/
+ls
+cd ../..
+ls
+nano app/Providers/AppServiceProvider.php 
+php artisan migrate
+nano app/Providers/AppServiceProvider.php 
+php artisan migrate
+php artisan migrate:refresh
+nano /etc/my.cnf
+nano /etc/mysql/my.cnf 
+/etc/init.d/mysql restart
+mysql -u root -p mysql
+php artisan migrate
+nano /etc/mysql/my.cnf 
+/etc/init.d/mysql restart
+php artisan migrate
+ls
+INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`, `is_admin`)
+VALUES
+    (1, 'Jake', 'jacobgreene1991@gmail.com', '$2y$10$PGRNesCZ4Gdug5.jjRSEGebjHO56QsWIXJckfDM/N8qoJLrAO5EiC', 'CtpLWnLpS91CzlGNH8hcERYLVYiJwOBOrl4Cz5wGOuVlTsBbz0dbDF4dkw0X', '2017-06-29 02:10:58', '2017-06-29 02:10:58', 1),
+    (2, 'dexter', 'dexter@mydog.com', '$2y$10$bjfJu6nCzho8teGwglPVvuwWPqls/kI2.YneE4nPnqRHmu.rVuRdi', 'X51YDxFPEKjZN6ZQsvRy8Qyg8GpF1KXr8ysc3LZqjADS0z8QgYvPUYkNcZtx', NULL, NULL, 0),
+    (3, 'Mattie', 'mattie@mygf.com', '$2y$10$z8Gd5PGW4vKR9r0oMPeeiOg9p9cRd2zzFHLGM9tXwFf08T87s0Qt2', 'yjTh48GCeQg0sbeRsHPVvrmpPzKfDvQ9qoKDB1TgqN9qUekj3FWe1yLlVFX2', NULL, NULL, 0),
+    (4, 'duke', 'duke@bestdog.com', '$2y$10$MvoyFXTXVz58GezKfoBYsuKdn1zeO81Z6cXdwJnmRhwKaOHutkOmm', NULL, NULL, NULL, 0),
+    (5, 'hope', 'hope@fish.com', '$2y$10$7iUPqpWQ90c0BV9GMYrkn..30GkOw.VsVRBseATm8yxNjulfRrVZK', NULL, NULL, NULL, 0);
+mysql -u root 
+mysql -u root -p
+ls
+ls
+ls
+cd app/
+ls
+cd Http/
+ls
+cd Controllers/
+ls
+nano editUserController.php 
+mv editUserController.php editusercontroller.php
+cd ..
+ls
+cd ..
+ls
+cd ../resources/views/
+ls
+cd adminportal/
+ls
+nano editusers.blade.php 
+nano editusers.blade.php 
+composer dump-autoload
+cd ..
+ls
+nano home.blade.php 
+ls
+cd ..
+ls
+cd ..
+ls
+ls
+cd app/
+ls
+cd Http/
+ls
+cd Controllers/
+ls
+restart
+shutdown /r
+reboot
+ls
+php artisan cache:clear
+cd /root/
+ls
+ls
+cd app/Http/Controllers/
+ls
+cd editusercontroller.php 
+nano editusercontroller.php 
+nano editusercontroller.php 
+nano editusercontroller.php 
+cd ../..
+ls
+cd ..
+cd resources/
+ls
+cd views/
+ls
+nano home.blade.php 
+cd ..
+cd ..
+ls
+php artisan clear:cache
+php artisan cache:clear
+nano home.blade.php 
+pwd
+ls
+cd resources/
+cd views/
+ls
+nano home.blade.php 
+ls
+cd adminportal/
+ls
+ls
+cd ..
+nano home.blade.php 
+cd /root/app/Http/Controllers/
+ls
+nano /root/resources/views/home.blade.php 
+reboot 
+mysql -u root -o
+mysql -u root -p
+reboot
+cd /root/
+php artisan tinker
+cd /root/
+cd vendor/
+cd composer/
+ls
+cd ..
+cd ..
+ls
+composer dump-autoload
+nano /etc/php5/apache2/php.ini 
+/etc/init.d/apache2 restart
+ls
+ls
+pwd
+cd storage/
+ls
+cd app/
+cd faxes/
+ls
+cd /root/
+php artisan storage:link
+cd /var/www/html/
+ls
+cd /root/storage/app/faxes/
+ln -s /root/storage/app/faxes/ /var/www/html/
+ls
+cd /var/www/html/
+ls
+cd /root/storage/app/faxes/
+ls
+rm -rf *
+ls
+cd ..
+l
+scd ..
+cd ..
+ls
+cd ..
+ls
+composer require twilio/sdk:5.4
+composer require twilio/sdk:5.4.2=alpha1
+composer require twilio/sdk:5.4.2-alpha1
+composer dump-autoload
+composer require twilio/sdk:5.12.1-alpha1
+composer dump-autoload
+apt-get -y update
+apt-get install phpmyadmin
+nano /etc/apache2/apache2.conf
+service apache2 restart
+nslookup fax.progeek.me
+apt-get tcpdump
+apt-get install tcpdump
+ifconfig 
+tcpdump -i eth0 'port 80'
+tcpdump -ni eth0 'p
+tcpdump -i eth0 'port 80' -s0 -w /root/
+tcpdump -i eth0 'port 80' -s0 -w /root/pcap.pcap
+ls
+tcpdump pcap.pcap 
+mv pcap.pcap /var/www/html/faxes/
+cd /root/
+composer dump-autoload
+tcpdump -i eth0 'port 80'
+tcpdump -i eth0 'port 80' -s0 -w /var/www/html/faxes/pcap1.pcap
+composer dump-autoload
+tcpdump -i eth0 'port 80' -s0 -w /var/www/html/faxes/pcap1.pcap
+ls
+tcpdump -s 0 -i eth0 'port 80' -w /root/storage/pcap2.pcap
+mv /root/storage/pcap2.pcap /root/storage/app/faxes/pcap2.pcap
+tcpdump -s 0 -i eth0 'port 80' -w /root/storage/app/faxes/pcap2.pcap
+tcpdump -s 0 -i eth0 'port 80' -w /root/storage/app/faxes/pcap2.pcap
+tcpdump -s 0 -i eth0 'port 80' -w /root/storage/app/faxes/pcap2.pcap
+nano /root/app/Http/Controllers/getFaxController.php 
+composer dump-autoload
+tcpdump -s 0 -i eth0 'port 80' -w /root/storage/app/faxes/pcap2.pcap
+reboot
+time
+date
+date --set="15 JUL 2017 9:57:25"
+date
+date
+tcpdump -s 0 'port 80' -w /root/storage/app/faxes/pcap2.pcap
+tcpdump -s 0 'port 80' -w /root/storage/app/faxes/pcap2.pcap
+ln -s /var/www/html/public /root/storage/app/public/
+ls /var/www/html/
+cd /root/storage/app/public/
+ls
+ls -la
+rm public 
+ls -la
+ln -s /root/storage/app/public/ /var/www/html/public
+ls /var/www/html/
+cd /root/
+php artisan dump-autoload
+composer dump-autoload
+time
+date
+ifconfig 
+tcpdump -i en0 -w /root/storage/app/public/pcap1.pcap
+tcpdump -i en0 -w /root/storage/app/public/pcap1.pcap
+ifconfig
+tcpdump -i eth0 -w /root/storage/app/public/pcap1.pcap
+tcpdump -i eth0 -w /root/storage/app/public/pcap2.pcap
+date
+hwclock --utc --systohc
+date
+hwclock --show
+ntpupdate pool.ntp.gov
+ntptime pool.ntp.gov
+apt-get ntpdate
+apt-get install ntpdate
+ntpdate pool.ntp.gov
+ntpdate pool.ntp.org
+ntpdate
+man ntpdate
+nano /etc/timezone 
+man ntpdate
+ntpdate
+ntpdate pool.ntp.org
+ntpd -d
+ntpd -s
+ntpd
+service ntpd restart
+ntptime
+date
+dpkg-reconfigure tzdata
+date
+composer dump-autoload
+time
+datetime
+date
+datet
+date
+reboot
+tcpdump -i eth0 -w /root/public/storage/pcap3.pcap
+tcpdump -i eth0 -w /root/public/storage/pcap3.pcap
+datetime
+date
+cd config/app.php 
+nano config/app.php 
+reboot
+ls
+cd /etc/php5
+ls
+cd ..
+cd ..
+cd /etc/php5/apache2/
+ls
+nano php.ini 
+tcpdump -i eth0 -w /root/storage/app/public/
+tcpdump -i eth0 -w /root/storage/app/public/pcap4.pcap
+tcpdump -i eth0 -w /root/storage/app/public/pcap4.pcap
+cd /root/
+ls
+cd config/app.php 
+nano config/app.php 
+nano config/app.php 
+tcpdump -i eth0 -w /root/storage/app/public/pcap4.pcap
+nano config/app.php 
+nano config/app.php 
+tcpdump -i eth0 -w /root/storage/app/public/pcap4.pcap
+tcpdump -i eth0 -w /root/storage/app/public/pcap4.pcap
+tcpdump -i eth0 -w /root/storage/app/public/pcap4.pcap
+tcpdump -i eth0 -w /root/storage/app/public/pcap4.pcap
+ifconfig
+ls
+cd /root/public/storage/
+ls
+cd ..
+ls
+cd storage
+ls
+cd..
+ls
+ls
+cd ..
+ls
+cd /var/www/html/public/
+ls
+cd ..
+ls
+cd faxes/
+ls
+ls
+rm -rf 
+ls
+ls
+rm -rf *
+ls
+cd /root/storage/
+ls
+cd app/
+ls
+ls
+cd faxes/
+ls
+cd /root/storage/app/public/
+ls
+rm -rf *
+ls
+cd ..
+time
+date
+apt-get sngrep
+apt-get install sngrep
+apt-get update
+apt-get install sngrep
+wget http://packages.irontec.com/public.key -q -O - | apt-key add -
+apt-get update
+apt-get install sngrep
+nano /etc/apt/sources.list
+nano /etc/apt/sources.list
+apt-get update
+apt-get install sngrep
+apt-get install libgnutls30
+apt-get install libgnutls30
+sngrep[; x; 
+sngrep
+apt-get install sngrep
+sudo sed -i -e 's/xenial-getdeb/trusty-getdeb/' /etc/apt/sources.list{,.d/*.list}
+sudo apt-get update
+sed -i -e 's/xenial-getdeb/trusty-getdeb/' /etc/apt/sources.list{,.d/*.list}
+ls
+ls
+ls
+pwd
+find / -name *web
+find / -name web.php
+vim /root/root/
+cd /root/ro
+cd /root/root/
+ls
+ls
+cd routes/
+ls
+cd ..
+cd ..
+ls
+cd app/
+;s
+ls
+cd ..
+ls
+cd routes/
+ls
+vim web.php 
+nano web.php 
+nslookup fax.progeek.me
+dig fax.progeek.me
+cd /etc/inittab
+cd /etc/
+ls
+cd init.d/
+cd rc
+ls
+cd rc
+cd rc/
+cd rc
+cd rc.local
+ls
+nano rc
+cat rc
+ls
+cd rc.local 
+cd rcS 
+ls
+nano rc
+ls
+ls
+ps aux
+cd /etc/systemd/
+ls
+cd systemd
+cd ..
+ls
+cd systemd/system
+cd syslog.service 
+nano syslog.service 
+man systemctl

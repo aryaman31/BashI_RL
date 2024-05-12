@@ -1,0 +1,682 @@
+vi
+vi
+vi LuanaMeurerVIM
+cat LuanaMeurerVIM
+vi TesteVIM
+cat TesteVIM
+mcedit
+nano
+cat teste nano
+nano
+cat teste nano
+nano
+cat teste nano
+less teste nano
+exit
+sudo su
+sudo
+su
+login
+clear
+echo $PATH
+mkdir bin
+cd bin
+vi primeiroscript
+chmod +x primeiroscript
+ls -la
+ls -l
+primeiroscript
+vim primeiroscript
+primeiroscript
+vi primeiro script
+vi primeiroscript
+cd /bin
+ls -l
+cd 
+cd bin
+ls -l
+vi primeiroscript
+primeiroscript
+vi primeiroscript
+primeiroscript
+vi primeiroscript
+primeiroscript
+vi primeiroscript
+primeiroscript
+vi primeiroscript
+primeiroscript
+cd
+exit
+cd home
+cd /home
+ls
+ls -la
+cd bin
+cd
+cd bin
+ls
+vim primeiro
+n1=8
+n2=7
+echo "Informe usuario>"; read user;
+test "$user" = "redes" && echo "User: $user" ||echo "User: errado"
+luana@lo:~$ echo "Informe usuario>"; read user;
+Informe usuario>
+luah
+luana@lo:~$ test "$user" = "redes" && echo "User: $user" ||echo "User: errado"
+User: errado
+clear
+cd bom
+cd bin
+clear
+vi script
+./script
+chmod u+x script
+./script
+vi scriptidade
+chmod u+x scriptidade
+./scriptidade
+vi scriptidade
+./scriptidade
+vi scriptidade
+./scripidade
+./scriptidade
+vi scriptidade
+./scriptidade
+vi scriptnome
+chmod u+x scriptnome
+./scriptnome
+vi scriptnome
+./scriptnome
+vi script idade
+vi scriptidade
+./scriptidade
+vi scriptbin
+chmod u+x scriptbin
+./scriptbin
+vi scriptteste
+chmod u+x scriptteste
+./scripttes
+./scriptteste
+vi scriptteste
+./scriptteste
+vi scriptteste
+./scriptteste
+vi scriptteste
+./scriptteste
+vi scriptteste
+./scriptteste
+vi scriptteste
+./scriptteste
+num=7
+num2=9
+if test $num -lt $num2; then echo "Menor"; else echo "Maior"; fi
+luana@local:~$ num=7
+luana@local:~$ num2=9
+luana@local:~$ if test $num -lt $num2
+> then echo "Menor"
+> else
+> echo "Maior"
+> fi
+Menor
+luana@local:~$ num=7
+luana@local:~$ num2=9
+luana@local:~$ if test $num -lt $num2
+> then echo "Menor"
+> else
+> echo "Maior"
+> fi
+Menor
+clear
+num=
+clear
+num=10
+num2=6
+if test $num -lt $num2; then echo "Menor"; else echo "Maior"; fi
+num=7
+num2=9
+then echo "Menor"
+if test $num -lt $num2; then echo "Menor"; else echo "Maior"; fi
+clear
+if [5 -lt 8]; then echo "menor"; else echo "maior"; fi
+vim script123.sh
+chmod +x script123.sh
+./script123.sh
+vim script123.sh
+./script123.sh
+clear
+vim script123.sh
+./script123.sh
+vim script123.sh
+./script123.sh
+clear
+vim script123.sh
+./script123.sh
+vim script123.sh
+rm script123.sh
+ls
+clear
+./juntaTudo testando o comando 
+clear
+juntaTudo testando o comando
+clear
+vim script123.sh
+chmod +x script123.sh
+./script123.sh
+vim script123.sh
+./script123.sh
+vim script123.sh
+./script123.sh 3 2
+vim script123.sh
+fg
+./script123.sh
+./script123.sh 3 5
+./script123.sh 6 2
+./script123.sh 6 6
+clear
+vim script1234.sh
+chmod +x script1234.sh
+./script1234.sh testando o comando no local
+exit
+nano
+clear
+exit
+vi scriptrabalho
+nano
+nano scriptrabalho
+ls
+nano scriptrabalhoM-D
+man cat
+clear
+man cat
+nano scriptrabalhoM-D
+nano scriptrabalho
+exit
+nano scriptrabalho
+chmod +x scriptrabalho
+./scriptrabalho
+clear
+./scriptrabalho
+clear
+nano scriptrabalho
+./scriptrabalho
+nano scriptrabalho
+ls
+mv scriptrabalho bin
+cd bin
+ls
+nano scriptrabalho
+nano
+clear
+vim scriptrabalho
+exit
+cd bin
+vim scriptrabalho
+exit
+cd bin
+.scriptrabalho
+chmod +x scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+clear
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+clear
+./scriptrabalho
+2
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+clear
+vim scriptrabalho
+./scriptrabalho
+clear
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+exit
+cd bin
+ls
+vim scriptrabalho
+vim scriptrabalho2
+chmod +x scriptrabalho2
+./scriptrabalho2
+cat
+clear
+vim scriptrabalho2
+./scriptrabalho2
+clear
+exit
+cd bin
+vim scriptrabalho
+exit
+cd bin
+vim scriptrabalho
+ls
+ls -l
+./scriptrabalho
+vim scriptrabalho
+exit
+cd bin
+vim scriptrabalho
+.scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+chmod u+x scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+cd bin
+vim scriptrabalho
+exit
+cd bin
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+cd
+exit
+cd bin
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+cd
+exit
+cd bin
+vim scriptrabalho
+cd
+exit
+cd bin
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+cd
+exit
+cd vin
+cd bin
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+vim arquivotrabalho2
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+cd
+exit
+cd bin
+vim scriptrabalho
+exit
+cd bin
+vim scriptrabalho
+ls
+vim arquivotrabalho2
+vim scriptrabalho
+vim arquivotrabalho2
+vim scriptrabalho
+.scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+cd
+cd bin
+vim simnao.sh
+chmod +x simnao.shvim
+./simnao
+./simnao.sh
+vimnao.sh
+vim simnao.sh
+./simnao.sh
+vim simnao.sh
+./simnao.sh
+vim simnao.sh
+./simnao.sh
+vim simnao.sh
+./simnao.sh
+vim simnao.sh
+./simnao.sh
+vim simnao.sh
+./simnao.sh
+vim simnao.sh
+./simnao.sh
+vim simnao.sh
+./simnao.sh
+vim simnao.sh
+./simnao.sh
+vim simnao.sh
+./simnao.sh
+cd bin
+vim scriptrabalho
+./scriptrabalho
+vim arquivotrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim arquivotrabalho2
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+cd
+exit
+cd bin
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+exit
+cd bin
+vim scriptrabalho
+wc -w arquivotrabalho
+uniq -d arquivotrabalho2
+tr A-Z arquivotrabalho
+vim arquivotrabalho
+sort -n arquivotrabalho2
+seq -s arquivotrabalho2
+vim arquivotrabalho3
+sed -n arquivotrabalho3
+grep -v arquivotrabalho2
+find -name /etc/passwd
+find -name passwd
+find -name /etc
+cut -f arquivotrabalho2
+vim scriptrabalho
+find -iname arquivotrabalho3
+cut -f arquivotrabalho2
+grep -i arquivotrabalho3
+grep -i
+grep -i arquivotrabalho
+sed -n arquivotrabalho
+seq -f arquivotrabalho2
+seq -f arquivotrabalho3
+tr -s arquivotrabalho2
+tr -s arquivotrabalho
+vim scriptrabalho
+tr -d 123 arquivotrabalho2
+tr -d arquivotrabalho 2
+grep -x arquivotrabalho3
+cut -c arquivotrabalho2
+cut --help
+vim arquivotrabalho3
+cut -c arquivotrabalho3
+cut -c 
+cut -c [arquivotrabalho3]
+cut -c arquivotrabalho
+grep --help
+vim scriptrabalho
+grep --help
+seq --help
+sed --help
+cut --help
+tr --help
+tr -c 123 -d arquivotrabalho2
+cut 123 -c arquivotrabalho2
+cut -c 123 arquivotrabalho2
+cut -c 1 arquivotrabalho2
+vim arquivotrabalho2
+vim arquivotrabalho4
+seq -s arquivotrabalho4
+grep -w arquivotrabalho3
+grep -w /etc
+grep -w arquivotrabalho3 /etc
+grep -w arquivotrabalho3 bin
+grep -x arquivotrabalho3 bin
+grep -x arquivotrabalho3 /home
+grep --help
+grep -i -x arquivotrabalho3
+grep -i arquivo
+grep -i arquivo bin
+grep -i passwd /etc
+cd
+su
+clear
+vim scriptrabalho
+cd bin
+vim scriptrabalho
+seq -s texto arquivotrabalho2
+seq --help
+seq -s \TEXTO arquivotrabalho2
+seq -s 
+ texto arquivotrabalho2
+./scriptrabalho
+seq -s [arquivotrabalho4]
+tr a-z A-Z arquivotrabalho
+tr a-z A-Z teste
+tr [-d] teste [testando] arquivotrabalho4
+vim arquivotrabalho4
+tr [-d] teste [testando] arquivotrabalho4
+tr -d teste [testando] arquivotrabalho4
+tr -d teste testando arquivotrabalho4
+clear
+tr [a-z][A-Z] arquivotrabalho
+tr [a-z][A-Z] >  arquivotrabalho
+tr [a-z][A-Z] > arquivotrabalho
+tr [a-z][A-Z] arquivotrabalho
+tr '[a-z]''[A-Z]' arquivotrabalho
+tr '[a-z]'[A-Z]' arquivotrabalho
+teste
+
+
+cd bin
+ls
+vim arquivotrabalho
+vim arquivotrabalho2
+vim arquivotrabalho3
+vim arquivotrabalho4
+tr [a-z][A-Z] arquivotrabalho3
+tr [a-z][A-Z] arquivotrabalho
+tr [a-z][A-Z][arquivotrabalho]
+tr [a-z][A-Z] > [arquivotrabalho]
+clear
+vim scriptrabalho
+grep -i | passwd
+grep -i | arquivotrabalho2
+vim scriptrabalho
+seq 1 10
+seq -s 1 texto 10
+seq -s 1 x 10
+seq -f 1 10
+seq -f 1%g 10%g
+seq -f 1%g 10%
+seq -f 1%g 10
+vim scriptrabalho
+tr -d "testando" arquivotrabalho4
+tr -d "123""321" arquivotrabalho4
+tr -d arquivotrabalho4 123 321
+tr -d arquivotrabalho4 123 [321]
+tr -d [arquivotrabalho4] 123 [321]
+tr -d [arquivotrabalho4] [321]
+tr -d [arquivotrabalho4] [123]
+tr -d [arquivotrabalho4]testando [teste]
+arquivotrabalho4 tr a-z A-Z
+arquivotrabalho4 tr [a-z] [A-Z]
+chmod +x arquivotrabalho4
+arquivotrabalho4 tr [a-z] [A-Z]
+vim arquivotrabalho4
+arquivotrabalho4 tr [a-z]teste [A-Z]
+tr -c [arquivotrabalho4]teste[testando]
+tr [arquivotrabalho4]teste[testando]
+arquivotrabalho4 | tr [a-z]teste [A-Z]
+arquivotrabalho4 | tr teste testando
+sed -n 5p arquivotrabalho4
+sed -n 2p arquivotrabalho4
+vim scriptrabalho
+arquivotrabalho2 tr a-z A-Z
+arquivotrabalho2 | tr a-z A-Z
+chmod +x arquivotrabalho2
+
+arquivotrabalho3 | tr a-z A-Z
+chmod +x arquivotrabalho3
+arquivotrabalho3 | tr a-z A-Z
+chmod +x arquivotrabalho4
+arquivotrabalho4 | tr a-z A-Z
+cd bin
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+cd
+exit
+cd bin
+vim scriptrabalho
+rev arquivotrabalho2
+vim scriptrabalho
+uniq -d arquivotrabalho2
+vim arquivotrabalho2
+vim arquivotrabalho4
+tr A-Z arquivotrabalho4
+vim arquivotrabalho4
+tr --help
+tr -c arquivotrabalho4 [:upper:]
+tr arquivotrabalho4 [:upper:]
+tr [:lower:] arquivotrabalho4 [:upper:]
+tr [:upper:] arquivotrabalho4 [:upper:]
+tr --help
+vim arquivotrabalho4
+cat arquivotrabalho4 | tr a-z A-Z
+vim scriptrabalho
+cd
+exit
+cd bin
+vim scriptrabalho
+cat arquivotrabalho4 | tr -d e
+exit
+cd bin
+scriptrabalho
+vim scriptrabalho
+cat -n arquivotrabalho
+cat -n arquivotrabalho2
+cat -n arquivotrabalho3
+
+vim scriptrabalho
+wc - arquivotrabalho
+wc -w arquivotrabalho
+wc -w arquivotrabalho2
+wc -w arquivotrabalho3
+vim scriptrabalho
+exit
+cd bin
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+grep -i | arquivotrabalho2
+grep -i | arquivotrabalho
+vim arquivotrabalho
+grep -i | arquivotrabalho
+chmod +x arquivotrabalho
+grep -i | arquivotrabalho
+grep -i | etc
+grep -i | /etc
+grep -i | arquivo
+grep -i | arquivotrabalho
+grep -i | arquivotrabalho2
+grep -i 123 | arquivotrabalho
+grep -i teste | arquivotrabalho
+grep -i | arquivotrabalho
+grep -i | arquivotrabalho3
+grep -i | arquivotrabalho4
+grep teste | arquivotrabalho4
+grep -i teste | arquivotrabalho
+grep -i | arquivotrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+grep --help
+grep -w | arquivotrabalho2
+grep -w | arquivotrabalho3
+grep -w
+rm arquivotrabalho
+grep -i | arquivotrabalho
+vim arquivotrabalho
+grep -i | arquivotrabalho
+./scriptrabalho
+vim scriptrabalho
+./scriptrabalho
+vim scriptrabalho
+grep -i | teste
+grep -i | home
+cd bin
+ls
+vim [arquivotrabalho]
+rm [arquivotrabalho]
+grep -i | primeiro
+grep -v | teste
+grep -v teste | arquivotrabalho4
+grep -i [teste] | arquivotrabalho4
+cat arquivotrabalho4 | grep -i teste
+vim scriptrabalho
+./scriptrabalho
+cd
+exit
+cd bin
+ls
+vim scriptrabalhordf
+rm scriptrabalhordf
+ls
+cd bin
+ls
+vim scriptrabalho
+vim primeiroscript
+vim scriptaula
+vim scriptaula183
+vim scriptaula283
+vim scriptbin
+vim scripidade
+vim scriptidade
+vim scriptnome
+simnao.sh
+clear
+ls
+vim scripteste
+vim scriptteste
+exit
+cd bin
+ls
+cd
+exit
+cd bin
+ls
+vim scriptrabalho
+exit
+cd bin
+ls
+vim scriptnome
+vim scriptteste
+exit

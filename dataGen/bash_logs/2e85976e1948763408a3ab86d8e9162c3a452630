@@ -1,0 +1,978 @@
+su
+clear
+nome="MATEUS STAHELIN"
+echo nome
+echo "meu nome : $nome"
+echo $nome
+unset nome
+echo $nome
+clear
+some=$((5*5))
+echo $some
+unset some
+exit
+mcedit
+vi
+ls
+cat MateusStahelinVIM 
+nano MateusStahelinNANO
+primeiro
+cd bin
+cd /bin
+primeiro
+vi primeiro
+ls
+cd
+cd bin
+ls -la
+mkdir bin
+ls
+ls MateusStahelinVIM
+cd MateusStahelinVIM
+cat MateusStahelinVIM
+VARIAVEL="estou sem ideias"
+echo $VARIAVEL
+echo $VARIAVEL $VARIAVEL
+echo $VARIAVEL VARIAVEL
+PATH
+$PATH
+cd bin
+ls
+ls -la
+cd
+ls -la
+mv MateusStahelinVIM mateustalin/bin
+mv mateustalin/MateusStahelinVIM mateustalin/bin
+ls
+mv MateusStahelinVIM bin
+mv MateusStahelinNANO.save bin
+ls
+cd bin
+ls
+HOJE=$(date)
+echo "Hoje e: $HOJE"
+HOJE=`date`
+echo "Hoje e: $HOJE"
+unset HOJE
+echo $HOJE
+cd
+cd bin
+ls
+cd
+cd bin
+cat -n MateusStahelinVIM
+pwd
+cd bin
+find primeiro
+find MateusStahelin
+find -MateusStahelin
+grep MateusStahelin
+cd
+grep MateusStahelin bin
+clear
+exit
+ls
+cd bin
+ls
+exit
+cd bin
+vi primeiro
+exit
+ls
+cd bin
+ls
+primeiro
+ls -la
+chmod +x primeiro
+ls -la
+primeiro
+exit
+primeiro 
+ls -l
+vi testando
+rm testando
+vi testando
+rm testando
+rm --help
+man rm
+rm man
+ls
+cd bin
+la
+ls
+vi testando
+ls
+vi testando
+ls
+rm testando
+ls
+n1=6
+n2=7
+test $n1 -lt $n2 || echo "MENOR"
+test $n1 -lt $n2 && echo "MENOR"
+dfsdf
+echo "Informe usurio:" read user;
+test "$user" - "Redes" && echo "User: $user" || echo "User: errado"
+test "$user" = "Redes" && echo "User: $user" || echo "User: errado"
+echo "Informe usurio:" read user;
+echo "Informe usurio:"; read user;
+test "$user" = "Redes" && echo "User: $user" || echo "User: errado"
+vi arq1
+vi testaArquivos
+vi idade
+ls
+cd bin
+ls
+vi teste
+/seila
+ls
+vi teste
+ls
+vi idade
+ls
+ls -l
+chmod +x idade
+ls -l
+idade
+clear
+idade
+ls
+vi idade
+ls -l
+clear
+idade
+vi idade
+ls -l
+clear
+idade
+vi nomes
+ls
+chmod +x nomes
+ls -l
+nomes
+vi nomes
+nomes
+vi nomes
+nomes
+ls
+exit
+cd bin
+ls
+vi diretorio
+chmod +x diretorio
+diretorio
+exitexit
+exit
+ls
+cd bin
+ls
+primeiro
+vi primeiro
+ls
+vi idade
+ls
+cd bin
+ls
+exit
+cd /
+cd .
+cd ..
+cd /bin/bash
+exit
+ls
+cd bin
+ls
+mkdir scripts
+vi MateusStahelinNANO.save
+mv diretorio scripts
+mv nomes scripts
+mv primeiro scripts
+ls
+ms idade scripts
+mv idade scripts
+ls
+MateusStahelinVIM
+vi MateusStahelinVIM
+ls
+ls -l
+cd scripts
+ls
+diretorio
+ls -l
+idade
+cd ..
+diretorio
+./idade
+cd /bin/scripts
+cd bin/scripts
+vi idade
+idade
+/bin/bash
+cd ..
+diretorio
+cd bin/scripts
+primeiro
+exit
+ls
+cd bin
+ls
+cd scripts
+ls
+idade
+mv diretorio bin
+cd ..
+sls
+ls
+cd scripts
+ls
+diretorio
+cd ..
+ls
+cd ..
+ls
+cd bin
+ls
+cd ..
+cd/bin
+c d/bin
+cd /bin
+ls
+mv diretorio scripts
+ls
+cd /bin/bash
+cd ..
+ls
+cd ..
+cd bin
+ls
+cd mateustalin
+exit
+ls
+cd bin
+ls
+cd scripts
+ls
+bin
+cd bin
+vi bin
+mv bin diretorio
+ls
+chmod +x diretorio
+diretorio
+chmod + x idade
+chmod +x idade
+idade
+end
+exit
+ls
+cd bin
+ls
+cd scripts
+ls
+nomes
+./idade
+./diretorio
+./nomes
+exit
+./nomes
+./diretorio
+cd bin
+cd scripts
+./nomes
+exit
+ls
+cd bin
+ls
+mkdir trabalho
+ls
+cd trabalho
+vi trab1
+exit
+ls
+cd bin
+ls
+cd trabalho
+ls
+exit
+cd bin
+ls
+cd trabalho
+ls
+exit
+ls
+cd bin
+ls
+cd scripts
+ls
+ls -l
+cd ..
+ls -l
+cd scripts
+ls
+./diretorio
+cd ..
+ls
+rm diretorio idade
+ls
+cd scripts
+ls
+cd ..
+rm nomes primeiro
+ls
+cd scripts
+ls
+cd ..
+./idade
+cd scripts
+./idade
+vi idade
+clear
+cd ..
+ls
+cd scripts
+ls
+mv diretorio idade nomes primeiro bin
+mv diretorio idade nomes primeiro /bin
+mv diretorio bin
+mv idade bin
+mv nomes bin; mv pimeiro bin
+mv nomes bin; mv primeiro bin
+mv nomes bin; mv primeiro bin;
+ls
+cd ..
+ls
+cd scripts
+ls
+cd bin
+ls
+vi bin
+ls
+cp bin primeiro
+ls
+vi primeiro
+rm bin
+ls
+vi primeiro
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+exit
+ls
+cd bin
+ls
+vi primeiro
+ls -la
+vi idade
+vi relacao
+vi idade
+ls
+cd scripts
+ls
+mv primeiro /home/mateustalin/bin
+ls
+cd ..
+rm -r scripts
+ls
+vi primeiro
+vi relacao
+ls
+vi MateusStahelinVIM
+exit
+ls
+cd backup
+backup
+vi backup
+mv backup bin
+ls
+cd bin
+ls
+ls -l
+clear
+ls
+mv trabalho ~/bin
+mv trabalho /bin
+mv trabalho /home/bin
+ls
+cd ..
+pwd
+cd bin
+mv trabalho /home/mateustalin
+cd ..
+ls
+cp trabalho trabalho1
+ls
+cp trabalho trabalho1
+mn cp
+man cp
+mkdir trabalho1
+ls
+cd trabalho
+pwd
+ls
+mv trab1 /home/mateustalin/trabalho1
+ls
+cd ..
+ls
+cd trabalho1
+ls
+cd ..
+rm trabalho
+rm -r trabalho
+ls
+cd trabalho
+cd trabalho1
+vi trab1
+chmo +x trab1
+chmod +x trab1
+trab1
+./trab1
+vi trab1
+./trab1
+vi trab1
+./trab1
+vi trab1
+./trab1
+vi trab1
+./trab1
+vi trab1
+./trab1
+pwd
+vi trab1
+pwd
+./trab1
+vi trab1
+./trab1
+vi trab1
+exit
+ls
+cd trabalho1
+ls
+vi trab1
+exit
+ls
+cd trabalho1
+ls
+vi trab1
+trab1
+./trab1
+trab1
+vi trab1
+./trab1
+vi trab1
+./trab1
+vi trab1
+exit
+cd trabalho1
+vi trab1
+./trab1
+vi trab1
+./trab1
+vi trab1
+./trab1
+vi trab1
+./trab1
+exit
+ls
+cd trabalho1
+ls
+vi trab1
+./trab1
+exit
+ls
+cdtrabaljo1
+cdtrabalho1
+cd trabalho1
+ls
+./trab1
+vi trab1
+exit
+clear
+ls
+cd trabalho1
+ls
+vi trab1
+./trab1
+vi trab1
+cd ..
+exit
+ls
+exitr
+exit
+ls
+cd trabalho1
+ls
+vi trab1
+trab1
+./trab1 
+vi trab1
+./trab1
+vi trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+exit
+cd bin
+ls
+cd ..
+find -iname simNao.sh
+ls
+cd bin
+ls
+vi simNao.sh
+idade
+grep idade
+grep idade /home/mateustalin/bin
+grep idade /home/mateustalin/bin/idade
+relacao
+relacao 5 3
+ls
+MateusStahelinVIM
+vi MateusStahelinVIM
+ls
+MateusStahelinVIM MateusStahelin.txt
+mv MateusStahelinVIM MateusStahelin.txt
+ls
+MateusStahelin.txt
+chmod +x MateusStahelin.txt
+MateusStahelin.txt
+vi MateusStahelin.txt
+MateusStahelin.txt
+vi MateusStahelin.txt
+vi MATEUS.txt
+chmod +x MATEUS.txt
+MATEUS.txt
+vi MATEUS.txt
+rm MATEUS.txt
+ls
+MateusStahelinNANO.save
+vi MateusStahelinNANO.save
+chmo +x MateusStahelinNANO.save
+chmod +x MateusStahelinNANO.save
+vi MateusStahelinNANO.save
+MateusStahelinNANO.save
+rm MateusStahelinNANO.save
+ls
+./MateusStahelin.txt 
+vi MateusStahelin.txt 
+./MateusStahelin.txt 
+vi MateusStahelin.txt 
+./MateusStahelin.txt 
+vi MateusStahelin.txt 
+./MateusStahelin.txt 
+vi MateusStahelin.txt 
+./MateusStahelin.txt 
+vi MateusStahelin.txt 
+./MateusStahelin.txt 
+vi MateusStahelin.txt 
+rm MateusStahelin.txt texto.txt
+ls
+vi texto.txt
+chmod +x texto.txt
+texto.txt
+vi texto.txt 
+texto.txt 
+vi texto.txt 
+texto.txt 
+vi texto.txt 
+cat texto.txt 
+rev
+exit
+ls
+cd trabalho1
+ls
+vi trab1 
+ls
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+vi trab1 
+./trab1
+exit
+cd bin
+cd trabalho1
+vim trab1
+exit
+cd bin
+ls
+cd trab1
+cd trabalho1/
+vi trab1 
+./trab1
+vi trab1 
+ls
+exit
+cd bin/
+ls
+exit
+cd trabalho1/
+vim trab1
+cp trab1 trab
+ls
+vi trab
+ls
+rm trab1
+ls
+cd ..
+ls
+mv trabalho1 trab1
+ls
+cd trab1
+ls
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+seq --help
+man seq
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+s
+ls
+touch teste.txt
+ls
+cd teste.txt
+vim teste.txt
+vim trab
+vim teste.txt
+./trab
+vim trab
+vim teste.txt
+./trab
+vim teste.txt
+vim trab
+vim teste.txt
+vim trab
+mv teste.txt teste1
+ls
+touch teste2
+ls
+vim teste2
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+clear
+./trab
+clear
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+exit
+vim trab
+exit
+cd ..
+ls
+exit
+ls
+cd trab1
+ls
+vim trab
+exit
+ls
+cd trab
+cd trab1
+ls
+vim trab
+exit
+ls
+cd trab1
+ls
+vi trab
+./trab
+vi trab
+./trab
+vi trab
+./trab
+vi trab
+./trab
+vi trab
+./trab
+vi trab
+./trab
+vi trab
+./trab
+vi trab
+./trab
+clear
+vi trab
+clear
+./trab
+vi trab
+./trab
+vi trab
+./trab
+clear
+vi trab
+./trab
+clear
+vi trab
+./trab
+vi trab
+./trab
+vi trab
+./trab
+vi trab
+./trab
+d
+vi trab
+./trab
+vi trab
+./trab
+vi trab
+clear
+./trab
+vi trab
+./trab
+vi trab
+./trab
+clear
+vi trab
+ls
+touch trabV2
+ls
+vim trabV2
+chmod +x trabV2
+ls -l
+clear
+./trabV2
+vim trabV2
+./trabV2
+vim trabV2
+clear
+./trabV2
+vim trabV2
+clear
+vim trabV2
+./trabV2
+vim trabV2
+exit
+ls
+cd trab1
+ls
+vim trabV2
+exit
+ls
+cd trab1
+ls
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+rev --help
+rev aswdf
+./trab
+sed
+sed --help
+ll
+sed teste
+man sed
+exit
+ll
+cd trab1
+ls
+clear
+vim trab
+./trab
+ls
+vim trab
+ls
+./trab
+vim trab
+./trab
+exit
+ls
+cd trab1
+ls
+vim trab
+exit
+ls
+cb trab1
+ls
+cd trab1
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+ls
+touch teste3
+vim test3
+ls
+vim teste3
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+exit
+ls
+cd trab1d
+cd trab1
+ls
+cat teste1
+cat test2
+cat teste2
+cat teste3
+cd ..
+cd bin
+ls
+cat texto.txt
+cd ..
+ls trab1
+cd trab1
+cd trab
+vim trab
+.trab
+./trab
+vim trab
+clear
+./trab
+exit
+ll
+cd trab1/
+ll
+./trabV2
+ll
+./trabV2 
+vim trabV2 
+top
+ll
+cd ..
+ll
+cd /etc
+ll
+ls
+cd trab1
+ls
+./trab
+cd ..
+ls
+cd trab1
+vim trab
+./trab1
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+./trab
+vim trab
+clear
+./trab
+vim trab
+clear
+./trab
+vim trab
+./trab
+vim trab
+clear
+./trab
+clear
+./trab
+cd ..
+ls
+exit
+ls
+cd trab1
+ls
+vim trab
+exit
