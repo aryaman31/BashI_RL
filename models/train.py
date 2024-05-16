@@ -115,8 +115,8 @@ for cmd in test_data:
     totalMSE += train(cmd, encoder, decoder, None, None, criterion, device, backprop=False)
 print(f'TotalMSE: {totalMSE:.4f}')
 
-torch.save(encoder, "models/encoder.model")
-torch.save(decoder, "models/decoder.model")
+torch.save(encoder, "models/model_weights/encoder.model")
+torch.save(decoder, "models/model_weights/decoder.model")
 
 print("DONE")
 
