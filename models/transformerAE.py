@@ -35,10 +35,10 @@ if __name__ == "__main__":
     criterion = nn.MSELoss()
     optimiser = torch.optim.Adam(model.parameters(), lr=0.01)
 
-    with open("dataGen/bnf/Dataset.txt") as file:
+    with open("dataGen/combined_rand_logs.txt") as file:
         data = file.readlines()
         data = list(map(lambda x : x.strip(), data))
-        # data = data[:100]
+        data = data[:100]
     
     no_epochs = 5
     for i in tqdm(range(no_epochs)):
@@ -54,8 +54,7 @@ if __name__ == "__main__":
             optimiser.step()
             
         print(f'Epoch [{i+1} / {no_epochs}], Loss: {total_loss}')
-    
-    torch.save(model, "models/model_weights/TransAutoEncoder.model")
+        torch.save(model, "models/model_weights/TransAutoEncoder.model")
 
     
 

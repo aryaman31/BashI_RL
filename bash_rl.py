@@ -2,6 +2,7 @@ import sys
 
 from communication.Controller import Controller
 from BashExtractor import BashExtractor
+from Environment.state import State
     
 if __name__ == "__main__":
     '''
@@ -33,6 +34,8 @@ if __name__ == "__main__":
         print(out)
 
         # controller looks for bash command with unique token
+        cmd, err = out[-1]
+        state = State(cmd, payload, err)
 
         # sends this to agent
 
