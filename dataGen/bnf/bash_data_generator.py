@@ -17,7 +17,7 @@ def generate_example(rules, start_symbol, depth=0):
         print(start_symbol)
         return start_symbol
     
-    addSpace = start_symbol not in ['<WORD>', '<ALPHA>', '<NUMBER>', '<DIGIT>']
+    addSpace = start_symbol not in ['<WORD>', '<ALPHA>', '<NUMBER>', '<DIGIT>', '<FLAGS>']
 
 
     production = random.choice(rules[start_symbol])
@@ -29,7 +29,7 @@ def generate_example(rules, start_symbol, depth=0):
         if token.startswith('<') and token.endswith('>') and len(token) > 2:
             temp = generate_example(rules, token, depth+1)
             if not temp: return None
-            example += temp 
+            example += temp + (' ' if addSpace else '')
         else:
             example += token + (' ' if addSpace else '')
     return example
@@ -37,7 +37,7 @@ def generate_example(rules, start_symbol, depth=0):
 
 if __name__ == "__main__":
     file_bnf = "dataGen/bnf/bashV2.bnf"
-    samples = 100000
+    samples = 300000
 
     file = open(file_bnf, "r")
     data = file.read()

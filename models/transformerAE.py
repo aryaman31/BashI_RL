@@ -4,6 +4,8 @@ from torch.autograd import Variable
 from transformers import AutoModel, AutoTokenizer
 from tqdm import tqdm
 import random
+from sklearn.model_selection import train_test_split
+
 # import os 
 
 # os.environ["CURL_CA_BUNDLE"]=""
@@ -36,15 +38,19 @@ if __name__ == "__main__":
     criterion = nn.MSELoss()
     optimiser = torch.optim.Adam(model.parameters(), lr=0.01)
 
-    with open("dataGen/combined_rand_logs.txt") as file:
+    with open("dataGen/bnf/Dataset.txt", "r") as file:
         data = file.readlines()
         data = list(map(lambda x : x.strip(), data))
-        # data = data[:100]
+        data = data[:100]
     
-    no_epochs = 1
+    train_data, test_data = train_test_split(data, test_size=0.01, train_size=0.99)
+
+    file = open("testOutput.txt", "w")
+
+    no_epochs = 3
     for i in range(no_epochs):
         total_loss = 0
-        for cmd in tqdm(data):
+        for cmd in tqdm(train_data):
             tokenized_cmd = model.tokenize(cmd)
             pred = model(tokenized_cmd)
             optimiser.zero_grad()
@@ -54,15 +60,17 @@ if __name__ == "__main__":
             loss.backward()
             optimiser.step()
             
-        print(f'Epoch [{i+1} / {no_epochs}], Loss: {total_loss}')
+        file.write(f'Epoch [{i+1} / {no_epochs}], Loss: {total_loss}\n')
         torch.save(model, "models/model_weights/TransAutoEncoder.model")
     
     # Test
-    cmd = random.choice(data)
-    pred_t = model(model.tokenize(cmd))
-    pred = model.decode(pred_t)
-    print("Input    :" + cmd)
-    print("Predicted:" + pred)
+    for cmd in (test_data):
+        pred_t = model(model.tokenize(cmd))
+        pred = model.decode(pred_t)
+        file.write("Input    :" + cmd + "\n")
+        file.write("Predicted:" + pred + "\n")
+    
+    file.close()
 
 
     
