@@ -41,13 +41,13 @@ if __name__ == "__main__":
     with open("dataGen/bnf/Dataset.txt", "r") as file:
         data = file.readlines()
         data = list(map(lambda x : x.strip(), data))
-        data = data[:100]
+        # data = data[:100000]
     
     train_data, test_data = train_test_split(data, test_size=0.01, train_size=0.99)
 
     file = open("testOutput.txt", "w")
 
-    no_epochs = 3
+    no_epochs = 1
     for i in range(no_epochs):
         total_loss = 0
         for cmd in tqdm(train_data):

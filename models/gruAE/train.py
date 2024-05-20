@@ -7,7 +7,7 @@ import shlex
 from sklearn.model_selection import train_test_split
 
 from encoder import Encoder
-from decoder import Decoder
+from models.gruAE.decoder import Decoder
 
 # max length of bash command in chars
 max_length = 200
