@@ -8,14 +8,14 @@ class BashExtractor:
         self.process = None
 
     def start(self, delay=0.1):
-        self.process = subprocess.Popen(["strace", "-f", "-p", self.server_pid, "-e", "trace=execve", "--output=temp.txt", "--quiet=attach"])
+        self.process = subprocess.Popen(["strace", "-f", "-p", self.server_pid, "-e", "trace=execve", "--output=BashExtractor/temp.txt", "--quiet=attach"])
         time.sleep(delay)
         
     
     def stop(self):
         if self.process:
             self.process.kill()
-            with open("temp.txt", "r") as f:
+            with open("BashExtractor/temp.txt", "r") as f:
                 return self.__extractCommands(f.readlines())
         return []
 

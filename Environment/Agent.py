@@ -2,12 +2,20 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+from Environment.state import State
+from Environment.actions.Action import Action
+
+# Needs to implement DQN properly with target and policy net. 
 class Agent: 
     # Output needs to be of size 3 for action: (id, location, type)
     NETWORK = [4, 50, 50, 3] 
 
     def __init__(self):
         self.Q = DQN(Agent.NETWORK)
+
+    def pickAction(self, state: State):
+        print("Agent.pickAction NOT IMPLEMENTED YET")
+        return Action((1, 1, 1))
 
 class DQN(nn.Module):
     def __init__(self, layer_sizes:list[int]):

@@ -1,8 +1,9 @@
 import sys
 
 from communication.Controller import Controller
-from BashExtractor import BashExtractor
-from Environment.state import State
+from BashExtractor.BashExtractor import BashExtractor
+from Environment.environment import Environment
+from Environment.Agent import Agent
     
 if __name__ == "__main__":
     '''
@@ -18,30 +19,26 @@ if __name__ == "__main__":
     server_address = sys.argv[2]
 
     controller = Controller(server_address)
-    bashEx = BashExtractor(server_pid)    
+    bashEx = BashExtractor(server_pid)   
+    env = Environment(controller, bashEx) 
+
+    agent = Agent()
 
     # Check wether pid is correct and exists
 
-    payload = "8.8.8.8; whoami"
-    for i in range(1): 
-        bashEx.start()
+    NUM_RUNS = 1000
+    EPISODES_PER_RUN = 100
 
-        # controller sends command to server with unique token
-        controller.makeRequest({"ip_address": payload})
+    currState = env.reset()
+    for i in range(NUM_RUNS):
+        for i_episode in range(EPISODES_PER_RUN):
+            state = env.reset()
+            done, terminated = False, False 
+            while not (done or terminated):
+                action = Agent.pickAction(state)
+                state = env.step(action) 
 
-        # bash extractor returns all the new bash commands its seen
-        out = bashEx.stop()
-        print(out)
-
-        # controller looks for bash command with unique token
-        cmd, err = out[-1]
-        state = State(cmd, payload, err)
-
-        # sends this to agent
-
-        # agent returns a bash modification 
-
-        # update next command according action
+    # Can save agent model here !    
     
     print("FINISHED")
 
