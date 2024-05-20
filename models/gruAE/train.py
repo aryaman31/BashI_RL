@@ -6,7 +6,7 @@ from tqdm import tqdm
 import shlex
 from sklearn.model_selection import train_test_split
 
-from encoder import Encoder
+from models.gruAE.encoder import Encoder
 from models.gruAE.decoder import Decoder
 
 # max length of bash command in chars
