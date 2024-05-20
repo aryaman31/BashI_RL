@@ -1,0 +1,9 @@
+53620 execve("/bin/sh", ["sh", "-c", "ping -c 4 8.8.8.8; whoami"], 0x562000b8deb0 /* 55 vars */) = 0
+53621 execve("/usr/bin/ping", ["ping", "-c", "4", "8.8.8.8"], 0x55aed3c4ef48 /* 55 vars */) = 0
+53621 +++ exited with 2 +++
+53620 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=53621, si_uid=1000, si_status=2, si_utime=0, si_stime=1 /* 0.01 s */} ---
+53622 execve("/usr/bin/whoami", ["whoami"], 0x55aed3c4ef48 /* 55 vars */) = 0
+53622 +++ exited with 0 +++
+53620 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=53622, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+53620 +++ exited with 0 +++
+45527 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=53620, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
