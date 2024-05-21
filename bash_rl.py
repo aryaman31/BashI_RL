@@ -1,8 +1,8 @@
 import sys
 
-from communication.Controller import Controller
+from Communication.Controller import Controller
 from BashExtractor.BashExtractor import BashExtractor
-from Environment.environment import Environment
+from Environment.Environment import Environment
 from Environment.Agent import Agent
     
 if __name__ == "__main__":

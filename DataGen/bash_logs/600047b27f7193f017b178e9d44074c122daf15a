@@ -1,0 +1,500 @@
+vim asd.py
+vim .Xresources
+xrdb .Xresources
+python
+vim .Xresources
+xrdb .Xresources
+vim .Xresuorces
+ls -a
+vim .Xresources 
+xrdb .Xresources
+python
+clear
+ls
+mkdir projs
+ls
+cd projs
+pip
+sudo pacman -S python-pip
+pip install django
+sudo pip install django
+sudo pip install django-filter
+sudo pip install Markdown
+ls
+django-admin.py startproject scrum
+ls
+cd scrum
+ls
+python manage.py startapp board
+ls
+sudo pip install djangorestframwork
+sudo pip install djangorestframework
+ls
+vim scrum/settings.py
+aurman -S leanote
+aurman -Syu
+clear
+yaourt -Syu
+yaourt -S leanote
+leanote
+sudo pacman -S libgtk
+sudo pacman -S libgtk2.0
+sudo pacman -S ibgtk2.0-0:i386
+sudo pacman -S lib32-gtk2 2.24.32-1
+sudo pacman -S lib32-gtk2
+sudo pacman -S lib32-gtk2
+sudo pacman -S libgdk-x11-2.0.so.0
+sudo pacman -S libgdk-x11-2.0
+sudo pacman -S libgdk-x11
+sudo pacman -S libgdk
+sudo pacman -S libgtk
+sudo pacman -S gtk2
+leanote
+sudo pacman -S gtk3
+sudo pacman -R gtk2
+leanote
+sudo pacman -S gtk2
+leanote
+sudo pacman -S pango
+leanote
+sudo pacman -S harfbuzz
+leanote
+yaourt -S leanote
+sudo pacman -S leanote
+leanoet
+leanote
+sudo pacman -Rds leanote
+sudo pacman -R gtk2
+clear
+sudo pacman -Rds aurman 
+ls
+cd Downloads/
+ls
+tar -zxvf leanote-linux-amd64-v2.6.1.bin.tar.gz 
+ls
+cd leanote
+ls
+cd app
+ls
+cd .
+cd ..
+cd conf
+ls
+cd ..
+ls
+cd app
+ls
+cd views
+ls
+cd ..
+cd ..
+ls
+npm install
+ls
+electron .
+sudo pacman -S electron
+electron .
+ls
+cd ..
+ls
+cd leanote
+ls
+./app
+cd bin
+ls
+./run.sh
+vim run.sh
+. run.sh
+ls
+bash run.sh
+ls
+cd src
+ls
+cd github.com
+ls
+cd leanote
+ls
+./leanote
+cd leanote
+ls
+cd ..
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+./leanote-linux-amd64 
+bash run.sh
+\
+ls
+cd ..
+cd ..
+ls
+rm -rf *
+ls
+which python
+vim .global_extra_conf.py
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+ls
+cd projs
+ls
+cd scum
+cd srcum
+cd scrum
+ls
+vim scrum/settings.py
+ls
+vim asd.md
+ls
+python manage.py runserver
+zls
+clear
+ls
+ls
+ls
+ssh
+sudo pacman -S openssh
+sudo pacman -S opensvn
+sudo pacman -S openvpn
+openvpn
+clear
+ls
+ls /etc
+ls /etc/openvpn
+ls /etc/openvpn/client
+sudo ls /etc/openvpn/client
+sudo vim  /etc/rc_maps.cfg
+cd
+cd .vim/bundle
+ls
+git clone github.com/ycm-core/YouCompleteMe.git
+git clone https://github.com/ycm-core/YouCompleteMe.git
+git clone https://github.com/ycm-core/YouCompleteMe.git
+git clone https://github.com/ycm-core/YouCompleteMe.git
+ls
+cd YouCompleteMe/
+ls
+python install.py
+python install.py --all
+python install.py --jedi-completer
+git submodule update --init --recursive
+python install.py --jedi-complete
+python install.py --go-completer
+cd
+vim .vimrc
+vim asd.py
+vim asd.go
+vim asd.c
+gcc asd.c
+cd .vim
+ls
+cd bundle/
+ls
+cd YouCompleteMe/
+ls
+python install.py
+ls
+vim install.sh
+bash install.sh
+python install.py --all\
+python install.py --all
+ls
+cd
+vim .vimrc
+python asd.py
+vim asd.py
+sudo pacman -S csharp
+sudo pacman -S c#
+sudo pacman -S dotnet
+sudo pacman -S .net
+sudo pacman -S dotnet-core
+vim .vimrc
+vim
+ls
+vim .vimrc
+vim asd.py
+ls
+ls -a
+mv .global_extra_conf.py .vim/
+ls
+vim .vimrc
+sudo pacman -S freerdp
+sudo pacman -S remmina
+sudo wifi-menu
+ping baidu.com
+ping www.baidu.com
+nmtui
+conky
+sudo systemctl enable sshd.service
+sudo systemctl start sshd.service
+ssh 127.0.0.1
+cd projs
+cd scrum/
+ls
+vim scrum/settings.py 
+vim .vimrc
+vim ~/.vimrc
+ls ~/.vim/
+ls -a ~/.vim/
+vim ~/.vim/.global_extra_conf.py 
+which django
+ls /usr/
+ls /usr/lib
+ls /usr/lib |grep django
+ls /usr/lib |grep python
+ls /usr/lib/python3.7
+ls /usr/lib/python3.7/site-packages
+ls /usr/lib/python3.7/site-packages/django
+ls /usr/lib/python3.7/site-packages/django
+sudo pacman -S rxvt-unicode
+urxvt
+vim .Xresources
+xrdb .Xresources
+sudo pacman -R rxvt-unicode
+vim .Xresources
+xrdb .Xresources
+startx
+sudo vim /etc/ssh/sshd_config
+sudo systemctl start sshd.service
+sudo systemctl stop sshd.service
+sudo systemctl start sshd.service
+ssh liwis@127.0.0.1
+sudo vim /etc/ssh/sshd_config
+sudo systemctl stop sshd.service
+sudo systemctl start sshd.service
+ssh liwis@127.0.0.1
+reboot
+ssh
+ssh liwis@127.0.0.1
+sudo ls /etc/ssh
+sudo ls /etc/ssh/ssh_config
+sudo vim /etc/ssh/ssh_config
+history
+sudo vim /etc/ssh/sshd_config
+sudo vim /etc/ssh/sshd_config
+sshd
+sshd 127.0.0.1
+ssh liwis@127.0.0.1
+sudo vim /etc/ssh/ssh_config
+sudo vim /etc/ssh/sshd_config
+sudo vim /etc/ssh/ssh_config
+sudo systemctl stop sshd.service
+sudo systemctl start sshd.service
+ssh liwis@127.0.0.1
+ls
+startx
+sudo systemctl stop sshd.service
+sudo systemctl start sshd.service
+ls
+ls Downloads/
+cd Downloads/
+tar -zxvf 'download (1)' 
+sudo pacman -S 7z
+sudo pacman -S p7z
+sudo pacman -S p7zip
+7z
+ls
+7z x 'download (1)' 
+ls
+cd 吴立伟/
+ls
+vim 安装说明.txt 
+cd config
+ls
+sudo modprobe tun
+vpn
+openvpn
+ls
+vim client.ovpn
+vim client.ovpn
+openvpn client.ovpn
+nmtui
+ping www.baidu.com
+ls
+openvpn client.ovpn
+ls
+sudo modprobe tun
+sudo openvpn client.ovpn
+ls /etc
+ls /etc|grep rc
+nmtui
+s
+ls
+vim a.sh
+bash a.sh
+vim a.sh
+ls
+vim a.sh
+bash a.sh
+vim a.sh
+bash a.sh
+cd ..
+ls
+mv -r config ~/bcx211vpn
+mv  config ~/bcx211vpn
+cd
+cd bcx211vpn/
+bash a.sh
+vim a.sh
+which bash
+./a.sh
+bash a.sh
+sudo chmod 777 a.sh
+./a.sh
+nmtui
+nmtui
+./a.sh
+cd .config
+ls
+lscpi
+ls_cpi
+lsacpi
+lscpi
+sudo pacman -S lscpi
+lspci
+vim .config/polybar/config 
+startx
+shutdown now
+sudo pacmanmxcvg,h.vjmk,ljuryed6g
+sudo pacman -Syu
+nmtui
+sudo pacman -Syu
+sudo pacman -Syu
+sudo pacman -Syu
+ls
+cd bcx211vpn/
+ls
+./a,sh
+./a.sh
+ls
+vim .config/i3/config 
+vim .config/i3/config 
+vim .config/i3/config 
+vim .config/i3/config 
+vim .config/i3/config 
+vim .config/i3/config 
+sudo pacman -Syu
+startx
+sudo pacman -Syu
+ls
+ranger
+ls
+ls /
+ls /proc
+ls /proc/bus
+ls /proc/bus/input
+sudo vim /proc/bus/input/devices
+ls /proc/1
+ls /proc/1
+sudo vim /proc/version
+ zsh
+sudo pacman -S zsh
+zsh --help
+zsh
+ls
+cd bcx211vpn/
+ls
+./a.sh
+echo $SHELL
+zsh
+sudo pacman -S  zsh-completions
+zhs
+zsh
+ls -a
+zsh
+ls -a
+autoload -Uz zsh-newuser-install
+zsh-newuser-install -f
+Zsh
+ls /usr/bin
+vim .zshrc
+compinit
+vim .zshrc
+ls
+zsh
+ls -a
+vim .vimrc
+vim .zshrc
+zsh
+./usr/bin/zsh
+ls /usr/bin
+ls /usr/bin/zsh
+./usr/bin/zsh
+vim /usr/bin/zsh
+bash /usr/bin/zsh
+./usr/bin/zsh
+/usr/bin/zsh
+ls -a /root
+sudo ls -a /root
+sudo pacman -R zsh
+sudo pacman -Rds zsh
+sudo pacman -Rd zsh
+startx
+ls
+ls -a
+vim .zshrc
+vim .zshrc
+sudo pacman -Rds  zsh-completions 
+sudo pacman -Rds  zsh
+sudo pacman -S zsh
+ls -a
+sudo ls /root
+sudo ls -a /root
+zsh
+sudo pacman -Rds zsh
+yaourt -S zsh
+ls
+ls -a
+compinit
+sudo pacman -S oh-my-zsh
+wget
+sudo pacman -S wget
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh
+wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+yaourt -S oh-my-zsh
+yaourt -S oh-my-zsh-git
+ls
+ls -a
+oh-my-zsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/robbyrussell/oh-my-zsh.git
+git clone https://github.com/robbyrussell/oh-my-zsh.git
+reboot
+curl
+git clone https://github.com/robbyrussell/oh-my-zsh.git
+curl -Lo install.sh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/ins
+ls
+sh install.sh
+ls
+ls -a
+sh install.sh
+vim install.sh
+sh install.sh
+ls
+git clone https://github.com/robbyrussell/oh-my-zsh.git
+ls
+git clone https://github.com/robbyrussell/oh-my-zsh.git
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+zsh
+zsh
+ls
+vim .zshrc
+zsh
+zsh
+vim .bashrc

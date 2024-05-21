@@ -1,0 +1,436 @@
+ls -ltr
+cd projects/
+ls -al ..
+ls -altr
+cat hosts 
+cat /etc/hosts
+ssh web-client-1
+ssh web-client-2
+ssh app-client-1
+ssh app-client-2
+vi hosts 
+history |grep ping
+ansible -m ping all
+vi hosts 
+ansible -m ping all
+gitconfig
+pgit config
+git config
+pwd
+l s-altr
+ls -altr
+ansible --version
+ansible all --list-hosts
+vagrant status
+exit
+ansible all --list-hosts
+pwd
+ls
+cd projects/
+ls
+ansible all --list-hosts
+cat hosts
+ansible -m ping web-servers
+ansible -m ping app-servers
+ansible -m ping web-client-1
+ansible --version
+ls
+ls -altr
+cat ansible.cfg
+cat ansible.cfg |greo hosts
+cat ansible.cfg |greop hosts
+cat ansible.cfg |grep hosts
+pwd
+cd ..
+pwd
+ansible -m ping web-client-1
+pwd
+ansible --version
+cd projects/
+ansible --version
+pwd
+cd ..
+l
+la
+ls
+cp projects/hosts .
+ansible -m ping web-client-1
+ansible -m ping -i hosts web-client-1
+cd projects/
+ansible all -m ping
+ansible local -m setup
+vi hosts
+ansible all -m ping
+ssh local
+ssh localhost
+ansible all -m ping
+ansible local -m setup
+ssh localhosts
+ssh localhost
+ansible local -m web-client-2
+ansible web-client-2 -m setup
+vi hosts
+ansible web-client-2 -m setup --tree /tmp/facts
+ls -altr /tmp/
+cd /tmp/facts/
+ls
+ls -altr
+ansible web-client-2 -m setup -a 'filter=ansible_ip*'
+ansible web-client-2 -m setup 
+cd
+cd projects/
+ansible web-client-2 -m setup 
+ansible web-client-2 -m setup -a 'filter=ansible_ip'
+ansible web-client-2 -m setup -a 'filter=*ip*'
+ansible web-client-2 -m setup -a 'filter=*ipv4*'
+cat hosts 
+ansible web-servers -m setup -a 'filter=ansible_architetcure'
+ansible web-servers -m setup -a 'filter=ansible_architecture'
+ansible web-servers -m setup -a 'filter=ansible_distribution'
+ansible web-servers -m setup -a 'filter=ansible_dist*'
+ansible web-servers -m setup |grep distribution
+cat hosts
+ansible web-client-1 -m setup |grep distribution
+ansible web-client-1 -m setup -a 'filter=ansible_domain'
+ansible web-client-1 -m setup -a 'filter=ansible_interfaces'
+ansible web-client-1 -m setup -a 'filter=ansible_kernel'
+ansible web-client-1 -m setup -a 'filter=ansible_mem*'
+ansible web-client-1 -m setup -a 'filter=ansible_proc*'
+ansible web-client-1 -m setup -a 'filter=ansible_virt*'
+ansible web-client-1 -m setup -a 'filter=ansible_disk*'
+ansible web-client-1 -m setup -a 'filter=ansible_storage*'
+ansible web-client-1 -m setup -a 'filter=ansible_stor*'
+ls -altr
+ansible web-client-1 -s -m shell -a 'yum install lynx'
+sudo visudo
+id
+sudo visudo
+sudo ls
+sudo visudo
+groups
+sudo ls -al
+vi ansible.cfg
+ssh-copypid localhost.localdomain
+ssh-copyp-id localhost.localdomain
+ssh-copy-id localhost.localdomain
+vi hosts
+ansible local -m ping
+pwd
+cd ..
+ls
+pwd
+exit
+ansible  -m ping all
+pwd
+ls
+cd projects/
+ansible  -m ping all
+ansible-all --list-hosts
+ansible all --list-hosts
+ansible all --list-groups
+ansible all 
+ansible all  |grep -i group
+cat hosts
+ansible all --list-hosts web-servers
+ansible web-servers --list-hosts 
+ansible all -m ping
+vi hosts
+ansible all -m ping
+vi hosts
+ansible apacheweb -s -m shell -a 'yum list installed' |grep python
+ansible apacheweb -s -m shell -a 'sudo yum list installed' |grep python
+ansible app-client-2 -s -m shell -a 'yum list installed' |grep 
+ansible app-client-2 -s -m shell -a 'yum install o' 
+ansible app-client-2 -s -m shell -a 'yum install telnet' 
+ansible app-client-2 -s -m shell -a 'yum -y install telnet' 
+cat hosts
+ansible web-servers -s -m shell -a 'yum -y install telnet' 
+ansible web-servers -s -m shell -a 'cat /var/log/smu.log' 
+ansible web-servers -b -m shell -a 'cat /var/log/smu.log' 
+ansible
+ansible |less
+ansible web-servers -b -m yum -a 'pkg=lynx state=installed update_cache=true'
+ansible web-servers -b -m yum -a 'pkg=telnet state=installed'
+clear
+ls
+mkdir Playbooks
+cd Playbooks/
+vi appserver.yml
+cat ../hosts 
+vi appserver.yml
+cat appserver.yml 
+cd ..
+ansible-playbook -s Playbooks/appserver.yml 
+vi Playbooks/appserver.yml 
+git add .
+owd
+pwd
+ls -altr
+cat Playbooks/appserver.yml 
+ls -altr
+vi Playbooks/appserver.yml 
+ansible-playbook -s Playbooks/appserver.yml 
+ping ansiblemn
+cat /etc/hosts
+vi Playbooks/appserver.yml 
+ansible-playbook -s Playbooks/appserver.yml 
+vi vars.yml
+ansible-playbook -s Playbooks/appserver.yml 
+vi Playbooks/appserver.yml 
+ansible-playbook -s Playbooks/appserver.yml 
+ls -altr
+mv vars.yml Playbooks/
+ansible-playbook -s Playbooks/appserver.yml 
+cat Playbooks/vars.yml 
+vi Playbooks/appserver.yml 
+ansible-playbook -s Playbooks/appserver.yml 
+ansible all --list-hosts
+cat hosts
+vi Playbooks/playbook1.yml
+ansible-playbook Playbooks/playbook1.yml 
+c
+cat Playbooks/playbook1.yml 
+mkdir conf
+cd conf
+ls
+vi copyright.yml
+vi webdefaults.yml
+ls -altr
+cat copyright.yml 
+cat webdefaults.yml 
+cd ..
+vi Playbooks/playbook1.yml 
+ansible-playbook Playbooks/playbook1.yml 
+vi Playbooks/playbook1.yml 
+ls -al conf/
+vi Playbooks/playbook1.yml 
+cat Playbooks/playbook1.yml 
+cat conf/copyright.yml
+cat conf/webdefaults.yml
+vi Playbooks/playbook1.yml 
+ansible-playbook Playbooks/playbook1.yml 
+vi Playbooks/playbook1.yml 
+ansible-playbook Playbooks/playbook1.yml 
+vi Playbooks/playbook1.yml 
+ansible-playbook Playbooks/playbook1.yml 
+vi Playbooks/playbook1.yml 
+ansible-playbook Playbooks/playbook1.yml 
+vi Playbooks/playbook1.yml 
+ls
+cd conf/
+ls -altr
+vi copyright.yml 
+vi Playbooks/playbook1.yml 
+pwd
+cd ..
+ls
+vi Playbooks/playbook1.yml 
+ansible-playbook Playbooks/playbook1.yml 
+ls -al conf/
+pwd
+ls -altr
+mv Playbooks/ playbooks
+ls -altr
+vi playbooks/playbook1.yml 
+mv conf/ playbooks/
+ls -altr
+ls -altr playbooks/
+ansible-playbook Playbooks/playbook1.yml 
+ansible-playbook playbooks/playbook1.yml 
+vi playbooks/playbook1.yml 
+ansible-playbook playbooks/playbook1.yml 
+vi playbooks/playbook1.yml 
+ansible-playbook playbooks/playbook1.yml 
+vi playbooks/playbook1.yml 
+ls -altr
+vi playbooks/playbook1.yml 
+cd conf
+ls
+cd playbooks/conf/
+ls
+ls -altr
+cat copyright.yml 
+cat webdefaults.yml 
+cd ..
+kls
+ls
+ls -altr
+cd ..
+ls
+ls -altr
+cd ..
+ls
+ls -altr
+pwd
+git init
+sudo yum install git
+ls -ltr
+pwd
+ls -al
+pwd
+git init
+git add .
+git remote add origin https://github.com/eets8305/lecture-5.git
+git push -u origin master
+ls -ltr
+cd projects/
+pwd
+cd ..
+ls
+ls -altr
+pwd
+cat .ssh/id_rsa.pub 
+git status
+git push -u origin master
+rm -Rf .git/
+ls -altr
+git init
+echo "# lecture-5" >> README.md
+git add README.md
+git add .
+git commit -m "initial commit"
+git config --global user.email "jwidhalm@smu.edu"
+git config --global user.name "John Widhalm"
+git remote add origin https://github.com/eets8305/lecture-5.git
+git push -u origin master
+git remote add origin git@github.com:eets8305/lecture-5.git
+git remote delete origin https://github.com/eets8305/lecture-5.git
+git remote remove origin https://github.com/eets8305/lecture-5.git
+ls -altr
+rm -Rf .git
+pwd
+git init
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:eets8305/lecture-5.git
+git push -u origin master
+ls -ltr
+cd projects/
+ls
+ls -altr
+cd playbooks/
+ls
+cat playbook1.yml 
+ls -altr 
+ls -altr  conf/
+cat  conf/copyright.yml 
+cat  conf/we
+cat  conf/webdefaults.yml 
+ls -altr
+ansible all --list-hosts
+ls
+ls -ltr
+cd ..
+ls
+ansible all --list-hosts
+vi playbooks/playbook1.yml 
+git commit -am "added tasks"
+git push -u origin master
+ansible-playbook playbooks/playbook1.yml 
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml 
+cat playbooks/playbook1.yml 
+ls -al playbooks/
+ssh web-client-1
+cd playbooks/
+ls -altr
+rm playbook1.retry 
+cd ..
+ls
+vi playbooks/playbook1.yml 
+history
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+cat playbooks/conf/copyright.yml 
+cat playbooks/conf/webdefaults.yml 
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+cat playbooks/conf/webdefaults.yml 
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+git commit -am "added a debug message"
+git push -u origin master
+cat playbooks/playbook1.
+cat playbooks/playbook1.yml 
+pwd
+vi playbooks/test.yml
+ansible-playbook -b playbooks/test.yml 
+vi playbooks/playbook1.
+vi playbooks/playbook1.yml 
+vi playbooks/test.yml
+ansible-playbook -b playbooks/test.yml 
+vi playbooks/test.yml
+ansible-playbook -b playbooks/test.yml 
+vi playbooks/test.yml
+ansible-playbook -b playbooks/test.yml 
+vi playbooks/test.yml
+vi playbooks/playbook1.yml 
+vi playbooks/playbook2.yml 
+ls -altr playbooks/
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+vi playbooks/facts.yml 
+ansible-playbook -b playbooks/facts.yml
+vi playbooks/facts.yml 
+ansible-playbook -b playbooks/facts.yml
+vi playbooks/facts.yml 
+ansible-playbook -b playbooks/facts.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/facts.yml
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+pwd
+ls
+ls -altr
+ls -altr playbooks/
+vi playbooks/facts.yml 
+ansible web-client-2 -m setup
+ansible web-client-2 -m setup |grep hostname
+history |grep setup
+ansible web-client-2 -m setup --tree facts.json
+ls -ltr
+vi facts.json/
+cd facts.json/
+ls
+vi web-client-2 
+cat web-client-2 
+:q
+pwd
+cd ..
+rm -Rf facts.json/
+ls -altr
+ansible web-client-2 -m setup 
+ansible web-client-2 -m setup >facts.txt
+vi facts.txt 
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+ansible-playbook -b playbooks/playbook1.yml
+vi playbooks/playbook1.yml 
+git commit -am "updated playbook"
+git push -u orign master
+pwd
+history |grepp git

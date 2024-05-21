@@ -1,0 +1,373 @@
+vi
+vi arquivo
+vi arquivo +
+vi arquivo +10
+vi arquivo +/texto
+vim
+vi Andressa vim
+vi "Andressa vim"
+vi Andressa vim
+cat
+cat Andressa vim
+nano
+NANO Andressa
+nano Marques
+cat Marques
+less
+mcedit Silva
+cat Silva
+$ echo $path]
+$ echo $path
+$ echo $PATH
+$echo $path
+$echo $PATH
+cat andressa
+cat Andressa
+$echo $PATH
+$mkdir bin
+$ mkdir bin
+cd bin
+vi primeiro
+cat primeiro
+chmod +X primeiro
+ls -la
+chmod +x primeiro
+ls -l
+primeiro
+df -h
+vi primeiro
+cat primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+exit
+cat primeiro
+cd bin
+cat primeiro
+primeiro
+exit
+VARUAVEL = "estou sem ideias"
+VARiAVEL = "estou sem ideias"
+VARIAVEL="estou sem ideias"
+echo $VARIAVEL
+echo $VARIAVEL $VARIAVEL
+HOJE=$(date)
+echo "Hoje e: $HOJE"
+HOJE 'date'
+HOJE= 'date'
+echo "Hoje e: $HOJE"
+UNSET hoje
+unset HOJE
+echo $HOJE
+unset HOJE
+echo $HOJE
+cd bin
+cat -n primeiro
+man cat
+cd ..
+man cat
+exit
+echo "Informe a sua idade:"; read idade;
+cd bin
+vi idade
+idade
+chmod +x idade
+idade
+cta
+cat
+cat idade
+vi nome
+exit
+n1=6
+n2=7
+test "$n1" -gt "$n2" && echo "Maior" || echo "Menor"
+n1=6
+n2+7
+n2=7
+test $n1 -lt $n2 || echo "Menor"
+echo "Informe usuario:"; read user;
+test "$user" = "Redes" && echo "User: $user" || echo "User: errado"
+echo $user
+echo "Informe usuario:"; read user;
+echo $user
+user=Redes
+test "$user" = "Redes" && echo "User: $user" || echo "User: errado"
+cd bin
+cat idade
+idade
+vi teste
+chmod +x teste
+teste
+vi teste
+teste
+num= 7
+num=7
+nem=9
+if teste $num -lt $num2; then echo "Menor"; else echo "Maior"; fi
+vi teste
+teste
+vi teste
+./relacao 3 5
+vi relacao
+chmod +x relacao
+relacao
+vi relacao
+relacao
+vi relacao
+relacao
+vi relacao
+relacao 2 5
+relacao 6 1
+vi relacao
+relacao 6 1
+relacao 8 8,
+relacao 8 8
+vi grudados
+chmod +x grudados
+junta tudo não sei o que dizer
+grudados junta tudo não sei o que dizer
+preta@local:~/bin$ num=7
+preta@local:~/bin$ nem=9
+preta@local:~/bin$ if teste $num -lt $num2
+> then echo "Menor"
+> else
+> echo "Maior"
+> fi
+exit
+cd bin
+cat
+cat zerada
+cat zeradas
+cat zerado
+cd ..
+cat zerada
+zerada
+cd binn
+cd bin
+zarada
+man cat
+cat primeiro
+cd ..
+primeiro
+cat -n primeiro
+cd bin
+cd ..
+cat Andressa
+ls -l
+cat Marques
+cat -n Marques
+echo $variavel | cut -c1 -5
+echo $variavel | cut -c1-5
+top -bn1 | cut -c7-14
+echo $minhavar | cut -c1-5
+top -bn1 | cut -c7-14
+etc/passwd
+cd bin
+etc/passwd
+cd ..
+/etc/passwd
+cd binn
+cd bin
+/etc/passwd
+cut -d: -f1 /etc/passwd
+man cut
+cut -d primeiro
+exit
+cat > camp
+cut -d, -f1 camp
+cut -d, -f2 camp
+cat camp
+cat > camp
+cut -d, -f2 camp
+man cut
+top -bn1
+top -bn1 | cut -c7-14
+man cut
+/etc/passwd | cut -c7-14
+man cut
+cat zerada
+cat Marques
+man find
+find -Marques
+find -name
+find -sistema Marques
+find -name Marques
+man grep
+cat Andressa  
+cat Andressa  vim
+cat Andressa vim
+ls -l
+cat Silva
+cat Silva | grep te: 
+cat Silva | grep te: | cut -d:
+cat Silva | grep homem:
+cat Silva | grep homem
+cat Silva | grep -x homem
+grep -s servidor
+man grep
+cat Silva | grep -i homem
+cat Silva | grep -x homem
+cat Silva | grep -w homem
+man grep
+vi trabalho
+./user logado lohn
+./userLogado lohn
+./userLogado lohn.sh
+./userLogado.sh
+./userLogado lohn
+cd bin
+./userLogado lohn
+./userLogado lohn.sh
+cd ..
+./userLogado lohn.sh
+./userLogado lohn
+chmod x+ trabalho
+./userLogado lohn
+./trabalho
+chmod x+ trabalho
+chmod +x trabalho
+./trabalho lohn
+./trabalho 
+vi simnao
+cd bin
+vi script
+vi script 
+chmod +x script
+./script
+vi script 
+cat Marques
+ls -l
+cat teste
+cat nome
+vi marques
+cat marques
+vi marques
+chmod +x marques
+./marques
+vi marques
+vi script 
+vi silva
+chmod +x silva
+./silva
+vi silva
+./silva
+vi script 
+./script
+vi script 
+vi silva
+vi marques
+./script
+ls -l
+cd ..
+ls -l
+cat Silva
+vi Silva
+path marques
+cd bin
+vi silva
+cat silva
+vi silva
+vi marques
+cat marques
+./script
+vi marques
+vi script
+./script
+/etc/passwd
+cd /etc/passwd
+vi script
+./script
+vi script
+./script
+vi script
+./script
+vi siva
+vi silva
+vi marques
+cd ..
+exit
+cd bin
+vi silva
+vi marques
+cd ..
+exit
+ls- l
+ls -l
+cat cmp
+cat camp
+cat case
+cd bin
+ls -l
+cat else
+cat fi
+cat grudados
+cat idade
+cat marques
+cat nome
+cat primeiro
+cat relacao
+./relacao
+./case
+cd ..
+./case1
+./case
+cd bin
+./case1
+ls l
+ls -l
+cd ..
+ls -l
+cat comando
+vi comando 
+vi case
+./case
+1
+cd bin
+vi script 
+vi saida
+vi script 
+./script
+vi script 
+ls -la
+$echo $script
+$echo $path
+vi script 
+./script
+vi script 
+./script
+cd ..
+$ echo $ path 
+$ echo $path 
+echo $PATH
+cd bin
+vi script 
+./script 
+cat saida
+vi saida
+./script 
+vi script 
+./script 
+vi script 
+./script 
+vi script 
+./script 
+vi script 
+./script 
+vi script 
+./script 
+ls -l
+vi menu
+vi zarada
+vi zerada
+cd bin
+ls -l
+vi grudados
+vi rçelacao
+vi relacao
+vi idade
+exit

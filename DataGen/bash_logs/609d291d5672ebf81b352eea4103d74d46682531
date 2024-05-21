@@ -1,0 +1,1270 @@
+vi
+Mcedit
+clear
+mcedit
+clear
+nano
+vi RafaelEspindolaVIM
+mcedit rafaelespindolavim
+mcedit RafaelEspindolaVIM
+vi RafaelEspindolaVIM
+cat RafaelEspindolaVIM
+less RafaelEspindolaVIM
+nano RafaelEspindolaNANO
+cat RafaelEspindolaNANO
+mcedit RafaelEspindolaMCEDIT
+cat RafaelEspindolaMCEDIT
+exit
+cat RafaelEspindolaVIM
+vi  RafaelEspindolaVIM
+cat RafaelEspindolaVIM
+nona  RafaelEspindolaNONA
+exit
+vim RafaelEspindolaVIM
+$pathn
+$path
+$PATH
+help
+vim
+vim RafaelEspindolaVIM
+clear
+$PATH
+mkdir bin
+cd bin
+vi primeiro
+primeiro
+ls
+vi primeiro
+chmod +x primeiro
+ls -la
+primeiro
+vi primeiro
+primeiro
+df
+clear
+df
+clear
+vi primeiro
+primeiro
+ls -l
+primeiro
+clear
+primeiro
+df /dev/xvda1
+date
+df
+df /dev
+clear
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+clear
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+clear
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+clear
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+clear
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+exit
+ls
+cd bin/
+ls
+primeiro
+exit
+VARIAVEL="estou sem ideias"
+echo $VARIAVEL
+echo $VARIAVEL $VARIAVEL
+VARIAVEL = "estou sem ideias"
+echo $VARIAVEL $VARIAVEL
+vim primeiro
+cd bin
+vim primeiro
+cd..
+..
+..cd
+../
+.
+../
+cd
+data=$date
+$data
+echo $date
+HOJE=$(date)
+echo $HOJE
+echo "HOje : $HOJE"
+echo "Hoje  : $HOJE"
+HOJE=`date`
+echo "Hoje e: $HOJE"
+unset HOJE
+echo $HOJE
+cat -n primeiro
+cd bin
+cat -n primeiro
+cat  primeiro
+cat -- primeiro
+cat --5 primeiro
+cat --number primeiro
+cat -n primeiro
+vim primeirp
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeir
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+man date
+vim primeiro
+clear
+primeiro
+exit
+cd bin
+ls
+primeiro
+clear
+vim trabalho0304
+vim resenha
+vim trabalho0304
+trabalho0304
+chmod +x trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+clear
+trabalho0304
+clear
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+clear
+trabalho0304
+clear
+trabalho0304
+./primeiro
+vim trabalho0304
+./primeiro
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+cat trabalho0304
+cat -n trabalho0304
+vim trabalho0304
+trabalho0304
+cat -n trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+cat -n primeiro
+vim trabalho0304
+man cat
+vim trabalho0304
+clear
+trabalho0304
+vim trabalho0304
+ls
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+cd bin
+vim trabalho0304
+cd bin
+vim trabalho0304
+trabalho0304
+cd bin
+vim trabalho0304
+cd bin
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+clear
+trabalho0304
+clear
+vim trabalho0304
+clear
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+rev
+rev vamos fazer um teste
+cd bin
+cat -n trabalho0304 
+cd bin
+ls
+pwd
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+d
+vim trabalho0304 
+d
+trabalho0304 
+vim trabalho0304 
+vim resenha
+vim trabalho0304 
+trabalho0304 
+cd bin
+vim trabalho0304 
+trabalho0304 
+cd bin
+vim trabalho0304 
+man sed
+vim trabalho0304 
+sed 5d resenha
+vim trabalho0304 
+trabalho0304 
+chmod 444 resenha
+ls l
+ls -l
+trabalho0304 
+chmod 777 resenha
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+cat -n resenha
+cd bin
+cat trabalho0304 | sort
+cat trabalho0304 | sort 10
+man cat
+cat trabalho0304 | cut "echo" | sort
+cat trabalho0304 | cut -d "echo" | sort
+cat trabalho0304 | cut -d "echo" -f1 | sort
+cat trabalho0304 | cut  "echo" -f1 | sort
+cat trabalho0304 | cut  -f1 | sort
+cat trabalho0304 | cut -f1 | sort
+cat trabalho0304 | cut -d "."  -f1 | sort
+cat trabalho0304 | cut -d ":"  -f1 | sort
+cat trabalho0304 | cut -d "."  -f1 | sort
+cat trabalho0304 | cut -d ":"  -f1 | sort
+cut -d ":" -f1 | sort
+cd bin
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+exit
+cd bin
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+cd bin
+trabalho0304
+vim trabalho0304 
+trabalho0304
+exit
+cd bin
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 [A
+vim trabalho0304 
+trabalho0304 [A
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+cd bin
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+cat -n trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+cat -n trabalho0304 
+exit
+cd bin
+vim trabalho0304 
+uniq trabalho0304 
+man uniq
+man cat
+primeiro
+resenha
+vim resenha
+cat resenha
+cat -n resenha
+exit
+cd bin
+trabalho0304 
+vim trabalho0304 
+n1=6
+n2=7
+test "$n1" -gt "n2" && echo "maior" || echo "menor"
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+n1=8
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+echo "Informe usurio:"; read user;
+test "$user" = "Redes" && "User: $user" || echo "User: errado"
+echo "Informe usurio:"; read user;
+cat -n trabalho0304 
+trabalho0304 
+man cut
+clear
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+clear
+echo "Informe usurio:"; read user;
+vim trabalho0304 
+uniq
+vim exercicio0703
+uniq
+vim exercicio0703
+exercicio0703
+chmod +x exercicio0703 
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+12
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+vim exercicio0703
+exercicio0703
+exit
+cd bin
+trabalho0304
+vim trabalho0304
+exit
+cd bin
+ls
+vim trabalho0304 
+ls
+vim trabalho0304 
+trabalho0304 
+vim teste
+chmod +x teste
+teste
+vim teste
+man
+man uniq
+vim trabalho0304 
+trabalho0304 
+exit
+cd bin
+vim trabalho0304
+trabalho0304
+vim trabalho0304]
+vim trabalho0304
+trabalho0304
+clear
+vim trabalho0304
+exit
+cd bin
+ls
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+cat -n trabalho0304
+vim trabalho0304
+trabalho0304
+vim trabalho0304
+trabalho0304
+..
+cd
+clear
+num=7
+num2=9
+if test $num -lt $num2; then echo "Menor"; else echo "Maior"; fi
+clear
+num=7
+num2=9
+if test $num -lt $num2; then echo "Menor"; else echo "Maior"; fi
+trabalho0304
+clear
+num=7
+num2=9
+if test $num -lt $num2; then echo "Menor"; else echo "Maior"; fi
+num=71
+num2=9
+if test $num -lt $num2; then echo "Menor"; else echo "Maior"; fi
+num2=93
+if test $num -lt $num2; then echo "Menor"; else echo "Maior"; fi
+num2=936
+num=936
+if test $num -lt $num2; then echo "Menor"; else echo "Maior"; fi
+num=7
+num2=9
+if test $num -lt $num2; then echo "Menor"; else echo "Maior"; fi
+valores 8 9
+./valores 8 9
+clear
+vim exercicio1403
+exercicio1403
+chmod +x exercicio1403 
+exercicio1403
+chmod +x exercicio1403 
+ls -l
+cd bin
+vim exercicio1403
+chmod +x exercicio1403 
+exercicio1403
+vim exercicio1403
+exercicio1403
+vim exercicio1403
+exercicio1403
+vim exercicio1403
+exercicio1403
+exercicio1403 5 6
+exercicio1403 5 5
+exercicio1403 5 3
+vim exercicio1403
+exercicio1403 5 4
+exercicio1403 5 
+exercicio1403 5 56
+exercicio1403 5 4
+vim exercicio1403
+exercicio1403 5 4
+exercicio1403 5 6
+vim exercicio1403
+exercicio1403 5 6
+exercicio1403 6 6
+exercicio1403 6 7
+exercicio1403
+exercicio1403 600254 7231561
+vim exercicio1403
+exercicio1403 6 7
+vim exercicio1403
+exercicio1403 6 7 nao sei o que digitar
+vim exercicio1403
+exercicio1403 6 7 nao sei o que digitar
+vim exercicio1403
+exercicio1403 6 7 nao sei o que digitar
+man cut
+vim exercicio1403
+exercicio1403 6 7 nao sei o que digitar
+vim exercicio1403
+exercicio1403 6 7 nao sei o que digitar
+exercicio1403 6 7 nao sei o que digitar ui
+exit
+ls
+cd bin
+mkdir Exercicios
+move exercicio0703 Exercicios
+man mv
+mv exercicio0703 Exercicios
+ls
+mv exercicio1403 Exercicios
+ls
+cd exercicios
+ls
+cd Exercicios
+ls
+cd..
+:
+..
+cd
+ls
+rm exercicio1403 
+ls
+cd
+cd bin
+ls
+tr
+trabalho0304 
+man uniq
+vim trabalho0304 
+man uniq
+trabalho0304 
+man uniq
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+cat -n primeiro
+vim trabalho0304 
+cat -n primeiro
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+cat -n primeiro
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+exit
+cd bin
+vim trabalho0304 
+trabalho0304 
+cat trabalho0304 
+cat primeiro
+rev primeiro
+rev resenha
+vim trabalho0304 
+trabalho0304 
+man seq
+seq -n primeiro
+seq --help
+seq -s primeiro
+seq -s  primeiro
+seq -s a  primeiro
+seq -s a ./ primeiro
+seq -s primeiro
+seq -s ewawnha
+seq -s
+seq -s --
+seq -s -- primeiro
+exit
+cd bin
+trabalho0304 
+vim trabalho0304 
+man tr
+vim trabalho0304 
+man tr
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+s
+vim trabalho0304 
+s
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+cat -n primeiro
+cat -n trabalho0304 
+vim trabalho0304 
+cat -n trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+xit
+exit
+cd bin
+cd Exercicios/
+vim zerador
+chmod +x zerador 
+zerador
+./zerador
+vim zerador
+./zerador
+vim zerador
+./zerador
+man for
+vim zerador
+man for
+./zerador
+vim zerador
+./zerador
+vim zerador
+./zerador
+vim zerador
+./zerador
+vim -n zerador
+./zerador
+vim -n zerador
+./zerador
+vim -n zerador
+./zerador
+vim -n zerador
+./zerador
+vim -n zerador
+./zerador
+vim -n zerador
+cd bin
+cd Exercicios/
+ls
+vim exercicio1403 
+cd bin
+vim trabalho0304 
+cd Exercicios/
+ls
+vim zerador 
+./zerador
+vim zerador 
+cd bin
+vim primeiro
+trabalho0304
+vim primeiro
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+vim simNao
+ls
+cd Exercicios
+ls
+vim trabalho0304 cd
+cd
+vim trabalho0304 
+cd bin
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+vim -n trabalho0304 
+trabalho0304 
+vim -n trabalho0304 
+trabalho0304 
+vim -n trabalho0304 
+trabalho0304 
+vim -n trabalho0304 
+trabalho0304 
+vim -n trabalho0304 
+trabalho0304 
+vim -n trabalho0304 
+trabalho0304 
+vim -n trabalho0304 
+trabalho0304 
+vim trabalho0304 
+vim teste
+teste
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+cat -n trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+teste
+vim teste
+teste
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+exit
+cd bin
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+n
+trabalho0304
+vim trabalho0304 
+trabalho0304
+exit
+cd bin
+cut --help
+cut -c a e i
+man cut
+cut -c resenha
+cut -c --a- resenha
+cut -c=as resenha
+date
+cut -d- :f2 date
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+seq --help
+vim teste
+seq --help
+teste
+seq --help
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+cat -n resenha
+teste
+vim teste
+teste
+seq --hekp
+seq --help
+seq 5
+vim teste
+seq 5
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+vim zrador
+vim zerador
+vim Zerador
+ls
+cd Exercicios
+ls
+vim exercicio0703
+vim exercicio1403
+vim exercicio2003
+exercicio2003
+.\exercicio2003
+./exercicio2003
+cd
+cd bi
+cd bin
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+cd bin
+ls
+vim simNao
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+vim trabalho0304 
+trabalho0304
+cat -n trabalho0304
+cat trabalho0304
+exit
+cd bin
+vim trabalho0304 
+trabalho0304
+vim trabalho0304
+vim testecase
+testecase
+vim testecase
+testecase
+vim testecase
+testecase
+vim testecase
+testecase
+vim testecase
+testecase
+vim testecase
+testecase
+cd bin
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+exit
+man pwd
+pwd --help
+pwd help
+pwd -help
+find --help
+cd bin
+vim
+vim trabalho0304 
+vim
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+./exercicio1403
+vim trabalho0304 
+./exercicio1403
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+clear
+trabalho0304 
+clear
+vim trabalho0304 
+clear
+trabalho0304 
+exit
+cd bin
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+cd Exercicios
+ls
+cd
+cd bin
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+vim teste
+teste
+exit
+cd bin
+trabalho0304 
+vim trabalho0304 
+date
+ls
+cd backup
+ls
+trabalho0304 
+./trabalho0304.backup 
+cd
+exit
+cd bin
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+uniq -cd primeiro
+uniq -c primeiro
+uniq -c -d primeiro
+uniq -d primeiro
+uniq -c primeiro
+vim trabalho0304 
+uniq -c primeiro
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+exit
+cd bin
+trabalho0304 
+cd bin
+vim trabalho0304 
+cd bin
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+vim trabalho0304 
+trabalho0304 
+cd bin
+trabalho0304 
+exit

@@ -1,0 +1,17 @@
+sudo cat /var/jenkins_home/secrets/initialAdminPassword
+cat /var/jenkins_home/secrets/initialAdminPassword
+ls
+cd home/
+ls
+cd ../var/www/html
+ls
+cd ../var/www/
+cd ../var/
+ls
+exit
+cd var
+ls
+cd jenkins_home/
+ls
+ls
+exit

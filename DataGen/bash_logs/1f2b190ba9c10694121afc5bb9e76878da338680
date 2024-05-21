@@ -1,0 +1,215 @@
+su
+ifconfig
+putty
+putty lo.hn
+clear
+[
+clear
+exit
+ls
+la -la
+vi teste
+dir
+ls -la
+cat teste
+vi teste
+cat teste
+pico teste
+exit
+ifconfig
+echo $PATH
+mkdir bin
+cd bin
+vi primeiro
+chmod +x primeiro
+ls -l
+ls -la
+primeiro
+cd primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+df -h
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+primeiro 
+vi primeiro
+fg
+cd bin
+ls
+vi primeiro
+primeiro
+exit
+cd bin
+vi primeiro
+cat -n primeiro
+vi primeiro
+primeiro
+n
+vi primeiro
+primeiro
+man cat
+man cut
+exit
+primeiro
+fg
+primeiro
+vi primeiro
+cd \bin
+vi primeiro
+ls
+ls -la
+lala=xxx
+echo lala
+echo $lala
+VARIAVEL="estou sem ideias"
+echo $variavel
+VARIAVEL= "estou sem ideias"
+VARIAVEL="estou sem ideias"
+echo $VARIAVEL
+VARIAVEL=estou sem ideias
+VARIAVEL="estou sem ideias"
+echo $VARIAVEL 
+ECHO $VARIAVEL $VARIAVEL
+echo $VARIAVEL $VARIAVEL
+ECHO $VARIAVEL$VARIAVEL
+echo $VARIAVEL$VARIAVEL
+HOJE='date'
+
+HOJE=$(date)
+echo "Hoje e: $HOJE"
+DATE
+date
+JONATA=lindo
+echo $JONATA
+JONATA=jonata Lindo
+JONATA=$jonata$Lindo
+echo $JONATA
+PA="jonata lindo"
+echo $JONATA
+echo $PA
+unset HOJE
+echo $HOJE
+unset HOJE
+echo $HOJE
+cat-n primeiro
+cat -n primeiro
+act
+cat
+cat primeiro
+cat -n primeiro
+$PAth
+$PAFH
+$PATH
+cleanr
+cleaer
+clear
+man cat
+wc primeiro
+sort primeiro
+vi primeiro
+ser primeiro
+seq primeiro
+grep primeiro
+grep -i primeiro
+seq -n primeiro
+seq -n
+clear
+vi primeiro
+cd ...
+cd ..
+ls
+ls -la
+cd bin
+ls ls
+ls-
+ls -la
+ls --l
+ls -l
+ls
+cd ..
+cd /bin
+ls
+ls -la
+vi primeiro
+cd ..
+cd bin
+ls
+cd ..
+cd bin
+ls
+primeiro
+exit
+primeiro
+vi primeiro
+vim primeiro
+vi primeiro
+vls
+lsls
+ls
+vi teste
+ls
+cd bin
+ls
+vi primeiro
+ls
+cd lohn 
+nano lohn 
+vi lohn 
+cat lohn 
+./lohn
+chmod o+x lohn 
+./lohn
+ls -l
+chmod +x lohn 
+./lohn
+vi lohn 
+./lohn
+vi lohn 
+./lohn
+ls -l
+touch chiquinha
+./lohn chiquinha
+ls
+vi chiquinha 
+rm -r chiquinha 
+ls
+nano lohn 
+ls -l
+vi lohn 
+vi teste
+ls
+cat teste 
+./tes
+./teste
+chmod +777 teste 
+chmod 777 teste 
+ls
+ls -l
+./teste
+teste
+vi teste
+cat teste 
+./teste
+vi teste 
+cat teste 
+./teste
+clar
+clear
+vi teste2
+chmod +x teste2
+ls -l
+;/teste2
+./teste2
+vi teste2
+exit

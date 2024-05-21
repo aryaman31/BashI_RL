@@ -1,0 +1,64 @@
+yum install fuse-devel
+yum install gcc
+vi /etc/sysconfig/kernel 
+cd /etc
+ls
+grep -i fr *
+env | more
+export LANG=us_US.UTF-8
+man ls
+yum install gcc
+vi /etc/bashrc 
+grep LANG /etc/*
+grep LANG /etc/* | less
+vi /etc/locale.conf 
+reboot
+yum search locale
+yum install glibc-langpack-en*
+man ls
+man ls > /dev/null
+yum search locale
+yum search locale | grep us
+yum search locale | less
+pwd
+cd /etc
+grep kbd *
+grep kbd */*
+grep kbd */* | less
+ls
+cd init.d/
+ls
+cd ..
+ls
+grep localectl init.d/*
+grep localectl init.d/*/*
+grep localectl *
+grep localectl * 2>/dev/null
+grep localectl */* 2>/dev/null
+ls
+pwd
+yum help
+yum help | less
+yum help 
+man id
+ls
+id
+cat /etc/vconsole.conf 
+vi /etc/vconsole.conf 
+reboot
+yum install mlocate
+updatedb
+env
+man LANG
+man LC_LOCATE
+ls /usr/lib/locale/
+export LANG=en_US.UTF-8
+man ls
+vi /etc/vconsole.conf 
+echo $LANG
+cd /etc/locale.conf 
+vi /etc/locale.conf 
+reboot
+df
+ls /usr/include/fuse
+poweroff

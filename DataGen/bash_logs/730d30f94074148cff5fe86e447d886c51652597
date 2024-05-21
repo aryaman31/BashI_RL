@@ -1,0 +1,379 @@
+ls-l
+mkdir leandro
+ls -l
+touch teste
+ls-l
+ls -l
+ls-l
+cd leandro
+ls -l
+-d
+cd leandro
+ls -l
+vi teste
+n1=6 
+n2=7
+test "n'" -gt "$sn" && echo "Maior" || echo "Menor"
+test "n1" -gt "$sn2" && echo "Maior" || echo "Menor"
+test "$n1" -gt "$n2" && echo "Maior" || echo "Menor"
+test "$n8" -gt "$n2" && echo "Maior" || echo "Menor"
+test "$n4" -gt "$n2" && echo "Maior" || echo "Menor"
+n1=8
+n2=4
+test "$n8" -gt "$n4" && echo "Maior" || echo "Menor"
+cd leandro
+ls -l
+n1=6
+n2=7
+test $n1 -lt $n2 || echo "Menor"
+n1=8
+n2=7
+test $n1 -lt $n2 || echo "Menor"
+echo "Informe usurio:"; read user;
+echo "Informe usurio:"; read user; 
+test "$user" = "redes" $$ echo "user: $user" || echo "User:errado"
+echo "Informe usurio:"; read user;
+test "$user" = "redes" $$ echo "user: $user" || echo "User:errado"
+test "$user" = "redes" && echo "user: $user" || echo "User:errado"
+cd bin
+mkdir bin
+ls -l
+cd bin
+ls-l
+end
+$leandro
+./leandro
+ls -l
+exit
+testaArquivo
+$16
+cd bin
+ls -l
+cd bin
+Digite sua idade
+digitea primeira idade
+su
+vim leandro
+mkdir idade
+cd idade
+ls -l
+vim idade
+./idade
+chmod +x idade
+./idade
+chmod +x idade
+chmod +x $idade
+chmod +x idade
+./idade
+chmod +x idade
+ls -l
+./idade
+exit
+vim nomes
+chmod +x idade
+./idade
+chmod +x idade
+./idade
+ls
+cd idade
+ls
+cd idade
+cat idade
+ls -l
+idade
+./idade
+vi idade
+fg
+ps ax | grep vi
+fg
+]
+vi idade
+./idade
+vi idade
+rm .idade.swp 
+vi idade
+./idade
+rm .idade.swp 
+end
+exit
+mkdir idade
+ls-l
+cd idade
+ls -l
+vim idade
+ls-l
+ls
+cd leandro
+ls -l
+ls > leandro
+cat leandro
+rev leandro
+wc leandro
+vi leandro
+wq!
+xit
+exit
+cd leandro
+ls -l
+vim leandro
+end
+xit
+exit
+cd leandro
+ls -l
+vim leandro
+exit
+vim leandro
+exit
+vi aluno
+./aluno
+chmod +x aluno
+./aluno
+vi aluno
+./aluno
+vi aluno
+./aluno
+vi aluno
+./aluno
+vi aluno
+./aluno
+vi aluno
+./aluno
+vi aluno
+./aluno
+vi aluno
+./aluno
+vi aluno
+./aluno
+vi aluno
+ls -l
+vim aluno1
+ssh leandro@local.lo.hn
+ls -l
+cd trabalho
+vim trabalho
+vim testetrabalho
+ls -l
+cd trabalho
+vim trabalho
+vim teste
+vim testetrabalho
+vim leandro
+ls -l
+cd leandro
+ls -l
+vim trabalho
+cd trabalho
+vim testetrabalho
+cd bin
+ls -l
+cd trabalho
+ls -l
+exit
+vim trabalho
+mkdir teste
+mkdir testetrabalho
+ls -l
+vim trabalho
+cd testetrabalho
+cd...
+ls -l
+cd testetrabalho
+vim trabalho
+vim trabalhp
+vim trabalho
+cd testetrabalho
+mkdir testetrabalho
+ls -l
+cd trabalho
+vim trabalho
+./trabalho
+chmod +x trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+ls -l
+end
+clear
+ls -l
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+mkdir varialvel
+ls -l
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+ls - l
+ls-la
+ls
+ls l
+ls -l
+mkdir avaliação
+ls -l
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+set
+./trabalho
+vim trabalho
+./trabalho
+nov
+./nov
+vim trabalho
+./nov
+./trabalho
+vim trabalho
+./trabalho
+jan
+./jan
+vim trabalho
+./trabalho
+vim trabalho
+./trabalho
+vim trabalho
+ls -l
+cd avaliação
+cd..
+cd
+ls -l
+cd leandro
+vim leandro
+vim trabalho
+clear
+ls -l
+vim trabalho
+vim bin
+cd trabalho
+cd;;
+cd...
+ls -lç
+ls -l
+cd trabalho
+vim trabalho
+clear
+ls -l
+clear
+cd trabalho
+ls-l
+su
+calr
+clear
+su
+ssh lo.hn -l leandro
+ls -l
+vim trabalho
+cd trabalho
+ls 
+cd trabalho
+vim trabalho
+vim testetrabalho
+vim trabalho
+vi trabalho
+vim testetrabalho
+./trabalho
+chmod +x trabalho
+./trabalho
+vim testetrabalho
+./trabalho
+vim testetrabalho
+./trabalho
+vim testetrabalho
+vim leandro
+vim exercio
+./exercicio
+./exercio
+chmod +x exercio
+vim exercio
+./exercio
+vim exercio
+./exercio
+vim exercio
+./exercio
+vim exercio
+./exercio
+vim exercio
+./exercio
+vim exercio
+./exercio
+vim exercio
+./exercio
+vim exercio
+./exercio
+vim exercio
+./exercio
+vim exercio
+./exercio
+vim exercio
+./exercio
+vim exercio
+./exercio
+vim exercio
+vim teste
+./teste
+vim exercio

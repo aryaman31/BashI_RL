@@ -1,0 +1,224 @@
+#!/bin/sh 
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+PATH=/bin:/usr/bin
+PROG=`basename "$0"`
+USAGE="usage: ${PROG} [-p prompt] -x execScript"
+PROMPT=NO
+STATUS=-1
+fail() {   echo $@ >&2;   exit 1; }
+doExit() {   echo ${STATUS} > "${SHFILE}.res";   exit ${STATUS}; }
+[ $# -lt 1 ] && fail $USAGE
+#!/bin/sh 
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+PATH=/bin:/usr/bin
+PROG=`basename "$0"`
+USAGE="usage: ${PROG} [-p prompt] -x execScript"
+PROMPT=NO
+STATUS=-1
+fail() {   echo $@ >&2;   exit 1; }
+doExit() {   echo ${STATUS} > "${SHFILE}.res";   exit ${STATUS}; }
+[ $# -lt 1 ] && fail $USAGE
+git--version
+git --version
+cd ~/Desktop/Git
+clear
+cd ~/Desktop/Git
+cd ~/Desktop/Git
+clear
+cd ~/Desktop/Git
+cd ~/Git
+git init
+clear
+git --version
+Kai Nguyen
+clear
+cd ~/Kai/Git
+clear
+cd ~/Git
+git init
+ls -la
+git add index.html
+git status
+git add .
+git status
+git commit -m "revision one"
+git log
+cd ~/Desktop/GitProject
+clear
+git --version
+git init
+git add index.html
+clear
+cd ~/Kai/GitProject
+cd ~/GitProject
+git init
+git add index.html
+git status
+git add .
+git status
+git commit -m "revision one"
+clear
+git log
+git config --global user.email "tnguy34@gmu.edu"
+git config --global user.name "Kai Nguyen"
+clear
+git log
+git commit m- "revision two"
+clear
+git log
+clear
+cd ~/GitTutorial
+git init
+git add index.html
+git status
+git status
+git add .
+git status
+git config --global user.email "allenkain3@gmail.com"
+git config --global user.name "Kai Nguyen"
+git config --list
+git commit -m "revision one"
+git status
+clear
+git log
+git status
+git checkout index.html
+git status
+git add .
+clear
+git status
+git status
+clear
+git status
+git reset HEAD index.html
+git status
+git add .
+git status
+git commit -m "revision two"
+clear
+git status
+git status
+git add index.html
+git commit -m "revision three"
+git status
+git log
+clear
+git status
+git checkout about.html
+git status
+git status
+git add about.html
+clear
+git status
+git reset HEAD about.html
+git status
+git rm about.html
+git status
+git reset HEAD about.html
+git checkout about.html
+clear
+git status
+git rm about.html
+git reset HEAD about.html
+git checkout about.html
+git status
+git add -all
+git add --all
+git reset HEAD about.html
+git checkout about.html
+git status
+clear
+git log
+git checkout 3005364b17b8101498162104fe7a4842bee0d782
+clear
+git log
+git status
+git add .
+git commit -m "alternate one"
+clear
+git log
+git branch
+git checkout mastr
+git checkout master
+clear
+git log
+git branch alternate 2ccf4ca
+clear
+git branch
+git checkout alternate
+git log
+clear
+git checkout master
+git branch app01
+git branch
+git checkout app01
+git add .
+git commit -m "revision four"
+clear
+git log
+clear
+git branch
+git checkout master
+git merge app01
+clear
+git log
+git branch
+git branch -m app01 app1
+git branch
+clear
+git branch
+git branch -D alternate
+git branch
+pwd
+cd ~/
+git clone https://github.com/allenkain3/Java.git
+cd Java
+npm install
+gulp
+git status
+git log
+git branch -a
+clear
+cd ~/
+git clone -b master https://github.com/allenkain3/Java.git
+cd ~/Java2
+git clone -b master https://github.com/allenkain3/Java.git
+git log
+git log
+cd Java
+git log
+clear
+git init
+git log
+git add .
+git commit -m "first commit"

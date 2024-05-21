@@ -1,0 +1,154 @@
+echo #PATH
+mkdir bin
+cd bin
+nano primeiro
+chmod +x primeiro
+ls -la
+primeiro
+nano primeiro
+clear
+cd bin
+n1=4
+n2=5
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+n1=
+n2=4
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+ssh -C guizandonai@lo.hn
+clear
+vim gui
+./gui
+local.lo.hn
+su
+clear
+/bin
+cd bin
+#!/bin/bash
+for i in $ (seq $1 -1 0)
+vim teste
+./teste
+cd..
+cd
+clear
+cut -d /etc/passwd
+cut --help
+clear
+minhaVar=TestandoIssoAqui
+echo $minhaVar | cut -c1-5
+cat > camp
+cut -d, -f2 camp
+cut -d, top'bn1
+
+
+
+for i in "cut -d: f1 /etc/passwd
+cut -d: f1 /etc/passwd
+cut d: -f1 /etc/passwd
+half 
+hlp
+halt 'n
+halt 0
+su
+cd
+vim teste.sh
+chmod +x teste.sh
+ls -l
+ls
+./teste
+./teste.sh
+chmod +x teste.sh
+./teste.sh
+cd bin
+./teste.sh
+vim teste.sh
+chmod +x teste.sh
+./teste.sh
+clear
+echo $PATH
+cd..
+cd
+mkdir bin
+cd bin
+vi primeiro1
+chmod +x primeiro1
+ls -l
+primeiro1
+./primeiro1
+./primeiro1.sh
+clear
+cd bin
+vim problema
+./problema.sh
+./problema
+chmod +x problema
+./problema
+./problema.sh
+vim problema.sh
+./problema.sh
+./problema
+chmod +x problema.sh
+./problema
+./problema.sh
+clear
+chmod +x problema
+./problema.sh
+vim problema.sh
+clear
+cd..
+cd
+cd /bijn
+cd /bin[
+cd /bin
+clear
+vim trabalho.sh
+cut
+cut man
+cd
+cut
+ifconfig
+cat /etc/passwd | cut -d: -f5
+haoua
+clear
+cat /etc/passwd | cut -d: -f5,2
+cat /etc/passwd | cut -c 1-10
+claer
+clear
+/bin
+cd /bin
+clear
+vi teste.sh
+./teste.sh
+ls -l teste.sh
+clear
+cd
+cd /tmp
+clear
+vi teste10.sh
+./teste10.sh
+./teste10
+ls 
+ls -l
+ls -l teste10.sh
+ls -l teste10
+cd
+cd /bin
+ls -l trabalho.sh
+ls -l trabalho
+ls -l 
+ls
+cd
+ls
+cd /bin
+ls- l
+ls
+ls -l
+./trabalholohn.sh
+vim trabalholohn.sh
+ls
+./trabalholohn.sh
+vim trabalholohn.sh
+clear
+vim trabalholohn.sh
+./trabalholohn.sh
+clear
+vim trabalholohn.sh

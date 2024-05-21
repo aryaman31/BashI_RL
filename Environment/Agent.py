@@ -2,8 +2,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from Environment.state import State
-from Environment.actions.Action import Action
+from Environment.State import State
+from Environment.Actions.Action import Action
 
 # Needs to implement DQN properly with target and policy net. 
 class Agent: 

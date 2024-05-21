@@ -1,0 +1,24 @@
+rails new proje
+cd proje
+rails g scaffold alimsatim urunadi bilgiler:text fiyat:integer
+rake db:migrate
+bundle
+rails g paperclip alimsatim resim
+rake db:migrate
+cd proje
+rails s
+bundle
+rails s
+cd proje
+source <(egrep -v 'declare -x TMUX|declare -.?r ' /home/ubuntu/.tmux/sessions-old/cecxxmj2wfa/vars.txt) && cd ${PWD}
+rails s
+cd proje
+rails s
+cd proje
+rails s
+cd proje
+rails s
+git init
+git config --global user.name "webprogramlama"
+git config --global user.email "cagdaskrc@gmail.com"
+git remote add origin https://github.com/cagdaskaraca/webprogramlama.git

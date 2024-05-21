@@ -1,0 +1,72 @@
+ls /
+clear
+mkdir wss
+ls 
+mkdir william
+pico
+ls -l
+exit
+clear
+nano w
+w
+ls
+./w
+nano w
+./w
+nano w
+./w
+exit
+exit
+clear
+ls -l
+nano williamNANO
+cat williamNANO
+ls -l
+chmod -R 777 *
+ls -l
+clear
+mcedit williamMCEDIT
+ls -l
+chmod -R 777 *
+ls -l
+exit
+clear
+nano primeiro
+nano primeiro
+nano primeiro
+primeiro
+primeiro
+primeiro
+primeiro
+df -h
+df
+du
+du -hs
+du -hs /*
+du -hs *
+exit
+df -h
+du -h
+du -h /
+hitory -c
+exit
+ls -l
+exit
+clear
+nano if
+ls -la
+nano teste
+clear
+nano teste
+nano teste
+clear
+ls -la
+nano shelll
+clear
+grep ^wil
+grep ^wi\
+clear
+cat |sed
+ls -l
+cat williamVIM
+cat williamNANO

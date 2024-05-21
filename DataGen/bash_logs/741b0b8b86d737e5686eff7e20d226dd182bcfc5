@@ -1,0 +1,336 @@
+vi
+vi
+vi prog_gateway
+num=7
+num2=9
+if test $num -lt $num2; then echo "menor"; else echo "maior"; fi
+vi relaçaonumeros
+chmod +x relaçaonumeros
+./ relaçaonumeros 5 10
+./relaçaonumeros 5 10
+./relaçaonumeros 10 50
+./relaçaonumeros 10 5
+./relaçaonumeros 10 10
+exit
+ls-l
+ls -l
+cat camp
+exit
+ls -l
+vim manual.comandos
+vim exemplo
+chmod +x exemplo
+./exemplo
+vim exemplo
+./exemplo
+vim variavel.nome
+ls -l
+vim time.futebol
+chmod +x time.futebol
+./time.futebol
+vim variaveis.ABCD
+chmod +x variaveis.ABCD
+./variaveis.ABCD
+clear
+s=$((3*5))
+echo $s
+unset s
+echo $s
+echo "34 ^ 124" | bc
+vi teste
+exit
+ls -l
+vim teste
+echo "34 ^ 124 | bc"
+echo "34^124 | bc"
+echo "34^124" | bc
+echo "34 ^ 124" | bc
+echo "34 ^ 124" | bin
+echo "34 ^ 124" | bc
+echo "34 ^ 124"
+echo "((34 ^ 124))"
+((34/124))
+s=$((34/124))
+echo $s
+s=$((34/124)) | bc
+cat bc
+cdbin
+cd /bin
+cd /bc
+cd /bin/bc
+ls -l
+cd /
+cd ~$
+cd ~/
+clear
+$s
+echo $
+unset $s
+unset s
+unset $s
+s=$((2/4))
+echo $s
+unset s
+s=$((4/2))
+echo $s
+s=$((4/2.0))
+s=$((4/2,0))
+s=$((4/20))
+echo $s
+s=$((4/2,0))
+echo $s
+s=$((4/0,2))
+v='echo "scale8;2/4" 
+v='echo "scale8;2/4" | bc
+echo $v
+bc man
+man bc
+clear
+ls -l
+vi primeiro
+chmod +x primeiro
+ls -l
+./primeiro
+vi primeiro
+./primeiro
+vi primeiro
+./primeiro
+vi primeiro
+./primeiro
+cat pirmiro
+cat primeiro
+vi primeiro
+./primeiro
+clear
+vi primeiro
+cat primeiro
+ls -l
+rm manual.comandos
+ls -l
+vi atividade.manual.comandos
+ls -l
+exit
+man cat
+ls -l
+rm camp
+ls -l
+chmod 775 atividade.manual.comandos
+ls -l
+sleep 5; clear
+man cut
+man help
+man ifconfig
+ls -l
+vi atividade.manual.comandos
+exit
+ls -l
+vi atividade.manual.comandos
+./atividade.manual.comandos
+vi atividade.manual.comandos
+./atividade.manual.comandos
+vi atividade.manual.comandos
+./atividade.manual.comandos
+vi atividade.manual.comandos
+./atividade.manual.comandos
+vi atividade.manual.comandos
+ls -l
+vi atividade.manual.comandos
+ls -l
+./atividade.manual.comandos
+ls -l
+vi atividade.manual.comandos
+cat atividade.manual.comandos
+exit
+ls -l
+./relaÃ§aonumeros
+./rela?aonumeros
+./relacaonumeros
+./zerador.sh
+vi zerador.sh
+./primeiro
+./atividade.manual.comandos
+./time.futebol
+vi atividade.manual.comandos
+./time.futebol
+vi time.futebol
+vi atividade.manual.comandos
+./atividade.manual.comandos
+vi atividade.manual.comandos
+exit
+./atividade.manual.comandos
+vi atividade.manual.comandos
+ls -l
+vi atividade.manual.comandos
+vi atividade.manual.comandos.swp
+ls -l
+exit
+ls -l
+vi atividade.manual.comandos
+ls -l
+ls
+ls -a
+vi atividade.manual.comandos
+rm atividade.manual.comandos.swp
+rm .atividade.manual.comandos.swp
+ls -a
+vi atividade.manual.comandos
+./atividade.manual.comandos
+vi atividade.manual.comandos
+./atividade.manual.comandos
+cat atividade.manual.comandos
+exit
+ls -l
+vi atividade.manual.comandos
+./atividade.manual.comandos
+vi atividade.manual.comandos
+exit
+ifconfig
+id
+if 
+ls -a 
+exit
+pwd
+ls -a
+cd /
+ls
+sudo ls
+su guest
+who
+ifconfig
+set ifconfig=ip
+ip
+ls
+chmod /home/thiago.inocente
+chmod rwx /home/thiago.inocente
+chmod 777 /home/thiago.inocente
+chmod 777 /root
+chmod 777 /
+useradd hack 777
+useradd
+adduser
+ls
+touch viado
+tail viado
+cat /
+apt
+cd /home
+ls
+who
+cd /home/gabriel.conceicao
+ls
+ls -a
+cat .profile
+ls
+ifconfig
+id
+cd /sbin
+ls
+cd /backup
+cd backup/
+ls
+cat relacaonumeros.backup
+ls
+ls -a
+telnet
+ftp
+cat /home
+cd /home/marcelo
+cd /etc
+ls
+cat passwd
+cd /home/marceloshell
+ls
+cat /etc/shadow
+cat oqissofaz
+cat teste.case.sh
+vi oi.marcelo
+ls
+cat teste.case.sh
+ls -a
+vi atividades.manual.comandos
+cat passwd
+cat /etc/passwd
+cd /home/marceloshell
+ls
+cat oqissofaz
+cp oqissofaz /home/thiago.inocente/
+cd /home/thiago.inocente/
+ls
+cd /home/luana
+ls
+cat scriptrabalho.save
+ls
+cat scriptrabalhoM-D
+cat /etc/passwd
+cd /home/lohn1
+ls
+cd /home/lohn2
+ls
+cd /home/lohn3
+ls
+
+cd /home/lohn4
+ls
+cd /home/lohn5
+ls
+cd /home/lohn
+cd /home/lohn6
+cd /home/lohn3
+l
+cd /home/lohn2
+ls
+exit
+ls -a
+vi atividade.manual.comandos
+./atividade.manual.comandos
+vi atividade.manual.comandos
+vi oqissofaz
+vi atividade.manual.comandos
+vi oqissofaz
+vi atividade.manual.comandos
+vi oqissofaz
+vi atividade.manual.comandos
+vi oqissofaz
+vi atividade.manual.comandos
+vi oqissofaz
+vi atividade.manual.comandos
+vi oqissofaz
+vi atividade.manual.comandos
+vi oqissofaz
+vi atividade.manual.comandos
+vi oqissofaz
+vi atividade.manual.comandos
+vi oqissofaz
+vi atividade.manual.comandos
+vi oqissofaz
+vi atividade.manual.comandos
+vi oqissofaz
+vi atividade.manual.comandos
+./ atividade.manual.comandos
+./atividade.manual.comandos
+./ atividade.manual.comandos
+vi atividade.manual.comandos
+./atividade.manual.comandos
+exit
+ls -a
+pwd
+cd -
+cd home
+cd /home
+ls -a
+ls
+cat
+cat -l
+cat cd /home
+cat /home
+cd homemarceloshel
+cd /home/marceloshel
+cd /thiago.inocente
+cd /home/thiago.inocente
+ls -a
+cd /home/marceloshel
+cat /etc/passwd
+cd /home/thiago.inocente
+vi atividade.manual.comandos
+./atividade.manual.comandos
+exit

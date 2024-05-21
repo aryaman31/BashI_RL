@@ -1,0 +1,131 @@
+pwd
+ssh-keygen 
+cat /home/ec2-user/.ssh/id_rsa.pub
+pwd
+mkdir terraf
+cd terraf/
+git init 
+git remote add origin git@github.com:milanojs/terra_lab5.git
+git fetch --all ; git pull --all
+git branch --set-upstream-to=origin master
+git checkout origin master
+git pull --all
+git status
+git branch -a
+git pull origin/master
+git pull origin master
+git fetch --all 
+git pull --all
+    git branch --set-upstream-to=origin/<branch> master
+    git branch --set-upstream-to=origin/master
+wget https://github.com/cloudacademy/terraform-highly-available-website-on-aws/raw/master/config.zip -O tf.zip
+unzip tf tf.zip 
+ls -laht
+unzip -d tf tf.zip 
+rm tf.zip 
+cd tf/
+cd ..
+ls -laht
+git add tf 
+git config --global user.name "Juan Milano"
+git config --global user.email juan_milano@hotmail.com
+history -w
+git add
+ls -laht
+git status
+git commit -m "agregar primeros tf"
+git push origin master
+wget https://releases.hashicorp.com/terraform/0.11.3/terraform_0.11.3_linux_amd64.zip -O /tmp/tf.zip
+sudo unzip /tmp/tf.zip -d /usr/local/bin
+cd tf/
+terraform fmt -check
+echo $?
+terraform fmt
+terraform fmt -check
+terraform fmt
+terraform validate
+terraform plan
+terraform init
+terraform plan
+terraform validate
+terraform plan
+wget https://github.com/wata727/tflint/releases/download/v0.5.4/tflint_linux_amd64.zip -O /tmp/tflint.zip
+sudo unzip /tmp/tflint.zip -d /usr/local/bin
+tflint -h
+history -w
+tflint
+tflint --error-with-issues
+echo $?
+tflint --error-with-issues --ignore-rule=aws_instance_not_specified_iam_profile
+echo $?
+tflint --deep --aws-region=us-west-2
+tflint --error-with-issues --ignore-rule=aws_instance_not_specified_iam_profile --debug
+history -w
+pwd
+cd ..
+ls -laht
+cd virtualenv scan
+cd
+pwd
+virtualenv scan
+source scan/bin/activate
+pip install terrascan
+cd environment/tf
+ls -laht
+cd environment/terraf/
+ls-
+ls -laht
+cd tf/
+ls -laht
+terrascan 
+terrascan -h
+terrascan --location . --tests security_group
+deactivate
+git status
+cd ..
+git status
+echo "tf/.terraform" > .gitignore
+git add .gitignore
+git status
+git add tf
+git status
+git commit -m "revisar cambios"
+git push origin master
+history -w ; cp $HOME/bash_history .
+history -w ;
+cd $HOME
+ls -laht
+cat .bash_history 
+cd environment/terraf/
+cp $HOME/.bash_history .
+git status
+git add .bash_history 
+git commit --am
+git push
+git push origin master
+git fetch 
+git pull --all 
+git push origin master
+aws ec2 describe-instances   --filters "Name=tag:Type,Values=Build"   --query "Reservations[0].Instances[0].PublicDnsName"   | sed 's/"\(.*\)"/http:\/\/\1\/manage/'
+ls -laht
+cd ..
+repo_url=$(aws ec2 describe-instances --filters "Name=tag:Type,Values=Build" --query "Reservations[0].Instances[0].PublicDnsName" \
+           | sed 's/"\(.*\)"/git:\/\/\1\/lab.git/')
+git clone $repo_url src
+cp tf/*tf tf/*sh src
+cp terraf/tf/*tf tf/*sh src
+cd src/
+ls -laht
+cd src
+git add -A
+git commit -m "Initial commit"
+git push
+echo >> main.tf # add a new line to the end of the file
+git commit -a -m "Second commit"
+git push
+ls -laht
+history -w
+history -w
+cd ..
+cd terraf/
+ls -laht

@@ -1,0 +1,300 @@
+cd /home/nando
+cd /home
+ls
+mkdir nando
+cd home/nando
+cd home
+cd /home
+ls
+pwd
+halt
+cd /home
+cd /home/nando
+cd /home
+mcedit
+cd /home
+nano
+vi
+ls
+cd
+ls
+vi 
+ls
+vi \'Fernando\ Westphal\' 
+cd \
+cd /
+ls
+vi
+cd 
+ls
+cat 123 
+exit
+ls
+exit
+ls
+rm 'Fernando Westphal'
+vi ?
+vi /'Fernando Westphal'
+vi /'Fernando / Westphal'
+vi \'Fernando\ Westphal\' 
+rm \'Fernando\ Westphal\' 
+ls
+rm 123
+ls
+rm ?
+ls
+exit
+ls
+exit
+ls
+exit
+vi
+ls
+exit
+ls
+exit
+ls
+vi
+ls
+echo PATH
+echo $PATH
+ls
+mkdir bin
+ls
+cd bin
+vi
+ls
+chmod +x primeiro
+ls
+./primeiro
+ls -l
+primeiro
+vi primeiro
+primeiro
+./primeiro
+clear
+ls -l
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+exit
+ls
+cd /bin
+ls
+chmod +x primeiro
+primeiro
+VARIAVEL= "estou sem ideias"
+VARIAVEL="estou sem ideias"
+echo $ VARIAVEL
+estou sem ideias
+echo $VARIAVEL$VARIAVEL
+HOJE=$(date)
+echo "Hoje $HOJE"
+HOJE= `date`
+HOJE=`date`
+echo "hoje 
+
+exit
+
+end
+
+unset hoje
+ls
+cd /bin
+cat -n primeiro
+ls
+primeiro
+cat -n primeiro
+cd
+cat -n primeiro
+cd /bin
+cd bin
+cat -n primeiro
+cd
+cd bin
+cat -n primeiro
+ls
+vi
+exit
+ls
+cd bin
+ls
+n1=6
+n2=7
+test "$n1" -gt "$n2" && echo "maior" || echo "menor"
+test "$n1" -lt $n2 || echo "menor"
+n1=6
+n2=7
+test "$n1" -lt $n2 || echo "menor"
+n1=8
+test "$n1" -lt $n2 || echo "menor"
+n1=6
+test "$n1" -lt $n2 || echo "menor"
+echo "informe usuario:" ;read user;
+test "$n1" -lt $n2 || echo "menor"
+echo "informe usuario:" ;read user;
+test "$n1" -lt $n2 || echo "menor"
+echo "informe usuario:" ;read user;
+vi
+exit
+ls
+cd bin
+ls
+vi
+n1= "20 anos"
+n1="20 anos"
+n2="15 anos"
+test "$n1" -lt $n2 || echo "20 anos"
+vi
+ls
+./exercicio2
+chmod +x
+chmod +x exercicio2
+./exercicio2
+vi exercicio2
+./exercicio2
+vi exercicio2
+exit
+ls
+cd bin
+ls
+rm trabalho
+ls
+vi
+ls
+vi Trabalho-script
+cd bin
+ls
+vi Trabalho-script
+end
+exit
+cd bin
+ls
+vi Trobalho-script
+vi Trabalho-script
+ls
+cd bin
+ls
+vi Trabalho-script
+chmoa
+chmod +x Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+./Trabalho-script.sh
+./Trabalho-script
+445
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+
+vi Trabalho-script
+./Trabalho-script
+:wq
+exit
+cd bin
+ls
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+cd bin
+ls
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+cd bin
+ls
+vi Trabalho-script
+./Trabalho-script
+cd bin
+ls
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+cd bin
+ls
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+cd bin
+vi Trabalho-script
+cd bin
+vi Trabalho-script
+ls
+cd bin
+ls
+vi Trabalho-script
+exit
+cd bin
+ls
+vi Trabalho-script
+./Trabalho-script
+exit
+cd bin
+ls
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+./Trabalho-script
+vi Trabalho-script
+cd bin
+ls
+vi calculadora
+chmod +x calculadora
+./calculadora
+vi calculadora
+./calculadora
+vi calculadora
+./calculadora
+vi calculadora
+./calculadora
+clear
+./calculadora
+vi calculadora
+./calculadora
+vi calculadora
+./calculadora
+exit
+cd bin
+ls
+vi Trabalho-script
+exit

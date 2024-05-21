@@ -1,0 +1,27 @@
+echo $PATH
+mkdir bin
+cd bin
+vi primeiro
+chmode +x primeiro
+ls -l
+chmode +x primeiro
+man chmode
+chmod +x primeiro
+ls -l
+df
+ls -l
+primeiro
+ifconfig
+primeiro
+cat primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+vim primeiro
+primeiro
+cat primeiro

@@ -1,0 +1,421 @@
+vi
+nano GabrielFerreiraNANO
+echo $path
+PATH
+echo $PATH
+mkdir bin
+cd bin
+vi primeiro 
+df
+date
+df
+chmod +x primeiro
+ls -la
+primeiro
+./primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+primeirop
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+vi resposta
+vi primeiro
+primeiro
+vi primeiro
+primeiro
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+vi
+vi gabriel
+:q!
+cd bin
+ls -l
+cat primeiro
+ls -l
+vim mostrardata
+vim bin
+man teste
+test
+man test
+man chmod
+n1=6
+n2=7
+test "$n1" -gt "$n2" && echo "MAIOR" || echo "menor"
+n1=9
+test "$n1" -gt "$n2" && echo "MAIOR" || echo "menor"
+cd bin
+ls -l
+cat primeiro
+vi comandoteste
+./comandoteste
+chmod u+x comandoteste
+./comandoteste
+comandoteste
+vim comandoteste
+vim primeiro
+vim maisantigo
+chmod u+x maisantigo
+./maisantigo
+vim maisantigo
+maisantigo
+vim maisantigo
+vim diretorio
+vim maisantigo
+maisantigo
+vim maisantigo
+maisantigo
+ls
+chmod u+x diretorio
+diretorio
+maisantigo
+dir
+ls -l
+cd bin
+cat maiornumero
+ls
+cat maisantigo
+vim letrasjuntas
+chmod +x letrasjuntas
+./letrasjuntas
+logout
+exit
+cd etc
+cd var
+cd bin
+ls -l
+cat maisantigo
+n1=7
+n2=9
+if teste $n1 -lt $n2; then echo "menor"; else echo "maior"; fi
+if test $n1 -lt $n2; then echo "menor"; else echo "maior"; fi
+n2=1
+if test $n1 -lt $n2; then echo "menor"; else echo "maior"; fi
+ls -l
+cat primeiro
+ls -l
+vim maisantigo
+vim relacaonumeros
+.;
+./relacaonumeros
+chmod -x relacaonumeros
+./relacaonumeros
+chmod +x relacaonumeros
+./relacaonumeros
+vim relacaonumeros
+./relacaonumeros
+vim relacaonumeros
+./relacaonumeros
+cd bin
+ls
+maisantigo
+vim maisantigo
+ls
+relacaonumeros
+vim relacaonumeros
+cd bin
+ls
+relacaonumeros
+vim relacaonumeros
+./relacaonumeros 3 5
+vim relacaonumeros
+./relacaonumeros 3 5
+vim relacaonumeros
+./relacaonumeros 3 5
+vim relacaonumeros
+rev gabriel
+cd bind
+cd bin
+rev gabriel
+man rev
+man cat
+cd bin
+ls
+vim relacaonumeros
+./relacaonumeros 3 5
+vim relacaonumeros
+./relacaonumeros 3 5
+vim relacaonumeros
+exit
+cd bin
+vim trabalho_03/04
+cd bin
+ls
+relacaonumeros 5 1
+vim relacaonumeros
+relacaonumeros 5 1
+vim relacaonumeros
+relacaonumeros 5 1
+vim relacaonumeros
+relacaonumeros 5 1
+vim relacaonumeros
+relacaonumeros 5 1
+vim relacaonumeros
+relacaonumeros 5 1
+cd /bin
+cd..
+cd bin
+cd.
+cd
+cd bin
+ls
+vim trabalho_03_04_12.sh
+trabalho_03_04_12.sh
+chmod +x trabalho_03_04_12.sh
+trabalho_03_04_12.sh
+vim trabalho_03_04_12.sh
+trabalho_03_04_12.sh
+vim trabalho_03_04_12.sh
+trabalho_03_04_12.sh
+vim trabalho_03_04_12.sh
+trabalho_03_04_12.sh
+resp = cat
+$resp = cat
+$resp = "cat"
+resp = "cat"
+resp = 1
+if ["$1" -gt "$2"]; then fi
+$1 = 1
+read resp = cat
+resp=cat
+if [resp=cat]; then echo "bla"; fi
+if [$resp=cat]; then echo "bla"; fi
+if [$resp="cat"]; then echo "bla"; fi
+
+vim trabalho_03_04_12.sh
+ls
+cd bin
+man cat
+ls
+cat -n diretorio
+cat -s diretorio
+cur diretorio
+cut diretorio
+cut --help
+find --help
+cd bin
+ls
+vim trabalho_03_04_12.sh
+cd bin
+ls
+vim trabalho_03_04_12.sh
+cd bin
+ls
+nano arqtrab.sh
+vim arqtrab.sh
+ls
+vim arqtrab
+vim trabalho_03_04_12.sh
+trabalho_03_04_12.sh
+vim trabalho_03_04_12.sh
+trabalho_03_04_12.sh
+cd bin
+vim trabalho_03_04_12.sh
+cd
+cd /home/bin
+cd ~/bin
+vim trabalho_03_04_12.sh
+
+find ~/bin -name relacaonumeros
+find ~/bin -name AVAI
+vim trabalho_03_04_12.sh
+trabalho_03_04_12.sh
+vim trabalho_03_04_12.sh
+trabalho_03_04_12.sh
+vim trabalho_03_04_12.sh
+trabalho_03_04_12.sh
+exit
+bin
+cd bin
+find -type f -atime +5
+rev gabriel
+man rev
+cd bin
+ls
+vim trabalho_03_04_12.sh
+cd bin
+ls
+cd trabalho_03_04_12.sh
+vim trabalho_03_04_12.sh
+cd bin
+man seq
+!
+gçmdflçg
+dflçmgçsfmgsl]
+dfsçlmsdflçmg
+vim trabalho_03_04_12.sh
+cd bin
+vim trabalho_03_04_12.sh
+cd bin
+ls
+vim trabalho_03_04_12.sh
+cd bin
+ls
+vim trabalho_03_04_12.sh
+exit
+cd bin
+ls
+vim trabalho_03_04_12.sh
+cd bin
+ls
+sort arqtra
+sort arqtrab
+cat -n arqtrab | sort arqtrab
+cat -n arqtrab 
+cd bin
+ls
+vim trabalho_03_04_12.sh
+cd bin
+ls
+cat -n arqtrab | sort
+cat -n arqtrab | sort -n
+cat arqtrab | sort -n
+sort -n arqtrab
+ls
+vim trabalho_03_04_12.sh
+cd bin
+vim trabalho_03_04_12.sh
+cat trabalho_03_04_12.sh
+vim trabalho_03_04_12.sh
+uniq arqtrab
+vim arqtrab
+uniq arqtrab
+vim -u arqtrab
+uniq -u arqtrab
+exit
+cd bin
+ls
+cat arqtrab
+uniq arqtrab
+uniq -cdi arqtrab
+uniq -c arqtrab
+uniq -cd arqtrab
+vim arqtrab
+uniq -cd arqtrab
+uniq arqtrab
+uniq -di arqtrab
+vim arqtrab
+cat -n arqtrab
+trabalho_03_04_12.sh 
+cut -d ":" -f 1 arqtrab 
+cut -d ":" -f 1,1 arqtrab 
+cut arqtrab
+cat arqtrab
+cut arqtrab
+cut -d ':' -f 1,1 arqtrab 
+cut -cd ':' -f 1,1 arqtrab 
+cd bin
+ls
+vim trabalho_03_04_12.sh
+cd bin
+vim trabalho_03_04_12.sh 
+cd bin
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+trabalho_03_04_12.sh uniq
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+exit
+cd bin
+tra
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh [
+exit
+cd bin
+ls
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+cat -n trabalho_03_04_12.sh 0
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+wq
+vim trabalho_03_04_12.sh 
+wq
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+exit
+cd bin
+ls
+vim simnao.sh 
+q
+exit
+ls
+cd bin
+ls
+vim trabalho_03_04_12.sh 
+cat trabalho_03_04_12.sh 
+cd bin
+ls
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim exit
+exit
+cd bin
+ls
+cat --help
+cut --help
+find --help
+grep --help
+clear
+grep --help
+clear
+sed --help
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+cat -n trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+cat -n trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+cat trabalho_03_04_12.sh 
+vim trabalho_03_04_12.sh 
+exit
+cd bin
+ls

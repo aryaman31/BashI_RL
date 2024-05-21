@@ -1,0 +1,502 @@
+git checkout app/src/main/res/
+git status
+git status
+git checkout -- app
+git status
+git status
+git checkout --
+git status
+git checkout -- .
+git status
+git log
+git diff 174b46fc9f394f005a1df1f058cb73359f2805f 96af48400a1c9e36b1c6b9aa6bc4de6d43c60e2a5
+git diff 174b46fc9f394f005a1df1f058cb73359f2805f9 6af48400a1c9e36b1c6b9aa6bc4de6d43c60e2a5
+git status
+git branch git log
+git log
+git branch -b results
+git status
+git checkout -b results
+git status
+git log
+git status
+git commit
+git log
+git checkout master
+git status
+exit
+udacity
+cd android_basics/
+cd martian_colonist/
+ls
+git status
+git branch
+git log
+git status
+git commit
+git add --all
+git diff --staged
+git status
+git add --all
+git commit
+got log
+git log
+git push origin master
+git checkout results
+git status
+git log
+git show
+git status
+git diff
+git reset --hard
+git status
+git log
+git rebase master
+git log
+git status
+git checkout master
+git stash
+git status
+git stash show
+git stash list
+git checkout master
+git log
+git status
+git add --all
+git status
+git commit --amend
+git log
+git push -f origin HEAD^:master
+git log
+git push orign master
+git push origin master
+git log
+git checkout results
+git log
+git rebase master
+git log
+git status
+git diff
+git rebase --continue
+git status
+git status
+git rebase --continue
+git add app/src/main/java/com/galacticcoders/whowantstobeamartiancolonist/QuestionSix.java
+git rebase --continue
+git status
+git rebase --continue
+git --abort
+git rebase --abort
+git log
+git rebase master
+git status
+git add app/src/main/java/com/galacticcoders/whowantstobeamartiancolonist/QuestionSix.java 
+git rebase --continue
+git status
+git rebase --continue
+git rebase --abort
+git log
+git stash show
+git stash apply
+git add --all
+git commit --amend
+git lo
+git log
+git status
+git diff
+git diff
+git add --all
+git commit --amend
+git log
+git merge master
+git log
+git checkout HEAD^
+git log
+git reset --hard
+git log
+git checkout results
+git reset HEAD^
+git log
+git show
+git log
+git merge master
+git log
+git reset HEAD^
+git log
+git log
+git checkout master
+git merge results
+git log
+git show
+git reset HEAD^
+git log
+git log
+git status
+git add --all
+git log
+git commit
+git log
+git push origin master
+
+git status
+git add --all
+git commit
+git log
+git push origin master
+exit
+udacity
+cd android_basics/
+ls
+cd hello_android/
+ls
+git init
+git status
+
+git init
+git status
+git log
+git add --all
+git log
+ls
+git commit
+git log
+git remote add https://github.com/DragoshCraciun/hello_android
+git remote add origin https://github.com/DragoshCraciun/hello_android
+git remote
+git log
+git push origin master
+git log
+git status
+exit
+udavity
+udacity
+cd a
+cd android_basics/
+cd hello_android/
+git status
+git checkout -- build
+git status
+git checkout -- build/
+git status
+git add favicon.png
+git add -- app
+git status
+git commit
+git log
+git status
+git stash
+git stash clear
+git stash show
+git status
+git reset --hard
+git push origin master
+git status
+git add -- app
+git status
+git stash
+git stash show
+git stash apply
+git status
+git stash show
+git log
+git stash show
+git stash apply
+git stash show
+git stash apply
+git status
+git stash clear
+git status
+git status
+git stash show
+exut
+exit
+udacity
+git status
+cd android_basics/
+cd hello_android/
+git status
+git reset --hard
+git status
+git status
+git status
+git reset --hard
+git log
+git status
+git status
+git log
+git checkout HEAD
+git status
+git log
+git checkout HEAD^
+git status
+git checkout HEAD
+git checkout master
+git status
+git log
+git add --lal
+git add --all
+git status
+git log
+cd ..
+ls
+ls
+cd hello_android/
+git init
+git cd ..
+cd ..
+git clone https://github.com/DragoshCraciun/hello_android
+cd hello_android/
+git status
+git log
+git status
+git status
+git add --all
+git status
+git log
+git commit
+git log
+git push origin master
+git log
+git diff
+git log
+git status
+git diff -- app
+qgit status
+git status
+git add -- build
+git status
+git add -- .gradle
+git status
+git add -- .idea
+git status
+git commit --amend
+git log
+git status
+git push -f origin HEAD^:master
+git log
+git push origin master
+git log
+git status
+git add --all
+git status
+git commit
+git log
+git status
+git status
+git status
+git checkout app/src/main/res/drawable/ic_star_blue_48dp.png
+git status
+git log
+git commit --amend
+git add --all
+git commit --amend
+git log
+git status
+exit
+udacity
+cd android_basics/
+cd hello_android/
+git status
+git add --all
+git commit --amend
+git status
+git log
+git status
+git add app/src/main/res/values/styles.xml 
+git status
+git commit --amend
+git status
+git status
+git add app/src/main/res/values/styles.xml 
+git commit --amend
+git log
+git status
+git push origin master
+git log
+git add --all
+git status
+git commit
+git log
+git commit --amend
+git log
+git status
+git add --all
+2465 Latham St 
+Mountain View, CA 940432465 Latham St 
+Mountain View, CA 94043git log
+git log
+git push origin master
+git status
+git log
+git commit
+git log
+git push origin master
+git status
+git log
+git add --all
+git diff --staged
+git status
+git diff -- app --staged
+git diff --staged -- app
+git commit -ammend
+git log
+git checkout HEAD^
+git checkout master
+git log
+git commit --amend
+git log
+git status
+git reset HEAD^
+git status
+git log
+git commit --amend
+git add --all
+git commit --amend
+git log
+git push -f origin HEAD^:master
+git log
+git push origin master
+git log
+git status
+cd ..
+cd ..
+cd git_github/
+cd ..
+cd ..
+cd ..
+cd ..
+cd GalacticCoders/
+la
+ls
+cd text/
+ls
+vim galactic_coders_description.txt 
+git log
+git status
+git add --all
+git commit
+git log
+vim 
+vim galactic_coders_description.txt 
+git commit
+git add --all
+git commit
+git log
+vim galactic_coders_description.txt 
+git status
+exit
+~/.bashrc
+vim ~/.bashrc
+source ~/.bashrc
+udacity
+ls
+cd android_basics/
+ls
+git clone https://github.com/DragoshCraciun/hello_android
+ls
+cd hello_android/
+git status
+git reset --hard
+git log
+git status
+git status
+git status
+git status
+git add --all
+fit commit
+git commit
+git status
+git add --all
+git commit --amend
+git status
+git log
+git push origin master
+git status
+git diff --app
+git diff -- app
+git reset --hard
+cd ..
+cd martian_colonist/
+git status
+git add --all
+git log
+git log
+git commit
+git log
+git commit --amend
+git log
+git push origin master
+exit
+udacity
+cd android_basics/
+cd hello_android/
+git status
+git log
+git add --all
+git commit --amend
+git log
+git push -f origin HEAD^:master
+git log
+git push origin master
+git status
+git add --all
+git commit
+git log
+git push origin master
+exit
+udacity
+cd android_basics/
+cd hello_android/
+ls
+git log
+git status
+git add --all
+git commmit
+git commit
+git commit --amend
+git log
+git push -f origin HEAD^:master
+git log
+git push origin master
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+git add D;\Studies\Udacity\repository
+cd  d
+cd ..
+cd d:\Studies\Udacity\repository
+cd d:/Studies/Udacity/repository
+udacity
+cd a
+cd android_basics/
+cd martian_colonist/
+git status
+git add --all
+git commit
+git log
+git status
+git add --all
+git commit --amend
+git push origin master
+git status
+git status
+git add --all
+git status
+git commit
+git log
+git push origin master
+exit
+udacity
+cd android_basics/
+cd martian_colonist/
+git status
+git add --all
+git log
+git commit
+git log
+git push origin master
+git log
+exit

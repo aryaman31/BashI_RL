@@ -1,0 +1,1633 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get upgrade-distro
+sudo apt-get update-distro
+sudo apt-get dist-upgrade
+sudo apt-get autoremove
+ubuntu-drivers devices
+sudo ubuntu-drivers autoinstall
+ls ~/.config
+ls
+ls -la
+ls -la ~/.config
+sudo update-grub
+cat README 
+mkdir _build
+cd _build/
+../configure
+../configure --with-mpi=mpich
+ls
+cat config.log
+gfortran
+gfortran --help
+../configure --with-mpi=mpich3
+ls
+make
+make install
+sudo make install
+cd ~/Downloads/
+ls
+cd parallel_studio_xe_2019_update4_cluster_edition_online/
+ls
+cat install
+cat install.sh
+./install.sh
+git
+sudo apt install git
+curl
+wget
+sudo apt install curl
+sudo apt install mpich2
+sudo apt install mpich
+gcc
+g++
+make
+sudo apt-get install libomp-dev
+ls
+ls -la
+mkdir uni
+cd uni
+ls
+git clone https://www.github.com/alshort/snap_c.git
+git clone https://www.github.com/alshort/snap.git
+ls
+ls -la
+cd snap
+git
+clear
+ls
+cd src
+ls
+make
+git status
+sudo apt-get install scorep
+openmpi
+openmp
+apt list --installed
+apt list --installed | grep mpi
+apt list --installed | grep omp
+make
+cat Makefile 
+sudo apt-get install gfortran
+sudo apt-get autoremove
+lspci | grep -i nvidia
+gcc -v
+make
+ls /opt/scorep
+ls /opt/scorep/bin
+ls -la ~
+vim .bashrc
+source .bashrc
+source ~/.bashrc
+make
+which mpicc
+which mpiicc
+which icc
+sudo apt-get install gtk2.0
+cd ~/Downloads/
+ls
+cd parallel_studio_xe_2019_update4_cluster_edition_online/
+cat install.sh
+cd ../../uni/snap/src
+make
+which mpiicc
+ls /opt
+ls /var
+ls /etc
+cd
+ls
+cd intel
+ls
+ls bin
+ls compilers_and_libraries_2019
+ls compilers_and_libraries_2019/linux/
+ls compilers_and_libraries_2019/linux/bin
+ls compilers_and_libraries_2019/linux/bin/intel64/
+source ~/.bashrc
+cd ../uni/snap/src/
+make
+ls ~/intel/
+cat ~/intel/compilers_and_libraries
+ls ~/intel/compilers_and_libraries
+ls ~/intel/compilers_and_libraries/linux/
+ls ~/intel/compilers_and_libraries/linux/bin
+ls ~/intel/compilers_and_libraries/linux/bin/intel64/
+source ~/.bashrc
+make
+source ~/.bashrc
+make
+ls ~/intel/compilers_and_libraries/linux/
+ls ~/intel/compilers_and_libraries/linux/mpi
+ls ~/intel/compilers_and_libraries/linux/mpi/intel64/
+ls ~/intel/compilers_and_libraries/linux/mpi/intel64/bin
+source ~/.bashrc
+make
+ls ~/intel/
+ls ~/intel/compilers_and_libraries
+ls ~/intel/compilers_and_libraries/linux/
+ls ~/intel/compilers_and_libraries/linux/lib/
+ls ~/intel/compilers_and_libraries/linux/lib/intel64
+make
+sudo apt-get uninstall libomp-dev
+apt-get --help
+sudo apt-get remove libomp-dev
+make clean
+make
+apt list --installed | grep omp
+sudo apt-get remove libomp*
+make
+make clean
+make
+cat Makefile 
+make cleanout
+make
+apt list --installed | grep omp
+apt list --installed | grep mpi
+sudo apt-get remove mpich
+sudo apt-get autoremove
+make
+make clean
+male
+make
+cd ~/Downloads
+ls
+cd parallel_studio_xe_2019_update4_cluster_edition_online/
+ls
+./install
+./install.sh
+clear
+cd uni/snap/src/
+make
+source ~/.bashrc
+make
+which icc
+which mpiicc
+ls ~/intel/compilers_and_libraries
+ls ~/intel/compilers_and_libraries/linux/
+ls ~/intel/compilers_and_libraries/linux/bin/
+ls ~/intel/compilers_and_libraries/linux/bin/intel64/
+ls ~/intel/
+ls ~/intel/bin/
+./intel.sh
+cd ../
+./intel.sh
+sudo ./intel.sh
+ls
+sudo intel.sh
+ls -la
+chmod +x intel.sh
+sudo ./intel.sh 
+~/intel/bin/compilervars.sh -arch intel64
+~/intel/bin/compilervars.sh intel64
+~/intel/mkl/bin/mklvars..sh intel64
+~/intel/mkl/bin/mklvars.sh intel64
+~/intel/bin/compilervars.sh intel64
+. ~/intel/mkl/bin/mklvars.sh intel64
+cat ~/intel/bin/compilervars.sh
+. ~/intel/bin/compilervars.sh -arch "intel64" -platform "linux"
+./intel.sh
+. intel.sh
+cd src
+make
+ssh u1897268@joshua.dcs.warwick.ac.uk
+ls ~/intel
+ls ~/intel/compilers_and_libraries
+ls ~/intel/compilers_and_libraries/linux/
+ls
+ls ~/intel/compilers_and_libraries/linux/
+ls ~/intel/compilers_and_libraries/linux/bin
+cat ~/intel/compilers_and_libraries/linux/bin/compilervars.sh
+ls ~/intel/compilers_and_libraries/linux/mpi/intel64/bin/
+ls ~/intel
+ls ~/intel/bin
+cd ../
+. ~/intel/bin/iccvars.sh
+ls ~/intel/compilers_and_libraries/linux/mpi/intel64
+ls
+ls ~/intel/compilers_and_libraries/linux/mpi/intel64/bin
+. ~/intel/compilers_and_libraries/linux/mpi/intel64/bin/mpivars.sh
+. intel.sh
+cd src
+make
+make clean
+make
+make clean
+make
+make cleanout
+make
+gcc -v
+icc -v
+make
+. ../intel.sh 
+make
+which icc
+which mpiicc
+ls ~/intel
+
+ls ~/intel/impi
+ls ~/intel/impi/2019.4.243
+ls ~/intel/impi/2019.4.243/intel64/
+ls ~/intel/impi/2019.4.243/intel64/bin
+make
+source ~/.bashrc
+. ../intel.sh
+make
+make clean
+make
+sudo apt-get install libomp-dev
+make
+make clean
+make
+make clean
+make
+ls
+make clean
+l
+ls
+make cleanout
+ls
+rm -f *.o
+ls
+make
+make clean
+ls
+make all
+ls
+make clean
+ls
+make clean
+ls
+make
+ls
+make clean
+l
+gprof
+cd ..
+cd src
+make
+cd ..
+gprof src/snap_mkl_vml --fi qasnap/sample/inp --fo snap_test.out
+gprof src/snap_mkl_vml > test.out
+gprof gmon.out
+./src/snap_mkl_vml 
+./src/snap_mkl_vml --fi qasnap/sample/inp --fo test.out
+./src/snap_mkl_vml --fi qasnap/sample/inp --fo test.out -np 4
+cat src/snap_mkl_vml 
+mpirun -np 4 src/snap_mkl_vml --fi qasnap/sample/inp --fo test.out
+mpirun -np 16 src/snap_mkl_vml --fi qasnap/sample/inp --fo test.out
+ls
+cat gmon.out 
+gprof src/snap_mkl_vml 
+cat test.out 
+ls
+rm snap_test.out 
+ls
+source ~/.bashrc
+ls
+sudo apt-get install cuda
+sudo dpkg -i cuda-repo-ubuntu1810_10.1.168-1_amd64.deb
+sudo apt-get update
+sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1810/x86_64/7fa2af80.pub
+sudo apt-get update
+sudo apt-get install cuda
+sudo apt-get install freeglut3 freeglut3-dev libxi-dev libxmu-dev
+git clone https://github.com/alshort/msc_interim_report.git
+git
+git help -g
+git config -h
+git config --global user.name "Andrew Lamzed-Short"
+git config --global user.email "a.lamzedshort@gmail.com"
+nvcc -v
+sudo apt install nvidia-cuda-toolkit
+sudo apt-get update
+sudo apt-get upgrade
+ps aux | grep [a]pt
+sudo apt-get upgrade
+nvcc -v
+sudo apt install nvidia-cuda-toolkit
+sudo apt install nvidia-profiler nvidia-cuda-dev nvidia-visual-profiler nvidia-cuda-toolkit
+sudo apt install -f nvidia-cuda-toolkit
+apt-get install --help
+sudo apt-get install nvidia-profiler nvidia-cuda-dev nvidia-visual-profiler nvidia-cuda-toolkit
+sudo dpkg -i cuda-repo-ubuntu1810-10-1-local-10.1.168-418.67_1.0-1_amd64.deb 
+sudo apt-key add /var/cuda-repo-10-1-local-10.1.168-418.67/
+sudo apt-key add /var/cuda-repo-10-1-local-10.1.168-418.67/7fa2af80.pub 
+sudo apt-get update
+sudo apt-get install cuda
+nvcc -v
+uname -m && cat /etc/*release
+gcc -v
+uname -r
+sudo apt-get install linux-headers-$(uname -r)
+sudo dpkg -i cuda-repo-ubuntu_19.04_x86_64.deb
+sudo dpkg -i cuda-repo-ubuntu_18.04_x86_64.deb
+nvcc
+sudo apt install nvidia-cuda-toolkit
+sudo apt install -f nvidia-cuda-toolkit
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install cuda
+sudo add-apt-repository ppa:kgilmer/speed-ricer
+sudo apt-get update
+sudo apt-get install i3-wm
+i3-gaps
+i3
+sudo apt-get remove i3-wm
+sudo apt install -y libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf libxcb-xrm0 libxcb-xrm-dev automake
+cd /tmp
+git clone https://www.github.com/Airblader/i3 i3-gaps
+cd i3-gaps/
+autorecond --force --install
+sudo apt-get install autoreconf
+ls
+autoreconf --force --install
+rm -rf build/
+mkdir -p build && cd build/
+../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
+make
+sudo make install
+cd
+i3
+ls -la
+echo "exec i3" > xinit.rc
+ls -la
+mv xinit.rc .xinit.rc
+startx
+ls
+ls -la
+cd .config
+ls
+mkdir i3
+cd i3
+touch config
+vim config
+nano config
+sudo systemctl restart display-manager
+startx
+sudo apt-get install i3status dmenu i3lock xbacklight feh conky
+sudo apt-get remove i3-gaps
+cd /tmp
+ls
+cd /usr
+ls
+cd lib
+ls
+cd /etc
+;s
+ls
+cd i3
+;s
+ls
+cd ../usr
+cd /sr
+cd /usr
+ls
+ls bin
+cd bin
+;s
+ls
+sudo apt-get install xterm
+dmenu
+dpkg -l | grep i3
+sudo apt install i3
+sudo apt install xinit
+startz
+startx
+xev
+i3
+cd .config/i3/
+ls
+rm config
+ls
+i3
+sudo apt-get install vim
+vim .config/i3/config 
+ls -la
+i3-msg restart
+sudo apt-get install feh
+feh --bg-fill ~/.config/Wallpaper.jpg 
+feh --bg-scale ~/.config/Wallpaper.jpg 
+vim .config/i3/config 
+ls -la
+touch .vimrc
+vim .vimrc
+vim .config/i3/config 
+i3
+i3-msg reload
+vim .config/i3/config 
+i3-msg reload
+vim .config/i3/config 
+i3-msg reload
+vim .config/i3/config 
+i3-msg reload
+ls -la
+i3-msg reload
+vim .config/i3/config 
+i3-msg reload
+i3lock
+vim .config/i3/config 
+sudo apt-get remove dmenu
+sudo apt-get install rofi
+vim .config/i3/config 
+i3-msg reload
+vim .config/i3/config 
+which dmenu
+sudo apt-get remove dmenu
+sudo apt-get autoremove
+dpkg -l
+dpkg -l | grep dmenu
+vim .config/i3/config 
+i3-msg reload
+sudo apt-get install pkg-config libxcb1-dev libxcb1 libgl2ps-dev libx11-dev libglc0 libglc-dev libcairo2-dev libcairo-gobject2 libcairo2-dev libxkbfile-dev libxkbfile1 libxkbcommon-dev libxkbcommon-x11-dev libxcb-xkb-dev libxcb-dpms0-dev libxcb-damage0-dev libpam0g-dev libev-dev libxcb-image0-dev libxcb-util0-dev libxcb-composite0-dev libxcb-xinerama0-dev
+mkdir ~/.config/bin
+cd .config/bin
+touch lock
+vim lock 
+sudo apt-get install scrot imagemagick xautolock
+chmod +x lock 
+./lock
+man i3lock
+clear
+vim .config/i3/config 
+i3-msg reload
+vim .config/i3/config 
+i3-msg reload
+shutdown -h
+shutdown -r now
+ls -la .config
+stty
+cal
+i3-msg reload
+pavucontrol
+sudo apt-get install pavucontrol
+i3-msg reload
+i3-msg restart
+i3-sensible-terminal
+tray-position = right
+tray-detached = false
+tray-background = ${root.background}
+tray-offset-x = -4
+tray-offset-y = 0
+tray-maxsize = 16
+tray-padding = 2
+i3blocks-clock-term
+sudo apt-get install i2blocks
+sudo apt-get install i3blocks
+i3-msg restart
+i3blocks-update-term
+i3blocks
+i3-msg restart
+killall polybar
+pavucontrol
+feh -h
+man feh
+i3-msg reload
+cd
+sudo apt-get install cairo libxcb python2 xcb-proto xcb-util-image xcb-util-wm
+sudo apt-get install polybar
+polybar example
+cd .config
+ls
+mkdir polybar; cd polybar
+touch config
+;s
+ls
+sudo apt-get install xdotool
+vim config
+i3-msg reload
+i3-msg restart
+vim config 
+ls -la
+vim .vimrc
+vim .config/i3/config
+i3-msg reload
+MALLOC_CHECK=1 gnome-control-center
+vim .config/i3/config
+ls
+cd .config
+ls
+ls bin
+mv bin scripts
+l
+s
+cd scripts
+vim volume_control.py
+vim ../i3/config 
+xev
+i3-msg restart
+env XDG_CURRENT_DESKTOP=GNOME gnome-control-center
+cd ..
+ls
+vim pulse/daemon.conf
+vim /etc/asound.conf
+sudo vim /etc/asound.conf
+pulseaudio -h
+pulseaudio -k
+vim i3/config 
+ls
+ls -la
+feh --bg-scale ~/.config/Wallpaper.jpg 
+vim i3/config 
+clear
+cd
+clear
+ls
+cd snap
+ls
+cd ../uni
+ls
+git clone https://github.com/alshort/msc_dissertation.git
+ls
+cd snap
+ls
+git status
+code
+nvcc
+cd Downloads/
+ls
+cuda_10.1.168_418.67_linux(1).run
+./cuda_10.1.168_418.67_linux(1).run
+sh cuda_10.1.168_418.67_linux(1).run
+ls -la
+chmod +x cuda_10.1.168_418.67_linux(1).run
+chmod +x "cuda_10.1.168_418.67_linux(1).run"
+"cuda_10.1.168_418.67_linux(1).run"
+./"cuda_10.1.168_418.67_linux(1).run"
+cat /tmp/cuda-installer.log 
+sudo ./"cuda_10.1.168_418.67_linux(1).run"
+cat /var/log/cuda-installer.log 
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get autoremove
+sudo zh "cuda_10.1.168_418.67_linux(1).run"
+sudo sh "cuda_10.1.168_418.67_linux(1).run"
+cat /var/log/cuda-installer.log 
+cat /var/log/nvidia-installer.log 
+sudo sh "cuda_10.1.168_418.67_linux(1).run"
+cat /var/log/cuda-installer.log 
+shutdown -r now
+vim .bashrc
+source .bashrc
+cat /var/log/cuda-installer.log 
+lsmod |grep nvidia.drm
+sudo lsof |grep nvidia
+sudo apt-get purge nvidia-cuda*
+sudo apt-get purge nvidia-*
+sudo service lightdm stop
+cd Downloads/
+ls
+sudo sh "cuda_10.1.168_418.67_linux(1).run"
+env XDG_CURRENT_DESKTOP=GNOME gnome-control-center
+sudo sh "cuda_10.1.168_418.67_linux(1).run"
+sudo sh "cuda_10.1.168_418.67_linux(1).run" --silent --driver
+sudo service lightdm stop
+cd Downloads/
+sudo sh "cuda_10.1.168_418.67_linux(1).run"
+cat /var/log/cuda-installer.log 
+sudo sh "cuda_10.1.168_418.67_linux(1).run"
+nvcc
+cd ../uni/snap
+ls
+vim cuda_test.c
+mv cuda_test.c cuda_test.cu
+vim cuda_test.cu
+nvcc cuda_test.cu -o cuda_test
+./cuda_test 
+vim cuda_test.cu
+nvcc cuda_test.cu -o cuda_test
+./cuda_test 
+nvprof ./cuda_test
+echo $PATH
+devcieQuery
+deviceQuery
+cd /usr/local/cuda-10.1
+ls
+cd bin
+ls
+nvprof --help
+clear
+ls
+ls -la
+cd ../
+ls
+ls -la
+cd tools
+ls -la
+cd ../share
+ls
+cd ..
+find . -name deviceQuery
+cd samples/1_Utilities/
+s
+ls
+./deviceQuery
+cd deviceQuery
+ls
+make
+sudo amke
+sudo make
+ls
+./deviceQuery 
+sudo apt-get remove cuda*
+sudo apt-get remove nvidia-*
+sudo apt-get remove nvidia*
+sudo apt-get autoremove
+sudo sh "cuda_10.1.168_418.67_linux(1).run"
+cd uni/snap/
+ls
+nvprof ./cuda_test
+cd uni/snap/
+ls
+git status
+git checkout -b cuda-separation
+git status
+make clean
+cd src
+make clean all
+nvcc
+which mpiicc
+echo $PATH
+cat ~/.bashrc
+cd /usr
+ls
+ls -la
+cd bin
+ls
+cd /var
+ls -la
+which icc
+cd
+cd intel
+cd ls
+ls
+cd bin
+ls
+cd ../lib
+ls
+ls intel64
+cd ../bin
+ls
+. iccvars.sh
+cd
+cd uni/snap/
+. intel.sh 
+cd src
+make
+source ~/.bashrc
+make clean all
+ls
+mv snap_mkl_vml snap_mkl_vml-cpu
+maek clean
+make clean
+ls -la
+sudo cuda_10.1.168_418.67_linux.run
+sudo sh "cuda_10.1.168_418.67_linux.run"
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get autoremove
+sudo apt-get update
+sudo apt-get upgrade
+cd uni/snap/
+ls
+. intel.sh 
+mpirun -n 4 src/snap_mkl_vml-cpu qasnap/center_src/in01 out01
+mpirun -np 4 src/snap_mkl_vml-cpu --fi qasnap/center_src/in01 --fo out01
+diff out01 qasnap/center_src/out01
+mpirun -np 4 src/snap_mkl_vml-cpu --fi qasnap/center_src/in01 --fo qasnap/centre_src/out01-local
+mpirun -np 4 src/snap_mkl_vml-cpu --fi qasnap/center_src/in01 --fo qasnap/centre_src/out01_local
+touch qasnap/center_src/out01-local
+mpirun -np 4 src/snap_mkl_vml-cpu --fi qasnap/center_src/in01 --fo qasnap/centre_src/out01_local
+mpirun -np 4 src/snap_mkl_vml-cpu --fi qasnap/center_src/in01 --fo out/out01
+mpirun -np 4 src/snap_mkl_vml-cpu --fi qasnap/center_src/in02 --fo out/out02
+mpirun -np 6 src/snap_mkl_vml-cpu --fi qasnap/center_src/in02 --fo out/out02
+ls -la
+ls
+./ OpenAudible_linux_1.5.2.sh
+./OpenAudible_linux_1.5.2.sh
+chmod +x OpenAudible_linux_1.5.2.sh 
+./OpenAudible_linux_1.5.2.sh
+apt-get -h
+apt-get clean
+sudo apt-get clean
+sudo apt-get update
+man apt-get
+sudo apt-get check
+add-apt-repository -h
+man add-apt-repository
+sources.list
+add-apt-repository sources.list
+sudo add-apt-repository sources.list
+cat /etc/apt/sources.list
+history
+sudo add-apt-repository remove ppa:kgilmer/speed-ricer
+sudo add-apt-repository -h
+sudo add-apt-repository --remove ppa:kgilmer/speed-ricer
+man apt-key
+apt-key list
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get autoremove
+apt-get install default-jdk
+sudo apt-get install default-jdk
+which mpiicc
+which mpicc
+mpicc
+nvcc
+ls -r
+man ls
+tree
+sudo apt-get install tree
+tree
+tree
+tree > ./phone-tree.txt
+tree > ~/phone-tree.txt
+cd
+clear
+ls
+diff backup-tree.txt phone-tree.txt 
+diff -h
+diff --help
+diff -y backup-tree.txt phone-tree.txt 
+cd /mnt/
+ls
+ls -la
+cd /
+ls
+cd ~/Documents/Moto\ X\ Style\ Backup/
+tree > ~/backup-tree.txt
+cat ~/backup-tree.txt 
+cd uni/snap/
+ls 
+python execute.py 
+python execute.py -h
+. intel.sh 
+python execute.py
+python execute.py --setup
+sudo cp -r ~/.local/share/themes/Solarized-Dark-Shell/ /usr/share/themes/
+sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf
+wget -O mac-fonts.zip http://drive.noobslab.com/data/Mac/macfonts.zip
+sudo unzip mac-fonts.zip -d /usr/share/fonts; rm mac-fonts.zip
+sudo fc-cache -f -v
+nvcc -h
+mpiicc -h
+mpiicc --help
+cd /usr/local
+ls
+cd cuda
+ls
+cd lib64
+ls
+ls | grep "libcuda"
+sudo ln -s /usr/local/cuda/lib64/libcudart.so /usr/lib/libcudart.so
+cd ..
+ls
+which mpicc
+man mpiicc
+mpiicc --help
+man nvcc
+execute.py
+which python
+execute.py
+./execute.py
+chmod +x execute.py
+./execute.py
+./execute.py --clean
+./execute.py
+man nvcc
+nvcc -h
+make
+cd src
+make clean
+make
+make clean all
+nvcc
+nvcc -c sweep_cu.cu 
+nvcc -c dim3_sweep.cu 
+. ../intel.sh 
+nvcc -c dim3_sweep.cu 
+make setup
+. ../intel.sh
+echo $?
+make setup
+sudo make setup
+ls -la ..
+nvcc -c dim3_sweep.cu 
+make clean
+nvcc -c dim3_sweep.cu 
+nvcc -c dim3_sweep_cuda.cu 
+make clean
+make
+make clean
+make all
+make clean
+make all
+make clean all
+./../execute.py --setup
+source ~/.bashrc
+. ../intel.sh 
+make clean all
+make clean
+make all
+make clean all
+maek vars
+make vars
+make clean all
+make dim3_sweep_cude.cu
+make dim3_sweep_cude.o
+make dim3_sweep_cuda.o
+make clean
+make dim3_sweep_cuda.o
+make clean all
+make clean
+make all
+make clean all
+export LDFLAGS=-L/usr/local/cuda/lib64
+make clean
+make
+make clean
+make
+echo $LDFLAGS
+make clean; make
+clear
+make clean; make
+echo $?
+make clean; make
+..
+cd ..
+mpirun -h
+mpirun -n 4 ./src/snap --fi qasnap/center_src/in01 --fo out/out01
+sudo apt-get install libimage-exiftool-perl
+cd Downloads/
+ls
+exiftool -h
+exiftool --help
+exiftool -Title="The GNU Make Book" "The GNU Make Book.pdf" 
+ls -la
+./execute.py --exe src/snap --fi qasnap/center_src/in01 --fo out/out01
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in01 --fo out/out01
+./execute.py --exe src/snap --np 6 --fi qasnap/center_src/in02 --fo out/out02
+./execute.py --exe src/snap --np 6 --fi qasnap/center_src/in02 --fo out/out02 > out/out02_time.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in01 --fo out/out01 > out/out01_time.txt
+./execute.py --exe src/snap --np 6 --fi qasnap/center_src/in03 --fo out/out03 > out/out03_time.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in04 --fo out/out04 > out/out04_time.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in05 --fo out/out05 > out/out05_time.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in06 --fo out/out06 > out/out06_time.txt
+./execute.py --exe src/snap --np 8 --fi qasnap/center_src/in07 --fo out/out07 > out/out07_time.txt
+./execute.py --exe src/snap --np 8 --fi qasnap/center_src/in08 --fo out/out08 > out/out08_time.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in09 --fo out/out09 > out/out09_time.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in10 --fo out/out10 > out/out10_time.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in11 --fo out/out11 > out/out11_time.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in12 --fo out/out12 > out/out12_time.txt
+cd src
+make clean
+make all
+make clean all
+man make
+make count
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in01 --fo out/out01_2 > out/out01_time_2.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in01 --fo out/out01_3 > out/out01_time_3.txt
+./execute.py --exe src/snap --np 6 --fi qasnap/center_src/in02 --fo out/out02_2 > out/out02_time_2.txt
+./execute.py --exe src/snap --np 6 --fi qasnap/center_src/in02 --fo out/out02_3 > out/out02_time_3.txt
+./execute.py --exe src/snap --np 6 --fi qasnap/center_src/in03 --fo out/out03_2 > out/out03_time_2.txt
+./execute.py --exe src/snap --np 6 --fi qasnap/center_src/in03 --fo out/out03_3 > out/out03_time_3.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in04 --fo out/out04_2 > out/out04_time_2.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in04 --fo out/out04_3 > out/out04_time_3.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in05 --fo out/out05_2 > out/out05_time_2.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in05 --fo out/out05_3 > out/out05_time_3.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in06 --fo out/out06_2 > out/out06_time_2.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in06 --fo out/out06_3 > out/out06_time_3.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in07 --fo out/out07_2 > out/out07_time_2.txt
+./execute.py --exe src/snap --np 8 --fi qasnap/center_src/in07 --fo out/out07_2 > out/out07_time_2.txt
+./execute.py --exe src/snap --np 8 --fi qasnap/center_src/in07 --fo out/out07_3 > out/out07_time_3.txt
+./execute.py --exe src/snap --np 8 --fi qasnap/center_src/in08 --fo out/out08_2 > out/out08_time_2.txt
+./execute.py --exe src/snap --np 8 --fi qasnap/center_src/in08 --fo out/out08_3 > out/out08_time_3.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in09 --fo out/out09_2 > out/out09_time_2.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in09 --fo out/out09_3 > out/out09_time_3.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in10 --fo out/out10_2 > out/out10_time_2.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in10 --fo out/out10_3 > out/out10_time_3.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in11 --fo out/out11_2 > out/out11_time_2.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in11 --fo out/out11_3 > out/out11_time_3.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in11 --fo out/out11_2 > out/out12_time_2.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in11 --fo out/out11_2 > out/out11_time_2.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in12 --fo out/out12_2 > out/out12_time_2.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in12 --fo out/out12_3 > out/out12_time_3.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in13 --fo out/out13_1 > out/out13_time_1.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in13 --fo out/out13_2 > out/out13_time_2.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in13 --fo out/out13_3 > out/out13_time_3.txt
+./execute.py --exe src/snap --np 2 --fi qasnap/center_src/in14 --fo out/out14_1 > out/out14_time_1.txt
+./execute.py --exe src/snap --np 4 --fi qasnap/center_src/in14 --fo out/out14_1 > out/out14_time_1.txt
+./execute.py --exe src/snap --np 8 --fi qasnap/center_src/in14 --fo out/out14_1 > out/out14_time_1.txt
+ls -la
+execute.py --avg-times
+./execute.py --avg-time
+./execute.py --avg-times
+./execute.py --avg_times
+git remote -v
+cd uni/msc_dissertation/
+ls
+ls -la
+git pull
+git status
+git remote -v
+ls
+cd ..
+ls
+cd msc_dissertation/
+git pull
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get autoremove
+sudo apt-get install texlive-latex-recommended
+text
+tex
+perl
+sudo apt-get install perl-tk
+pdftex --version
+bibtex --version
+cd uni/msc_dissertation/
+sudo texhash
+locate pdfgantt.sty
+locate pgfgantt.sty
+sudo apt-get install texlive-pictures
+sudo apt-get install texlive-latex-recommended
+sudo apt-get install texlive-latex-extra
+texcount
+sudo apt-get install texlive-extra-utils
+texcount
+texcount -h
+texcount dissertation.tex
+texcount ../msc_interim_report/interim_report.tex
+cd uni/snap/
+cd ..
+cd msc_dissertation/
+;s
+ls
+open -h
+which evince
+man evince
+sudo apt-get install awesome
+startz
+startx
+mv .xinit.rc .xinitrc
+ls -la
+startx
+sudo startx
+vim .xinitrc
+sudo startx
+shtudown -r now
+shutdown -r now
+ls /usr/share/applications
+sudo touch /usr/share/applications/awesome.desktop
+vim /usr/share/applications/awesome.desktop
+sudo vim /usr/share/applications/awesome.desktop
+gconf-editor
+sudo apt-get install gconf-editor
+gnome-session
+gnome-session -h
+sudo vim /usr/share/xsessions/gnome-awesome.desktop
+sudo vim /usr/share/gnome-session/awesome.session
+mkdir .config
+mkdir .config/awesome
+cp /usr/share/awesome/themes/default/theme.lua .config/awesome
+cd .config
+ls
+cd awesome
+ls
+vim theme.lua
+feh --bg-scale ~/Pictures/wallpaper.jpg 
+cp /etc/xdg/awesome/rc.lua .
+ls -la
+vim rc.lua
+cp ~/Pictures/wallpaper.jpg .
+mv aliases .aliases
+echo 'awesome.restart()' | awesome-client
+source .bashrc
+reload
+source .bashrc
+reload
+reload-wm
+reload
+ls
+ls -lhFA | less
+reload-wm
+reload
+mcd test
+ls
+..
+rmdir test
+ls
+reload-wm
+echo 'awesome.restart()' | awesome-client
+reload-wm
+sudo apt-get install redshift
+redshift
+ping google.com
+ping 1.1.1.1
+sudo apt-get install artha
+man artha
+cd src
+make
+./snap_cpu --fi ../qasnap/center_src/in01 --fo test.out
+./snap_cpu -n 4 --fi ../qasnap/center_src/in01 --fo test.out
+mpirun -np 4 ./snap_cpu --fi ../qasnap/center_src/in01 --fo test.out
+which mpirun
+sudo sh cuda_10.1.168_418.67_linux.run
+cat /var/log/cuda-installer.log 
+sudo apt-get autoremove
+sudo sh cuda_10.1.168_418.67_linux.run
+sudo apt-get autoremove
+cat /var/log/cuda-installer.log 
+sudo sh cuda_10.1.168_418.67_linux.run
+cat /var/log/cuda-installer.log 
+cd src
+make clean
+make all
+cd ..
+..
+cd snap
+cd out
+diff out01_1 out01_2
+diff -y out01_1 out01_2
+..
+cd src
+make clean all
+hunspell
+sudo apt-get install hunspell
+hunspell
+hunspell -D
+cd .config
+ls
+cd Code
+ls
+mcd Dictionaries
+ls
+cd Downloads
+ls
+sudo sh cuda_10.1.168_418.67_linux.run
+cat /var/log/cuda-installer.log 
+sudo sh cuda_10.1.168_418.67_linux.run
+cat /var/log/cuda-installer.log 
+cat /var/log/nvidia-installer.log 
+ls
+git status
+git merge cuda-separation
+git status
+git push
+cd experimental
+ls
+nvcc test.cu
+ls
+nvcc -c test.cu
+ls
+nvcc -c test.cu -o test
+ls
+./test
+chmod +x test
+./test
+ls
+ls -la
+./test
+sudo ./test
+which nvcc
+cd Downloads/
+ls
+sudo sh cuda_10.1.168_418.67_linux.run
+sudo ldconfig
+cat /etc/ld.so.conf
+ls
+,.
+..
+cd uni/snap/experimental/
+nvcc -c test.cu -o test
+./test
+chmod +x test
+./test
+echo $PATH
+echo $LD_LIBRARYPATH
+echo $LD_LIBRARY_PATH
+ls
+cd
+vim .bashrc
+. ~/.bashrc
+ls
+cd uni/snap/experimental/
+./test
+nvcc -c test.cu -o test
+./test
+chmod +x test; ./test
+cd uni/snap/experimental/
+./test
+cat ~/.bashrc
+echo $PATH
+export PATH=/usr/local/cuda/bin:$PATH
+./test
+rm test
+ls
+nvcc -dc -arch=sm_60 -dlink -m64 -rdc=true -c test.cu -o test
+chmod +x test; ./test
+file /usr/local/cuda-10.1/bin/nvcc
+cuda-uninstaller
+sudo cuda-uninstaller
+ls /usr/local/cuda-10.1/bin
+./usr/local/cuda-10.1/bin/cuda-uninstaller
+cd /usr/local/cuda-10.1/bin
+./cuda-uninstaller 
+sudo ./cuda-uninstaller 
+cd ~/Downloads/
+ls
+sudo sh cuda_10.1.168_418.67_linux.run
+echo $PATH
+..
+cd uni/snap/experimental/
+ls
+rm test.*
+ls
+rm a.out
+ls
+nvcc -c test.cu -o test
+ls
+chmod +x test
+./test
+sudo sh ~/Downloads/cuda_10.1.168_418.67_linux.run
+ls ~
+cd ~/NVIDIA_CUDA-10.1_Samples/
+ls
+make
+ls
+cd 1_Utilities/
+ls
+cd deviceQuery
+ls
+make
+ls
+./deviceQuery 
+cd ~
+cd uni/snap/experimental/
+nvcc -m64 -ccbin g++ -o test.o -c test.cu
+ls
+./test
+nvcc -m64 -ccbin g++ -gencode arch=compute_60,code=sm_60 -o test.o -c test.cu
+./test
+nvcc -ccbin g++ -m64 -gencode arch=compute_60,code=sm_60 -o test.o -c test.cu
+./test
+nvcc -ccbin g++ -m64 -gencode arch=compute_60,code=sm_60 -o test test.o
+./test
+cat ~/.bashrc
+man gprof
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=36000'
+python -v
+python3 --version
+man nvcc
+cd /mnt
+ls
+ls -la
+ls /media
+ls /media/andy
+ls /media/andy/MAGELLAN/
+cd /media/andy/MAGELLAN/
+ls
+cd Library/
+ls
+cd Code
+ls
+clear
+cd chapter04
+ls
+nvcc -c add_loop_gpu.cu
+ls
+nvcc -o add_loop_gpu.o loop
+nvcc loop -o add_loop_gpu.o
+ls
+./add_loop_gpu.o
+chmod +x add_loop_gpu.o
+./add_loop_gpu.o
+nvcc add_loop_gpu.o
+ls
+./a.out
+ls -la
+chmod +x a.out
+ls -la
+cd ../
+man cp
+cp chapter04/ ~
+cp -r chapter04/ ~
+ls ~
+cd ~/chapter034
+cd ~/chapter04
+./a.out
+chmod +x a.out
+ls
+ls -la
+./a.out
+sudo sh cuda_10.1.168_418.67_linux.run
+cat /var/log/cuda-installer.log 
+python test.py run --cpu -n 4 -i qasnap/center_src/in01
+python -v
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01
+mpirun
+. intel.sh 
+mpirun
+python 3 test.py setup
+python3 test.py setup
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01
+python3 test.py clean
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in02
+mpirun -np 4 src/snap_cpu --fi in04
+mpirun -np 4 src/snap_cpu --fi qasnap/center_src/in04 --fo /tmp/out04
+mpirun -np 4 src/snap_cpu --fi qasnap/center_src/in02 --fo /tmp/out02
+echo $?
+which python
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in02
+echo $?
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in02
+python3 test.py clean
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01
+python3 test.py clean
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in02
+python3 test.py run --cpu -n 6 -i qasnap/center_src/in02
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01
+python3 test.py run --cpu -n 6 -i qasnap/center_src/in02
+python3 test.py run --cpu -n 6 -i qasnap/center_src/in02 --clean
+python3 test.py analyse
+python3 test.py clean
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01 --clean
+python
+python3
+python 3
+python3
+python3 test.py analyse
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01
+. intel.sh
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01
+python3 test.py analyse
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01
+python3 test.py run --cpu -n 6 -i qasnap/center_src/in02
+python3 test.py analyse
+python3 test.py clean
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01
+python3 test.py run --cpu -n 4 -i qasnap/center_src/in01 --clean
+python3 test.py run --cpu -n 6 -i qasnap/center_src/in02 --clean
+python3 test.py analyse -v
+python3 test.py -v analyse
+python3 test.py analyse -v
+python3 test.py -v analyse
+python3
+python3 test.py -v analyse
+python3 test.py -v average -i in01 -n 4 --cpu --blocks 0 --threads 0
+python3 test.py average -i in01 -n 4 --cpu --blocks 0 --threads 0
+python3 test.py average -i in01 -n 4 --cpu --blocks 0 --threads 1
+python3 test.py average -i in01 -n 4 --cpu --blocks 0 --threads 0
+python3 test.py compare -f1 out01_cpu_n4_1 -f2 out01_cpu_n4_2
+python3 test.py compare -f1 out01_cpu_n4_1 -f2 out02_cpu_n6_1
+python3 test.py compare -f1 out01_cpu_n4_1 -f2 out01_cpu_n4_2
+python3 test.py clean
+make clean
+cd src
+make clean
+..
+git merge feature/timing
+git merge -h
+git branch -d feature/timing
+git branch -d cuda-separation
+git status
+cd src
+make
+make clean all
+python 3 ../test.py run --gpu -n 4 -i ../qasnap/center_src/in01
+python3 ../test.py run --gpu -n 4 -i ../qasnap/center_src/in01
+..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src
+make clean all
+..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src; make clean all; ..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd chapter04/
+./a.out
+cd ../uni/snap/
+;s
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+. intel.sh
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src
+make clean
+..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+python3 test.py run setup
+python3 test.py setup
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+. intel.sh
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+cd src
+make all
+.
+..
+python3 test.py run --gpu -n 4 -i qasnap/center_src/in01 --clean
+git merge feature/cuda-poc
+git branch -d feature/cuda-poc
+git log --pretty=format:"%h %s" --graph
+ls
+ls -la
+mkdir .dotfiles
+cp .bashrc .dotfiles/
+cp .functions .dotfiles/
+cp .aliases .dotfiles/
+cp .vimrc .dotfiles/
+cp .viminfo .dotfiles/
+cp .profile .dotfiles/
+cp .gitconfig .dotfiles/
+cp .fehbg .dotfiles/
+cat .bash_logout 
+cp .bash_logout .dotfiles/
+ls .dotfiles
+ls -la .dotfiles
+ll
+sudo apt-get install stow
+ls -la
+mkdir .dotfiles
+ls
+ls -la
+cd .dotfiles
+stow vim
+mkdir vim
+mkdir bash
+cd
+mv .dotfiles .dots
+ls
+cp .vimrc .dots/vim
+cp .viminfo .dots/vim
+stow vim
+cd .dots
+stow vim
+rm ~/.vimrc ~/.viminfo
+stow vim
+ls -la ~
+cp ~/.bashrc bash/
+cp ~/.bash_logout bash/
+cp ~/.profile bash/
+cp ~/.functions bash/
+cp ~/.aliases bash/
+rm -i ~/.bashrc ~/.functions ~/.aliases ~/.profile ~/.bash_logout
+ls
+ls bash
+ls -l bash
+ls -a bash
+stow bash
+ls
+apt-get -h
+echo stow > packages.txt
+ls
+cat packages.txt 
+ls -la ~
+mv ~/.bash_history bash
+stow bash
+cat bash/.bash_history
+which shell
+which bash
+vim packages.txt 
+clear
+ls
+mkdir git
+mv ~/.gitconfig git
+stow git
+ls
+ls ~
+ls -a ~
+ls -la ~
+cat ~/.viminfo
+ls -la vim
+stow vim
+rm ~/.viminfo
+stow vim
+ll ~
+reload
+cat bash/.aliases 
+vim bash/.aliases 
+cat bash/.aliases 
+ls
+ls -la
+mv test.py test
+chmod a+x test
+mv test.py test
+ls -la
+./test setup
+. intel.sh
+cat .bashrc
+cat ~/.bashrc
+vim  ~/.bashrc
+reload
+ls -la ~
+cd src
+make clean all
+..
+./test run -i in01 -n 4
+./test run -i in01 -n 4 --cpu
+./test run -i qasnap/center_src/in01 -n 4 --cpu
+./test run -i qasnap/center_src/in01 -n 4 --gpu
+man diff
+ls -la
+diff -s .vimrc .vimrc
+diff -s -y .vimrc .vimrc
+ls .dots/vim
+ll .dots/vim
+rm .viminfo
+cd .dots
+stow vim
+ll ~
+./test clean
+cd src; make clean; ..
+./test run -i qasnap/center_src/in01 -n 4 --clean
+./test run -i qasnap/center_src/in01 -n 4 --cpu --clean
+./test run -i qasnap/center_src/in02 -n 6 --cpu --clean
+./test run -i qasnap/center_src/in03 -n 6 --cpu --clean
+./test run -i qasnap/center_src/in01 -n 4 --cpu --clean
+./test run -i qasnap/center_src/in02 -n 6 --cpu --clean
+./test run -i qasnap/center_src/in03 -n 6 --cpu --clean
+./test run -i qasnap/center_src/in04 -n 4 --cpu --clean
+./test run -i qasnap/center_src/in05 -n 4 --cpu --clean
+./test run -i qasnap/center_src/in06 -n 4 --cpu --clean
+./test run -i qasnap/center_src/in07 -n 8 --cpu --clean
+./test run -i qasnap/center_src/in08 -n 8 --cpu --clean
+./test run -i qasnap/center_src/in09 -n 2 --cpu --clean
+./test run -i qasnap/center_src/in09 -n 4 --cpu --clean
+./test run -i qasnap/center_src/in10 -n 4 --cpu --clean
+./test run -i qasnap/center_src/in11 -n 4 --cpu --clean
+./test run -i qasnap/center_src/in12 -n 4 --cpu --clean
+./test run -i qasnap/center_src/in13 -n 4 --cpu --clean
+./test run -i qasnap/center_src/in14 -n 1 --cpu --clean
+./test -v compare -f1 out01_cpu_n4_1 out01_cpu_n4_1
+./test -v compare -f1 out01_cpu_n4_1 -f2 out01_cpu_n4_1
+./test -v compare -f1 out01_cpu_n4_1 out01_cpu_n4_1
+./test -v compare -f1 out01_cpu_n4_1 -f2 out01_cpu_n4_1
+./test -v compare -f1 out01_cpu_n4_1 -f2 out01_cpu_n4_2
+cat .dots/git/.gitconfig
+cat ~/.dots/git/.gitconfig
+cd ~
+cd .dots
+git init
+git statuis
+git status
+git add --all
+git status
+touch .gitignore
+ls
+git status
+git add --all
+git status
+mpiicc -E src/dim3_sweep.c
+mpiicc -E src/dim3_sweep.c > dim3_sweep.post-preprocessing.c
+gcc -E -h
+man gcc
+mpiicc -E src/dim3_sweep.c -o dim3_sweep.post-preprocessing.c 
+cs src
+cd src
+make clean all
+..
+mpiicc -E src/dim3_sweep.c -DUSEMKL -DUSEMKL -o dim3_sweep.post-preprocessing.c 
+mpiicc -E src/dim3_sweep.c -DUSEMKL -DUSEVML -o dim3_sweep.post-preprocessing.c 
+./test run --clean --cpu -i qasnap/center_src/in01 -n 4
+./test run --clean --cpu -i qasnap/center_src/in02 -n 6
+./test run --clean --cpu -i qasnap/center_src/in03 -n 6
+./test run --clean --cpu -i qasnap/center_src/in04 -n 4
+./test run --clean --cpu -i qasnap/center_src/in05 -n 4
+./test run --clean --cpu -i qasnap/center_src/in06 -n 4
+./test run --clean --cpu -i qasnap/center_src/in07 -n 8
+./test run --clean --cpu -i qasnap/center_src/in08 -n 8
+./test run --clean --cpu -i qasnap/center_src/in09 -n 4
+./test run --clean --cpu -i qasnap/center_src/in010 -n 4
+./test run --clean --cpu -i qasnap/center_src/in10 -n 4
+./test run --clean --cpu -i qasnap/center_src/in11 -n 4
+./test run --clean --cpu -i qasnap/center_src/in01 -n 4
+./test setup
+./test run --clean --cpu -i qasnap/center_src/in01 -n 4
+./test setup
+./test run --clean --cpu -i qasnap/center_src/in01 -n 4
+echo $?
+./test run --clean --cpu -i qasnap/center_src/in10 -n 4
+./test -v compare -f1 out01_cpu_n4_1 -f2 out01_cpu_n4_2
+./test run --clean --cpu -i qasnap/center_src/in01 -n 4
+cd src
+make clean all
+..
+./test run --clean --cpu -i qasnap/center_src/in01 -n 4
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+./test run --clean --cpu -i qasnap/center_src/in01 -n 4
+man gcc
+man mpirun
+git status
+git merge develop
+git branch -h
+git branch -d develop
+git merge develop
+git branch -d develop
+cd src
+make clean all
+..; ./test run --clean --cpu -i qasnap/center_src/in01 -n 4
+mpiicc -E src/dim3_sweep.c -o dim3_sweep.post-preprocessing.c 
+cd src
+make clean all
+ll
+make clean all
+manmpiccc
+man mpiccc
+man mpiicc
+make clean all
+make vars
+make clean
+make vars
+make clean all
+make vars
+make clean all
+make clean
+make clean all
+..
+./test run --clean --cpu -i qasnap/center_src/in01 -n 4
+./test clean
+cd src; make clean all; ..
+./test run --clean --cpu -i qasnap/center_src/in01 -n 4
+cd src; make clean all; ..
+./test run --clean --cpu -i qasnap/center_src/in01 -n 4
+./test run --clean --cpu -i qasnap/center_src/in02 -n 6
+./test run --clean --cpu -i qasnap/center_src/in03 -n 6
+./test run --clean --cpu -i qasnap/center_src/in04 -n 4
+./test run --clean --cpu -i qasnap/center_src/in05 -n 4
+./test run --clean --cpu -i qasnap/center_src/in06 -n 4
+./test run --clean --cpu -i qasnap/center_src/in07 -n 8
+./test run --clean --cpu -i qasnap/center_src/in08 -n 8
+./test run --clean --cpu -i qasnap/center_src/in09 -n 4
+./test run --clean --cpu -i qasnap/center_src/in10 -n 4
+./test run --clean --cpu -i qasnap/center_src/in11 -n 4
+./test run --clean --cpu -i qasnap/center_src/in12 -n 4
+./test run --clean --cpu -i qasnap/center_src/in13 -n 4
+./test run --clean --cpu -i qasnap/center_src/in14 -n 1
+cd src
+make clean all
+..
+./test run --clean --gpu -i qasnap/center_src/in01 -n 4
+./test compare -f1 out01_cpu_n4_1 -f2 out01_gpu_n4_1
+cat out/out01_gpu_n4_1
+cd src
+make clean all
+..
+./test run --clean --gpu -i qasnap/center_src/in01 -n 4
+./test compare -f1 out01_cpu_n4_1 -f2 out01_gpu_n4_2
+cd src
+make clean all
+..
+./test run --clean --gpu -i qasnap/center_src/in01 -n 4
+cd src; make clean all; ..
+./test run --clean --gpu -i qasnap/center_src/in01 -n 4
+./test run --clean --cpu -i qasnap/center_src/in01 -n 8
+./test run --clean --cpu -i qasnap/center_src/in01 -n 2
+./test average -h
+./test average -i in01 -n 4 --cpu
+./test average --cpu -i in02 -n 6
+./test average --cpu -i in03 -n 6
+./test average --cpu -i in04 -n 4
+./test average --cpu -i in05 -n 4
+./test average --cpu -i in06 -n 4
+./test average --cpu -i in07 -n 4
+./test average --cpu -i in07 -n 8
+./test average --cpu -i in08 -n 8
+./test average --cpu -i in09 -n 4
+./test average --cpu -i in10 -n 4
+./test average --cpu -i in11 -n 4
+./test average --cpu -i in12 -n 4
+./test average --cpu -i in13 -n 4
+./test average --cpu -i in14 -n 4
+./test average --cpu -i in14 -n 1
+git checkout develop
+git merge feature/cuda_dim3
+git branch -D feature./cuda_dim3
+git branch -D feature/cuda_dim3
+./test clean
+cd src
+make clean

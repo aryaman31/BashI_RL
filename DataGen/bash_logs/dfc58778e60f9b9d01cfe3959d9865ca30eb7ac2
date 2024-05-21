@@ -1,0 +1,1382 @@
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo reboot()
+sudo reboot
+export OPENEDX_RELEASE=open-release/ginkgo.2
+wget https://raw.githubusercontent.com/edx/configuration/$OPENEDX_RELEASE/util/install/ansible-bootstrap.sh -O - | sudo bash
+wget https://raw.githubusercontent.com/edx/configuration/$OPENEDX_RELEASE/util/install/generate-passwords.sh -O - | bash
+wget https://raw.githubusercontent.com/edx/configuration/$OPENEDX_RELEASE/util/install/sandbox.sh -O - | bash
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -u www-data /edx/bin/python.edxapp /edx/app/edxapp/edx-platform/manage.py lms --settings aws create_user -s -p edx -e amirareda.deltasoft@gmail.com
+./manage.py lms  --settings=devstack createsuperuser
+sudo -H -u edxapp bash
+clear
+sudo -H -u edxapp bash #must be edxapp user
+sudo /edx/bin/supervisorctl restart edxapp: # restart cms and lms
+sudo /edx/bin/supervisorctl restart all
+/edx/app/edxapp/
+cd /edx/app/edxapp/edx-platform/
+cd lms/templates/
+sudo nano index.html 
+sudo nano navigation/navigation.html 
+cd ../.../../..
+cd ../../..
+git clone https://github.com/raccoongang/themex_script.git
+sudo git clone https://github.com/raccoongang/themex_script.git
+cd themex_script/
+cd ../..
+sudo git clone https://github.com/raccoongang/themes_for_themex.io.git
+cd themex_script/
+cd /home/
+ls
+cd ..
+cd themex_script/
+cd ../home/deltasoft/
+ls
+cd /home/
+ls
+cd ..
+cd themex_script/
+cd ..
+ls
+cd themex_script/
+sudo ./update_theme.sh -l ../themes_for_themex.io/
+cd ..
+cd themes_for_themex.io/
+ls
+cd ../themex_script/
+sudo ./update_theme.sh -l ../themes_for_themex.io.zip
+sudo ./update_theme.sh https://github.com/raccoongang/themes_for_themex.io.git
+cd ..
+git clone https://github.com/raccoongang/themes_for_themex.io/tree/marvel-theme-ginkgo.git
+sudo git clone https://github.com/raccoongang/themes_for_themex.io/tree/marvel-theme-ginkgo.git
+sudo git clone https://github.com/raccoongang/themes_for_themex.io/tree/marvel-theme-ginkgo
+cd themex_script/
+sudo ./update_theme.sh -b marvel-theme-ginkgo
+cd ..
+cd /edx/app/edxapp/
+ls
+sudo nano lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano cms.env.json
+sudo nano lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano lms.env.json
+sudo nano cms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano cms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo git clone https://github.com/MiraReda/ZatiTheme1062018.git
+cdd ZatiTheme1062018/
+cd ZatiTheme1062018/
+ls
+sudo rm -rf /edx/app/edxapp/themes/raccoongang_theme/lms
+cd /edx/app/edxapp/themes/raccoongang_theme/
+ls
+cd marvel-theme-ginkgo/
+ls
+sudo rm -rf lms/
+ls
+cd ../../../../..
+cd ..
+sudo cp -r ZatiTheme1062018/  /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/
+sudo cp -r ZatiTheme1062018/lms  /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/
+sudo cp -r /ZatiTheme1062018/lms  /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/
+cd /home
+ls
+cd deltasoft/
+ls
+sudo cp -r /home/deltasoft/ZatiTheme1062018/lms  /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/
+ls
+sudo chown -R edxapp:edxapp lms/
+sudo chmod -R u+rw lms/
+cd ../../../..
+cd ../..
+sudo -H -u edxapp bash 
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/cms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/edx-platform/conf/locale/ar/
+sudo nano /edx/app/edxapp/edx-platform/conf/locale/ar/LC_MESSAGES/mako.po 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/templates/wiki/includes/anonymous_blocked.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html 
+git clone https://github.com/MiraReda/assests.git
+cd assests/
+ls
+sudo cp -r home_sliders/ /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/images/
+cd ..
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/images/
+ls
+sudo mv home-sliders/ home-slider/
+sudo mv home_sliders/ home-slider/
+ls
+cd home-slider/
+ls
+sudo chown -R edxapp:edxapp home_sliders/
+sudo chmod -R u+rw home_sliders/
+cd ../../..
+cd templates/
+sudo nano index.html 
+sudo -H -u edxapp bash
+sudo nano index.html 
+sudo -H -u edxapp bash
+cd ../../../../../..
+cd ..
+cd var/log/cms/
+sudo nano edx.log 
+sudo nano /edx/app/edxapp/cms.env.json
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/cms.env.json
+sudo rabbitmqctl status
+sudo rabbitmqctl cluster_status
+sudo rabbitmqctl add_user celery celery
+sudo rabbitmqctl set_permissions celery ".*" ".*" ".*"
+sudo service rabbitmq-server restart
+sudo nano /edx/app/edxapp/cms.env.json
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/cms.env.json
+cd ../lms/
+sudo nano /edx/app/edxapp/lms.env.json
+cd ../cms
+sudo nano cms.env.json
+sudo nano /edx/app/edxapp/cms.env.json
+sudo /edx/bin/supervisorctl restart all
+cd ../../../..
+cd /edx/app/edxapp/edx-platform
+sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp lms dump_course_ids --settings aws
+sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp cms delete_course a+aa+aa --settings aws
+sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp cms delete_course course-v1:a+aa+aa --settings aws
+sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp lms dump_course_ids --settings aws
+sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp cms delete_course course-v1:b+b+bb --settings aws
+sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp lms dump_course_ids --settings aws
+sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp cms delete_course course-v1:edX+DemoX+Demo_Course --settings aws
+sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp lms dump_course_ids --settings aws
+sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp cms delete_course course-v1:Thaty+CS_100+2018_IT --settings aws
+cd ../..
+cd edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+sudo nano index.html 
+cd navigation/
+sudo nano navigation.html 
+Continuous learning
+cd /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo nano /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+python /edx/app/edxapp/edx-platform/manage.py lms makemigrations --settings=aws
+sudo -H -u edxapp bash
+python /edx/app/edxapp/edx-platform/manage.py lms makemigrations --settings=aws
+
+sudo -H -u edxapp bash
+cd  /edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/course_module.py
+sudo nano /edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/course_module.py
+cd  /edx/app/edxapp/edx-platform/cms/static/js/views/settings/main.js
+sudo nano /edx/app/edxapp/edx-platform/cms/static/js/views/settings/main.js
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courses_list.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/main.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/course.html 
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/css/
+ls
+cd ../..
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/
+cd /home/
+ls
+cd deltasoft/
+ls
+sudo nano mkdir Zati11618
+sudo mkdir Zati11618
+cd Zati11618/
+git init
+sudo git init
+git remote -v
+git remote add origin https://github.com/MiraReda/Zati11618.git
+sudo git remote add origin https://github.com/MiraReda/Zati11618.git
+git pull
+sudo git pull
+ls
+cd ..
+ls
+cd Zati11618/
+ls
+cd ..
+cd /home/deltasoft/
+ls
+cd Zati11618
+ls
+cd ..
+git clone https://github.com/MiraReda/Zati11618.git
+cd /home/
+git clone https://github.com/MiraReda/Zati11618.git
+sudo git clone https://github.com/MiraReda/Zati11618.git
+cd Zati11618/
+ls
+sudo rm -rf /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms
+sudo cp -r lms/ /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/
+ls
+sudo chown -R edxapp:edxapp lms/
+sudo chmod -R u+rw lms/
+sudo -H -u edxapp bash
+sudo nano lms/templates/courses_list.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/templates/login.html 
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/edx-platform/lms/templates/login.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/templates/main.html 
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/lms.auth.json 
+sudo nano /edx/app/edxapp/edx-platform/lms/templates/main.html 
+sudo nano /edx/app/edxapp/lms.auth.json 
+sudo /edx/bin/supervisorctl restart all
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/
+ls
+cd templates/
+ls
+cd student_account/
+ls
+sudo nano login.underscore 
+cd ../../../
+cd ../..
+cd edxapp/edx-platform/lms/djangoapps/student_account/
+ls
+sudo nano views.py
+sudo nano /edx/app/edxapp/lms.auth.json 
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/lms.auth.json 
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/lms.auth.json 
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo /edx/bin/supervisorctl restart edxapp:
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+reboot()
+reboot
+reboot()
+cd ../../../..
+cd ../..
+sudo reboot()
+sudo reboot
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/lms.auth.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo reboot
+sudo nano /edx/var/log/lms/edx.log
+sudo /edx/bin/supervisorctl restart all
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/main.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/templates/main.html 
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/lms.auth.json 
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/var/log/lms/edx.log
+sudo reboot
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/var/log/lms/edx.log
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/student_account/
+ls
+sudo nano login.underscore 
+cd ../../..
+cd ../..
+cd ..
+cd edx-platform/lms/djangoapps/student_account/
+ls
+sudo nano urls.py
+sudo nano views.py
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/lms.auth.json
+cd ../../../../..
+cd ../..
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/lms.env.json
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/lms.auth.json
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/lms.auth.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/main.html 
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/lms.env.json
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo -H -u edxapp bash
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+ls
+cd courseware/
+ls
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo reboot
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/dashboard/
+ls
+sudo nano _dashboard_course_listing.html 
+git clone https://github.com/MiraReda/Zati12618.git
+cd /home/deltasoft/Zati12618/
+sudo rm -rf /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms
+sudo cp -r lms/ /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/
+ls
+sudo chown -R edxapp:edxapp lms/
+sudo chmod -R u+rw lms/ 
+sudo -H -u edxapp bash
+cd ../../..
+cd edx-platform/conf/locale/ar/LC_MESSAGES/
+sudo nano mako.po
+sudo -H -u edxapp bash
+sudo nano +9538 mako.po
+sudo -H -u edxapp bash
+cd ../../..
+cd ..
+cd lms/templates/wiki/includes/
+ls
+sudo nano anonymous_blocked.html 
+y
+exit
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo /edx/bin/supervisorctl restart all
+sudo -H -u edxapp bash
+sudo reboot
+sudo -H -u edxapp bash
+cd /edx/app/edxapp/edx-platform/lms/templates/wiki/includes/
+sudo nano anonymous_blocked.html 
+sudo -H -u edxapp bash
+cd ../..
+ls
+cd lms/
+ls
+cd djangoapps/
+ls
+cd course_wiki/
+ls
+sudo nano views.py
+cd plugins/
+ls
+cd ../..
+cd ..
+cd templates/
+ls
+cd wiki/
+ls
+sudo nano create.html 
+sudo nano article.html 
+sudo nano base.html 
+sudo nano delete
+sudo nano delete.html 
+cd includes/
+ls
+sudo nano article_menu.html 
+sudo nano breadcrumbs.html 
+sudo nano form.html 
+sudo nano anonymous_blocked.html 
+sudo -H -u edxapp bash
+cd ../../../..
+cd ..
+cd edx-platform/conf/locale/ar/LC_MESSAGES/
+sudo nano mako.po
+cd ../../../
+cd ..
+ls
+cd lms/
+ls
+cd templates/
+ls
+cd wiki/
+ls
+sudo nano edit.html 
+sudo nano history.html 
+sudo nano preview_inline.html 
+sudo nano includes/
+sudo nano includes/anonymous_blocked.html 
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+sudo -H -u edxapp bash
+sudo nano includes/anonymous_blocked.html 
+sudo -H -u edxapp bash
+sudo reboot
+sudo -H -u edxapp bash
+cd /edx/app/edxapp/edx-platform/conf/locale/ar/LC_MESSAGES/
+ls
+sudo nano wiki.po 
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+sudo nano mako.po
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courses_list.html 
+cd /edx/app/edxapp/edx-platform/conf/locale/ar/LC_MESSAGES/
+sudo nano mako.po
+cd ../../..
+cd ..
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+sudo -H -u edxapp bash
+cd /edx/app/edxapp/edx-platform/conf/locale/ar/LC_MESSAGES/
+ls
+cd ../../..
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+cd ../..
+cd themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+sudo nano navigation/navigation.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/main.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/var/log/lms/edx.log
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+[A
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo cp /home/deltasoft/Zati12618/lms/templates/navigation/navigation.html /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courses_list.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/courses.py
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/course.html 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/course.html 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html 
+
+
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/dashboard/_dashboard_course_listing.html 
+sudo mkdir serverarlanguage
+cd serverarlanguage/
+sudo cp -r /edx/app/edxapp/edx-platform/conf/locale/ar/LC_MESSAGES/* .
+ls
+cd .
+cd ..
+sudo mkdir localarlanguage
+cd  localarlanguage
+git clone https://github.com/MiraReda/arlanguagefromlocaltoserver.git
+sudo git clone https://github.com/MiraReda/arlanguagefromlocaltoserver.git
+ls
+cd arlanguagefromlocaltoserver/
+ls
+sudo cp -r * /edx/app/edxapp/edx-platform/conf/locale/ar/LC_MESSAGES/
+cd /edx/app/edxapp/edx-platform/conf/locale/ar/LC_MESSAGES/
+ls
+sudo chown -R edxapp:edxapp *
+sudo chmod -R u+rw *
+sudo /edx/bin/supervisorctl restart all
+cd ../../../../..
+cd ../../...
+cd ../../..
+sudo git clone https://github.com/MiraReda/newcss.git
+cd newcss/
+sudo cp style.css style-rtl.css /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/css/
+sudo cp code.js /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/js/
+cd ..
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/css
+sudo chown -R edxapp:edxapp *
+sudo chmod -R u+rw *
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/js/
+sudo chown -R edxapp:edxapp code.js 
+sudo chmod -R u+rw code.js 
+cd /home/
+cd ..
+git clone https://github.com/MiraReda/images13618.git
+sudo git clone https://github.com/MiraReda/images13618.git
+cd images13618/
+sudo cp * /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/images/
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/images/
+ls
+sudo chown -R edxapp:edxapp *
+sudo chmod -R u+rw *
+cd ..
+cd ../..
+cd lms/templates/
+sudo nano index.html 
+sudo -H -u edxapp bash
+cd ..
+cd static/css/
+sudo nano style.css 
+sudo -H -u edxapp bash
+cd ../..
+cd templates/
+sudo nano index.html 
+sudo nano courseware/course_about.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/js/code.js 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/js/code.js 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/js/code.js 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+cd /edx/app/edxapp/edx-platform/lms/
+ls
+sudo nano urls.py
+cd /edx/app/edxapp/edx-platform/lms/
+ls
+cd djangoapps/
+cd courseware
+ls
+cd views/
+sudo nano views.py
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/dashboard/_dashboard_course_listing.html 
+cd  /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/dashboard
+ls
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/dashboard/_dashboard_course_listing.html 
+cd ../../
+cd ../../..
+cd ..
+cd edx-platform/lms/djangoapps/dashboard/
+ls
+cd management/
+ls
+cd ..
+cd ../../..
+cd  lms
+sudo nano urls.py
+cd djangoapps/
+cd student
+cd ..
+sudo nano urls.py
+ls
+cd djangoapps/
+ls
+cd student_account/
+ls
+sudo nano views.py
+cd ..
+ls
+cd learner_dashboard/
+ls
+sudo nano views.py
+cd ..
+ls
+cd envs/
+ls
+cd ..
+cd djangoapps/
+ls
+cd ../..
+cd lms/
+sudo nano urls.py
+cd ..
+ls
+cd lms/djangoapps/courseware
+sudo nano views/views.py
+cd ../..
+ls
+cd templates/
+ls
+cd ../../..
+cd themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+ls
+cd dashboard/
+ls
+cd ../..
+cd templates/
+ls
+cd ../../../.
+cd ../..
+cd edx-platform/lms/templates/
+sudo nano dashboard.html 
+cd ../..
+cd ../themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+ls
+sudo nano navigation/navigation.html
+cd ../themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+suudo nano dashboard.html 
+sudo nano dashboard.html 
+cd ../themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/
+cd navigation/
+sudo nano navigation.html
+cd ../../..'
+cd ../../..
+cd ../..
+cd ..
+ls
+sudo nano lms.env.json
+cd venvs/
+ls
+cd ../edx-platform/
+ls
+cd common/
+ls
+cd ..
+cd lms/
+ls
+cd envs/
+ls
+sudo nano common.py
+sudo -H -u edxapp bash
+sudo nano common.py
+sudo -H -u edxapp bash
+cd ..
+ls
+cd templates/
+ls
+cd dashboard/
+ls
+cd ../..
+cd djangoapps/
+ls
+cd dashboard/
+ls
+sudo reboot
+sudo -H -u edxapp bash
+cd /edx/var/log/lms/
+sudo nano edx.log
+cd ../..
+cd .
+cd ..
+cd app/edxapp/edx-platform/lms/templates/
+cd ..
+cd edx-platform/
+ls
+cd lms/
+ls
+cd envs/
+ls
+sudo nano common.py
+sudo -H -u edxapp bash
+sudo nano common.py
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo reboot
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo -H -u edxapp bash
+cd /edx/app/edxapp/edx-platform/cms/envs/
+sudo nano common.py
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+cd ../..
+cd ..
+sudo nano lms.env.json
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/cms.env.json
+sudo /edx/bin/supervisorctl restart all
+cd app/edxapp/edx-platform/lms/templates/
+cd ../themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/
+cd /edx/appedx/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/
+sudo nano navigation.html
+sudo -H -u edxapp bash
+cd ../..
+cd templates/
+cp courses_list.html  courses_list_search.html 
+sudo cp courses_list.html  courses_list_search.html 
+ls
+cd navigation/
+sudo nano navigation.html
+cd ../../../../../
+cd ..
+cd edx-platform/lms/
+sudo nano urls.py
+cd djangoapps/courseware
+sudo nano views/views.py
+cd ../../../../..
+cd edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+ls
+sudo mv courses_list_search.html courses_list22.html
+sudo chown -R edxapp:edxapp courses_list22.html 
+sudo chmod -R u+rw courses_list22.html 
+sudo -H -u edxapp bash
+sudo nano navigation/navigation.html
+cd ../../..
+cd ../..
+cd edx-platform/lms/
+sudo nano urls.py
+sudo -H -u edxapp bash
+cd ../..
+cd themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/
+sudo nano navigation.html
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+cd /edx/app/edxapp/edx-platform/lms/
+ls
+cd static/
+ls
+cd ../../../../..
+cd ..
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+cd  /edx/app/edxapp/
+ls
+sudo nano  edx-platform/lms/envs/common.py
+sudo nano  themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/css/style.css 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/js/code.js 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/js/code.js 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/edx-platform/conf/locale/ar/LC_MESSAGES/
+sudo nano /edx/app/edxapp/edx-platform/conf/locale/ar/LC_MESSAGES/mako.po
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo nano +210 /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +225 /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +223 /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+cd /edx/app/edxapp/edx-platform/lms
+cd static/
+ls
+cd images/
+ls
+sudo cp /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/images/favicon.png  .
+ls
+sudo rm favicon.ico 
+ls
+sudo /edx/bin/supervisorctl restart all
+cd ../../../..
+cd edx-platform/conf/locale/ar/LC_MESSAGES/
+sudo nano mako.po
+cd ../../../
+cd ../..
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+cd ../..
+cd ..
+cd /edx/app/edxapp/edx-platform/conf/locale/ar/LC_MESSAGES/
+sudo nano mako.po
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+cd ../../../..
+cd lms/static/images/
+ls
+cd ../..
+cd ..
+cd themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+sudo nano courses_list
+sudo nano courses_list.html 
+sudo nano course.html 
+ls
+sudo nano  dashboard/_dashboard_course_listing.html 
+cd ../..
+sudo nano lms/templates/course.html 
+sudo nano /edx/var/log/lms/edx.log
+sudo nano lms/templates/course.html 
+sudo nano /edx/var/log/lms/edx.log
+sudo nano lms/templates/course.html 
+sudo -H -u edxapp bash
+sudo nano lms/templates/course.html 
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +43 lms/templates/course.html 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo -H -u edxapp bash
+sudo nano +59 /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo -H -u edxapp bash
+sudo nano +59 /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/course_module.py
+sudo nano /edx/app/edxapp/edx-platform/cms/static/js/views/settings/main.js
+sudo /edx/bin/supervisorctl restart all
+sudo nano lms/templates/course.html 
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+sudo nano lms/templates/course.html 
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/edx-platform/cms/static/js/views/settings/main.js
+sudo nano /edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/course_module.py
+sudo nano +59 /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+sudo nano lms/templates/course.html 
+sudo -H -u edxapp bash
+sudo nano lms/templates/course.html 
+sudo nano lms/templates/courses_list.html 
+sudo nano lms/templates/course.html 
+sudo nano +59 /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo nano /edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/course_module.py
+sudo nano lms/templates/course.html 
+sudo nano lms/templates/courses_list.html 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/cms/static/js/views/settings/main.js
+sudo /edx/bin/supervisorctl restart all
+sudo nano lms/templates/courses_list.html 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courses_list.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/course.html 
+sudo /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo nano /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/course_module.py
+sudo nano /edx/app/edxapp/edx-platform/cms/static/js/views/settings/main.js
+sudo /edx/bin/supervisorctl restart all
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/cms/static/js/views/settings/main.js
+sudo nano /edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/course_module.py
+sudo nano /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/course.html 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/course.html 
+sudo reboot
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/course.html 
+sudo nano /edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/course_module.py
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/course.html 
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/course_module.py
+sudo nano /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo nano /edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/course_module.py
+sudo nano /edx/app/edxapp/edx-platform/cms/static/js/views/settings/main.js
+sudo -H -u edxapp bash
+sudo /edx/bin/supervisorctl restart all
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/course.html 
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/course.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courses_list.html 
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/cms/edx.log
+sudo -H -u edxapp bash
+cd /home/
+ls
+sudo rm -rf Zati11618/
+cd ..
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/cms/static/js/views/settings/main.js
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/course.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/footer.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/urls
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/main.html 
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo nano /edx/app/edxapp/edx-platform/cms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/cms/edx.log
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +137 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano +173 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +173 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +173 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +173 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +172 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +178 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +177 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +177 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +175 +48 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +178 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +178 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +178 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +178 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/branding/views.py
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo rm /edx/var/log/lms/edx.log
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+cd /edx/var/log/lms/
+sudo chown -R edxapp:edxapp edx.log
+sudo nano /edx/var/log/lms/edx.log
+sudo chown -R edxapp:edxapp edx.log
+sudo chmod -R u+rw edx.log
+sudo nano /edx/var/log/lms/edx.log
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lms/edx.log
+sudo edx.log
+sudo nano edx.log
+sudo nano /edx/var/log/lms/edx.log
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html
+sudo nano /edx/var/log/lms/edx.log
+sudo nano edx.log
+ls
+sudo nano edx.log-20180614-1529011021 
+sudo rm edx.log
+sudo nano edx.log
+ls
+cd ..
+sudo rm -rf lms/
+ls
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html
+cd /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+ls
+sudo chown -R edxapp:edxapp courses_list22.html 
+sudo chmod -R u+rw courses_list22.html 
+cd ../../../../../../..
+cd ..
+sudo -H -u edxapp bash
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html
+sudo -H -u edxapp bash
+sudo nano edx.log
+cd edx/var/log/
+ls
+sudo mkdir lms
+ls
+cd lms/
+ls
+cd ..
+sudo chown -R edxapp:edxapp lms/
+sudo chmod -R u+rw lms/
+ls
+cd lms/
+ls
+sudo -H -u edxapp bash
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/branding/views.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/ls
+cd /edx/app/edxapp/edx-platform/lms/djangoapps/ls
+cd /edx/app/edxapp/edx-platform/lms/djangoapps/
+ls
+cd branding/
+ls
+sudo nano views.py
+cd ..
+sudo nano urls.py
+cd ..
+cd openedx/core/djangoapps/
+ls
+cd ..
+ls
+cd djangolib/
+ls
+cd ..
+cd djangoapps/
+ls
+cd content
+ls
+cd ..
+cd user_api/
+ls
+cd accounts/
+ls
+sudo nano views.py
+cd ../../../../..
+cd ../../../..
+find /edx -name "student" -type d
+sudo find /edx -name "student" -type d
+cd /edx/app/edxapp/edx-platform/common/djangoapps/student
+ls
+sudo nano urls.py
+sudo nano views.py
+cd ../../../..
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html
+
+sudo nano views/views.py
+cd ../../../../..
+cd edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+sudo nano courses_list22.html 
+sudo nano course.html 
+sudo nano courses_list22.html 
+cd ../../..
+cd edxapp/edx-platform/lms/djangoapps/courseware/
+ls
+sudo nano views/views.py
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/index.html
+sudo -H -u edxapp bash
+cd ../../../../..
+cd ../..
+cd edxapp/edx-platform/lms/djangoapps/courseware/
+cd /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/
+sudo nano views/views.py
+sudo -H -u edxapp bash
+cd ../..
+sudo nano urls.py
+cd templates/
+sudo nano index.html 
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano index.html 
+sudo nano +175 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+cd ./../../..
+sudo nano lms.env.json
+ls
+sudo nano edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+python manage.py lms --settings=aws print_settings STATIC_ROOT --format=value 2>/dev/null
+sudo nano edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano /edx/var/log/lm
+sudo nano lms.env.json
+cd /edx/logs/
+cd /edx
+ls
+cd var/
+ls
+cd log/
+ls
+cd edxapp/
+ls
+cd lms/
+ls
+sudo cd lms/
+cd ../
+cd lms/
+ls
+sudo /edx/bin/supervisorctl restart all
+ls
+cd ..
+ls
+sudo -H -u edxapp bash
+ls
+cd lms/
+ls
+sudo reboot
+sudo nano /edx/var/log/lms/edx.log
+cd /edx/var/log
+ls
+stat lms
+stat cms
+sudo chown -R syslog:syslog lms/
+sudo chmod -R u+rw lms/
+ls
+cd lms/
+ls
+stat edx.log 
+sudo nano edx.log 
+sudo nano/edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py 
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py 
+sudo -H -u edxapp bash
+sudo nano edx.log 
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano edx.log 
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano edx.log 
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navig
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/templates/index.html 
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano edx.log 
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo nano /edx/app/edxapp/lms.env.json
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/courses.html 
+sudo nano +339 /edx/app/edxapp/edx-platform/lms/templates/courseware/courses.html 
+sudo nano /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/courses.html 
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/branding/views.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/views/views.py
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/branding/views.py
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo nano /edx/app/edxapp/edx-platform/lms/djangoapps/branding/views.py
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/envs/common.py
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/css/style.css 
+sudo -H -u edxapp bash
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/static/css/style.css 
+sudo -H -u edxapp bash
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +109 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +109 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +107 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +107 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +107 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +107 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +107 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +107 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +107 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +107 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo nano +107 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +212 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +212 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/app/edxapp/edx-platform/openedx/core/djangoapps/content/course_overviews/models.py
+sudo nano +212 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +212 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo -H -u edxapp bash
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo -H -u edxapp bash
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+ؤي  /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware
+cd  /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware
+sudo mv course_about.html  course_about17618.html
+sudo -H -u edxapp bash
+sudo mv course_about17618.html
+sudo mv course_about17618.html course_about.html
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+EXIT
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano +107 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/navigation/navigation.html
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo nano /edx/var/log/lms/edx.log 
+sudo nano +339 /edx/app/edxapp/themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/courseware/course_about.html 
+sudo /edx/app/edxapp/edx-platform/lms/envs/
+cd  /edx/app/edxapp/edx-platform/lms/envs/
+
+sudo -H -u edxapp bash
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+
+sudo nano /edx/app/edxapp/edx-platform/lms/urls.py
+cd ..
+cd templates/
+cd wiki/
+sudo nano base.html 
+cd ..
+ls
+sudo nano main_django.html 
+cd ../..
+cd ..
+cd themes/raccoongang_theme/marvel-theme-ginkgo/lms/templates/
+sudo nano main_django1.html 
+sudo mv main_django1.html main_django.html 
+sudo -H -u edxapp bash
+sudo nano main_django.html 
