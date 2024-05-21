@@ -36,10 +36,12 @@ if __name__ != "__main__":
             state = env.reset()
             done, terminated = False, False 
             while not (done or terminated):
-                action = Agent.pickAction(state)
+                action = agent.pickAction(state)
                 state = env.step(action) 
+                # Add a termination condition here
 
     # Can save agent model here !    
+    agent.save('agent.model')
     
     print("FINISHED")
 

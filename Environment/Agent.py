@@ -23,6 +23,12 @@ class Agent:
         print("Agent.pickAction NOT IMPLEMENTED YET")
         return Action((1, 1, 1))
 
+    def save(self, filename):
+        torch.save(self.Q, filename)
+    
+    def load(self, filename):
+        self.Q = torch.load(filename)
+
 class DQN(nn.Module):
     def __init__(self, layer_sizes:list[int]):
         super(DQN, self).__init__()
