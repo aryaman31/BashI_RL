@@ -1,3 +1,5 @@
+import random
+import string
 
 class Action:
     def __init__(self, actionTuple):
@@ -8,6 +10,8 @@ class Action:
     def applyAction(self, payload):
         charToInsert = ''
         match self.actionId:
+            case 0: 
+                return self.__generateRandomString()
             case 1:
                 options = ["&", ";", "||"]
                 charToInsert = options[self.arg2]
@@ -31,3 +35,11 @@ class Action:
         newPayload = list(payload)
         newPayload.insert(self.arg1, charToInsert)
         return "".join(newPayload)
+    
+    def getActionId(self):
+        return self.actionId
+
+    def __generateRandomString(self, length=10):
+        characters = string.ascii_letters + string.digits
+        random_string = ''.join(random.choice(characters) for _ in range(length))
+        return random_string

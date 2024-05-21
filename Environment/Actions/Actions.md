@@ -2,6 +2,7 @@ Action Space
 
 | ID | Action | Argument | Description | 
 |----|--------|----------|-------------|
+| 0  | Identifier | | Send a random string to find vulnerable injection points
 | 1  | Add command composiiton | int location, int option | add stuff like &, ; \|\| | 
 | 2  | Add comment | int location | Add a comment operator # | 
 | 3  | Add (,) | int location, int option | Adds a ( ,) |

@@ -4,6 +4,7 @@ import torch.nn.functional as F
 
 from Environment.State import State
 from Environment.Actions.Action import Action
+from Environment.Games import GAME
 
 # Needs to implement DQN properly with target and policy net. 
 class Agent: 
@@ -12,6 +13,11 @@ class Agent:
 
     def __init__(self):
         self.Q = DQN(Agent.NETWORK)
+        self.game = GAME.FIND_COMMAND
+    
+    def updateGame(self, state: State) -> GAME:
+        print("Agent.updateGame NOT IMPLEMENTED YET")
+        return GAME.FIND_COMMAND
 
     def pickAction(self, state: State):
         print("Agent.pickAction NOT IMPLEMENTED YET")

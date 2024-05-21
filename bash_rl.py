@@ -2,10 +2,11 @@ import sys
 
 from Communication.Controller import Controller
 from BashExtractor.BashExtractor import BashExtractor
-from Environment.Environment import Environment
+from Environment.Actions.Action import Action
+from Environment.Environment import BashI_Environment
 from Environment.Agent import Agent
     
-if __name__ == "__main__":
+if __name__ != "__main__":
     '''
         main execution of the tool
     '''
@@ -20,7 +21,7 @@ if __name__ == "__main__":
 
     controller = Controller(server_address)
     bashEx = BashExtractor(server_pid)   
-    env = Environment(controller, bashEx) 
+    env = BashI_Environment(controller, bashEx) 
 
     agent = Agent()
 
