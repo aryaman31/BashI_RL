@@ -1,17 +1,56 @@
 import requests
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
+from collections import defaultdict
 
 class Controller:
-    def __init__(self, host):
-        self.host = host 
-        self.requestPath = ''
+    def __init__(self, url):
+        self.url = url 
+        self.requestMethod = ''
+        self.requestAction = ''
+        self.input = ''
+        self.inputs = defaultdict(list)
 
-    def findNewRequestPath(self):
-        # Return true if new reqpath found, else false 
-        print("Controller.findNewRequestPath IS NOT IMPLEMENTED")
-        return True
-    
-    def makeRequest(self, params):
-        # If game is find command, find a new input
+        response = requests.get(self.url)
+        if response.status_code != 200:
+            print(f"Server returned error {response.status_code}. Please fix the URL.")
+            exit()
+        html_content = response.content
+        soup = BeautifulSoup(html_content, 'html.parser')
+        self.forms = list(soup.find_all('form', recursive=True))
+        for form in self.forms:
+            inps = form.find_all('input')
+            for input_field in inps:
+                if input_field.get('type') in ['text']:
+                    self.inputs[form].append(input_field.get('name'))
         
-        response = requests.get(self.address, params=params)
+    def findNewRequestPath(self):
+        if len(self.forms) < 1:
+            return False 
+        
+        self.input = self.inputs[self.forms[0]].pop()
+        self.requestAction = self.forms[0].get('action')
+        self.requestMethod = self.forms[0].get('method', 'get')
+
+        if self.inputs[self.forms[0]] == []:
+            self.forms.pop(0)
+
+        return True
+        
+    def makeRequest(self, payload):
+        request_url = urljoin(self.url, self.requestAction)
+        params = {self.input : payload}
+        
+        if self.requestMethod == 'get':
+            response = requests.get(request_url, params=params)
+        else: 
+            response = requests.post(request_url, json=params)
         # print("Response received:\n" + response.content)
+
+if __name__ == '__main__':
+    controller = Controller('http://localhost:8000/')
+    controller.findNewRequestPath()
+    controller.makeRequest('test')
+
+    controller.findNewRequestPath()
+    controller.makeRequest('test2')

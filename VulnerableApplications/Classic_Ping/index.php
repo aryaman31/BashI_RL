@@ -15,7 +15,7 @@
     <h2>Ping IP Address</h2>
 
     <form method="get" action="">
-        <label for="ip_addr2ess">Enter IP Address:</label>
+        <label for="ip_address">Enter IP Address:</label>
         <input type="text" name="ip_address" id="ip_address" required>
         <input type="submit" value="Ping">
     </form>
