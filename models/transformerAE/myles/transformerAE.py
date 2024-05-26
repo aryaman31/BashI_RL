@@ -5,12 +5,25 @@ from tokenizers import ByteLevelBPETokenizer
 import numpy as np
 import evaluate
 import torch 
+import os
 
 # Define paths and parameters
 output_dir = './models/transformerAE/myles/'
-model_name = 'microsoft/codebert-base'
+customTokenizer_dir = output_dir + "customTokenizer/"
+trainer_dir = output_dir + 'transAutoEncoder/'
+output_dir = output_dir + 'robertaTokenizer/'
+
+
 dataset_path = 'DataGen/bnf/Dataset.txt'
+
+model_name = 'microsoft/codebert-base'
 epochs = 1
+
+def createDir(path):
+    try: 
+        os.mkdir(path)
+    except FileExistsError:
+        pass
 
 # Function to compute metrics
 # def compute_metrics(eval_pred):
@@ -18,13 +31,20 @@ epochs = 1
 #     predictions = np.argmax(logits, axis=-1)
 #     return metric.compute(predictions=predictions, references=labels)
 
+# Create the dirs 
+createDir(output_dir)
+createDir(customTokenizer_dir)
+createDir(trainer_dir)
+createDir(output_dir)
+
+
 # Train a custom tokenizer
 tokenizer = ByteLevelBPETokenizer()
 tokenizer.train(files=[dataset_path], vocab_size=52000, min_frequency=2, special_tokens=["<s>", "<pad>", "</s>", "<unk>", "<mask>"])
-tokenizer.save_model(output_dir + "customTokenizer/")
+tokenizer.save_model(customTokenizer_dir)
 
 # Initialize the tokenizer
-tokenizer = RobertaTokenizerFast.from_pretrained(output_dir + "customTokenizer/")
+tokenizer = RobertaTokenizerFast.from_pretrained(customTokenizer_dir)
 
 # Load the dataset
 tokenized_datasets = LineByLineTextDataset(
@@ -79,5 +99,5 @@ perplexity = np.exp(eval_results['eval_loss'])
 print(f"Perplexity: {perplexity}")
 
 # Save the model and tokenizer
-trainer.save_model(output_dir + 'transAutoEncoder/')
-tokenizer.save_pretrained(output_dir + 'robertaTokenizer/')
+trainer.save_model(trainer_dir)
+tokenizer.save_pretrained(output_dir)
