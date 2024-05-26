@@ -6,9 +6,6 @@ import numpy as np
 import evaluate
 import torch 
 
-# Load metric
-metric = evaluate.load("accuracy")
-
 # Define paths and parameters
 output_dir = './models/transformerAE/myles/'
 model_name = 'microsoft/codebert-base'
@@ -16,10 +13,10 @@ dataset_path = 'DataGen/bnf/Dataset.txt'
 epochs = 1
 
 # Function to compute metrics
-def compute_metrics(eval_pred):
-    logits, labels = eval_pred
-    predictions = np.argmax(logits, axis=-1)
-    return metric.compute(predictions=predictions, references=labels)
+# def compute_metrics(eval_pred):
+#     logits, labels = eval_pred
+#     predictions = np.argmax(logits, axis=-1)
+#     return metric.compute(predictions=predictions, references=labels)
 
 # Train a custom tokenizer
 tokenizer = ByteLevelBPETokenizer()
@@ -54,7 +51,7 @@ data_collator = DataCollatorForLanguageModeling(
 # Define training arguments
 training_args = TrainingArguments(
     output_dir=output_dir, 
-    evaluation_strategy="epoch",
+    evaluation_strategy="epoch", 
     per_device_train_batch_size=32,
     per_device_eval_batch_size=32,
     num_train_epochs=epochs,
@@ -70,11 +67,16 @@ trainer = Trainer(
     train_dataset=train_set,
     eval_dataset=val_set,
     data_collator=data_collator,
-    compute_metrics=compute_metrics,
 )
 
 # Train the model
 trainer.train()
+
+eval_results = trainer.evaluate()
+
+# Calculate perplexity
+perplexity = np.exp(eval_results['eval_loss'])
+print(f"Perplexity: {perplexity}")
 
 # Save the model and tokenizer
 trainer.save_model(output_dir + 'transAutoEncoder/')
