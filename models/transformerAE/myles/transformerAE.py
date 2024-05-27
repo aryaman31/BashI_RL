@@ -3,7 +3,6 @@ from transformers import DataCollatorForLanguageModeling, LineByLineTextDataset
 from transformers import RobertaTokenizerFast, RobertaForMaskedLM
 from tokenizers import ByteLevelBPETokenizer
 import numpy as np
-import evaluate
 import torch 
 import os
 
