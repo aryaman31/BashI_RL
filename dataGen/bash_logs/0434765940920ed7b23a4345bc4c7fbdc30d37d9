@@ -1,4 +1,0 @@
-cd /tmp/
-ls -l
-df -lh
-du

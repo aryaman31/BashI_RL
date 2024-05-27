@@ -1,3 +1,0 @@
-touch name.cpp
-git init
-git config --global user.email "m.tsekhmistro@gmail.com"

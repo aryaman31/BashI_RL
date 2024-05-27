@@ -1,8 +1,0 @@
-./exclude
-./exclude
-ls
-tar -cvf old_web.tar *
-tar -cvf yantra.tar yamain
-mc
-mc
-mc
