@@ -2,7 +2,7 @@ from transformers import RobertaTokenizerFast, RobertaForMaskedLM
 import torch
 
 # Define paths
-output_dir = './models/transformerAE/myles/'
+output_dir = './models/transformerAE/'
 model_dir = output_dir + 'transAutoEncoder/'
 tokenizer_dir = output_dir + 'robertaTokenizer/'
 

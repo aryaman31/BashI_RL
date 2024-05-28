@@ -1,78 +1,102 @@
+from transformers import TrainingArguments, Trainer
+from transformers import DataCollatorForLanguageModeling, LineByLineTextDataset
+from transformers import RobertaTokenizerFast, RobertaForMaskedLM
+from tokenizers import ByteLevelBPETokenizer
+import numpy as np
 import torch 
-import torch.nn as nn 
-from torch.autograd import Variable
-from transformers import AutoModel, AutoTokenizer
-from tqdm import tqdm
-import random
-from sklearn.model_selection import train_test_split
+import os
 
-# import os 
-
-# os.environ["CURL_CA_BUNDLE"]=""
-
-class TransAutoEncoder(nn.Module):
-    def __init__(self, transformer_model_name):
-        super(TransAutoEncoder, self).__init__()
-        self.tokenizer = AutoTokenizer.from_pretrained(transformer_model_name)
-        self.encoder = AutoModel.from_pretrained(transformer_model_name)
-        self.decoder = nn.Linear(self.encoder.config.hidden_size, self.encoder.config.vocab_size)
-    
-    def forward(self, tokenize_input, attention_mask=None):
-        encoded = self.encoder(tokenize_input, attention_mask)
-        encoded_rep = encoded.last_hidden_state
-
-        decoded = self.decoder(encoded_rep)
-        _, predicted_ids = torch.max(decoded, dim=-1)
-        return predicted_ids
-
-    def decode(self, tensor_probs):
-        pred_tokens = [self.tokenizer.convert_ids_to_tokens(token_id.item()) for token_id in tensor_probs[0]]
-        return self.tokenizer.convert_tokens_to_string(pred_tokens)
-    
-    def tokenize(self, str):
-        input_ids = self.tokenizer.encode(str, add_special_tokens=True)
-        return torch.tensor(input_ids).unsqueeze(0)
-
-if __name__ == "__main__":
-    model = TransAutoEncoder('microsoft/codebert-base')
-    criterion = nn.MSELoss()
-    optimiser = torch.optim.Adam(model.parameters(), lr=0.01)
-
-    with open("dataGen/bnf/Dataset.txt", "r") as file:
-        data = file.readlines()
-        data = list(map(lambda x : x.strip(), data))
-        # data = data[:100000]
-    
-    train_data, test_data = train_test_split(data, test_size=0.01, train_size=0.99)
-
-    file = open("testOutput.txt", "w")
-
-    no_epochs = 1
-    for i in range(no_epochs):
-        total_loss = 0
-        for cmd in tqdm(train_data):
-            tokenized_cmd = model.tokenize(cmd)
-            pred = model(tokenized_cmd)
-            optimiser.zero_grad()
-            loss = criterion(tokenized_cmd.to(torch.float32), pred.to(torch.float32))
-            loss = Variable(loss, requires_grad=True)
-            total_loss += loss.item()
-            loss.backward()
-            optimiser.step()
-            
-        file.write(f'Epoch [{i+1} / {no_epochs}], Loss: {total_loss}\n')
-        torch.save(model, "models/model_weights/TransAutoEncoder.model")
-    
-    # Test
-    for cmd in (test_data):
-        pred_t = model(model.tokenize(cmd))
-        pred = model.decode(pred_t)
-        file.write("Input    :" + cmd + "\n")
-        file.write("Predicted:" + pred + "\n")
-    
-    file.close()
+# Define paths and parameters
+output_dir = './models/transformerAE/'
+customTokenizer_dir = output_dir + "customTokenizer/"
+trainer_dir = output_dir + 'transAutoEncoder/'
+output_dir = output_dir + 'robertaTokenizer/'
 
 
-    
+dataset_path = 'DataGen/bnf/Dataset.txt'
+
+model_name = 'microsoft/codebert-base'
+epochs = 1
+
+def createDir(path):
+    try: 
+        os.mkdir(path)
+    except FileExistsError:
+        pass
+
+# Function to compute metrics
+# def compute_metrics(eval_pred):
+#     logits, labels = eval_pred
+#     predictions = np.argmax(logits, axis=-1)
+#     return metric.compute(predictions=predictions, references=labels)
+
+# Create the dirs 
+createDir(output_dir)
+createDir(customTokenizer_dir)
+createDir(trainer_dir)
+createDir(output_dir)
 
 
+# Train a custom tokenizer
+tokenizer = ByteLevelBPETokenizer()
+tokenizer.train(files=[dataset_path], vocab_size=52000, min_frequency=2, special_tokens=["<s>", "<pad>", "</s>", "<unk>", "<mask>"])
+tokenizer.save_model(customTokenizer_dir)
+
+# Initialize the tokenizer
+tokenizer = RobertaTokenizerFast.from_pretrained(customTokenizer_dir)
+
+# Load the dataset
+tokenized_datasets = LineByLineTextDataset(
+    tokenizer=tokenizer,
+    file_path=dataset_path,
+    block_size=128,
+)
+
+# Split the dataset into training and validation sets
+train_size = int(0.9 * len(tokenized_datasets))
+val_size = len(tokenized_datasets) - train_size
+train_set, val_set = torch.utils.data.random_split(tokenized_datasets, [train_size, val_size])
+
+# Initialize the model
+model = RobertaForMaskedLM.from_pretrained(model_name)
+
+# Data collator to handle padding and masking
+data_collator = DataCollatorForLanguageModeling(
+    tokenizer=tokenizer,
+    mlm=True,
+    mlm_probability=0.15
+)
+
+# Define training arguments
+training_args = TrainingArguments(
+    output_dir=output_dir, 
+    evaluation_strategy="epoch", 
+    per_device_train_batch_size=32,
+    per_device_eval_batch_size=32,
+    num_train_epochs=epochs,
+    save_strategy="epoch",
+    logging_dir='./logs',  # Directory for storing logs
+    logging_steps=10,
+)
+
+# Initialize the Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_set,
+    eval_dataset=val_set,
+    data_collator=data_collator,
+)
+
+# Train the model
+trainer.train()
+
+eval_results = trainer.evaluate()
+
+# Calculate perplexity
+perplexity = np.exp(eval_results['eval_loss'])
+print(f"Perplexity: {perplexity}")
+
+# Save the model and tokenizer
+trainer.save_model(trainer_dir)
+tokenizer.save_pretrained(output_dir)
