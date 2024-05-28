@@ -7,11 +7,9 @@ import torch
 import os
 
 # Define paths and parameters
-output_dir = './models/transformerAE/'
-customTokenizer_dir = output_dir + "customTokenizer/"
-trainer_dir = output_dir + 'transAutoEncoder/'
-output_dir = output_dir + 'robertaTokenizer/'
-
+output_dir = os.path.dirname(os.path.realpath(__file__))
+trainer_dir = os.path.join(output_dir, 'transAutoEncoder/')
+output_dir = os.path.join(output_dir,'robertaTokenizer/')
 
 dataset_path = 'DataGen/bnf/Dataset.txt'
 
@@ -24,12 +22,6 @@ def createDir(path):
     except FileExistsError:
         pass
 
-# Function to compute metrics
-# def compute_metrics(eval_pred):
-#     logits, labels = eval_pred
-#     predictions = np.argmax(logits, axis=-1)
-#     return metric.compute(predictions=predictions, references=labels)
-
 # Create the dirs 
 createDir(output_dir)
 createDir(customTokenizer_dir)
@@ -40,7 +32,6 @@ createDir(output_dir)
 # Train a custom tokenizer
 tokenizer = ByteLevelBPETokenizer()
 tokenizer.train(files=[dataset_path], vocab_size=52000, min_frequency=2, special_tokens=["<s>", "<pad>", "</s>", "<unk>", "<mask>"])
-tokenizer.save_model(customTokenizer_dir)
 
 # Initialize the tokenizer
 tokenizer = RobertaTokenizerFast.from_pretrained(customTokenizer_dir)

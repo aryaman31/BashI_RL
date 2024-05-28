@@ -1,10 +1,11 @@
 from transformers import RobertaTokenizerFast, RobertaForMaskedLM
 import torch
+import os
 
 # Define paths
-output_dir = './models/transformerAE/'
-model_dir = output_dir + 'transAutoEncoder/'
-tokenizer_dir = output_dir + 'robertaTokenizer/'
+output_dir = os.path.dirname(os.path.realpath(__file__))
+model_dir = os.path.join(output_dir, 'transAutoEncoder/')
+tokenizer_dir = os.path.join(output_dir, 'robertaTokenizer/')
 
 # Load the tokenizer and model
 tokenizer = RobertaTokenizerFast.from_pretrained(tokenizer_dir)
