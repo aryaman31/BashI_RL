@@ -16,7 +16,7 @@ inputs = tokenizer(input_text, return_tensors='pt')
 
 # Perform inference
 with torch.no_grad():
-    outputs = model(**inputs)
+    outputs = model(**inputs, output_hidden_states=True)
     predictions = outputs.logits
 
 # Get the predicted token ID
@@ -28,3 +28,4 @@ predicted_token = tokenizer.decode(predicted_token_ids)
 
 print(f"Input: {input_text}")
 print(f"Output: {predicted_token}")
+print(f"Encoding: {outputs.hidden_states[-1][0, 0, :].size()}")
