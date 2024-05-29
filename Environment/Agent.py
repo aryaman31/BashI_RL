@@ -1,6 +1,7 @@
 import torch 
 import torch.nn as nn
 import torch.nn.functional as F
+import random
 
 from Environment.State import State
 from Environment.Actions.Action import Action
@@ -21,6 +22,7 @@ class Agent:
 
     def pickAction(self, state: State):
         print("Agent.pickAction NOT IMPLEMENTED YET")
+        stateTensor = state.getStateTensor()
         return Action((1, 1, 1))
 
     def save(self, filename):

@@ -6,6 +6,7 @@ class GAME(Enum):
     BEHAVIOR_CHANGE = 3
     SANITISATION_ESCAPE = 4
     FIX_SYNTAX = 5
+    FINISHED = 6
 
     def __str__(self) -> str:
         return self._name_

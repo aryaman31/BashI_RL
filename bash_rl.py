@@ -1,4 +1,5 @@
 import sys
+from transformers import RobertaTokenizerFast, RobertaForMaskedLM
 
 from Communication.Controller import Controller
 from BashExtractor.BashExtractor import BashExtractor
@@ -22,6 +23,12 @@ if __name__ != "__main__":
     controller = Controller(server_address)
     bashEx = BashExtractor(server_pid)   
     env = BashI_Environment(controller, bashEx) 
+
+    cmdTokenizer = RobertaTokenizerFast.from_pretrained("models/transformerAE/cmdTokenizer/")
+    cmdEncoder = RobertaForMaskedLM.from_pretrained("models/transformerAE/cmdEncoder/")
+
+    payloadTokenizer = RobertaTokenizerFast.from_pretrained("models/transformerAE/payloadTokenizer/")
+    payloadEncoder = RobertaForMaskedLM.from_pretrained("models/transformerAE/payloadEncoder/")
 
     agent = Agent()
 

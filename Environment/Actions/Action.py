@@ -30,7 +30,7 @@ class Action:
                 options = [':', '$']
                 charToInsert = options[self.arg2]
             case 7:
-                options = ['id', '/usr/bin/id', 'whoami', '/usr/bin/whoami']
+                options = ['id', '/usr/bin/id', 'whoami', '/usr/bin/whoami', 'sleep 1']
                 charToInsert = options[self.arg2]
         newPayload = list(payload)
         newPayload.insert(self.arg1, charToInsert)
