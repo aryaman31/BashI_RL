@@ -21,5 +21,12 @@ COMMENT
 echo "HeHeHeHe"
 # Normal Comment
 ```
+Actions for these games:
+
+CONTEXT_ESCAPE = 2
+BEHAVIOR_CHANGE = 3
+SANITISATION_ESCAPE = 4
+FIX_SYNTAX = 5
+
 
 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

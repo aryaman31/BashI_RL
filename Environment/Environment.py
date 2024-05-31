@@ -8,6 +8,7 @@ class BashI_Environment:
         self.state = State("", "", 0)
         self.controller = controller
         self.bashExtractor = bashExtractor
+        self.cmd = ''
     
     def reset(self) -> State:
         initState = State("", "", 0)
@@ -30,9 +31,11 @@ class BashI_Environment:
 
         # see what bash command was actually run 
         cmd, err = self.bashExtractor.stop(newPayload)
+        if err == 0:
+            self.cmd = cmd
 
         # create new state from bash command returned + payload tested + error msg 
-        self.state = State(cmd, newPayload, err)
+        self.state = State(self.cmd, newPayload, err)
 
         # return new state 
         return self.state

@@ -6,6 +6,8 @@ from BashExtractor.BashExtractor import BashExtractor
 from Environment.Actions.Action import Action
 from Environment.Environment import BashI_Environment
 from Environment.Agent import Agent
+
+from Environment.Games import GAME
     
 if __name__ != "__main__":
     '''
@@ -38,14 +40,21 @@ if __name__ != "__main__":
     EPISODES_PER_RUN = 100
 
     currState = env.reset()
-    for i in range(NUM_RUNS):
-        for i_episode in range(EPISODES_PER_RUN):
-            state = env.reset()
-            done, terminated = False, False 
-            while not (done or terminated):
-                action = agent.pickAction(state)
-                state = env.step(action) 
-                # Add a termination condition here
+    found = controller.findNewRequestPath()
+    while found:
+
+        for i in range(NUM_RUNS):
+            for i_episode in range(EPISODES_PER_RUN):
+                state = env.reset()
+                done, terminated = False, False 
+                i = 0
+                while not (done or terminated):
+                    action = agent.pickAction(state)
+                    state = env.step(action) 
+                    # Add a termination condition here
+                    done = agent.game == GAME.FINISHED
+                    i += 1 
+                    
 
     # Can save agent model here !    
     agent.save('agent.model')
