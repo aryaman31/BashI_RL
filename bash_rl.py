@@ -38,24 +38,22 @@ if __name__ != "__main__":
 
     NUM_RUNS = 1000
     EPISODES_PER_RUN = 100
+    TERMINATION_LIMIT = 100
 
     currState = env.reset()
-    found = controller.findNewRequestPath()
-    while found:
+    canExploit = env.findNextTarget()
+    while canExploit:
+        for i_episode in range(EPISODES_PER_RUN):
+            state = env.reset()
+            for _ in range(TERMINATION_LIMIT):
+                action = agent.pickAction(state)
+                state = env.step(action) 
+                game = agent.updateGame(state)
 
-        for i in range(NUM_RUNS):
-            for i_episode in range(EPISODES_PER_RUN):
-                state = env.reset()
-                done, terminated = False, False 
-                i = 0
-                while not (done or terminated):
-                    action = agent.pickAction(state)
-                    state = env.step(action) 
-                    # Add a termination condition here
-                    done = agent.game == GAME.FINISHED
-                    i += 1 
+                if game == GAME.FINISHED: 
+                    break
+        canExploit = env.findNextTarget()
                     
-
     # Can save agent model here !    
     agent.save('agent.model')
     

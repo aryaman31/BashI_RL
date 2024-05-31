@@ -10,6 +10,18 @@ class BashI_Environment:
         self.bashExtractor = bashExtractor
         self.cmd = ''
     
+    def findNextTarget(self):
+        uniqueId = Action.generateRandomString(letters=True, numbers=True)
+        found = True 
+        while found:
+            inpFound = self.controller.findNewRequestPath()
+            if not inpFound: return False
+            self.bashExtractor.start()
+            self.controller.makeRequest(uniqueId)
+            cmd, err = self.bashExtractor.stop(uniqueId)
+            found = len(cmd) > 0
+        return True
+    
     def reset(self) -> State:
         initState = State("", "", 0)
         return initState

@@ -14,8 +14,8 @@ class Action:
         newPayload = list(payload)
 
         if self.actionId <= 9:
-            static = [';', '&&', '||', '&', '|', '#', self.__generateRandomString(letters=True), 
-                 self.__generateRandomString(numbers=True), self.__generateRandomString(letters=True, numbers=True, punctuation=True), 
+            static = [';', '&&', '||', '&', '|', '#', Action.generateRandomString(letters=True), 
+                 Action.generateRandomString(numbers=True), Action.generateRandomString(letters=True, numbers=True, punctuation=True), 
                  'sleep 0']
             charToInsert = static[self.actionId]
             newPayload.insert(self.location, charToInsert)
@@ -69,7 +69,7 @@ class Action:
         payload.insert(self.location + dist, char)
         return payload
 
-    def __generateRandomString(self, length=10, letters=False, numbers=False, punctuation=False):
+    def generateRandomString(length=10, letters=False, numbers=False, punctuation=False):
         characters = ''
         if letters: characters += string.ascii_letters
         if numbers: characters += string.digits

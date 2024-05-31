@@ -21,18 +21,18 @@ class Agent:
         executed = state.executed_command.lower()
         error = state.error_code
         if error != 0:
-            return GAME.FIX_SYNTAX
+            self.game = GAME.FIX_SYNTAX
         
         if "sleep 0" in executed or 'echo -e “\x73\x6C\x65\x65\x70\x20\x30"' in executed:
-            return GAME.FINISHED
+            self.game = GAME.FINISHED
         elif self.__sanitised(state):
-            return GAME.SANITISATION_ESCAPE
+            self.game = GAME.SANITISATION_ESCAPE
         elif self.__escapedContext(state):
-            return GAME.BEHAVIOR_CHANGE
+            self.game = GAME.BEHAVIOR_CHANGE
         else:
-            return GAME.CONTEXT_ESCAPE
+            self.game = GAME.CONTEXT_ESCAPE
         
-        return GAME.FIND_COMMAND
+        return self.game
 
     def __escapedContext(self, state: State):
         print("Agent.__escapedContext NOT IMPLEMENTED YET")
@@ -46,10 +46,6 @@ class Agent:
 
     def pickAction(self, state: State, explore=True):
         stateTensor = state.getStateTensor()
-
-        # update game accordingly here
-        self.game = self.updateGame(state)
-
         availableActions = Action.getAvailableActions(self.game, state.previous_payload)
 
         bestQ = None 
