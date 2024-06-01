@@ -24,5 +24,8 @@ class State:
         err = torch.FloatTensor([self.error_code])
         return torch.cat((cmd, payload, err))
     
+    def size() -> int: 
+        return 768 + 768 + 1
+    
     def __str__(self):
         return f'({self.executed_command}, {self.previous_payload}, {self.error_code})'

@@ -45,10 +45,11 @@ if __name__ != "__main__":
     while canExploit:
         for i_episode in range(EPISODES_PER_RUN):
             state = env.reset()
+            agent.reset()
             for _ in range(TERMINATION_LIMIT):
                 action = agent.pickAction(state)
                 state = env.step(action) 
-                game = agent.updateGame(state)
+                game, reward = agent.updateGame(state)
 
                 if game == GAME.FINISHED: 
                     break

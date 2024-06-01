@@ -68,6 +68,9 @@ class Action:
         payload.insert(self.location, char)
         payload.insert(self.location + dist, char)
         return payload
+    
+    def size():
+        return 2
 
     def generateRandomString(length=10, letters=False, numbers=False, punctuation=False):
         characters = ''

@@ -29,13 +29,6 @@ class BashI_Environment:
     def step(self, action: Action) -> State:
         # get new payload
         newPayload = action.applyAction(self.state.previous_payload)
-
-        # look for new input point if game is find_command
-        if action.getActionId() == 0:
-            found = self.controller.findNewRequestPath()
-            if not found:
-                print("NO MORE INPUTS TO EXPLOIT")
-                exit()
         
         # send command
         self.bashExtractor.start()
@@ -51,6 +44,7 @@ class BashI_Environment:
 
         # return new state 
         return self.state
+
     
 if __name__ == '__main__':
     controller = Controller("http://localhost:8000/")
