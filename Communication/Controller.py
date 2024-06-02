@@ -15,6 +15,9 @@ class Controller:
         if response.status_code != 200:
             print(f"Server returned error {response.status_code}. Please fix the URL.")
             exit()
+        
+        print("Looking for potential inputs...")
+        total = 0
         html_content = response.content
         soup = BeautifulSoup(html_content, 'html.parser')
         self.forms = list(soup.find_all('form', recursive=True))
@@ -22,7 +25,9 @@ class Controller:
             inps = form.find_all('input')
             for input_field in inps:
                 if input_field.get('type') in ['text']:
+                    total += 1
                     self.inputs[form].append(input_field.get('name'))
+        print(f"Done. Found {total} potential inputs")
         
     def findNewRequestPath(self):
         if len(self.forms) < 1:

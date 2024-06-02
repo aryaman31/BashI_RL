@@ -1,21 +1,26 @@
 import torch
 
-from bash_rl import cmdTokenizer, cmdEncoder, payloadEncoder, payloadTokenizer
+from transformers import RobertaTokenizerFast, RobertaForMaskedLM
 
 class State:
+    cmdTokenizer = RobertaTokenizerFast.from_pretrained("models/transformerAE/cmdTokenizer/")
+    cmdEncoder = RobertaForMaskedLM.from_pretrained("models/transformerAE/cmdEncoder/")
+
+    payloadTokenizer = RobertaTokenizerFast.from_pretrained("models/transformerAE/payloadTokenizer/")
+    payloadEncoder = RobertaForMaskedLM.from_pretrained("models/transformerAE/payloadEncoder/")
     def __init__(self, executed_command: str, previous_payload: str, error_code: str):
         self.executed_command = executed_command
         self.previous_payload = previous_payload 
-        self.error_code = error_code
+        self.error_code = int(error_code)
     
     def createCommandTensor(self) -> torch.tensor: 
-        inp = cmdTokenizer(self.executed_command, return_tensors='pt')
-        out = cmdEncoder(**inp, output_hidden_states=True)
+        inp = State.cmdTokenizer(self.executed_command, return_tensors='pt')
+        out = State.cmdEncoder(**inp, output_hidden_states=True)
         return out.hidden_states[-1][0, 0, :]
 
     def createPayloadTensor(self) ->  torch.tensor:
-        inp = payloadTokenizer(self.previous_payload, return_tensors='pt')
-        out = payloadEncoder(**inp, output_hidden_states=True)
+        inp = State.payloadTokenizer(self.previous_payload, return_tensors='pt')
+        out = State.payloadEncoder(**inp, output_hidden_states=True)
         return out.hidden_states[-1][0, 0, :]
     
     def getStateTensor(self) -> torch.tensor:

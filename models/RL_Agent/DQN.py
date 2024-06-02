@@ -6,7 +6,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 import torch.nn as nn
 import copy,datetime
-from models.RL_Agent.DQN import DQN_neural_network
+from models.RL_Agent.Neural_Networks import DQN_neural_network
 from pathlib import Path
 
 from collections import deque
@@ -16,7 +16,7 @@ import pickle
 # Get cpu or gpu device for training.
 device = "cuda" if torch.cuda.is_available() else "cpu"
 class DQN:
-    def __init__(self,state_size,action_size,save_file_model,save_file_mem,name,load,learning=True) -> None:
+    def __init__(self,state_size,action_size,model_dir,name,learning=True) -> None:
         self.learning = learning
         self.BATCH_SIZE = 512
         self.GAMMA = 1
@@ -27,21 +27,26 @@ class DQN:
         self.save_every = 100
         self.learning_rate = 0.00005
         self.name = name
+        save_file_model = os.path.join(model_dir, "Q_value.model")
+        save_file_mem = os.path.join(model_dir, "Q_value.mem")
         try: 
-            model_path = os.path.join(load,"Q_value.model")
-            self.Q_value = DQN_neural_network.load_model(model_path)
+            self.Q_value = DQN_neural_network.load_model(save_file_model)
             if self.Q_value is None:
                self.Q_value = DQN_neural_network(state_size,action_size)
-            print(f"Model loaded from {model_path}")
+            print(f"Model loaded from {save_file_model}")
         except:
             print('No saved model found, starting from scratch...')
             self.Q_value = DQN_neural_network(state_size,action_size)
-        self.memory = DQN.load_mem(load)
+        self.memory = DQN.load_mem(model_dir)
         if self.memory is None:
             self.memory = deque(maxlen=self.MEM_CAPACITY)
-            
-        if not os.path.exists(save_file_model):
-            os.makedirs(save_file_model.split('Q_value.model')[0])
+
+        try: 
+            os.mkdir(model_dir)
+        except FileExistsError:
+            pass 
+        # if not os.path.exists(save_file_model):
+        #     os.makedirs(save_file_model.split('Q_value.model')[0])
 
         self.optimizer = torch.optim.Adam(self.Q_value.parameters(), lr=self.learning_rate)
         self.loss_fn = torch.nn.SmoothL1Loss()
@@ -149,9 +154,6 @@ class DQN:
         reward (float),
         done(bool))
         """
-
-        state = torch.tensor(state,dtype=torch.float32)
-        next_state = torch.tensor([next_state])
         reward = torch.tensor([reward])
 
         self.memory.append((state, next_state, reward))

@@ -6,6 +6,8 @@ import torch
 from Environment.Games import GAME
 
 class Action:
+    context_escape_tokens = [';', '&&', '||', '&', '|', '#']
+
     def __init__(self, actionTuple):
         self.actionId = actionTuple[0]
         self.location = actionTuple[1]
@@ -13,30 +15,33 @@ class Action:
     def applyAction(self, payload):
         newPayload = list(payload)
 
-        if self.actionId <= 9:
-            static = [';', '&&', '||', '&', '|', '#', Action.generateRandomString(letters=True), 
-                 Action.generateRandomString(numbers=True), Action.generateRandomString(letters=True, numbers=True, punctuation=True), 
-                 'sleep 0']
-            charToInsert = static[self.actionId]
+        if self.actionId <= 5:
+            # static = [';', '&&', '||', '&', '|', '#', Action.generateRandomString(letters=True), 
+            #      Action.generateRandomString(numbers=True), Action.generateRandomString(letters=True, numbers=True, punctuation=True), 
+            #      'sleep 0']
+            charToInsert = Action.context_escape_tokens[self.actionId]
             newPayload.insert(self.location, charToInsert)
             return "".join(newPayload)
-
+        
+        if self.actionId == 6:
+            newPayload.insert(self.location, "sleep 0")
+            return "".join(newPayload)
 
         match self.actionId:
-            case 10:
+            case 7:
                 newPayload = self.__insertDouble(newPayload, '\'')
-            case 11:
+            case 8:
                 newPayload = self.__insertDouble(newPayload, '\"')
-            case 12:
+            case 9:
                 newPayload = self.__insertDouble(newPayload, '`')
-            case 13:
+            case 10:
                 s = ''.join(newPayload)
                 newPayload = list(s.replace(" ", "${IFS}"))
-            case 14: 
+            case 11: 
                 # Should do this for any combination of caps in 'sleep 0'
                 s = ''.join(newPayload)
                 newPayload = list(s.replace("sleep 0", ' echo -e “\x73\x6C\x65\x65\x70\x20\x30"'))
-            case 15: 
+            case 12: 
                 # Should do this for any combination of caps in 'sleep 0'
                 s = ''.join(newPayload)
                 newPayload = list(s.replace("/", '${HOME:0:1}'))
@@ -47,18 +52,18 @@ class Action:
     
     def getAvailableActions(game, payload):
         n = len(payload)
-        injLocs = list(range(0, n))
+        injLocs = list(range(0, n)) if n != 0 else [0]
         match game:
             case GAME.CONTEXT_ESCAPE:
-                validActions = list(range(0, 8 + 1))
+                validActions = list(range(0, 5 + 1))
             case GAME.BEHAVIOR_CHANGE:
-                validActions = [9]
+                validActions = [6]
             case GAME.SANITISATION_ESCAPE:
-                validActions = list(range(10, 16 + 1))
+                validActions = list(range(17, 12 + 1))
             case _ : 
                 return []
         
-        return [Action(a, l) for a, l in product(validActions, injLocs)]
+        return [Action((a, l)) for a, l in product(validActions, injLocs)]
 
 
     def getActionId(self):

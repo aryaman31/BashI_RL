@@ -12,8 +12,8 @@ class BashI_Environment:
     
     def findNextTarget(self):
         uniqueId = Action.generateRandomString(letters=True, numbers=True)
-        found = True 
-        while found:
+        found = False 
+        while not found:
             inpFound = self.controller.findNewRequestPath()
             if not inpFound: return False
             self.bashExtractor.start()
@@ -23,24 +23,27 @@ class BashI_Environment:
         return True
     
     def reset(self) -> State:
-        initState = State("", "", 0)
-        return initState
+        self.state = State("", "", 0)
+        return self.state
 
-    def step(self, action: Action) -> State:
+    def step(self, action: Action, identifier: str) -> State:
         # get new payload
-        newPayload = action.applyAction(self.state.previous_payload)
+        newPayload_pred = action.applyAction(self.state.previous_payload)
+
+        # Add identifier ot payload so bashExtractor can find it
+        newPayload = identifier + newPayload_pred
         
         # send command
         self.bashExtractor.start()
         self.controller.makeRequest(newPayload)
 
         # see what bash command was actually run 
-        cmd, err = self.bashExtractor.stop(newPayload)
+        cmd, err = self.bashExtractor.stop(identifier)
         if err == 0:
             self.cmd = cmd
 
         # create new state from bash command returned + payload tested + error msg 
-        self.state = State(self.cmd, newPayload, err)
+        self.state = State(self.cmd, newPayload_pred, err)
 
         # return new state 
         return self.state

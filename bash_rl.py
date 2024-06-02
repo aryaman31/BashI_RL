@@ -1,5 +1,4 @@
 import sys
-from transformers import RobertaTokenizerFast, RobertaForMaskedLM
 
 from Communication.Controller import Controller
 from BashExtractor.BashExtractor import BashExtractor
@@ -9,7 +8,7 @@ from Environment.Agent import Agent
 
 from Environment.Games import GAME
     
-if __name__ != "__main__":
+if __name__ == "__main__":
     '''
         main execution of the tool
     '''
@@ -23,16 +22,20 @@ if __name__ != "__main__":
     server_address = sys.argv[2]
 
     controller = Controller(server_address)
-    bashEx = BashExtractor(server_pid)   
+    bashEx = BashExtractor(server_pid) 
+
+    print("...................................................................................")
+    print("Initializeing Environment...")
     env = BashI_Environment(controller, bashEx) 
+    print("Done")
+    print("...................................................................................")
 
-    cmdTokenizer = RobertaTokenizerFast.from_pretrained("models/transformerAE/cmdTokenizer/")
-    cmdEncoder = RobertaForMaskedLM.from_pretrained("models/transformerAE/cmdEncoder/")
-
-    payloadTokenizer = RobertaTokenizerFast.from_pretrained("models/transformerAE/payloadTokenizer/")
-    payloadEncoder = RobertaForMaskedLM.from_pretrained("models/transformerAE/payloadEncoder/")
-
+    print("...................................................................................")
+    print("Starting Agent...")
     agent = Agent()
+    print("Done")
+    print("...................................................................................")
+
 
     # Check wether pid is correct and exists
 
@@ -44,14 +47,27 @@ if __name__ != "__main__":
     canExploit = env.findNextTarget()
     while canExploit:
         for i_episode in range(EPISODES_PER_RUN):
+            print("==============================================================================")
+            print(f"                           Episode {i_episode}")
+            print("==============================================================================")
             state = env.reset()
+            identifier = Action.generateRandomString(letters=True)
             agent.reset()
-            for _ in range(TERMINATION_LIMIT):
+            print(f"Initial Payload: {state.previous_payload}")
+            for i in range(TERMINATION_LIMIT):
                 action = agent.pickAction(state)
-                state = env.step(action) 
-                game, reward = agent.updateGame(state)
+                state = env.step(action, identifier) 
+                game, reward = agent.updateGame(state, identifier)
+                agent.train(reward, state)
 
-                if game == GAME.FINISHED: 
+                print("------------------------------------------------------------------------------------------------")
+                print(f"Payload: {state.previous_payload}, State: {state}, Game: {game}")
+                print("------------------------------------------------------------------------------------------------")
+
+                if game == GAME.FINISHED:
+                    print("Found an injection!")
+                    print(state.previous_payload)
+                    input()
                     break
         canExploit = env.findNextTarget()
                     

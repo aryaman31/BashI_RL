@@ -14,16 +14,14 @@ class Agent:
     NETWORK = [4, 50, 50, 3] 
 
     def __init__(self):
-        dqn_name = "models/RL_Agent/Q_value"
-        self.Q = DQN(State.size() + Action.size(), 1, dqn_name + ".model", dqn_name + ".memory", "DQN", dqn_name)
+        self.Q = DQN(State.size() + Action.size(), 1, "models/RL_Agent/", "DQN")
         self.game = GAME.CONTEXT_ESCAPE
         self.state = None
         self.clock = 0
     
-    def updateGame(self, state: State) -> GAME:
-        print("Agent.updateGame NOT IMPLEMENTED YET")
-        executed = state.executed_command.lower()
-        error = state.error_code
+    def updateGame(self, newState: State, identifier: str) -> GAME:
+        executed = newState.executed_command.lower()
+        error = newState.error_code
         reward = 0
         if error != 0:
             self.game = GAME.FIX_SYNTAX
@@ -31,24 +29,28 @@ class Agent:
         
         if "sleep 0" in executed or 'echo -e “\x73\x6C\x65\x65\x70\x20\x30"' in executed:
             self.game, reward = GAME.FINISHED, 0
-        elif self.__sanitised(state):
+        elif self.__sanitised(newState):
             self.game, reward = GAME.SANITISATION_ESCAPE, -1
-        elif self.__escapedContext(state):
+        elif self.__escapedContext(newState, identifier):
             self.game, reward = GAME.BEHAVIOR_CHANGE, -1
         else:
             self.game, reward = GAME.CONTEXT_ESCAPE, -1
         
         return self.game, reward
 
-    def __escapedContext(self, state: State):
-        print("Agent.__escapedContext NOT IMPLEMENTED YET")
-        return True
+    def __escapedContext(self, state: State, identifier: str):
+        executed = state.executed_command.lower().split(identifier)
+        if len(executed) == 1:
+            return False 
+        
+        prev = executed.strip().replace('${IFS}', '')
+        return prev[-1] in Action.context_escape_tokens
     
     def __sanitised(self, state: State):
         executed = state.executed_command.lower()
         payload = state.previous_payload.lower()
         payload.replace('#', '')
-        return payload in executed
+        return payload not in executed
 
     def reset(self):
         self.clock = 0
@@ -65,8 +67,8 @@ class Agent:
         bestQ = None 
         bestAction = None
         for potentialAction in availableActions:
-            inp = torch.cat(stateTensor, potentialAction.getActionTensor())
-            currentQ = self.Q.get_q_value(inp)[0][0]
+            inp = torch.cat((stateTensor, potentialAction.getActionTensor()))
+            currentQ = self.Q.get_Q_value(inp)[0][0]
             if not bestQ or bestQ < currentQ:
                 bestQ = currentQ
                 bestAction = potentialAction

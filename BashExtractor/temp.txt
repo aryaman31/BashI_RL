@@ -1,6 +1,6 @@
-19665 execve("/bin/sh", ["sh", "-c", "ping -c 4 c9VlAEE5Kf"], 0x556c27de2eb0 /* 37 vars */) = 0
-19666 execve("/usr/bin/ping", ["ping", "-c", "4", "c9VlAEE5Kf"], 0x561d19d1ebb8 /* 37 vars */) = 0
-19666 +++ exited with 2 +++
-19665 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=19666, si_uid=1000, si_status=2, si_utime=0, si_stime=0} ---
-19665 +++ exited with 2 +++
-16956 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=19665, si_uid=1000, si_status=2, si_utime=0, si_stime=1 /* 0.01 s */} ---
+1473122 execve("/bin/sh", ["sh", "-c", "ping -c 4 rNNdstSpUz;"], 0x6344df845eb0 /* 59 vars */) = 0
+1473123 execve("/usr/bin/ping", ["ping", "-c", "4", "rNNdstSpUz"], 0x5a32f703bfb8 /* 59 vars */) = 0
+1473123 +++ exited with 2 +++
+1473122 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1473123, si_uid=14647, si_status=2, si_utime=0, si_stime=0} ---
+1473122 +++ exited with 2 +++
+1350382 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1473122, si_uid=14647, si_status=2, si_utime=0, si_stime=0} ---
