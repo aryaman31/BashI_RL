@@ -4,3 +4,4 @@ venv/
 models/transformerAE/
 .vscode
 **/temp*
+*.mem
