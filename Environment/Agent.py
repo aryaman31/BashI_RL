@@ -18,33 +18,38 @@ class Agent:
         self.game = GAME.CONTEXT_ESCAPE
         self.state = None
         self.clock = 0
+        self.chosenAction = None
+        self.tensor_history = []
+        self.reward_history = []
     
-    def updateGame(self, newState: State, identifier: str) -> GAME:
+    def updateGame(self, newState: State, origCmd: str) -> GAME:
         executed = newState.executed_command.lower()
         error = newState.error_code
         reward = 0
-        if error != 0:
-            self.game = GAME.FIX_SYNTAX
-            return self.game, -1
+        # if error != 0:
+        #     self.game = GAME.FIX_SYNTAX
+        #     return self.game, -1
         
         if "sleep 0" in executed or 'echo -e “\x73\x6C\x65\x65\x70\x20\x30"' in executed:
             self.game, reward = GAME.FINISHED, 0
         elif self.__sanitised(newState):
             self.game, reward = GAME.SANITISATION_ESCAPE, -1
-        elif self.__escapedContext(newState, identifier):
+        elif self.__escapedContext(newState, origCmd):
             self.game, reward = GAME.BEHAVIOR_CHANGE, -1
         else:
             self.game, reward = GAME.CONTEXT_ESCAPE, -1
         
         return self.game, reward
 
-    def __escapedContext(self, state: State, identifier: str):
-        executed = state.executed_command.lower().split(identifier)
-        if len(executed) == 1:
-            return False 
+    def __escapedContext(self, state: State, origCmd: str):
+        rest = state.executed_command.split(origCmd)[-1] 
+        return any([c in rest for c in Action.context_escape_tokens])
+        # executed = state.executed_command.lower().split(identifier)
+        # if len(executed) == 1:
+        #     return False 
         
-        prev = executed.strip().replace('${IFS}', '')
-        return prev[-1] in Action.context_escape_tokens
+        # prev = executed.strip().replace('${IFS}', '')
+        # return prev[-1] in Action.context_escape_tokens
     
     def __sanitised(self, state: State):
         executed = state.executed_command.lower()
@@ -66,17 +71,23 @@ class Agent:
 
         bestQ = None 
         bestAction = None
+        bestInp = None
         for potentialAction in availableActions:
             inp = torch.cat((stateTensor, potentialAction.getActionTensor()))
             currentQ = self.Q.get_Q_value(inp)[0][0]
             if not bestQ or bestQ < currentQ:
                 bestQ = currentQ
                 bestAction = potentialAction
+                bestInp = inp
 
+        self.tensor_history.append((bestInp, torch.tensor(bestQ)))
         return bestAction
     
-    def train(self, reward: int, newState: State):
-        self.Q.cache(self.state.getStateTensor(), newState.getStateTensor(), reward)
+    def train(self, reward: int):
+        self.reward_history.append(reward)
+        s, q = self.tensor_history[-1]
+        if len(self.tensor_history) >= 2:
+            self.Q.cache(s, q, self.reward_history[-2])
         self.Q.tune_network(self.clock)
 
     def save(self, filename):

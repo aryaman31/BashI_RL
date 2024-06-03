@@ -49,19 +49,18 @@ if __name__ == "__main__":
         for i_episode in range(EPISODES_PER_RUN):
             print("==============================================================================")
             print(f"                           Episode {i_episode}")
-            print("==============================================================================")
             state = env.reset()
             identifier = Action.generateRandomString(letters=True)
             agent.reset()
             print(f"Initial Payload: {state.previous_payload}")
             for i in range(TERMINATION_LIMIT):
                 action = agent.pickAction(state)
-                state = env.step(action, identifier) 
-                game, reward = agent.updateGame(state, identifier)
-                agent.train(reward, state)
+                state = env.step(action) 
+                game, reward = agent.updateGame(state, env.identifier)
+                agent.train(reward)
 
                 print("------------------------------------------------------------------------------------------------")
-                print(f"Payload: {state.previous_payload}, State: {state}, Game: {game}")
+                print(f"{i}) Payload: {state.previous_payload}, State: {state}, Game: {game}, Action: {action.actionId}:{action.location}")
                 print("------------------------------------------------------------------------------------------------")
 
                 if game == GAME.FINISHED:
@@ -69,6 +68,7 @@ if __name__ == "__main__":
                     print(state.previous_payload)
                     input()
                     break
+            print("==============================================================================\n")
         canExploit = env.findNextTarget()
                     
     # Can save agent model here !    

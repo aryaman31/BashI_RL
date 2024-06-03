@@ -102,18 +102,18 @@ class DQN:
         
 
         # Get TD Target
+        reward = reward.squeeze()
         td_tgt = self.td_target(next_state, reward,size)
 
 
         
-
         # Backpropagate loss through Q_online
-        loss = self.update_Q_online(td_est, td_tgt)
+        loss = self.update_Q_online(td_est.squeeze(), td_tgt.squeeze())
 
         return loss
 
     def get_Q_value(self,state):
-        state = torch.tensor(state,dtype=torch.float32)
+        state = state.clone().detach()
         state = state.unsqueeze(0)
 
 
@@ -135,7 +135,7 @@ class DQN:
 
         loss = self.loss_fn(td_estimate, td_target)
         self.optimizer.zero_grad()
-        loss.backward()
+        loss.backward(retain_graph=True)
         self.optimizer.step()
         return loss.item()
 

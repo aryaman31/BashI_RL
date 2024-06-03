@@ -46,7 +46,17 @@ class Action:
                 s = ''.join(newPayload)
                 newPayload = list(s.replace("/", '${HOME:0:1}'))
             # Add a random slashes before chars
-    
+            # Syntax Fixing actions: 
+            # case 13:
+            #     newPayload.insert(self.location, "8.8.8.8")
+            # case 14: 
+            #     newPayload.insert(self.location, "randomFile.txt")
+            # case 15: 
+            #     newPayload.insert(self.location, "/random/dir")
+            # case 16: 
+            #     newPayload.insert(self.insert, Action.generateRandomString(length=3, numbers=True))
+        return "".join(newPayload)
+     
     def getActionTensor(self):
         return torch.tensor([self.actionId, self.location])
     
@@ -59,7 +69,7 @@ class Action:
             case GAME.BEHAVIOR_CHANGE:
                 validActions = [6]
             case GAME.SANITISATION_ESCAPE:
-                validActions = list(range(17, 12 + 1))
+                validActions = list(range(7, 12 + 1))
             case _ : 
                 return []
         
