@@ -5,3 +5,4 @@ models/transformerAE/
 .vscode
 **/temp*
 *.mem
+*.log
