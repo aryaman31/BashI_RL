@@ -62,7 +62,7 @@ class Action:
     
     def getAvailableActions(game, payload):
         n = len(payload)
-        injLocs = list(range(0, n)) if n != 0 else [0]
+        injLocs = list(range(0, n + 1)) if n != 0 else [0]
         match game:
             case GAME.CONTEXT_ESCAPE:
                 validActions = list(range(0, 5 + 1))

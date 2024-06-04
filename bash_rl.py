@@ -39,9 +39,8 @@ if __name__ == "__main__":
 
     # Check wether pid is correct and exists
 
-    NUM_RUNS = 1000
-    EPISODES_PER_RUN = 100
-    TERMINATION_LIMIT = 100
+    EPISODES_PER_RUN = 50
+    TERMINATION_LIMIT = 30
 
     currState = env.reset()
     canExploit = env.findNextTarget()
@@ -67,7 +66,8 @@ if __name__ == "__main__":
                     print("Found an injection!")
                     print(state.previous_payload)
                     input()
-                    break
+                    agent.save('agent.model')
+                    exit()
             print("==============================================================================\n")
         canExploit = env.findNextTarget()
                     

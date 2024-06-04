@@ -21,6 +21,7 @@ class Agent:
         self.chosenAction = None
         self.tensor_history = []
         self.reward_history = []
+        self.epsilon = 0.4
     
     def updateGame(self, newState: State, origCmd: str) -> GAME:
         executed = newState.executed_command.lower()
@@ -30,7 +31,7 @@ class Agent:
         #     self.game = GAME.FIX_SYNTAX
         #     return self.game, -1
         
-        if "sleep 0" in executed or 'echo -e “\x73\x6C\x65\x65\x70\x20\x30"' in executed:
+        if error == 0 and ("sleep 0" in executed or 'echo -e “\x73\x6C\x65\x65\x70\x20\x30"' in executed):
             self.game, reward = GAME.FINISHED, 0
         elif self.__sanitised(newState):
             self.game, reward = GAME.SANITISATION_ESCAPE, -1
@@ -69,6 +70,12 @@ class Agent:
         stateTensor = state.getStateTensor()
         availableActions = Action.getAvailableActions(self.game, state.previous_payload)
 
+        if explore:
+            return self.__greedyAction(availableActions, stateTensor)
+
+        return self.__epsilonGreedyAction(availableActions, stateTensor)
+
+    def __greedyAction(self, availableActions, stateTensor):
         bestQ = None 
         bestAction = None
         bestInp = None
@@ -82,6 +89,15 @@ class Agent:
 
         self.tensor_history.append((bestInp, torch.tensor(bestQ)))
         return bestAction
+    
+    def __epsilonGreedyAction(self, availableActions, stateTensor):
+        greedy = self.__greedyAction(availableActions, stateTensor)
+        p = float(torch.rand(1))
+        if p > self.epsilon:
+            return greedy
+        else:
+            return random.choice(availableActions)
+
     
     def train(self, reward: int):
         self.reward_history.append(reward)

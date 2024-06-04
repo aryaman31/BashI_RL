@@ -24,7 +24,7 @@ class BashExtractor:
             For now, just returns the executed bash command only
         '''
         lines = [l.split(" ", 1) for l in buffer]
-
+        
         pid = lines[0][0]
         if random_str:
             pid = [pid for pid, cmd in lines if random_str in cmd][0]
