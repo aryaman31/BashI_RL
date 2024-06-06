@@ -8,7 +8,8 @@ class BashI_Environment:
         self.state = State("", "", 0)
         self.controller = controller
         self.bashExtractor = bashExtractor
-        self.identifier = ''
+        self.before = ''
+        self.after = ''
         self.cmd = ''
     
     def findNextTarget(self):
@@ -22,7 +23,7 @@ class BashI_Environment:
             cmd, err = self.bashExtractor.stop(uniqueId)
             found = len(cmd) > 0
         
-        self.identifier = cmd.split(uniqueId)[0]
+        self.before, self.after = cmd.split(uniqueId)
         return True
     
     def reset(self) -> State:
@@ -38,7 +39,7 @@ class BashI_Environment:
         self.controller.makeRequest(newPayload)
 
         # see what bash command was actually run 
-        cmd, err = self.bashExtractor.stop(self.identifier)
+        cmd, err = self.bashExtractor.stop(self.before)
         # if err == 0:
         self.cmd = cmd
 
@@ -51,12 +52,18 @@ class BashI_Environment:
     
 if __name__ == '__main__':
     controller = Controller("http://localhost:8000/")
-    bashExtractor = BashExtractor(16956) # have to manually get this :( 
+    bashExtractor = BashExtractor(2261202) # have to manually get this :( 
     env = BashI_Environment(controller, bashExtractor)
 
-    initState = env.reset()
+    uniqueId = Action.generateRandomString(letters=True, numbers=True)
+    bashExtractor.start()
+    controller.makeRequest(uniqueId)
+    cmd, err = bashExtractor.stop(uniqueId)
+    print(cmd)
 
-    dummyAction = Action((0, 0, 0)) # For state find command 
-    newState = env.step(dummyAction)
-    print(newState)
+    # initState = env.reset()
+
+    # dummyAction = Action((0, 0, 0)) # For state find command 
+    # newState = env.step(dummyAction)
+    # print(newState)
 

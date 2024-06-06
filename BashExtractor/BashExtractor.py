@@ -29,7 +29,7 @@ class BashExtractor:
         if random_str:
             pid = [pid for pid, cmd in lines if random_str in cmd][0]
 
-        cmd = ["", ""]
+        cmd = ["", "-1"]
         for line in lines: 
             if line[0] == pid: 
                 matches = re.findall(r'execve\(".*?", \[(.*?)\],', line[1])

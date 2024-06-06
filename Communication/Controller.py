@@ -10,10 +10,15 @@ class Controller:
         self.requestAction = ''
         self.input = ''
         self.inputs = defaultdict(list)
+        self.timeout = 8 #seconds
 
-        response = requests.get(self.url)
-        if response.status_code != 200:
-            print(f"Server returned error {response.status_code}. Please fix the URL.")
+        try:
+            response = requests.get(self.url, timeout=self.timeout)
+            if response.status_code != 200:
+                print(f"Server returned error {response.status_code}. Please fix the URL.")
+                exit()
+        except requests.exceptions.Timeout:
+            print("Initial Request timed out....")
             exit()
         
         print("Looking for potential inputs...")
@@ -46,10 +51,13 @@ class Controller:
         request_url = urljoin(self.url, self.requestAction)
         params = {self.input : payload}
         
-        if self.requestMethod == 'get':
-            response = requests.get(request_url, params=params)
-        else: 
-            response = requests.post(request_url, json=params)
+        try: 
+            if self.requestMethod == 'get':
+                response = requests.get(request_url, params=params, timeout=self.timeout)
+            else: 
+                response = requests.post(request_url, json=params, timeout=self.timeout)
+        except: 
+            pass
         # print("Response received:\n" + response.content)
 
 if __name__ == '__main__':

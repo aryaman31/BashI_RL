@@ -6,7 +6,7 @@ import torch
 from Environment.Games import GAME
 
 class Action:
-    context_escape_tokens = [';', '&&', '||', '&', '|', '#']
+    context_escape_tokens = [';', '&&', '||', '|', '#']
 
     def __init__(self, actionTuple):
         self.actionId = actionTuple[0]
@@ -15,63 +15,65 @@ class Action:
     def applyAction(self, payload):
         newPayload = list(payload)
 
-        if self.actionId <= 5:
-            # static = [';', '&&', '||', '&', '|', '#', Action.generateRandomString(letters=True), 
-            #      Action.generateRandomString(numbers=True), Action.generateRandomString(letters=True, numbers=True, punctuation=True), 
-            #      'sleep 0']
+        if self.actionId <= 4:
             charToInsert = Action.context_escape_tokens[self.actionId]
             newPayload.insert(self.location, charToInsert)
             return "".join(newPayload)
         
-        if self.actionId == 6:
+        if self.actionId == 5:
             newPayload.insert(self.location, "sleep 0")
             return "".join(newPayload)
 
         match self.actionId:
-            case 7:
+            case 6:
                 newPayload = self.__insertDouble(newPayload, '\'')
-            case 8:
+            case 7:
                 newPayload = self.__insertDouble(newPayload, '\"')
-            case 9:
+            case 8:
                 newPayload = self.__insertDouble(newPayload, '`')
-            case 10:
+            case 9:
                 s = ''.join(newPayload)
                 newPayload = list(s.replace(" ", "${IFS}"))
-            case 11: 
+            case 10: 
                 # Should do this for any combination of caps in 'sleep 0'
                 s = ''.join(newPayload)
                 newPayload = list(s.replace("sleep 0", ' echo -e “\x73\x6C\x65\x65\x70\x20\x30"'))
-            case 12: 
+            case 11: 
                 # Should do this for any combination of caps in 'sleep 0'
                 s = ''.join(newPayload)
                 newPayload = list(s.replace("/", '${HOME:0:1}'))
             # Add a random slashes before chars
             # Syntax Fixing actions: 
-            # case 13:
-            #     newPayload.insert(self.location, "8.8.8.8")
-            # case 14: 
-            #     newPayload.insert(self.location, "randomFile.txt")
-            # case 15: 
-            #     newPayload.insert(self.location, "/random/dir")
-            # case 16: 
-            #     newPayload.insert(self.insert, Action.generateRandomString(length=3, numbers=True))
+            case 12:
+                newPayload.insert(self.location, "8.8.8.8")
+            case 13: 
+                newPayload.insert(self.location, "randomFile.txt")
+            case 14: 
+                newPayload.insert(self.location, "/random/dir")
+            case 15: 
+                newPayload.insert(self.location, Action.generateRandomString(length=3, numbers=True))
         return "".join(newPayload)
      
     def getActionTensor(self):
         return torch.tensor([self.actionId, self.location])
     
-    def getAvailableActions(game, payload):
+    def getAvailableActions(game, payload, error):
         n = len(payload)
         injLocs = list(range(0, n + 1)) if n != 0 else [0]
         match game:
             case GAME.CONTEXT_ESCAPE:
-                validActions = list(range(0, 5 + 1))
+                validActions = list(range(0, 4 + 1))
             case GAME.BEHAVIOR_CHANGE:
-                validActions = [6]
+                validActions = [5]
             case GAME.SANITISATION_ESCAPE:
-                validActions = list(range(7, 12 + 1))
+                validActions = list(range(6, 11 + 1))
+            # case GAME.FIX_SYNTAX:
+            #     validActions = list(range(13, 16 + 1))
             case _ : 
                 return []
+        
+        if error != 0:
+            validActions.extend(list(range(12, 15+1)))
         
         return [Action((a, l)) for a, l in product(validActions, injLocs)]
 

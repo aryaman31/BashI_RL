@@ -7,7 +7,7 @@ from Environment.Environment import BashI_Environment
 from Environment.Agent import Agent
 
 from Environment.Games import GAME
-    
+
 if __name__ == "__main__":
     '''
         main execution of the tool
@@ -49,13 +49,12 @@ if __name__ == "__main__":
             print("==============================================================================")
             print(f"                           Episode {i_episode}")
             state = env.reset()
-            identifier = Action.generateRandomString(letters=True)
             agent.reset()
             print(f"Initial Payload: {state.previous_payload}")
             for i in range(TERMINATION_LIMIT):
                 action = agent.pickAction(state)
                 state = env.step(action) 
-                game, reward = agent.updateGame(state, env.identifier)
+                game, reward = agent.updateGame(state, env.before, env.after)
                 agent.train(reward)
 
                 print("------------------------------------------------------------------------------------------------")
@@ -72,7 +71,7 @@ if __name__ == "__main__":
         canExploit = env.findNextTarget()
                     
     # Can save agent model here !    
-    agent.save('agent.model')
+    agent.save('agent.model')  
     
     print("FINISHED")
 

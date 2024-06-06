@@ -10,67 +10,63 @@ from models.RL_Agent.DQN import DQN
 
 # Needs to implement DQN properly with target and policy net. 
 class Agent: 
-    # Output needs to be of size 3 for action: (id, location, type)
-    NETWORK = [4, 50, 50, 3] 
-
+    counter = 0
     def __init__(self):
         self.Q = DQN(State.size() + Action.size(), 1, "models/RL_Agent/", "DQN")
         self.game = GAME.CONTEXT_ESCAPE
         self.state = None
-        self.clock = 0
         self.chosenAction = None
         self.tensor_history = []
         self.reward_history = []
         self.epsilon = 0.4
     
-    def updateGame(self, newState: State, origCmd: str) -> GAME:
+    def updateGame(self, newState: State, before: str, after: str) -> GAME:
         executed = newState.executed_command.lower()
         error = newState.error_code
+        executed_payload = executed.split(before)[-1].split(after)[0]
         reward = 0
-        # if error != 0:
-        #     self.game = GAME.FIX_SYNTAX
-        #     return self.game, -1
+        if error != 0:
+            # self.game = GAME.FIX_SYNTAX
+            # return self.game, -1
+            reward = -1
         
         if error == 0 and ("sleep 0" in executed or 'echo -e “\x73\x6C\x65\x65\x70\x20\x30"' in executed):
             self.game, reward = GAME.FINISHED, 0
         elif self.__sanitised(newState):
-            self.game, reward = GAME.SANITISATION_ESCAPE, -1
-        elif self.__escapedContext(newState, origCmd):
-            self.game, reward = GAME.BEHAVIOR_CHANGE, -1
+            self.game = GAME.SANITISATION_ESCAPE
+            reward += -1
+        elif self.__escapedContext(newState, before, after, executed_payload):
+            self.game = GAME.BEHAVIOR_CHANGE
+            reward += -1
         else:
-            self.game, reward = GAME.CONTEXT_ESCAPE, -1
+            self.game = GAME.CONTEXT_ESCAPE
+            reward += -1
         
         return self.game, reward
 
-    def __escapedContext(self, state: State, origCmd: str):
-        rest = state.executed_command.split(origCmd)[-1] 
-        return any([c in rest for c in Action.context_escape_tokens])
-        # executed = state.executed_command.lower().split(identifier)
-        # if len(executed) == 1:
-        #     return False 
-        
-        # prev = executed.strip().replace('${IFS}', '')
-        # return prev[-1] in Action.context_escape_tokens
+    def __escapedContext(self, state: State, before: str, after: str, executed_payload: str):
+        matches = 0
+        matches += state.executed_command.startswith(before)
+        matches += state.executed_command.endswith(after)
+        return sum([c in executed_payload for c in Action.context_escape_tokens]) == matches
     
     def __sanitised(self, state: State):
         executed = state.executed_command.lower()
         payload = state.previous_payload.lower()
-        payload.replace('#', '')
         return payload not in executed
 
     def reset(self):
-        self.clock = 0
         self.state = None 
         self.game = GAME.CONTEXT_ESCAPE
 
     def pickAction(self, state: State, explore=True):
         self.state = state
-        self.clock += 1
+        Agent.counter += 1
 
         stateTensor = state.getStateTensor()
-        availableActions = Action.getAvailableActions(self.game, state.previous_payload)
+        availableActions = Action.getAvailableActions(self.game, state.previous_payload, state.error_code)
 
-        if explore:
+        if not explore:
             return self.__greedyAction(availableActions, stateTensor)
 
         return self.__epsilonGreedyAction(availableActions, stateTensor)
@@ -104,7 +100,7 @@ class Agent:
         s, q = self.tensor_history[-1]
         if len(self.tensor_history) >= 2:
             self.Q.cache(s, q, self.reward_history[-2])
-        self.Q.tune_network(self.clock)
+        self.Q.tune_network(Agent.counter)
 
     def save(self, filename):
         torch.save(self.Q, filename)
