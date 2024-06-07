@@ -1,8 +1,7 @@
 <!-- This file doesn't sanitise the user input and runs a shell command,
      hence has a command injection vulnerability 
     Vuln is 
-        ; ls     
-
+        ; whoami # 
     -->
 
 <!DOCTYPE html>

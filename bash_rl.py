@@ -67,6 +67,7 @@ if __name__ == "__main__":
                     agent.save('agent.model')
                     exit()
             print("==============================================================================\n")
+        
         canExploit = env.findNextTarget()
                     
     # Can save agent model here !    
