@@ -41,7 +41,8 @@ class BashI_Environment:
         # see what bash command was actually run 
         cmd, err = self.bashExtractor.stop(self.before)
         # if err == 0:
-        self.cmd = cmd
+        if cmd != "":
+            self.cmd = cmd
 
         # create new state from bash command returned + payload tested + error msg 
         self.state = State(self.cmd, newPayload, err)

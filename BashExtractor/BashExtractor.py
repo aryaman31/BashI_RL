@@ -25,6 +25,9 @@ class BashExtractor:
         '''
         lines = [l.split(" ", 1) for l in buffer]
         
+        if len(lines) == 0:
+            return ["", "-1"]
+        
         pid = lines[0][0]
         if random_str:
             pid = [pid for pid, cmd in lines if random_str in cmd][0]
@@ -34,8 +37,8 @@ class BashExtractor:
             if line[0] == pid: 
                 matches = re.findall(r'execve\(".*?", \[(.*?)\],', line[1])
                 if len(matches) > 0:
-                    temp = matches[0].replace("\"", "").split(", ")
-                    cmd[0] = temp[-1]
+                    temp = matches[0].replace("\"", "").split(", ")[-1]
+                    cmd[0] = temp.split('#', 1)[0]
                 elif 'exited' in line[1]: 
                     cmd[1] = line[1].split(" ")[-2]
 

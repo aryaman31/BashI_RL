@@ -64,7 +64,6 @@ if __name__ == "__main__":
                 if game == GAME.FINISHED:
                     print("Found an injection!")
                     print(state.previous_payload)
-                    input()
                     agent.save('agent.model')
                     exit()
             print("==============================================================================\n")

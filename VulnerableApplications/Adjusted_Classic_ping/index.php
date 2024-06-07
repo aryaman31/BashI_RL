@@ -23,7 +23,7 @@
     <?php
     if (isset($_GET["ip_address"])) {
         $ip_address = $_GET["ip_address"];
-        $ping_output = shell_exec("ping " . $ip_address . " -c 4");
+        $ping_output = shell_exec("timeout 5 ping " . $ip_address . " -c 4");
         echo "<h3>Ping Results for $ip_address:</h3>";
         echo "<pre>$ping_output</pre>";
     }

@@ -14,7 +14,7 @@ class Agent:
     def __init__(self):
         self.Q = DQN(State.size() + Action.size(), 1, "models/RL_Agent/", "DQN")
         self.game = GAME.CONTEXT_ESCAPE
-        self.state = None
+        self.state = None # This is the state the pick action was called on
         self.chosenAction = None
         self.tensor_history = []
         self.reward_history = []
@@ -35,7 +35,7 @@ class Agent:
         elif self.__sanitised(newState):
             self.game = GAME.SANITISATION_ESCAPE
             reward += -1
-        elif self.__escapedContext(newState, before, after, executed_payload):
+        elif self.__escapedContext(before, after, executed_payload, executed):
             self.game = GAME.BEHAVIOR_CHANGE
             reward += -1
         else:
@@ -44,15 +44,15 @@ class Agent:
         
         return self.game, reward
 
-    def __escapedContext(self, state: State, before: str, after: str, executed_payload: str):
+    def __escapedContext(self, before: str, after: str, executed_payload: str, executed_command: str):
         matches = 0
-        matches += state.executed_command.startswith(before)
-        matches += state.executed_command.endswith(after)
+        matches += executed_command.startswith(before)
+        matches += (executed_command.endswith(after) and len(after) > 0)
         return sum([c in executed_payload for c in Action.context_escape_tokens]) == matches
     
     def __sanitised(self, state: State):
         executed = state.executed_command.lower()
-        payload = state.previous_payload.lower()
+        payload = state.previous_payload.lower().split('#', 1)[0]
         return payload not in executed
 
     def reset(self):
