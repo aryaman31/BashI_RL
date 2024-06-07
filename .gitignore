@@ -6,3 +6,4 @@ models/transformerAE/
 **/temp*
 *.mem
 *.log
+output.txt
