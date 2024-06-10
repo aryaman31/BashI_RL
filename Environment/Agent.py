@@ -23,7 +23,9 @@ class Agent:
     def updateGame(self, newState: State, before: str, after: str) -> GAME:
         executed = newState.executed_command.lower()
         error = newState.error_code
-        executed_payload = executed.split(before)[-1].split(after)[0]
+        executed_payload = executed.split(before)[-1]
+        if after != '':
+            executed_payload = executed_payload.split(after)[0]
         reward = 0
         if error != 0:
             # self.game = GAME.FIX_SYNTAX

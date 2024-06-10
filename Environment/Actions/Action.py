@@ -51,7 +51,7 @@ class Action:
             case 14: 
                 newPayload.insert(self.location, "/random/dir")
             case 15: 
-                newPayload.insert(self.location, Action.generateRandomString(length=3, numbers=True))
+                newPayload.insert(self.location, Action.generateRandomString(length=2, numbers=True))
         return "".join(newPayload)
      
     def getActionTensor(self):

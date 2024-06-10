@@ -40,7 +40,7 @@ if __name__ == "__main__":
     # Check wether pid is correct and exists
 
     EPISODES_PER_RUN = 50
-    TERMINATION_LIMIT = 30
+    TERMINATION_LIMIT = 15
 
     currState = env.reset()
     canExploit = env.findNextTarget()
