@@ -72,6 +72,5 @@ if __name__ == "__main__":
                     
     # Can save agent model here !    
     agent.save('agent.model')  
-    
-    print("FINISHED")
+    print("No injection found :(")
 

@@ -21,7 +21,7 @@
 
         // Set blacklist
         $substitutions = array(
-            '&&' => '',
+            '&' => '',
             ';'  => '',
         );
 

@@ -71,10 +71,10 @@ def cmd_to_tensor(cmd):
     tensor = torch.tensor([torch.tensor(cmd_to_idx[t]) for t in tokens], device=device)
     return tensor
 
-with open("dataGen/bnf/Dataset.txt") as file:
+with open("dataGen/combined_rand_logs.txt") as file:
     data = file.readlines()
     data = list(map(lambda x : x.strip(), data))
-    # data = data[:100]
+    data = data[:100]
 
     # token_set = set(" ".join(data).split())
     token_set = set(list("".join(data)))
@@ -105,7 +105,8 @@ num_epochs = 1
 for epoch in range(num_epochs):
     running_loss = 0.0
     for cmd in tqdm(train_data):
-        running_loss += train(cmd, encoder, decoder, encoder_optimiser, decoder_optimiser, criterion, device)
+        loss = train(cmd, encoder, decoder, encoder_optimiser, decoder_optimiser, criterion, device)
+        running_loss += loss 
 
     print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {running_loss:.4f}')
 

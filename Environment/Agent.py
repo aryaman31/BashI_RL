@@ -27,12 +27,12 @@ class Agent:
         if after != '':
             executed_payload = executed_payload.split(after)[0]
         reward = 0
-        if error != 0:
-            # self.game = GAME.FIX_SYNTAX
-            # return self.game, -1
-            reward = -1
+        # if error != 0:
+        #     # self.game = GAME.FIX_SYNTAX
+        #     # return self.game, -1
+        #     reward = -1
         
-        if error == 0 and ("sleep 0" in executed or 'echo -e “\x73\x6C\x65\x65\x70\x20\x30"' in executed):
+        if self.__success(executed, error):
             self.game, reward = GAME.FINISHED, 0
         elif self.__sanitised(newState):
             self.game = GAME.SANITISATION_ESCAPE
@@ -45,12 +45,21 @@ class Agent:
             reward += -1
         
         return self.game, reward
+    
+    def __success(self, executed: str, error: int):
+        for t in Action.sanitisation_tokens:
+            replace_tok = ''
+            if t == '${IFS}':
+                replace_tok = ' '
+            executed = executed.replace(t, replace_tok)
+        
+        return error == 0 and ("sleep 0" in executed or 'echo -e “\x73\x6C\x65\x65\x70\x20\x30"' in executed)
 
     def __escapedContext(self, before: str, after: str, executed_payload: str, executed_command: str):
         matches = 0
         matches += executed_command.startswith(before)
         matches += (executed_command.endswith(after) and len(after) > 0)
-        return sum([c in executed_payload for c in Action.context_escape_tokens]) == matches
+        return sum([c in executed_payload for c in Action.context_escape_tokens]) >= matches
     
     def __sanitised(self, state: State):
         executed = state.executed_command.lower()

@@ -1,0 +1,230 @@
+[Fri Jun 14 01:20:51 2024] PHP 8.1.2-1ubuntu2.17 Development Server (http://localhost:8000) started
+ping: ZMZxN0P8AF: Temporary failure in name resolution
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+sh: 1: -c: not found
+ping: sleep: Temporary failure in name resolution
+sh: 1: -c: not found
+ping: sleep: Temporary failure in name resolution
+sleep: invalid option -- 'c'
+Try 'sleep --help' for more information.
+ping: sleep: Temporary failure in name resolution
+sleep: invalid option -- 'c'
+Try 'sleep --help' for more information.
+ping: sleep: Temporary failure in name resolution
+sh: 1: 0: not found
+sleep: invalid option -- 'c'
+Try 'sleep --help' for more information.
+sh: 1: s: not found
+ping: leep: Temporary failure in name resolution
+sh: 1: 0: not found
+sleep: invalid option -- 'c'
+Try 'sleep --help' for more information.
+sh: 1: Syntax error: EOF in backquote substitution
+sh: 1: Syntax error: EOF in backquote substitution
+sh: 1: Syntax error: EOF in backquote substitution
+sh: 1: Syntax error: EOF in backquote substitution
+sh: 1: Syntax error: EOF in backquote substitution
+sh: 1: Syntax error: EOF in backquote substitution
+sh: 1: Syntax error: EOF in backquote substitution
+sh: 1: Syntax error: EOF in backquote substitution
+sh: 1: Syntax error: EOF in backquote substitution
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+sh: 1: -c: not found
+ping: usage error: Destination address required
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+sh: 1: Syntax error: "||" unexpected
+sh: 1: Syntax error: "||" unexpected
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+sh: 1: Syntax error: end of file unexpected
+sh: 1: Syntax error: ";" unexpected
+sh: 1: Syntax error: ";" unexpected
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+sh: 1: -c: not found
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+sh: 1: -c: not found
+sh: 1: Syntax error: ";;" unexpected
+sh: 1: Syntax error: ";;" unexpected
+sh: 1: Syntax error: ";;" unexpected
+sh: 1: Syntax error: ";;" unexpected
+sh: 1: Syntax error: ";" unexpected
+sh: 1: Syntax error: ";" unexpected
+sh: 1: Syntax error: ";" unexpected
+sh: 1: Syntax error: ";;" unexpected
+sh: 1: Syntax error: ";;" unexpected
+sh: 1: Syntax error: ";;" unexpected
+sh: 1: Syntax error: ";;" unexpected
+sh: 1: Syntax error: ";;" unexpected
+sh: 1: Syntax error: ";;" unexpected
+sh: 1: Syntax error: ";;" unexpected
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+sh: 1: Syntax error: "|" unexpected
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+sh: 1: -c: not found
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+sh: 1: -c: not found
+sh: 1: Syntax error: "&&" unexpected
+ping: usage error: Destination address required
+sh: 1: -c: not found
+ping: usage error: Destination address required
+sleep: invalid option -- 'c'
+Try 'sleep --help' for more information.
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required
+ping: usage error: Destination address required

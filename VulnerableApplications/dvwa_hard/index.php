@@ -21,8 +21,15 @@
 
         // Set blacklist
         $substitutions = array(
-            '&&' => '',
+            '&'  => '',
             ';'  => '',
+            '| ' => '',
+            '-'  => '',
+            '$'  => '',
+            '('  => '',
+            ')'  => '',
+            '`'  => '',
+            '||' => '',
         );
 
         // Remove any of the characters in the array (blacklist).

@@ -7,6 +7,7 @@ from Environment.Games import GAME
 
 class Action:
     context_escape_tokens = [';', '&&', '||', '|', '#']
+    sanitisation_tokens = ['\'', '\"', '`', '${IFS}']
 
     def __init__(self, actionTuple):
         self.actionId = actionTuple[0]
@@ -72,8 +73,8 @@ class Action:
             case _ : 
                 return []
         
-        if error != 0:
-            validActions.extend(list(range(12, 15+1)))
+        # if error != 0:
+        #     validActions.extend(list(range(12, 15+1)))
         
         return [Action((a, l)) for a, l in product(validActions, injLocs)]
 
