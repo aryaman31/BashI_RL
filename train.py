@@ -1,5 +1,6 @@
 import subprocess
 import os 
+import random
 
 PORT=8000
 
@@ -8,34 +9,42 @@ webapp_dir = os.path.join(output_dir, "VulnerableApplications/")
 
 ignoreList = ['DynEval_Age', 'impossible', 'dvwa_impossible']
 webApps = [f for f in os.scandir(webapp_dir) if f.is_dir() and f.name not in ignoreList]
+random.shuffle(webApps)
 
 found = []
 failed = []
 for app in webApps:
-    file = open(f"{output_dir}/logs/log_{app.name}.txt", "w+")
+    file_server = open(f"{output_dir}/logs/php/log_{app.name}.txt", "w+")
+    file_agent = open(f"{output_dir}/logs/agent/log_{app.name}.txt", "w+")
     try:
         print("======================================================================================")
         print(f"Training against {app.name}!")
         
-        webServer_process = subprocess.Popen(["php", "-q", "-S", f"localhost:{PORT}", "-t", app.path], stderr=subprocess.STDOUT, stdout=file)
-        model_process = subprocess.run(["python3", "bash_rl.py", str(webServer_process.pid), f"http://localhost:{PORT}"], capture_output=True, text=True)
+        webServer_process = subprocess.Popen(["php", "-q", "-S", f"localhost:{PORT}", "-t", app.path], stderr=subprocess.STDOUT, stdout=file_server)
+        model_process = subprocess.run(["python3", "bash_rl.py", str(webServer_process.pid), f"http://localhost:{PORT}"], stderr=subprocess.STDOUT, stdout=file_agent)
+
+        file_server.close()
+        file_agent.close()
         
         if model_process.returncode != 0:
             print("An error has occured")
             print(model_process.stderr)
             exit() 
         
-        if "Found an injection!" in model_process.stdout: 
-            found.append(app.name)
-            print(f"    Found injection for {app.name}")
-            print("    Injection: " + model_process.stdout.split(["Found an injection!\n"][1]))
-        else:
-            failed.append(app.name)
-            print(f"    No injection found for {app.name}")
+        with open(f"{output_dir}/logs/agent/log_{app.name}.txt", "r") as file:
+            lines = file.readlines()
+            if "Found an injection!\n" in lines: 
+                found.append(app.name)
+                print(f"    Found injection for {app.name}")
+                print("    Injection: " + lines[-1])
+            else:
+                failed.append(app.name)
+                print(f"    No injection found for {app.name}")
         print("======================================================================================")
     finally:
         webServer_process.kill()
-        file.close()
+        file_server.close()
+        file_agent.close()
         
 print("Found: " + ",".join(found))
 print("Failed: " + ",".join(failed))

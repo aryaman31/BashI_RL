@@ -8,7 +8,7 @@ class BashExtractor:
         self.process = None
 
     def start(self, delay=0.1):
-        self.process = subprocess.Popen(["strace", "-f", "-p", self.server_pid, "-e", "trace=execve", "--output=BashExtractor/temp.txt", "--quiet=attach"])
+        self.process = subprocess.Popen(["strace", "-f", "-p", self.server_pid, "-e", "trace=execve", "--output=BashExtractor/temp.txt", "--quiet=attach", "-v", "-s 1000"])
         time.sleep(delay)
     
     def stop(self, random_str):

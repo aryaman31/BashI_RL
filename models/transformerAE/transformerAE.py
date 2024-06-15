@@ -2,12 +2,14 @@ from transformers import TrainingArguments, Trainer
 from transformers import DataCollatorForLanguageModeling, LineByLineTextDataset
 from transformers import RobertaTokenizerFast, RobertaForMaskedLM
 from tokenizers import ByteLevelBPETokenizer
+import matplotlib.pyplot as plt
 import numpy as np
 import torch 
 import os
 
 # Define paths and parameters
 output_dir = os.path.dirname(os.path.realpath(__file__))
+output_dir = os.path.join(output_dir, "transformerFigs/")
 
 cmd_encoder_dir = os.path.join(output_dir, 'cmdEncoder/')
 cmd_tokenizer_dir = os.path.join(output_dir,'cmdTokenizer/')
@@ -100,6 +102,18 @@ def train(dataset_path, tokenizer_dir, encoder_dir, model_disp_name='Cmd Encoder
     # Save the model and tokenizer
     trainer.save_model(encoder_dir)
     tokenizer.save_pretrained(tokenizer_dir)
+    return trainer
 
-train(payload_dataset_path, payload_tokenizer_dir, payload_encoder_dir, model_disp_name='Payload Encoder')
-train(cmd_dataset_path, cmd_tokenizer_dir, cmd_encoder_dir)
+def saveLossGraph(trainer, figName):
+    loss = [node['loss'] for node in trainer.state.log_history if 'loss' in node.keys()]
+    plt.plot(loss)
+    plt.xlabel("Logging Step")
+    plt.ylabel("Loss")
+    plt.savefig(figName)
+
+payloadTrainer = train(payload_dataset_path, payload_tokenizer_dir, payload_encoder_dir, model_disp_name='Payload Encoder')
+cmdTrainer = train(cmd_dataset_path, cmd_tokenizer_dir, cmd_encoder_dir)
+
+saveLossGraph(payloadTrainer, "payload_bnf_loss.png")
+saveLossGraph(cmdTrainer, "cmd_bnf_loss.png")
+
