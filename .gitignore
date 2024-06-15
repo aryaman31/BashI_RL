@@ -7,3 +7,4 @@ models/transformerAE/
 *.mem
 *.log
 output.txt
+logs/
