@@ -55,7 +55,7 @@ class Controller:
             if self.requestMethod == 'get':
                 response = requests.get(request_url, params=params, timeout=self.timeout)
             else: 
-                response = requests.post(request_url, json=params, timeout=self.timeout)
+                response = requests.post(request_url, data=params, timeout=self.timeout)
         except: 
             pass
         # print("Response received:\n" + response.content)
