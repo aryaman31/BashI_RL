@@ -16,4 +16,4 @@
 
 <REDIRECTION> ::=  '>' <WORD> | '<' <WORD>  | '>>' <WORD>  | '<<' <WORD> | '<&' <WORD> | '>&' <WORD> | '<<-' <WORD> | '>&' '-' | '<&' '-' | '&>' <WORD> | '<>' <WORD> | '>|' <WORD>
 
-<SIMPLE-COMMAND> ::=  <CMD_WORD> | <CMD_WORD> <REDIRECTION>
+<SIMPLE-COMMAND> ::=  <CMD_WORD> | <CMD_WORD> <REDIRECTION> <CMD_WORD> | <CMD_WORD> <REDIRECTION> <FILEPATH>

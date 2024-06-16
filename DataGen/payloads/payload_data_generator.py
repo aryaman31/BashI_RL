@@ -4,13 +4,15 @@ rules = {
     "alpha": ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y"],
     "digit": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
     "word" : ["tempWord"],
-    "filepath": ["file.txt", "/etc/passwd"],
+    "ip"   : ["<digit><digit><digit>.<digit><digit><digit>.<digit><digit><digit>.<digit><digit><digit>"],
+    "slash": ['/', '${HOME:0:1}'],
+    "filler": ["<word>", "<ip>", "<filepath>"],
+    "filepath": ["file.txt", "<slash>etc<slash>passwd"],
     "space": [" ", "${IFS}"],
     "flag":  ["-<alpha>", "--<word>", "-<alpha>=<word>", "-<alpha>=<filepath>"],
-    "cmd_word": ["id", "whoami", "sleep<space>1", "/usr/bin/whoami", "/usr/bin/id", "cat<space><filepath>", "ls<space><flag><space><word>"],
+    "cmd_word": ["id", "whoami", "sleep<space>1", "<slash>usr<slash>bin<slash>whoami", "<slash>usr<slash>bin<slash>id", "cat<space><filepath>", "ls<space><flag><space><word>", "sleep<space>0"],
     "redirection": [';', '&&', '||', '|'],
-    "cmd": ["`<cmd_word>`", "$(<cmd_word>)", "<cmd_word>"],
-    "root": ["<cmd>", "<cmd><space><redirection><space><cmd>"]
+    "root": ["<cmd_word>", "<redirection><space><cmd_word>", "<filler><redirection><space><cmd_word>", "<redirection><cmd_word>", "<filler><space><redirection><cmd_word>"]
 }
 
 def addRandomTicks(payload):
