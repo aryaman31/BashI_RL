@@ -18,12 +18,12 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 class DQN:
     def __init__(self,state_size,action_size,model_dir,name,learning=True) -> None:
         self.learning = learning
-        self.BATCH_SIZE = 512
+        self.BATCH_SIZE = 256
         self.GAMMA = 1
-        self.MEM_CAPACITY = 10000
+        self.MEM_CAPACITY = 5000
         self.min_experiance = 20
         self.learn_every = 1  # no. of experiences between updates to Q_online
-        self.sync_every = 200  # no. of experiences between Q_target & Q_online sync
+        self.sync_every = 100  # no. of experiences between Q_target & Q_online sync
         self.save_every = 100
         self.learning_rate = 0.00005
         self.name = name
