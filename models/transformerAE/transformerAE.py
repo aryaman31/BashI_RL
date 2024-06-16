@@ -9,7 +9,7 @@ import os
 
 # Define paths and parameters
 output_dir = os.path.dirname(os.path.realpath(__file__))
-output_dir = os.path.join(output_dir, "transformerFigs/")
+output_dir = os.path.join(output_dir, "latest")
 
 cmd_encoder_dir = os.path.join(output_dir, 'cmdEncoder/')
 cmd_tokenizer_dir = os.path.join(output_dir,'cmdTokenizer/')
@@ -20,7 +20,7 @@ payload_tokenizer_dir = os.path.join(output_dir,'payloadTokenizer/')
 dirs = [cmd_encoder_dir, cmd_tokenizer_dir, payload_encoder_dir, payload_tokenizer_dir]
 
 cmd_dataset_path = 'DataGen/bnf/Dataset.txt'
-payload_dataset_path = 'DataGen/payloads/generated_dataset.txt'
+payload_dataset_path = 'DataGen/payloads/dataset.txt'
 
 model_name = 'microsoft/codebert-base'
 epochs = 5
@@ -106,14 +106,15 @@ def train(dataset_path, tokenizer_dir, encoder_dir, model_disp_name='Cmd Encoder
 
 def saveLossGraph(trainer, figName):
     loss = [node['loss'] for node in trainer.state.log_history if 'loss' in node.keys()]
-    plt.plot(loss)
+    plt.plot(loss, label=figName.split('_')[0])
     plt.xlabel("Logging Step")
     plt.ylabel("Loss")
+    plt.legend()
     plt.savefig(figName)
 
 payloadTrainer = train(payload_dataset_path, payload_tokenizer_dir, payload_encoder_dir, model_disp_name='Payload Encoder')
 cmdTrainer = train(cmd_dataset_path, cmd_tokenizer_dir, cmd_encoder_dir)
 
-saveLossGraph(payloadTrainer, "payload_bnf_loss.png")
-saveLossGraph(cmdTrainer, "cmd_bnf_loss.png")
+saveLossGraph(cmdTrainer, "cmd_data_loss.png")
+saveLossGraph(payloadTrainer, "payload_data_loss.png")
 
