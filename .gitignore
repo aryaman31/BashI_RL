@@ -8,3 +8,4 @@ models/transformerAE/
 *.log
 output.txt
 logs/
+*.png
