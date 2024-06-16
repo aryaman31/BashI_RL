@@ -5,13 +5,25 @@ rules = {
     "digit": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
     "word" : ["tempWord"],
     "filepath": ["file.txt", "/etc/passwd"],
-    "space": [" ", "$\{IFS\}"],
+    "space": [" ", "${IFS}"],
     "flag":  ["-<alpha>", "--<word>", "-<alpha>=<word>", "-<alpha>=<filepath>"],
     "cmd_word": ["id", "whoami", "sleep<space>1", "/usr/bin/whoami", "/usr/bin/id", "cat<space><filepath>", "ls<space><flag><space><word>"],
-    "redirection": [';', '&&', '||', '&', '|'],
+    "redirection": [';', '&&', '||', '|'],
     "cmd": ["`<cmd_word>`", "$(<cmd_word>)", "<cmd_word>"],
     "root": ["<cmd>", "<cmd><space><redirection><space><cmd>"]
 }
+
+def addRandomTicks(payload):
+    words = payload.split(' ')
+    editWord_i = random.randint(0, len(words) - 1)
+    word = list(words[editWord_i])
+    insertPoints = sorted([random.randint(0, len(words[editWord_i])), random.randint(0, len(words[editWord_i]))])
+
+    tick = random.choice(['\"', '\'', '`'])
+    word.insert(insertPoints[1], tick)
+    word.insert(insertPoints[0], tick)
+    words[editWord_i] = ''.join(word)
+    return ' '.join(words)
 
 def generate_example(rules, start_symbol, depth=0):
     if depth > 50:
@@ -42,8 +54,10 @@ if __name__ == "__main__":
     samples = 300000
     file = open("DataGen/payloads/generated_dataset.txt", "w")
     i = 0
+    addTickp = 0.1
     while i < samples:
         gen = generate_example(rules, "root")
+        if random.random() < addTickp: gen = addRandomTicks(gen)
         if gen:
             i += 1
             file.write(gen + "\n")

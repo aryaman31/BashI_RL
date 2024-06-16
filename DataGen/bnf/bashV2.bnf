@@ -10,7 +10,9 @@
 
 <FLAGS> ::= '-' <ALPHA> | '--' <WORD>
 
-<CMD_WORD> ::= ls <FLAGS> <FILEPATH> | cd <FLAGS> <FILEPATH> | pwd | mkdir <FILEPATH> | rm <FLAGS> <FILEPATH> | cp <FILEPATH> <FILEPATH> | mv <FILEPATH> <FILEPATH> | touch <FILEPATH> | cat <FILEPATH> | echo <WORD>
+<IP> ::= <NUMBER> '.' <NUMBER> '.' <NUMBER> '.' <NUMBER>
+
+<CMD_WORD> ::= ls <FLAGS> <FILEPATH> | cd <FLAGS> <FILEPATH> | pwd | mkdir <FILEPATH> | rm <FLAGS> <FILEPATH> | cp <FILEPATH> <FILEPATH> | mv <FILEPATH> <FILEPATH> | touch <FILEPATH> | cat <FILEPATH> | echo <WORD> | ping <FLAGS> <IP>
 
 <REDIRECTION> ::=  '>' <WORD> | '<' <WORD>  | '>>' <WORD>  | '<<' <WORD> | '<&' <WORD> | '>&' <WORD> | '<<-' <WORD> | '>&' '-' | '<&' '-' | '&>' <WORD> | '<>' <WORD> | '>|' <WORD>
 

@@ -17,7 +17,7 @@ def generate_example(rules, start_symbol, depth=0):
         print(start_symbol)
         return start_symbol
     
-    addSpace = start_symbol not in ['<WORD>', '<ALPHA>', '<NUMBER>', '<DIGIT>', '<FLAGS>']
+    addSpace = start_symbol not in ['<WORD>', '<ALPHA>', '<NUMBER>', '<DIGIT>', '<FLAGS>', '<IP>']
 
 
     production = random.choice(rules[start_symbol])
@@ -36,7 +36,7 @@ def generate_example(rules, start_symbol, depth=0):
 
 
 if __name__ == "__main__":
-    file_bnf = "dataGen/bnf/bashV2.bnf"
+    file_bnf = "DataGen/bnf/bashV2.bnf"
     samples = 300000
 
     file = open(file_bnf, "r")
@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
     rules = parse_bnf(data)
 
-    file = open("dataGen/bnf/Dataset.txt", "w")
+    file = open("DataGen/bnf/Dataset.txt", "w")
     i = 0
     while i < samples:
         gen = generate_example(rules, "<SIMPLE-COMMAND>")
