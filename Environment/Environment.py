@@ -1,5 +1,5 @@
 from Environment.State import State
-from Environment.Actions.Action import Action
+from Environment.Action import Action
 from Communication.Controller import Controller
 from BashExtractor.BashExtractor import BashExtractor
 

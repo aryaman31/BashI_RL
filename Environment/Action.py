@@ -43,7 +43,6 @@ class Action:
                 # Should do this for any combination of caps in 'sleep 0'
                 s = ''.join(newPayload)
                 newPayload = list(s.replace("/", '${HOME:0:1}'))
-            # Add a random slashes before chars
             # Syntax Fixing actions: 
             case 12:
                 newPayload.insert(self.location, "8.8.8.8")
@@ -68,13 +67,11 @@ class Action:
                 validActions = [5]
             case GAME.SANITISATION_ESCAPE:
                 validActions = list(range(6, 11 + 1))
-            # case GAME.FIX_SYNTAX:
-            #     validActions = list(range(13, 16 + 1))
             case _ : 
                 return []
         
-        # if error != 0:
-        #     validActions.extend(list(range(12, 15+1)))
+        if error != 0:
+            validActions.extend(list(range(12, 15+1)))
         
         return [Action((a, l)) for a, l in product(validActions, injLocs)]
 

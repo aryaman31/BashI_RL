@@ -4,15 +4,16 @@ import torch.nn.functional as F
 import random
 
 from Environment.State import State
-from Environment.Actions.Action import Action
+from Environment.Action import Action
 from Environment.Games import GAME
 from models.RL_Agent.DQN import DQN
 
 # Needs to implement DQN properly with target and policy net. 
 class Agent: 
     counter = 0
-    def __init__(self):
-        self.Q = DQN(State.size() + Action.size(), 1, "models/RL_Agent/", "DQN")
+    def __init__(self, learning=True):
+        self.Q = DQN(State.size() + Action.size(), 1, "models/RL_Agent/", "DQN", learning=learning)
+        self.learning = learning
         self.game = GAME.CONTEXT_ESCAPE
         self.state = None # This is the state the pick action was called on
         self.chosenAction = None
@@ -27,13 +28,11 @@ class Agent:
         if after != '':
             executed_payload = executed_payload.split(after)[0]
         reward = 0
-        # if error != 0:
-        #     # self.game = GAME.FIX_SYNTAX
-        #     # return self.game, -1
-        #     reward = -1
+        if error != 0:
+            reward = -1
         
         if self.__success(executed, error):
-            self.game, reward = GAME.FINISHED, 0
+            self.game, reward = GAME.FINISHED, 100
         elif self.__sanitised(newState):
             self.game = GAME.SANITISATION_ESCAPE
             reward += -1
