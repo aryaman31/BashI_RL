@@ -68,7 +68,7 @@ if __name__ == "__main__":
                     print(state.previous_payload)
                     print(f"Tries: {counter}" )
                     agent.save('agent.model')
-                    exit()
+                    exit(0)
             print("==============================================================================\n")
         
         canExploit = env.findNextTarget()

@@ -10,7 +10,7 @@ EPOCHS=100
 output_dir = os.path.dirname(os.path.realpath(__file__))
 webapp_dir = os.path.join(output_dir, "VulnerableApplications/")
 
-ignoreList = ['DynEval_Age', 'impossible', 'dvwa_impossible']
+ignoreList = ['DynEval_Age', 'dvwa_impossible', 'passthru', 'tight_filter', 'impossible', 'bwapp_ci']
 webApps = [f for f in os.scandir(webapp_dir) if f.is_dir() and f.name not in ignoreList]
 
 ts = str(time.time())
@@ -24,7 +24,7 @@ except FileExistsError:
 found = []
 failed = []
 counts = []
-for epoch in range(EPOCHS):
+for epoch in range(33, EPOCHS):
     app = random.choice(webApps)
     file_server = open(f"{output_dir}/logs/{ts}/php/{epoch}_log_{app.name}.txt", "w+")
     file_agent = open(f"{output_dir}/logs/{ts}/agent/{epoch}_log_{app.name}.txt", "w+")
@@ -39,9 +39,12 @@ for epoch in range(EPOCHS):
         file_agent.close()
         
         if model_process.returncode != 0:
-            print("An error has occured")
+            print(f"An error has occured in epoch {epoch}")
+            print(model_process.returncode)
             print(model_process.stderr)
-            exit() 
+            print(model_process.stdout)
+            webServer_process.kill()
+            continue
         
         with open(f"{output_dir}/logs/{ts}/agent/{epoch}_log_{app.name}.txt", "r") as file:
             lines = file.readlines()

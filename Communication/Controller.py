@@ -9,6 +9,7 @@ class Controller:
         self.requestMethod = ''
         self.requestAction = ''
         self.input = ''
+        self.submit = ''
         self.inputs = defaultdict(list)
         self.timeout = 8 #seconds
 
@@ -28,17 +29,19 @@ class Controller:
         self.forms = list(soup.find_all('form', recursive=True))
         for form in self.forms:
             inps = form.find_all('input')
+            sub = [inp.get('name') for inp in inps if inp.get('type') in ['submit']]
+            sub = '' if len(sub) == 0 else sub[0]
             for input_field in inps:
                 if input_field.get('type') in ['text']:
                     total += 1
-                    self.inputs[form].append(input_field.get('name'))
+                    self.inputs[form].append((input_field.get('name'), sub))
         print(f"Done. Found {total} potential inputs")
         
     def findNewRequestPath(self):
         if len(self.forms) < 1:
             return False 
         
-        self.input = self.inputs[self.forms[0]].pop()
+        self.input, self.submit = self.inputs[self.forms[0]].pop()
         self.requestAction = self.forms[0].get('action')
         self.requestMethod = self.forms[0].get('method', 'get')
 
@@ -49,7 +52,7 @@ class Controller:
         
     def makeRequest(self, payload):
         request_url = urljoin(self.url, self.requestAction)
-        params = {self.input : payload}
+        params = {self.input : payload, self.submit: 'set'}
         
         try: 
             if self.requestMethod == 'get':

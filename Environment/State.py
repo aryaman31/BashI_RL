@@ -3,11 +3,12 @@ import torch
 from transformers import RobertaTokenizerFast, RobertaForMaskedLM
 
 class State:
-    cmdTokenizer = RobertaTokenizerFast.from_pretrained("models/transformerAE/original/cmdTokenizer/")
-    cmdEncoder = RobertaForMaskedLM.from_pretrained("models/transformerAE/original/cmdEncoder/")
+    model = 'latest'
+    cmdTokenizer = RobertaTokenizerFast.from_pretrained(f"models/transformerAE/{model}/cmdTokenizer/")
+    cmdEncoder = RobertaForMaskedLM.from_pretrained(f"models/transformerAE/{model}/cmdEncoder/")
 
-    payloadTokenizer = RobertaTokenizerFast.from_pretrained("models/transformerAE/original/payloadTokenizer/")
-    payloadEncoder = RobertaForMaskedLM.from_pretrained("models/transformerAE/original/payloadEncoder/")
+    payloadTokenizer = RobertaTokenizerFast.from_pretrained(f"models/transformerAE/{model}/payloadTokenizer/")
+    payloadEncoder = RobertaForMaskedLM.from_pretrained(f"models/transformerAE/{model}/payloadEncoder/")
     def __init__(self, executed_command: str, previous_payload: str, error_code: str):
         self.executed_command = executed_command
         self.previous_payload = previous_payload 

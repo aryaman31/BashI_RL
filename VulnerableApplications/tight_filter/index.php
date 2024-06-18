@@ -23,6 +23,7 @@
         // Vulnerable to command injection
         $cmd = shell_exec("ping -c 4 " . $ip);
         echo "<h3>Ping Results for $ip:</h3>";
+        echo "<h3>Ping Results for" . $_POST["ping"] . ":</h3>";
         echo "<pre>$cmd</pre>";
     }
     ?>
