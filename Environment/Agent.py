@@ -114,6 +114,7 @@ class Agent:
 
     def save(self, filename):
         torch.save(self.Q, filename)
+        self.Q.save()
     
     def load(self, filename):
         self.Q = torch.load(filename)

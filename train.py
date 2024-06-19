@@ -4,7 +4,6 @@ import random
 import time
 import matplotlib.pyplot as plt
 
-PORT=8000
 EPOCHS=100
 
 output_dir = os.path.dirname(os.path.realpath(__file__))
@@ -24,7 +23,8 @@ except FileExistsError:
 found = []
 failed = []
 counts = []
-for epoch in range(33, EPOCHS):
+for epoch in range(2, EPOCHS):
+    PORT=random.randint(10000, 60000)
     app = random.choice(webApps)
     file_server = open(f"{output_dir}/logs/{ts}/php/{epoch}_log_{app.name}.txt", "w+")
     file_agent = open(f"{output_dir}/logs/{ts}/agent/{epoch}_log_{app.name}.txt", "w+")
@@ -33,7 +33,10 @@ for epoch in range(33, EPOCHS):
         print(f"Training against {app.name}! Epoch: {epoch}")
         
         webServer_process = subprocess.Popen(["php", "-q", "-S", f"localhost:{PORT}", "-t", app.path], stderr=subprocess.STDOUT, stdout=file_server)
-        model_process = subprocess.run(["python3", "bash_rl.py", str(webServer_process.pid), f"http://localhost:{PORT}"], stderr=subprocess.STDOUT, stdout=file_agent)
+        model_process = subprocess.run(["python3", "bash_rl.py", str(webServer_process.pid), f"http://localhost:{PORT}", "true"], capture_output=True, text=True)
+
+        file_agent.write(model_process.stdout)
+        file_agent.write(model_process.stderr)
 
         file_server.close()
         file_agent.close()
@@ -51,8 +54,8 @@ for epoch in range(33, EPOCHS):
             if "Found an injection!\n" in lines: 
                 # found.append(app.name)
                 print(f"    Found injection for {app.name}")
-                print("    Injection: " + lines[-2])
-                counts.append(lines[-1].split(' ')[-1].strip())
+                print("    Injection: " + lines[-3])
+                counts.append(lines[-2].split(' ')[-1].strip())
             else:
                 # failed.append(app.name)
                 print(f"    No injection found for {app.name}")

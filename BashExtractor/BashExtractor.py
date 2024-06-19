@@ -1,20 +1,26 @@
 import subprocess
 import time
 import re
+import os
+
+from Environment.Action import Action
 
 class BashExtractor:
     def __init__(self, server_pid):
         self.server_pid = str(server_pid)
         self.process = None
+        output_dir = os.path.dirname(os.path.realpath(__file__))
+        self.fileName = Action.generateRandomString(20, letters=True, numbers=True)
+        self.filePath = os.path.join(output_dir, self.fileName + ".txt")
 
     def start(self, delay=0.1):
-        self.process = subprocess.Popen(["strace", "-f", "-p", self.server_pid, "-e", "trace=execve", "--output=BashExtractor/temp.txt", "--quiet=attach", "-s 1000"])
+        self.process = subprocess.Popen(["strace", "-f", "-p", self.server_pid, "-e", "trace=execve", f"--output={self.filePath}", "--quiet=attach", "-s 1000"])
         time.sleep(delay)
     
     def stop(self, random_str):
         if self.process:
             self.process.kill()
-            with open("BashExtractor/temp.txt", "r") as f:
+            with open(self.filePath, "r") as f:
                 return self.__extractCommands(f.readlines(), random_str=random_str)
         return []
 

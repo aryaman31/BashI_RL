@@ -14,12 +14,13 @@ if __name__ == "__main__":
     '''
 
     # Get PID of server 
-    if len(sys.argv) != 3:
-        print("Usage: python3 bash_rl.py <PID OF SERVER> <Address of server>")
+    if len(sys.argv) != 4:
+        print("Usage: python3 bash_rl.py <PID OF SERVER> <Address of server> <learning>")
         sys.exit()
     
     server_pid = sys.argv[1] 
     server_address = sys.argv[2]
+    learning = sys.argv[3].lower() == 'true'
 
     controller = Controller(server_address)
     bashEx = BashExtractor(server_pid) 
@@ -32,10 +33,9 @@ if __name__ == "__main__":
 
     print("...................................................................................")
     print("Starting Agent...")
-    agent = Agent(learning=True)
+    agent = Agent(learning=learning)
     print("Done")
     print("...................................................................................")
-
 
     # Check wether pid is correct and exists
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
             print(f"Initial Payload: {state.previous_payload}")
             for i in range(TERMINATION_LIMIT):
                 counter += 1
-                action = agent.pickAction(state)
+                action = agent.pickAction(state, True)
                 state = env.step(action) 
                 game, reward = agent.updateGame(state, env.before, env.after)
                 agent.train(reward)
@@ -67,13 +67,15 @@ if __name__ == "__main__":
                     print("Found an injection!")
                     print(state.previous_payload)
                     print(f"Tries: {counter}" )
-                    agent.save('agent.model')
+                    if learning:
+                        agent.save('agent.model')
                     exit(0)
             print("==============================================================================\n")
         
         canExploit = env.findNextTarget()
                     
     # Can save agent model here !    
-    agent.save('agent.model')  
+    if learning:
+        agent.save('agent.model')  
     print("No injection found :(")
 

@@ -4,8 +4,9 @@ import os
 
 # Define paths
 output_dir = os.path.dirname(os.path.realpath(__file__))
-model_dir = os.path.join(output_dir, 'transAutoEncoder/')
-tokenizer_dir = os.path.join(output_dir, 'robertaTokenizer/')
+output_dir = os.path.join(output_dir, 'latest/')
+model_dir = os.path.join(output_dir, 'cmdEncoder/')
+tokenizer_dir = os.path.join(output_dir, 'cmdTokenizer/')
 
 # Load the tokenizer and model
 tokenizer = RobertaTokenizerFast.from_pretrained(tokenizer_dir)

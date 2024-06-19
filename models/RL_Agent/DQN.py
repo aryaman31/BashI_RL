@@ -54,7 +54,7 @@ class DQN:
         self.save_dir_mem = save_file_mem
         pass
 
-    def save(self,curr_step):
+    def save(self):
         print('saving...')
 
         save_path = (
@@ -65,7 +65,7 @@ class DQN:
             save_path
         )
 
-    def save_mem(self,curr_step):
+    def save_mem(self):
         with open(self.save_dir_mem,"wb") as f:
             pickle.dump(self.memory,f)
 
@@ -87,8 +87,8 @@ class DQN:
   
             self.sync_Q_target()
         if curr_step % self.save_every == 0 and self.learning:
-            self.save(curr_step)
-            self.save_mem(curr_step)
+            self.save()
+            self.save_mem()
 
         if curr_step < self.min_experiance:
             return None

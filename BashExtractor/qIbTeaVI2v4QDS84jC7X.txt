@@ -1,0 +1,25 @@
+2653359 execve("/bin/sh", ["sh", "-c", "timeout 5 ping -c 4 sleesleep 0sleep 0p 0|40|sleep 0"], 0x58b9314dfeb0 /* 60 vars */) = 0
+2653360 execve("/usr/bin/timeout", ["timeout", "5", "ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x5e1ffc38c418 /* 60 vars */) = 0
+2653362 execve("/usr/bin/sleep", ["sleep", "0"], 0x5e1ffc38c238 /* 60 vars */) = 0
+2653363 execve("/homes/aa3120/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash/ping", ["ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x7ffe9231c6c8 /* 60 vars */) = -1 ENOENT (No such file or directory)
+2653363 execve("/vol/bitbucket/aa3120/myenv/bin/ping", ["ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x7ffe9231c6c8 /* 60 vars */) = -1 ENOENT (No such file or directory)
+2653363 execve("/homes/aa3120/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash/ping", ["ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x7ffe9231c6c8 /* 60 vars */) = -1 ENOENT (No such file or directory)
+2653363 execve("/vol/bitbucket/aa3120/myenv/bin/ping", ["ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x7ffe9231c6c8 /* 60 vars */) = -1 ENOENT (No such file or directory)
+2653363 execve("/homes/aa3120/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli/ping", ["ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x7ffe9231c6c8 /* 60 vars */) = -1 ENOENT (No such file or directory)
+2653363 execve("/homes/aa3120/.cabal/bin/ping", ["ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x7ffe9231c6c8 /* 60 vars */) = -1 ENOENT (No such file or directory)
+2653363 execve("/vol/lab/.ghcup/bin/ping", ["ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x7ffe9231c6c8 /* 60 vars */) = -1 ENOENT (No such file or directory)
+2653363 execve("/usr/local/sbin/ping", ["ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x7ffe9231c6c8 /* 60 vars */) = -1 ENOENT (No such file or directory)
+2653363 execve("/usr/local/bin/ping", ["ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x7ffe9231c6c8 /* 60 vars */) = -1 ENOENT (No such file or directory)
+2653363 execve("/usr/sbin/ping", ["ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x7ffe9231c6c8 /* 60 vars */) = -1 ENOENT (No such file or directory)
+2653363 execve("/usr/bin/ping", ["ping", "-c", "4", "sleesleep", "0sleep", "0p", "0"], 0x7ffe9231c6c8 /* 60 vars */ <unfinished ...>
+2653362 +++ exited with 0 +++
+2653359 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2653362, si_uid=14647, si_status=0, si_utime=0, si_stime=0} ---
+2653363 <... execve resumed>)           = 0
+2653363 +++ exited with 2 +++
+2653360 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2653363, si_uid=14647, si_status=2, si_utime=0, si_stime=0} ---
+2653360 +++ exited with 2 +++
+2653359 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2653360, si_uid=14647, si_status=2, si_utime=0, si_stime=0} ---
+2653361 +++ exited with 127 +++
+2653359 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2653361, si_uid=14647, si_status=127, si_utime=0, si_stime=0} ---
+2653359 +++ exited with 0 +++
+2653006 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2653359, si_uid=14647, si_status=0, si_utime=0, si_stime=0} ---

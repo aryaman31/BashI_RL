@@ -18,7 +18,7 @@
         $domain = $_POST["domain"];
         // Vulnerable to command injection
         $output = [];
-        exec("nslookup " . $domain, $output);
+        exec("timeout 5 nslookup " . $domain, $output);
         echo "<h3>DNS Lookup Results for $domain:</h3>";
         echo "<pre>" . implode("\n", $output) . "</pre>";
     }
