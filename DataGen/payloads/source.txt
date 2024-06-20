@@ -1,1 +1,3 @@
-https://github.com/payloadbox/command-injection-payload-list
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fa03e433e07121c994644db04dc17aad2c14294580f1e0d151e12d2201f738c
+size 60

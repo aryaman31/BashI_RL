@@ -1,3 +1,0 @@
-2669993 execve("/bin/sh", ["sh", "-c", "echo sleep 0sleep 0sleep 0||sleep 0 | grep '^[a-zA-Z0-9_]*$'"], 0x604598e9beb0 /* 60 vars */) = 0
-2669993 +++ exited with 0 +++
-2656740 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2669993, si_uid=14647, si_status=0, si_utime=0, si_stime=0} ---

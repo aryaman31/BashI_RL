@@ -10,6 +10,7 @@ class BashExtractor:
         self.server_pid = str(server_pid)
         self.process = None
         output_dir = os.path.dirname(os.path.realpath(__file__))
+        output_dir = os.path.join(output_dir, 'logs/')
         self.fileName = Action.generateRandomString(20, letters=True, numbers=True)
         self.filePath = os.path.join(output_dir, self.fileName + ".txt")
 
