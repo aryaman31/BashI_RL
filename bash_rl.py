@@ -1,4 +1,5 @@
 import sys
+import os
 
 from Communication.Controller import Controller
 from BashExtractor.BashExtractor import BashExtractor
@@ -22,6 +23,12 @@ if __name__ == "__main__":
     server_address = sys.argv[2]
     learning = sys.argv[3].lower() == 'true'
 
+    try:
+        os.kill(int(server_pid), 0)
+    except OSError:
+        print("PID is invalid. No process exists with given PID.")
+        exit(1)
+
     controller = Controller(server_address)
     bashEx = BashExtractor(server_pid) 
 
@@ -36,8 +43,6 @@ if __name__ == "__main__":
     agent = Agent(learning=learning)
     print("Done")
     print("...................................................................................")
-
-    # Check wether pid is correct and exists
 
     EPISODES_PER_RUN = 50
     TERMINATION_LIMIT = 15
