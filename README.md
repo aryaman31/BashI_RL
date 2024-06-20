@@ -33,6 +33,12 @@ git clone https://github.com/aryaman31/BashI_RL.git
 python3 bash_rl.py <PID OF SERVER> <Address of server> False
 ```
 
+### Training 
+To train the DQN, use the provided train.py script. It trains the agent on the examples within VulnearableApplicatins/. This requires php to be installed on the machine as well. 
+```bash
+python3 train.py
+```
+
 ## Authors
 
 aryaman31
